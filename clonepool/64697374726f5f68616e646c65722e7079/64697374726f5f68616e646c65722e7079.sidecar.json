@@ -1,0 +1,34 @@
+{
+  "usys_intake": "1.5",
+  "hex_name": "64697374726f5f68616e646c65722e7079",
+  "original_name": "distro_handler.py",
+  "state": "white",
+  "version": "v1",
+  "filetype": "script:python",
+  "category_hex": "73637269707473",
+  "size_bytes": 22483,
+  "sha256": "a94f535e638bbb4479f35761fe3ad25c6d9c53d61290c0219dd3c65f6db15246",
+  "backend": "phoenix",
+  "notes": "Phoenix OS core",
+  "pool_path": "/home/jwwlef/Phoenix/clonepool/64697374726f5f68616e646c65722e7079",
+  "companions": [],
+  "qr": {
+    "header": {
+      "role": "state",
+      "state": "white"
+    },
+    "footer": {
+      "role": "location",
+      "tier": 1
+    }
+  },
+  "auto_hotswap": false,
+  "registered_at": "2026-05-11T08:30:32Z",
+  "updated_at": "2026-05-11T08:30:32Z",
+  "clone_history": [
+    {
+      "version": "v1",
+      "at": "2026-05-11T08:30:32Z"
+    }
+  ]
+}

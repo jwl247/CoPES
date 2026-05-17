@@ -1,0 +1,23 @@
+{
+  "usys_intake": "1.5",
+  "hex_name": "737363726970747332f696e74616b65",
+  "original_name": "intake",
+  "state": "white",
+  "version": "v1",
+  "filetype": "script:shell",
+  "category_hex": "73637269707473",
+  "size_bytes": 43001,
+  "sha256": "abda25843a832784283c2cb0ce24dd61f8a8548370b0d87d179b95a487b2d12a",
+  "backend": "self",
+  "notes": "intake script — self registered on first run",
+  "pool_path": "/home/jwwlef/Phoenix/clonepool/737363726970747332f696e74616b65",
+  "companions": [],
+  "qr": {
+    "header": {"role": "state", "state": "white"},
+    "footer": {"role": "location", "tier": 1}
+  },
+  "auto_hotswap": false,
+  "registered_at": "2026-05-11T08:04:16Z",
+  "updated_at": "2026-05-11T08:04:16Z",
+  "clone_history": [{"version": "v1", "at": "2026-05-11T08:04:16Z"}]
+}

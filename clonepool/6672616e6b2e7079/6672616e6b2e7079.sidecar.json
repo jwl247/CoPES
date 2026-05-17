@@ -1,0 +1,34 @@
+{
+  "usys_intake": "1.5",
+  "hex_name": "6672616e6b2e7079",
+  "original_name": "frank.py",
+  "state": "white",
+  "version": "v1",
+  "filetype": "script:python",
+  "category_hex": "73637269707473",
+  "size_bytes": 6714,
+  "sha256": "49e051f621dfbfdd39d5d42629f10b7f3126f4916d1a21ce3df4bd13236a95bf",
+  "backend": "phoenix",
+  "notes": "Phoenix OS core",
+  "pool_path": "/home/jwwlef/Phoenix/clonepool/6672616e6b2e7079",
+  "companions": [],
+  "qr": {
+    "header": {
+      "role": "state",
+      "state": "white"
+    },
+    "footer": {
+      "role": "location",
+      "tier": 1
+    }
+  },
+  "auto_hotswap": false,
+  "registered_at": "2026-05-11T08:30:45Z",
+  "updated_at": "2026-05-11T08:30:45Z",
+  "clone_history": [
+    {
+      "version": "v1",
+      "at": "2026-05-11T08:30:45Z"
+    }
+  ]
+}
