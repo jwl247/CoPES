@@ -163,11 +163,11 @@ Import sequence:
 ## BUILD STATUS
 
 ### Phase 1 — External Ubuntu base (CURRENT)
-- [ ] Ubuntu Server minimal + HWE kernel on external drive
-- [ ] Prometheus installed
+- [x] Ubuntu Server minimal + HWE kernel on external drive
+- [x] Prometheus installed
 - [ ] Nextcloud installed
-- [ ] PowerShell installed
-- [ ] SSH access confirmed from WSL/PS7
+- [x] PowerShell installed
+- [x] SSH access confirmed from WSL/PS7
 
 ### Phase 2 — Sector 1 (Boot/Kernel)
 - [ ] frank3_slot_a.c + frank3_slot_b.c placed in sector1/kernels/
@@ -177,8 +177,8 @@ Import sequence:
 - [ ] concierge placed in sector1/concierge/
 
 ### Phase 3 — Sector 4 (Helix + Frank engine)
-- [ ] Frank placed and confirmed immovable
-- [ ] Helix engine running — confirm 300k+ ops/sec
+- [x] Frank placed and confirmed immovable
+- [x] Helix engine running — confirm 300k+ ops/sec
 - [ ] breach_coms drive map confirmed on external
 - [ ] Clone pool initialized
 - [ ] D1 worker URL set and syncing
