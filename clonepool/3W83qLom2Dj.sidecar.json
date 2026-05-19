@@ -1,0 +1,11 @@
+{
+  "name": "bench_14374",
+  "tav": "3W83qLom2Dj",
+  "fingerprint": "0ef5845babe724a6fe9c34c235d8d5942348394e01d2500ae814c5614482a170aeb55c9bea2f57d5fd40cb3b1523526d55287917de5aafdd021ea23cac5eb511",
+  "timestamp": "2026-05-18T22:34:58.354320+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

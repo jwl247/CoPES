@@ -1,0 +1,11 @@
+{
+  "name": "bench_65942",
+  "tav": "DeiLG6PVGre",
+  "fingerprint": "4ba1762f1a8d187bac288c5616fccf2beb6f1dcc1ab2223e9fbd22825bb05705def6b208aa8b18e45d208124c217e36da3482b886306943fa89f3503fad451eb",
+  "timestamp": "2026-05-19T01:48:28.304387+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

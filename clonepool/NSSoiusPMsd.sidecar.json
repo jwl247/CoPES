@@ -1,0 +1,11 @@
+{
+  "name": "bench_94122",
+  "tav": "NSSoiusPMsd",
+  "fingerprint": "802c74113ca01d98919282a204b2ba3d7581d137722a665a66bbc3465cceda1f374523b3245bd3277bc8e764befd11ef5dbecec781c6530dde8975f08c63f919",
+  "timestamp": "2026-05-19T03:34:49.009037+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

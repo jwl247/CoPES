@@ -1,0 +1,11 @@
+{
+  "name": "bench_9275",
+  "tav": "FZ55UgmXMef",
+  "fingerprint": "57019e36ccf2b8e8aacdf72b7fe325d67ded258f317888361c1a8d68b4fd494b77a5c98409517a6d6062e004a4c677b2f8aef2613db3865221071fb3d315a11f",
+  "timestamp": "2026-05-18T22:16:12.639406+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

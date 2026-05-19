@@ -1,0 +1,11 @@
+{
+  "name": "bench_40340",
+  "tav": "KMDoa8FyVHC",
+  "fingerprint": "6db3061b0fdc47dbd925d66006122c6c9a31821b334cd9d9874d0a0ce28e69ca0652acbdef48bbfdd42a02f20d3b0024399748f697c32d4fd4b8fedfdde8b571",
+  "timestamp": "2026-05-19T00:11:36.094089+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

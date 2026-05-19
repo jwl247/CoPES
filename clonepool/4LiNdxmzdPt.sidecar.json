@@ -1,0 +1,11 @@
+{
+  "name": "bench_50051",
+  "tav": "4LiNdxmzdPt",
+  "fingerprint": "13f7c62be848f5c7fd9c37b9da82df3efadffee13a1ce4892f8cf1d2bff49fead30d7799ab61eebfc43e7305be26b0af649f10e822237e02506e070b3ecac191",
+  "timestamp": "2026-05-19T00:48:15.081931+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

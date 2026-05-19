@@ -1,0 +1,11 @@
+{
+  "name": "bench_75256",
+  "tav": "dRgVsbLNdDB",
+  "fingerprint": "d9c62793e91d7e0aa0fa75145e2700e65d0f5aa3cf2a6158b85f5e5d7b97ec708289c2fe17f85bcd80b179254d11c08437df1fcacfd70bfc56708d8460aff61a",
+  "timestamp": "2026-05-19T02:23:57.833425+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

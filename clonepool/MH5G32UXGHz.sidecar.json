@@ -1,0 +1,11 @@
+{
+  "name": "bench_80447",
+  "tav": "MH5G32UXGHz",
+  "fingerprint": "793aa19df42ccdf5191a99a4337c2f55587455c3b1a322b823e8fdf675e800bbf2351c4b93ecc4b2b961b0fa979a5ed9edf3300131f08c08c173ebc775bd8607",
+  "timestamp": "2026-05-19T02:43:49.466378+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

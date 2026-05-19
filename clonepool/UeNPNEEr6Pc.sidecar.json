@@ -1,0 +1,11 @@
+{
+  "name": "bench_7100",
+  "tav": "UeNPNEEr6Pc",
+  "fingerprint": "a5463f1f444f98abc7a73a8230db8fe2ba5f16ca4c5426b77efd6edb1b056d113c7b933121c2c7d84314b34b6f52f9aa46dbfa5651c580137a40bf0fc534376c",
+  "timestamp": "2026-05-18T22:08:12.822592+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

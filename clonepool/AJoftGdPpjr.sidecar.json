@@ -1,0 +1,11 @@
+{
+  "name": "bench_10404",
+  "tav": "AJoftGdPpjr",
+  "fingerprint": "37a48d32cc91272189e73af74b0628889b2a91c2a3b58eee3b0b2575fd0d9e4efab493e87711d97cbf2424314d1f83a3d691023e3a765fc09eff8448e6c0243d",
+  "timestamp": "2026-05-18T22:20:20.728065+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

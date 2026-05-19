@@ -1,0 +1,11 @@
+{
+  "name": "bench_25258",
+  "tav": "PPEYS2AmLLD",
+  "fingerprint": "85d23b95312c6ad6a31d9c6342fba30329a1a844ba92f09457919632d547c0ddfff9dc9e9afb2a5568457ba40d46768e5f267f4c350edb9faf7fb13c21c91cdd",
+  "timestamp": "2026-05-18T23:14:52.947283+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

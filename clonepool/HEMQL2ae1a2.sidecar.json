@@ -1,0 +1,11 @@
+{
+  "name": "bench_10430",
+  "tav": "HEMQL2ae1a2",
+  "fingerprint": "6108b702ad50e2339e15bc1a4e63e867ea4111d8017c32119c686f2e127cc13cd709ec6358be6021350d0c45e06b5a38fd4766aae435a92fb83fb3488b88d529",
+  "timestamp": "2026-05-18T22:20:26.619664+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_85707",
+  "tav": "LGJWSECB1iX",
+  "fingerprint": "732bbf1e9891078879513039748c23a6e7d6ec8b3b03e19a486fd1365baadeb22ad06725cf072abb6fef6fa0eb65b795941c8024db1583f2740c40c66062ae0f",
+  "timestamp": "2026-05-19T03:03:18.043089+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

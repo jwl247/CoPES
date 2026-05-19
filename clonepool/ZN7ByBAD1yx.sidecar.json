@@ -1,0 +1,11 @@
+{
+  "name": "bench_158",
+  "tav": "ZN7ByBAD1yx",
+  "fingerprint": "c17dbd33b36b4397094a1859b09943d5a429d9f63094ec1755fc4c1a99380d2f8c4fc6d4ee782de1653d90f07cfc7efc910707403aac3c5fafcded2efa872a4a",
+  "timestamp": "2026-05-18T21:43:31.993864+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

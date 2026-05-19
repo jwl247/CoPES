@@ -1,0 +1,11 @@
+{
+  "name": "bench_68443",
+  "tav": "KmsqGyrcrzm",
+  "fingerprint": "703da57b347dc7423b109febe2621ca1c70f080c8b0549b6a90d67c2b5bb736a52e30bd583c9876ab83385926d11b3df62f9a33d245e38d564da0c8adc672404",
+  "timestamp": "2026-05-19T01:58:03.716672+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_4131",
+  "tav": "MCLmGA4eACX",
+  "fingerprint": "78bdbe512a2f17385569c43ce2c9fe2f76f19088a7709befba6997fa861b5e527e4f343c59f501d5c7d940afa737c3ed8b321c38fd249e9b37d5ca8f02e85532",
+  "timestamp": "2026-05-18T21:57:34.188756+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

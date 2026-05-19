@@ -1,0 +1,11 @@
+{
+  "name": "bench_80091",
+  "tav": "VLT5hRKGLbK",
+  "fingerprint": "a967eaa77802d7ea4aa1824ababdd585eafb913e323867bbd5abebcbaa0601e39e2efd2a10e475367b9e5743ac6081e11e164ebc702e5f3c0f6bfecc0380d4e9",
+  "timestamp": "2026-05-19T02:42:22.287454+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

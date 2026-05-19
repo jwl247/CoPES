@@ -1,0 +1,11 @@
+{
+  "name": "bench_7282",
+  "tav": "FW8PKRAdtcb",
+  "fingerprint": "56b3f535886178eccad76c65a50584535515b423713ab8d0a91d85ef145132f0700c117989c0ddf56d30b50512753a04730b3f1ae539bd6518ac4a06cbb498ff",
+  "timestamp": "2026-05-18T22:08:52.864086+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

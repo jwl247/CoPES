@@ -1,0 +1,11 @@
+{
+  "name": "bench_73255",
+  "tav": "FQmG85mrURP",
+  "fingerprint": "562667c06f4c827af790ea035e1c315e7cdb1c08bb6b276fd804110ec1adff79e8ae59d4521c52f8384a1568ec3305cdc910ea99314f1adaf5676becd60906ab",
+  "timestamp": "2026-05-19T02:16:20.890961+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

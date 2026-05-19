@@ -1,0 +1,11 @@
+{
+  "name": "bench_94400",
+  "tav": "JP96kW93vqi",
+  "fingerprint": "67eb22edcf685cad70040b4a3a66bfe1ab41d5cced1293ad205e8d4ee92ae40cbbe233657a0da757ff77ef94e90bb3b0723fae8870dd3e571f05a4a059a64a6c",
+  "timestamp": "2026-05-19T03:35:51.690606+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

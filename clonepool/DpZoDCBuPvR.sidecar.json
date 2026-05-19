@@ -1,0 +1,11 @@
+{
+  "name": "bench_80524",
+  "tav": "DpZoDCBuPvR",
+  "fingerprint": "4ca576364bb8b1d29eeb6d773dd78380bd83650c03e6e8becc4d50c042a35c5922518f75dcfe92f37a3cc6125471b9f5550e6f926496a0675c9eb1467b36c2d1",
+  "timestamp": "2026-05-19T02:44:08.532560+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

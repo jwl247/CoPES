@@ -1,0 +1,11 @@
+{
+  "name": "bench_18937",
+  "tav": "EQ18FiLR6p7",
+  "fingerprint": "5017cd022a8139f05dd421a9e19022b73931d859f0cac7453abbdbc8a93d248a3ee50b2f9b6273a3c773c0c36117e0c3e4239b5847c631fa3aeb70f1a47e80fb",
+  "timestamp": "2026-05-18T22:51:40.344057+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

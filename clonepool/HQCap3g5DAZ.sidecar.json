@@ -1,0 +1,11 @@
+{
+  "name": "bench_50605",
+  "tav": "HQCap3g5DAZ",
+  "fingerprint": "620c95f873a6726aa67fc67c8ef67ce277b4ef6b654079c016f9258e1b7cea9f1bc9e494f7b8d9f916b6a0ba3ed58c2d7d6332aa5cb9604d7d88f6fbf17f3407",
+  "timestamp": "2026-05-19T00:50:24.129549+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

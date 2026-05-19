@@ -1,0 +1,11 @@
+{
+  "name": "bench_94123",
+  "tav": "UTVM82SvNLM",
+  "fingerprint": "a42724580da7a88ec4a097b413610142bc9802d9efceaac7a778f87af917f23c9e0e2273d1ff55374898faf6c0bee7ace5056c82e2eebbc65a50598fada64b07",
+  "timestamp": "2026-05-19T03:34:49.114670+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

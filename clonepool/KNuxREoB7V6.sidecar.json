@@ -1,0 +1,11 @@
+{
+  "name": "bench_60393",
+  "tav": "KNuxREoB7V6",
+  "fingerprint": "6ddfae32057b6245b632adf2169dc69ec67db30d504d102e6cf6f2b10e9d32f5ddaa7f7e053f68c640059877c644b45518db3d9fcd911aa18d25de8cab12c249",
+  "timestamp": "2026-05-19T01:27:30.572376+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

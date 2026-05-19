@@ -1,0 +1,11 @@
+{
+  "name": "bench_42730",
+  "tav": "NsCWwxUpSob",
+  "fingerprint": "82b9a92b63189b7a7753f631a8c6eab69731a6dc04a49cefbc946fe5f3f3aa0e0742080f14b9119fa08fd749c6a07f178d0fce6543b7028bd5675a2d510db1b6",
+  "timestamp": "2026-05-19T00:20:29.107367+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

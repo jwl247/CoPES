@@ -1,0 +1,11 @@
+{
+  "name": "bench_4663",
+  "tav": "C2vRgRtETGA",
+  "fingerprint": "41f6759c3aa7390f12fbcc51462bc17f1f2f4b6f7474cfa67a6d5fa999d2fc750c5ae2df3b1538839de7805f22cbdeec0890580fc9bd5c6936ede484245426b4",
+  "timestamp": "2026-05-18T21:59:24.614751+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

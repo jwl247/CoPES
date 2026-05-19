@@ -1,0 +1,11 @@
+{
+  "name": "bench_79077",
+  "tav": "MQEL7P68QPE",
+  "fingerprint": "79f779f7f2a3876d89d87219b69c5135ec3f3657d279aab6f0fdfbb1a13b748e47221e3cb17a8ec664ff441085d3f121ab50ce0fe05b0645f160d1c1fdbda774",
+  "timestamp": "2026-05-19T02:38:31.730219+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

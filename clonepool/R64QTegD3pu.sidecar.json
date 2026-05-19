@@ -1,0 +1,11 @@
+{
+  "name": "bench_8679",
+  "tav": "R64QTegD3pu",
+  "fingerprint": "9002110ecce5d5928c5327e69179b48ff9a65fb5b66a3c4d5c70dae7b8c3a5c63484f6c7b87e803050a87659382fe6aece02accaf5a8ca787f29e142f4e338d8",
+  "timestamp": "2026-05-18T22:14:00.306032+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

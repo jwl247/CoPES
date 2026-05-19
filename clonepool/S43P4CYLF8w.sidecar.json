@@ -1,0 +1,11 @@
+{
+  "name": "bench_53320",
+  "tav": "S43P4CYLF8w",
+  "fingerprint": "95c759137fc85b4cb6cf5d9f66bc4791b681c407c1edfa20d009108f399a105f9b98262eecd9db0f70e3c76a0bb159bbc4d35adc6c64abd16c184b06e6816c0b",
+  "timestamp": "2026-05-19T01:00:48.938029+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

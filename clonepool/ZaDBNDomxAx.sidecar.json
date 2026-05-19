@@ -1,0 +1,11 @@
+{
+  "name": "bench_52038",
+  "tav": "ZaDBNDomxAx",
+  "fingerprint": "c2bd1fd2b8c3027dba9eebd11568fceffb1cb6ae5de960457b1a3712a8166c19ebc995dc552a7483ccd839124e16866253f2859ed3050cd146f9210efe82b47d",
+  "timestamp": "2026-05-19T00:55:57.808012+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

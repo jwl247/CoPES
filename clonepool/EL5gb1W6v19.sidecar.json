@@ -1,0 +1,11 @@
+{
+  "name": "bench_62180",
+  "tav": "EL5gb1W6v19",
+  "fingerprint": "4fb05229bd432a1439a67a5174cdc74e380e1e19d1d110cc852d533822356acf75328648c6e896d434e63641c0b9a4ea39414b5d896fa281c774831fe04b4233",
+  "timestamp": "2026-05-19T01:34:16.917825+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

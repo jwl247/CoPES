@@ -1,0 +1,11 @@
+{
+  "name": "bench_99223",
+  "tav": "PU8525RKecN",
+  "fingerprint": "86533ac7661cc247426ebec0e8f8b16d2f9416f2650197ac3bb2e465a48e9dfe9ca9751b0043a4ab61266d797690ed8bf8ae2a7cdbeb57a667b6c2c67ac4ed4b",
+  "timestamp": "2026-05-19T03:53:52.020452+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

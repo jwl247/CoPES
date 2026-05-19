@@ -1,0 +1,11 @@
+{
+  "name": "bench_84354",
+  "tav": "PErYCAWcacg",
+  "fingerprint": "84f51d5fa425cfe1f5e003045b7e4cdc340ddd77c39e704a12b78b177086bf785906bca215e837cb209bb5bab37e374d5142e3bf71078a787ef1517535ddd8a4",
+  "timestamp": "2026-05-19T02:58:13.620097+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

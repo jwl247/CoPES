@@ -1,0 +1,11 @@
+{
+  "name": "bench_96075",
+  "tav": "SQSC59T2Pza",
+  "fingerprint": "97e17e3777d7086b765c33542fe0798169e45fb7ad62b54b94eb3ca51b4b5c3fdad88f12323a3af4639a984a7aa5287b28e23d1038f56e4f320b7c4387e685a0",
+  "timestamp": "2026-05-19T03:42:19.682277+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

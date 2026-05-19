@@ -1,0 +1,11 @@
+{
+  "name": "bench_96033",
+  "tav": "6kMCDrdxSAG",
+  "fingerprint": "225c819b4d6f07953c7ca1f354f4b35c788a1fe3d1f252591e0faabf027ecef1b69cde82bc3a0770ffb41a2037e79f1ba1e9871215db4f534c816a4a971a6874",
+  "timestamp": "2026-05-19T03:42:10.945532+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

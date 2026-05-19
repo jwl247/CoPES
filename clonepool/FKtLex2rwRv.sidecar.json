@@ -1,0 +1,11 @@
+{
+  "name": "bench_7223",
+  "tav": "FKtLex2rwRv",
+  "fingerprint": "55a5af149c1bad15418f1bda1ff99a827c9261bb829a32557cd24d30a85def3fcddc131bb890bc97c2893c0676696ebd78080197ecdfa1d680000f9edc976f9a",
+  "timestamp": "2026-05-18T22:08:39.664160+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_34820",
+  "tav": "US4t1447Ajd",
+  "fingerprint": "a4019f1f1f6e156ce45b3fefee6946a816cb1a03c88689935701ecf15f26e3b1a1a5b609678c5a6db71ce51957a63fdf0809c0f6e4c34d4279e02d66ebf222c9",
+  "timestamp": "2026-05-18T23:50:41.219511+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

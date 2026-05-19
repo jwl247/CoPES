@@ -1,0 +1,11 @@
+{
+  "name": "bench_62343",
+  "tav": "EVC8Euxret",
+  "fingerprint": "0163dffcbdd958b10c16ded3f998dec960043e5528dd5c3e9fe8536e175cb5868e7658e4b16788aa1cf605a33b756f5c1a8ca47f55d0075fd1126cbeb20052c9",
+  "timestamp": "2026-05-19T01:34:54.987461+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

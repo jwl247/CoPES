@@ -1,0 +1,11 @@
+{
+  "name": "bench_79088",
+  "tav": "PMR43EUnCRD",
+  "fingerprint": "85a23ceec5158ce057d13a5bef8344a42f2fd177f2dc70ed2859b711643c6241e88e67a8f8fa7430da4378007eaa0c0f33930280711614b9b659f12a33ed51a7",
+  "timestamp": "2026-05-19T02:38:34.384355+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

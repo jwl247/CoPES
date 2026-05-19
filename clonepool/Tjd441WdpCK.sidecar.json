@@ -1,0 +1,11 @@
+{
+  "name": "bench_80835",
+  "tav": "Tjd441WdpCK",
+  "fingerprint": "9fd6565d53daf6dc518ed897495e78ca0ae59f6149d34084c4bb0eb894a8d9f03b26618bacf66016eea54e0bef5ca5a35330d8dc47477b1b9499044ee8035220",
+  "timestamp": "2026-05-19T02:45:21.551906+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_8586",
+  "tav": "C32ta41Rt5R",
+  "fingerprint": "41f9667218643a8cc9b0fb53f74d67436c169009ef3db4271a7a17d8e8c9a6b156cea71fc40e4e7e189ab1f6e4e3c51e4222f666de0f884ba98a7ff0b229f62e",
+  "timestamp": "2026-05-18T22:13:39.149518+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

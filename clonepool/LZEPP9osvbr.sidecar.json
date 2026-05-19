@@ -1,0 +1,11 @@
+{
+  "name": "bench_35028",
+  "tav": "LZEPP9osvbr",
+  "fingerprint": "74ea79244cc8eb89b8b03c607a8e15e97099b4223a92f59be089eb158a11d9009a0bd84ca9fc76e024bb2a170db354795a4db9b428058ca48c05f0b930df32d0",
+  "timestamp": "2026-05-18T23:51:28.271998+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_48259",
+  "tav": "PiyCitCG9Nn",
+  "fingerprint": "87db053d158a82b7903f7e5fe9360ce1c03ae8f587843200fbed913467cf3e36db183c11f8108e72ec517f45d5194d77b741e39acf077ac2a741582d1a0bf71c",
+  "timestamp": "2026-05-19T00:41:31.809806+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

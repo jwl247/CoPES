@@ -1,0 +1,11 @@
+{
+  "name": "bench_32750",
+  "tav": "6WmeLJvVMpu",
+  "fingerprint": "20f6318f114fff3a3a53f54755e3853ba876f84c9f1478753b0c8fc75403648e497f0eef47047dda912fb432fe61c59b07d6d20239d20705174c830b8925baf7",
+  "timestamp": "2026-05-18T23:42:54.826742+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

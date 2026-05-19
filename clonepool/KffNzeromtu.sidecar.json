@@ -1,0 +1,11 @@
+{
+  "name": "bench_86128",
+  "tav": "KffNzeromtu",
+  "fingerprint": "6f99a688bb2f2c12ce9233db620e8142c2a5f0f078e5c8185b55dbaba1e62c5dd5b6f1a24af63a81754dcced338a8ee6b78c21a98ad5d1253284f6ccb6470a51",
+  "timestamp": "2026-05-19T03:04:50.957917+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

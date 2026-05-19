@@ -1,0 +1,11 @@
+{
+  "name": "bench_29761",
+  "tav": "PT32dg8BoK3",
+  "fingerprint": "86368c350dcdd66e041b8b9a9b3220d77c9a38150af5d342da9faf14780231e2fb395a6ad45df2166775e5ad9a50a8e1cd00e24360413978eaa6dcc2ec72ae85",
+  "timestamp": "2026-05-18T23:31:27.504629+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_16516",
+  "tav": "JNdkPKCmpnr",
+  "fingerprint": "67ddc852fe811ecfc73e7a34928a50386937ccb1d33a3405269f30abfe20cd6e8e3703358e655d53f467dcdd24a4f15cf8afc263f44d7e852d3f2a9fcad7ba32",
+  "timestamp": "2026-05-18T22:42:47.934734+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_92447",
+  "tav": "SwyseTAX7C4",
+  "fingerprint": "9b21f23edd4ff61954b97ac45eb4970976c58e03f69dfc40c7081bd86c5253763b15510539f29fe594bfea078a269d22b291b46bf950c8ba09a1f7ebe2f9332c",
+  "timestamp": "2026-05-19T03:28:36.313396+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

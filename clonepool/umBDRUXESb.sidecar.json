@@ -1,0 +1,11 @@
+{
+  "name": "bench_65206",
+  "tav": "umBDRUXESb",
+  "fingerprint": "05704af4c9123100ac6dbe6b3d5a0fa9695ad6fb8c253400d061677fd4026e9fb05a2fa21fbbd08f412b4bd7cf135cedef2a0a84b89a4061cdbb797ec7f71e54",
+  "timestamp": "2026-05-19T01:45:42.816733+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

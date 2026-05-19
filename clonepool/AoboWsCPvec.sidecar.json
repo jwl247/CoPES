@@ -1,0 +1,11 @@
+{
+  "name": "bench_7132",
+  "tav": "AoboWsCPvec",
+  "fingerprint": "3a9c69ec0c5d339935a9217e46662e4f0b732474c50e9982bad3b60a688d948f8f246fe777ffd025c09d585410226b9cd33b9e29ec99948e22a3a362f8612dc3",
+  "timestamp": "2026-05-18T22:08:19.828372+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

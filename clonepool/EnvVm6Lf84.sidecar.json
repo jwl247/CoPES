@@ -1,0 +1,11 @@
+{
+  "name": "bench_66721",
+  "tav": "EnvVm6Lf84",
+  "fingerprint": "016bf11c481b19391957df954547b6d7e18ea22f6070e5ece3e246d71d5dc524d1487e4046feb17f311dcc709155793d86eb199fb6254b24dc2d6a6767eb80b6",
+  "timestamp": "2026-05-19T01:51:25.963475+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

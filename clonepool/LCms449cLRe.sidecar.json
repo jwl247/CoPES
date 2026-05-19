@@ -1,0 +1,11 @@
+{
+  "name": "bench_42788",
+  "tav": "LCms449cLRe",
+  "fingerprint": "72cea39ee10211d96c936ef1115581ced0f2e8e83b62ad9293885ef720dbcb61562e8fe40a935ecb5472329e4a6ea0abd1456409697b9f7d303570cfedf543e4",
+  "timestamp": "2026-05-19T00:20:42.900569+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_80456",
+  "tav": "3vepT7x42MG",
+  "fingerprint": "117cd62073c66f63460734d9aa324f3481e4af6b92f163746f3eee7baeb2463343857830a224e13af466981f108335a079fce18c7c9a365b990cb310fcc1f4b3",
+  "timestamp": "2026-05-19T02:43:50.654697+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

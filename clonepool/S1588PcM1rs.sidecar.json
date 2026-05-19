@@ -1,0 +1,11 @@
+{
+  "name": "bench_39309",
+  "tav": "S1588PcM1rs",
+  "fingerprint": "9578f9cbac5b189c0f8afb3837afdc8512be949c4810c1d7bffa1915b21cff5e75c2a300a3a3505df3989c7f0626489d1f815f6387759b26e1bb99201f6c0e98",
+  "timestamp": "2026-05-19T00:07:40.104691+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

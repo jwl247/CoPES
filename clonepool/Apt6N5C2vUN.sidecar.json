@@ -1,0 +1,11 @@
+{
+  "name": "bench_7797",
+  "tav": "Apt6N5C2vUN",
+  "fingerprint": "3abe36bc4c73b3bf9b685f410b87f6ab9a0ebde02c9b26b484bbbc478183833fc3ca080b45103e17e72d576259b6d560f7a2771f239b120f5e38a740c2e99ba6",
+  "timestamp": "2026-05-18T22:10:48.153310+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

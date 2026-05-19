@@ -1,0 +1,11 @@
+{
+  "name": "bench_31200",
+  "tav": "74M55MoN9AU",
+  "fingerprint": "243770bf8e4d56ed14a82fe807bc40d4f73c5e97f88eac78be3f3e6b7e9faccc56fb17a41433ce0abe83a2f78be46cd3a25a46e1f1aed44cf7cef2eb5ae119c3",
+  "timestamp": "2026-05-18T23:36:57.189682+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

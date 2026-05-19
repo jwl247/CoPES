@@ -1,0 +1,23 @@
+{
+  "usys_intake": "1.5",
+  "tav": "ZZY4nqAhJ7J",
+  "original_name": "requires.txt",
+  "state": "white",
+  "version": "v1",
+  "filetype": "docs:text",
+  "category_hex": "6d65646961",
+  "size_bytes": 32,
+  "sha256": "33f954e2206540d4a0952c7f4807027b95b469007f2cc0e432d9083ca7252012",
+  "backend": "direct",
+  "notes": "dir:src/phoenix_copes.egg-info/requires.txt",
+  "pool_path": "/home/jwlef/Phoenix/clonepool/ZZY4nqAhJ7J",
+  "companions": [],
+  "qr": {
+    "header": {"role": "state", "state": "white"},
+    "footer": {"role": "location", "tier": 1}
+  },
+  "auto_hotswap": false,
+  "registered_at": "2026-05-18T04:44:04Z",
+  "updated_at": "2026-05-18T04:44:04Z",
+  "clone_history": [{"version": "v1", "at": "2026-05-18T04:44:04Z"}]
+}

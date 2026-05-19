@@ -1,0 +1,11 @@
+{
+  "name": "bench_96280",
+  "tav": "KfzJYMp8bev",
+  "fingerprint": "6fa24292836a062759b2425954a81906ae735fb283e8aa707052aba0d276d5b3096a3f1754697f655dc10f3c7a230d7956c26d3a1d2ea4d10dc72199d56fbfbb",
+  "timestamp": "2026-05-19T03:43:03.002215+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

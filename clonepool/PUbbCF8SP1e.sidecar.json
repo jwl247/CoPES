@@ -1,0 +1,11 @@
+{
+  "name": "bench_4831",
+  "tav": "PUbbCF8SP1e",
+  "fingerprint": "865fc0235f5ddb153dc1f385985fd41bdddca865142c4901e7df91cdedf452dd06f021831b76a18a7a947ef3da5394eccd4542c6a52d1c2dc8c289d5b7812be8",
+  "timestamp": "2026-05-18T21:59:59.164231+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

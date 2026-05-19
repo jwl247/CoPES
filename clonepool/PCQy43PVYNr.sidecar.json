@@ -1,0 +1,11 @@
+{
+  "name": "bench_95019",
+  "tav": "PCQy43PVYNr",
+  "fingerprint": "84b4b42c6b7bcf0f506ddd126582d8594c468ca2b8e329ae7605d92e6d41c0c223248b48c98cb05d104238e699e92e1582282c23948d1ba9a3b91bd9f90939bb",
+  "timestamp": "2026-05-19T03:38:17.440706+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

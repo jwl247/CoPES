@@ -1,0 +1,11 @@
+{
+  "name": "bench_7060",
+  "tav": "ZQ9c1NGCDPp",
+  "fingerprint": "c1b39d4058feba23dad1cd85b7f7f73e594d9028c83cb685c5abe201198a710c30daf56ff83321a54e60a3a84eac529ef7b396e1cf0025b5c892310c6adc5225",
+  "timestamp": "2026-05-18T22:08:03.572132+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

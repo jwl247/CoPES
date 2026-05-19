@@ -1,0 +1,11 @@
+{
+  "name": "bench_83904",
+  "tav": "LTCE8HyGv1t",
+  "fingerprint": "744b291c67e6c5bf287e50c543f11456d00114e44641f46531e0d31e817b04c84e83029b674e9214c8f994454fe94af83d7d326f0d9970638f22dd08596a35bf",
+  "timestamp": "2026-05-19T02:56:40.487986+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

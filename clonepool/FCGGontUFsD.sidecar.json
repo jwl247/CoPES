@@ -1,0 +1,11 @@
+{
+  "name": "bench_64934",
+  "tav": "FCGGontUFsD",
+  "fingerprint": "54dc8e6c54e88ee0996aa0651f5bcd07653abcafb1507bb436a5fec388fc5cffa1dc84bdc6fe7eeed56e93584b301de7b29dfd881a1f552c0cf32beb6d361658",
+  "timestamp": "2026-05-19T01:44:40.894282+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_7080",
+  "tav": "LnxJsCP6FyS",
+  "fingerprint": "765498563297d4c9b6ddce7a642e657ad31caf58b558201fcda22e8c2895749e6b0b55b286067bec1ae22c10c8ef65818bc1a7f6baf1921a11ceb2a42ae141da",
+  "timestamp": "2026-05-18T22:08:08.708427+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

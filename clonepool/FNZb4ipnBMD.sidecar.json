@@ -1,0 +1,11 @@
+{
+  "name": "bench_486",
+  "tav": "FNZb4ipnBMD",
+  "fingerprint": "55ec514909500f54fe7b4ce4d8b823220bce49ae9e0db40f1bd19937adfa12b85ce7429cccc80619f3e53784595a289ae0e37de581532815c7e72560a452ccc6",
+  "timestamp": "2026-05-18T21:44:32.103182+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

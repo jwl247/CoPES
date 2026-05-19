@@ -1,0 +1,11 @@
+{
+  "name": "bench_81996",
+  "tav": "NHRK352kchD",
+  "fingerprint": "7f3e473d945ed2d030f65e09b97bf14073fcfef6802c0ecdeeb95f5c758f9053b5632b33657ed04bea6086b615e9de7695efceb0143cb82e3a7fdc88be85dd45",
+  "timestamp": "2026-05-19T02:49:41.689307+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

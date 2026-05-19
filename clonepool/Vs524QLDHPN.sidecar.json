@@ -1,0 +1,11 @@
+{
+  "name": "bench_4709",
+  "tav": "Vs524QLDHPN",
+  "fingerprint": "ac8feada6a0ea001f40f91992ecf5b7a67a9ede2e783f6030ee76a54e666e3c987615dd403540fc4cf8c8cb76f65c67710d1ea116ae66841d3e6ae0c44379b12",
+  "timestamp": "2026-05-18T21:59:33.033918+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

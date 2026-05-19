@@ -1,0 +1,11 @@
+{
+  "name": "bench_7390",
+  "tav": "AZC7PowicPp",
+  "fingerprint": "392032a6ea183d1f3b28bd606ae1361fddb889b41a22ecdfc4823a5ffe60e6bbe9ed01c40c3a6a2770e6e9652defcfdfa763e4f5dccc7b4703deff306fa8c027",
+  "timestamp": "2026-05-18T22:09:18.558390+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

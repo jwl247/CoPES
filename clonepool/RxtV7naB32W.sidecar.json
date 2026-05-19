@@ -1,0 +1,11 @@
+{
+  "name": "bench_75281",
+  "tav": "RxtV7naB32W",
+  "fingerprint": "953f5be9e527d0dffd3e11579f1da9b2d712147400d1c0830a2f914400bc243bf3871ccf99a11931f31aeb8435d83912d48ca0d411a84af12326a980caa8662a",
+  "timestamp": "2026-05-19T02:24:03.771658+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

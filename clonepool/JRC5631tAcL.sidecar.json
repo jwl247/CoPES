@@ -1,0 +1,11 @@
+{
+  "name": "bench_45866",
+  "tav": "JRC5631tAcL",
+  "fingerprint": "682143d6ec5667bd1938334d05869a5bba8a409532cfb447690b50b771b1bc4c137c92654f65a1de9b7a12cda71af3594f3130dacf7058395b9542ae560a1de0",
+  "timestamp": "2026-05-19T00:32:24.005370+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

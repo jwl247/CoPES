@@ -1,0 +1,11 @@
+{
+  "name": "bench_94453",
+  "tav": "Py3VMSdsc56",
+  "fingerprint": "894e685a76b0e8896e982e70a5f4f7a672ae4729774ede51ba728e60f96580c0f6616ff3f675445a0337361e8a459299ab6e5c1d313d8534e8d8683f1303775d",
+  "timestamp": "2026-05-19T03:36:04.698154+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

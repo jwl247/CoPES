@@ -1,0 +1,11 @@
+{
+  "name": "bench_1501",
+  "tav": "NLCVavmx67J",
+  "fingerprint": "7f879c87626fdbd952fd4f5cafd4f710aedbcbaa577bb7e79b0de28831ebaad85b37dd755bf7afac39a65ef92fd948d0550ac64fb0c115f569972addf8e365e2",
+  "timestamp": "2026-05-18T21:47:50.738126+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

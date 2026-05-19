@@ -1,0 +1,11 @@
+{
+  "name": "bench_58614",
+  "tav": "GetMhGTcdRB",
+  "fingerprint": "5d959838c2556702a7ce9a1d8dca03fe298bd36e3f1a057bb19e0020e8e66a8064a23ab5e93fcd7c605e9331e4df4872cb6fb77f520f0467c3338ba32d753217",
+  "timestamp": "2026-05-19T01:20:41.706430+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

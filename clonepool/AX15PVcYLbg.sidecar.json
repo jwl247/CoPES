@@ -1,0 +1,11 @@
+{
+  "name": "bench_65212",
+  "tav": "AX15PVcYLbg",
+  "fingerprint": "38e66697b3ebd68f620c851a3050df21f04bb3e2622104d4c6f34bcefa3f456241a761596655fbfb2e959419e10cc173d7a37ad2e464a5c7d88ee96454c0aa9b",
+  "timestamp": "2026-05-19T01:45:43.582758+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

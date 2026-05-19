@@ -1,0 +1,11 @@
+{
+  "name": "bench_80586",
+  "tav": "LewFaoY3Y44",
+  "fingerprint": "758101f11959294db162829bd3cd401be23c7d1f6fe5f0a5f4a1bed5b9bde38e14583b1bcc9605f773b5302d2ee4bedc261c26054b96949d984079ba2d514780",
+  "timestamp": "2026-05-19T02:44:22.517813+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

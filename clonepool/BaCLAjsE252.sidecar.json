@@ -1,0 +1,11 @@
+{
+  "name": "bench_11900",
+  "tav": "BaCLAjsE252",
+  "fingerprint": "3f3535dd88c8683531a7bb1d5bc950a7df22d2438ff2140917534a4591684736b7b3e3f114f4a958c867fd40113a660e078a739e07b0818e004bc37a64cb126c",
+  "timestamp": "2026-05-18T22:25:59.219151+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_983",
+  "tav": "25XV4BGr87S",
+  "fingerprint": "0671f253e9d5fe09479a5f05acb6c9c2cff0b41b74f06508a984d044e0e1811f305be7cce514827ea9191e9202cacbfb047096ad790a7e2444948a12d7395cd8",
+  "timestamp": "2026-05-18T21:46:05.351008+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

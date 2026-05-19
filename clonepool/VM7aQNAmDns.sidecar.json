@@ -1,0 +1,11 @@
+{
+  "name": "bench_6719",
+  "tav": "VM7aQNAmDns",
+  "fingerprint": "a9796e432ebfcae48b668550c5a7d716952cbbb533346edda93abc49960a0179befc14b24e7fb10f5dea70ee967ef71ff25f59bf75378d93645889fbacc7f565",
+  "timestamp": "2026-05-18T22:06:52.847848+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

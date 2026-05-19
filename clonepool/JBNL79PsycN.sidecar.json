@@ -1,0 +1,11 @@
+{
+  "name": "bench_14008",
+  "tav": "JBNL79PsycN",
+  "fingerprint": "66b47ee63df3ba13fe2f656c4c64faf19c00f980fefdd08478371b421afcbe01fee656d22acb16544d55933a8b5a91349aa3039da03bb50fc6873942d78365c3",
+  "timestamp": "2026-05-18T22:33:35.344724+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_68940",
+  "tav": "RueoSDReTN5",
+  "fingerprint": "94e9f7d4f5c00b766ede01d73afde808a9180488ab3e83b3705155723a27ceb479088cd6b4442da835a27a4bafab68829b9b53c3f41978bf106bb01170a5ebef",
+  "timestamp": "2026-05-19T02:00:00.646437+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

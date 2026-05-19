@@ -1,0 +1,11 @@
+{
+  "name": "bench_68961",
+  "tav": "SPLSp7vBKYC",
+  "fingerprint": "97c47d90f3deee7984046492a779ed1a4637e91f0eea97dc25fec8f61790c59f2bfe5a7d10e9dcb2720de204a5ce859e1a5d656e423065e64b591bed386a6096",
+  "timestamp": "2026-05-19T02:00:04.977576+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

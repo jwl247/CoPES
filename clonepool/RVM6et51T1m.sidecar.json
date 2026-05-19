@@ -1,0 +1,11 @@
+{
+  "name": "bench_31481",
+  "tav": "RVM6et51T1m",
+  "fingerprint": "926897e8f4e3e0b4b61b5858fa4743f2a9530b8ba7f2880a874b17949252bc25952708ce34ffdd2e92c59491a2c14a60202225a9fb50f82fb061b0ba92cbe572",
+  "timestamp": "2026-05-18T23:38:01.038306+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

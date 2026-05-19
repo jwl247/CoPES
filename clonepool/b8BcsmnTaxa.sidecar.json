@@ -1,0 +1,11 @@
+{
+  "name": "bench_8237",
+  "tav": "b8BcsmnTaxa",
+  "fingerprint": "cc035d91a8aef99bc9720b26876305fc2b0d32ff16c7f41f8553453bdc133b51bca71f855827a75f68ee259757e49912df04fb37eb507c75c7a1941803ec9e0f",
+  "timestamp": "2026-05-18T22:12:21.844214+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

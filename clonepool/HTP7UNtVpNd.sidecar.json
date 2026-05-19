@@ -1,0 +1,11 @@
+{
+  "name": "bench_79068",
+  "tav": "HTP7UNtVpNd",
+  "fingerprint": "62608a84966a2cf24579cd2395f0b74e7991c8c43fb3893e8bb571f795e84cd7da54aa1f4db074c0902ee8f64d9b24c351c546d224b764d66d21cdbab3775ed6",
+  "timestamp": "2026-05-19T02:38:30.338856+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

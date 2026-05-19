@@ -1,0 +1,11 @@
+{
+  "name": "bench_45304",
+  "tav": "WYPDV62cYRT",
+  "fingerprint": "b09d578a5fc8e68e6c5dd8b968e2de13299a44030810d0580e4e1ae4272990458ca4296f4f825618099069d3368a2230cf00590319bf5d35b56b64863c0d9ff0",
+  "timestamp": "2026-05-19T00:30:14.035157+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

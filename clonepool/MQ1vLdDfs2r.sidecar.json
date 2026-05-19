@@ -1,0 +1,11 @@
+{
+  "name": "bench_35313",
+  "tav": "MQ1vLdDfs2r",
+  "fingerprint": "79f1d48f24bb43e381fde6ee6d5db1dd59d22893dddd76b40f4fd06a1102d3de505fc4b72ff91b0191b4dcb913b58d59d5369ecd781400709a1452c0530e49af",
+  "timestamp": "2026-05-18T23:52:35.039122+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

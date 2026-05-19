@@ -1,0 +1,11 @@
+{
+  "name": "bench_14443",
+  "tav": "K5BARGuvhru",
+  "fingerprint": "6c0b9be45aa27d56284a42dab98e160110527a40592e4e469fa49f1b26102ec3cf8ce6e9f4e9807863c747db54acc9203d24d20a0535ba577a8e383b7346a1b0",
+  "timestamp": "2026-05-18T22:35:14.500424+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

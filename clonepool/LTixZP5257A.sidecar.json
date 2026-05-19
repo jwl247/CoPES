@@ -1,0 +1,11 @@
+{
+  "name": "bench_12731",
+  "tav": "LTixZP5257A",
+  "fingerprint": "74592480b1b3429d5742d0c205a9c8e01cd4ad85a925622aae773e33999eb169543959f344539f7aa19985c22a25572bc6a47191f2a651b102f42d4864cc9a8d",
+  "timestamp": "2026-05-18T22:28:58.509043+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

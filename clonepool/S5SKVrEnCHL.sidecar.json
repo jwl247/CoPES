@@ -1,0 +1,11 @@
+{
+  "name": "bench_85017",
+  "tav": "S5SKVrEnCHL",
+  "fingerprint": "95ec2c384af76bb7f24cd445398daf95a0251c202dae8e234318d69e12b8b143f3a946c7864d0f144f99150cf843ac0406daa3fe19bedc2d1c60a80b6a7aaca9",
+  "timestamp": "2026-05-19T03:00:38.780038+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

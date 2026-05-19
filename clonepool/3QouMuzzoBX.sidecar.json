@@ -1,0 +1,11 @@
+{
+  "name": "bench_31170",
+  "tav": "3QouMuzzoBX",
+  "fingerprint": "0e6951c0df4649d2bd1c59c6025c5120eb1f2275210e4b9c5444a5a2b678abc3ffba178f17045bd99c6e2733116314071be00388197af5fb555dcff240d1cef2",
+  "timestamp": "2026-05-18T23:36:50.017534+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

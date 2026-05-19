@@ -1,0 +1,11 @@
+{
+  "name": "bench_40567",
+  "tav": "BtZ74VLugC4",
+  "fingerprint": "4119a6f6638ad08d31a4246222663e0aa6a6581ed1d1847848f61b7b585b8532feaa3de2277f396463badefdb97773d9265e29b42f9f6c83389f813eb0ea034f",
+  "timestamp": "2026-05-19T00:12:27.877114+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

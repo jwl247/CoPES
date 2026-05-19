@@ -1,0 +1,11 @@
+{
+  "name": "bench_3217",
+  "tav": "XF19QMm5AtA",
+  "fingerprint": "b4cd390312d5017b1b0660926866ed6d2879a03efa6ce9d6324644d896fa0796d5fcccde1718a8f0e19be1e5665021d1afb7ad3d472238275c72191136f3c9db",
+  "timestamp": "2026-05-18T21:53:54.058649+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

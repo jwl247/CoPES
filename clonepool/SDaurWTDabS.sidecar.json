@@ -1,0 +1,11 @@
+{
+  "name": "bench_80107",
+  "tav": "SDaurWTDabS",
+  "fingerprint": "96c33052f0af8b51399fc20f7b747b337f2ee1aef2b042d93316cedbf1cc52588866ae83b22c990a2fb1f2c200d906b3ea59e11178a3eaf32ce62222c2193fbb",
+  "timestamp": "2026-05-19T02:42:26.281220+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_34731",
+  "tav": "MHDC19av57J",
+  "fingerprint": "793e3d4d0bb54bd523f8a97df3f79faeef2d7152a835eaf43822a691b449938d3d514380b42f227aea9068fe32a9054e546adf7afc862dbe92d8abbad9051ec7",
+  "timestamp": "2026-05-18T23:50:20.979077+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

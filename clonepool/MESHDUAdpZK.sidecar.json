@@ -1,0 +1,11 @@
+{
+  "name": "bench_74890",
+  "tav": "MESHDUAdpZK",
+  "fingerprint": "78f507aa1c6b89fe1772b1634910d071fef6175c512f19983a73f72fd8e37c89dc938ddb598fa17fcdb8a224e7e8d4dc1d0896c1ddd456f9ecc8ed5b12cab69e",
+  "timestamp": "2026-05-19T02:22:32.710509+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_62105",
+  "tav": "Qus32Xfan7a",
+  "fingerprint": "8ef502a79129fa59fdde0356966bcfcf5ae2fbefe55f6ac112805b00ffe64760190b4441bc60202d1cc437e7fe8212263748b58794d1950e2776a1acbd12450d",
+  "timestamp": "2026-05-19T01:33:59.446532+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

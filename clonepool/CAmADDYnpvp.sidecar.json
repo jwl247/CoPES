@@ -1,0 +1,11 @@
+{
+  "name": "bench_86001",
+  "tav": "CAmADDYnpvp",
+  "fingerprint": "42c5599f2a8bb2c51bd65c383e48681ffa4f91656f4eeb8c820c38811282f42237ae81c9150cef02773f74f841134640ebaca98462f783ddd0d8c7bc37168954",
+  "timestamp": "2026-05-19T03:04:21.178343+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

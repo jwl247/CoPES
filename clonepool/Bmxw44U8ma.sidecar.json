@@ -1,0 +1,11 @@
+{
+  "name": "bench_80710",
+  "tav": "Bmxw44U8ma",
+  "fingerprint": "011c5747ee59935db6bc09c15d48b98ccbd050a133027ab150696a4bfb5ace831797b110a6b7eda3438af248f5e45c15f33cd32513b2dad46ce276e05be6f2e9",
+  "timestamp": "2026-05-19T02:44:51.609982+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

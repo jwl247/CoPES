@@ -1,0 +1,5 @@
+[console_scripts]
+egress_helix = helix:egress_main
+frank = frank:main
+ph = package_handler:main
+ph-distro = distro_handler:main

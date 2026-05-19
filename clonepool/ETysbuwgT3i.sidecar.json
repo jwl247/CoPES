@@ -1,0 +1,11 @@
+{
+  "name": "bench_789",
+  "tav": "ETysbuwgT3i",
+  "fingerprint": "5080c8c72aa229bd92398210e11c44f6305ca40bb4d78c53b67cf6d4cca98be9b7db313d12e0281f5c7bd6658ad8e1f68be92d7e8b1728c229f0c796250dbff8",
+  "timestamp": "2026-05-18T21:45:31.403534+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

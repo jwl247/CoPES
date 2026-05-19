@@ -1,0 +1,11 @@
+{
+  "name": "bench_20775",
+  "tav": "hostsf7QSe9",
+  "fingerprint": "f3f9fab323f83ca6a0c1211c680d35f6ced95c8be6c0c8d74d54d0dc3d188af4d0cad9ccbb60dd739d68d88c80fe2fc9491bdbfeb80ea90c30f88745b0b2f5ff",
+  "timestamp": "2026-05-18T22:58:25.298843+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

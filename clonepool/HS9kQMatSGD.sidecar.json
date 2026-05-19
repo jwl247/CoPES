@@ -1,0 +1,11 @@
+{
+  "name": "bench_86220",
+  "tav": "HS9kQMatSGD",
+  "fingerprint": "624012a56da8e6beac399faace40216322598fb1bd50fcc88ddd9ba746654c863c23673bb03ff54c2653fb2a5f04890b2226b85d1459e5f246a728e20bc05dd3",
+  "timestamp": "2026-05-19T03:05:09.925247+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

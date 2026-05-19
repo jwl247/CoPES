@@ -1,0 +1,11 @@
+{
+  "name": "bench_2218",
+  "tav": "Szp18HcdVgY",
+  "fingerprint": "9b6c9ec9c998727533e2a96683e29882bcaf068116f712620050e9bcb7e671d6ac856a6db03a68879449e4a89db59a987b1c4af1f01ed44a742675f0b77345dc",
+  "timestamp": "2026-05-18T21:50:19.703331+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

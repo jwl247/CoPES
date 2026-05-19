@@ -1,0 +1,11 @@
+{
+  "name": "bench_51600",
+  "tav": "MSVBmEVVHqg",
+  "fingerprint": "7a330320f2c872873ca26a39a22be1b00c580cc5e6c83145ad926b6e1528207095aea5f4cdb0a0cdaa71a416e76d6559f550bc969730c8776c026f9b6b21ae4a",
+  "timestamp": "2026-05-19T00:54:15.796640+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

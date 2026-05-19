@@ -1,0 +1,11 @@
+{
+  "name": "bench_53589",
+  "tav": "FERR8x16WP1",
+  "fingerprint": "55157e3d0a8c33f819de6fb66748e035447e4ad9924947a2840837d07c627d0ec744563d3227ff1e3b41fd3a8c7ef4f3d643ec2617c9754891e7d1f7c614a3e4",
+  "timestamp": "2026-05-19T01:01:50.775758+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

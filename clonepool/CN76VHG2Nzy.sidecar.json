@@ -1,0 +1,11 @@
+{
+  "name": "bench_42276",
+  "tav": "CN76VHG2Nzy",
+  "fingerprint": "43f0b12d9de2f0aead54aa7b920e15dea982c3a46d53fe61ceb1c6cb807ca5e4f166b80418be249224ad9f34b727fbfeaa61af2c18c0f26c0a5de9ed52691fe6",
+  "timestamp": "2026-05-19T00:18:43.081766+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_80664",
+  "tav": "RgMPXMa6Wap",
+  "fingerprint": "938aff5defb89395db78af75dc890245d157ac16818c0da5fcae8e4e81672e087efe8ee55d12e878fb94feef9ec578c2c62685991ef1f00f3b8b30192fbe5671",
+  "timestamp": "2026-05-19T02:44:41.365461+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

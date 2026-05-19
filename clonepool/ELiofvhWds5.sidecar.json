@@ -1,0 +1,11 @@
+{
+  "name": "bench_42219",
+  "tav": "ELiofvhWds5",
+  "fingerprint": "4fc135e149c9db101db7cdd542988c2cedbced21977aa03b5e1c14b348570ae4ac1d0aa1b4e08c7638c9950bb83c01c4f70863472e185258b0755a66ae60f2b6",
+  "timestamp": "2026-05-19T00:18:30.053112+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

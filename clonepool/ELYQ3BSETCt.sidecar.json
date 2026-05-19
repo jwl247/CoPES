@@ -1,0 +1,11 @@
+{
+  "name": "bench_81256",
+  "tav": "ELYQ3BSETCt",
+  "fingerprint": "4fbc79b1812a8a31b31ecd9845fa22d4e8b2e27a281aba321b3e5027069e78810ebdda1a6fba6d532b8d7763da3f21c68fd47ce8210a13c4f6359d12d57c838e",
+  "timestamp": "2026-05-19T02:46:52.731569+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

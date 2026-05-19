@@ -1,0 +1,11 @@
+{
+  "name": "bench_30482",
+  "tav": "Mz9HR352RQA",
+  "fingerprint": "7d766258575c9a47e991ede6ec5faf0693353d8966493a655f845bdef2709392e0d6b55833d3577dd49bf362b1a81ef395448fac7e889f76694a87fb7732f014",
+  "timestamp": "2026-05-18T23:34:10.688371+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

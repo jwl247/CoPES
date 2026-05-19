@@ -1,0 +1,11 @@
+{
+  "name": "bench_16486",
+  "tav": "RbeC6sZ111i",
+  "fingerprint": "930eb362519907292b8de3ab5613d6a42927eac44b8910fa10a15fd316b50155ecd12cf7f82051d4d45787ac4858cddb735e7a560f94f10ca9b3ee2c770f0e8b",
+  "timestamp": "2026-05-18T22:42:40.831774+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

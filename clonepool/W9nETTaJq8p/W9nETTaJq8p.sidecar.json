@@ -1,0 +1,23 @@
+{
+  "usys_intake": "1.5",
+  "tav": "ZZY4nqAhJ7J",
+  "original_name": "dependency_links.txt",
+  "state": "white",
+  "version": "v1",
+  "filetype": "docs:text",
+  "category_hex": "6d65646961",
+  "size_bytes": 1,
+  "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+  "backend": "direct",
+  "notes": "dir:src/phoenix_copes.egg-info/dependency_links.txt",
+  "pool_path": "/home/jwlef/Phoenix/clonepool/ZZY4nqAhJ7J",
+  "companions": [],
+  "qr": {
+    "header": {"role": "state", "state": "white"},
+    "footer": {"role": "location", "tier": 1}
+  },
+  "auto_hotswap": false,
+  "registered_at": "2026-05-18T04:52:31Z",
+  "updated_at": "2026-05-18T04:52:31Z",
+  "clone_history": [{"version": "v1", "at": "2026-05-18T04:52:31Z"}]
+}

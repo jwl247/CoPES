@@ -1,0 +1,11 @@
+{
+  "name": "bench_5871",
+  "tav": "AzruDiGyWSn",
+  "fingerprint": "3bc58e0be2d3223b49937e930f8d1694a7ee76b6e77cdb6b8f3e40486166a68368d0649d15340d52db0007a84eef02e52c3e3f5467abdf44eb8f47b4e56f269a",
+  "timestamp": "2026-05-18T22:03:47.136008+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

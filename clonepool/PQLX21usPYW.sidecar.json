@@ -1,0 +1,11 @@
+{
+  "name": "bench_47245",
+  "tav": "PQLX21usPYW",
+  "fingerprint": "85ef56fef6f84d8b063a4d0126c345e3607edd6eff0fcdfdd3802efc217277daf076d176c8f4d12afc67f638e5e8ccbc6f20f2fa49272f1a551ca2fb49bd1935",
+  "timestamp": "2026-05-19T00:37:44.058541+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

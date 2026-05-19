@@ -1,0 +1,11 @@
+{
+  "name": "bench_43011",
+  "tav": "VGbmkinsSru",
+  "fingerprint": "a9025136009864d2002d690cb9a6ff4a8b22c1aecab85d738f3d885ef620fd4bc67de257f2f059878f426b812d433583aac12792fe16a4f11cf5b520ee79bd10",
+  "timestamp": "2026-05-19T00:21:30.447954+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

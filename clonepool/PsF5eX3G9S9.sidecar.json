@@ -1,0 +1,11 @@
+{
+  "name": "bench_8914",
+  "tav": "PsF5eX3G9S9",
+  "fingerprint": "88b559ec7845a54a9077fbfb4b969633fb33a2026063a1b0d78474ea62ad5a00ff2d189f92e46cdb55a96d97d125bec27b70806aefece8fb8f6472e2e6a10520",
+  "timestamp": "2026-05-18T22:14:51.820878+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

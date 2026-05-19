@@ -1,0 +1,11 @@
+{
+  "name": "bench_22149",
+  "tav": "VA39654BZap",
+  "fingerprint": "a85523f49b99dea9ff22a9d3c046c4508bc968f3923dfe06e64886bb294fc79ae824895f8a9a54a3b61311aef4c3c7fc7eb4c9c205eace593b60edaccd779e0c",
+  "timestamp": "2026-05-18T23:03:19.351674+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

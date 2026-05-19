@@ -1,0 +1,11 @@
+{
+  "name": "bench_80646",
+  "tav": "TPPL1MyZ1GM",
+  "fingerprint": "9dc05375ce50f5fa391b2e4be99b17fd2ec880ee34f406d575bc0363b9c29c737ab7e615853ae791e6a8524210d70410f751798e06a87f3e5597d35dbbabc7c5",
+  "timestamp": "2026-05-19T02:44:37.493180+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_91243",
+  "tav": "MWG43ecLYZY",
+  "fingerprint": "7a969726e4e4f6030b0d54badbb2f796fbc8d346a462909cb67be594129155b724b1590ddf3bbc89446f5129a74ae163c3287b953b0ddb2e398cf6e61a8485a1",
+  "timestamp": "2026-05-19T03:24:01.539629+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

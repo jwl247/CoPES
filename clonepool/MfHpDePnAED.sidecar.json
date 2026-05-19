@@ -1,0 +1,11 @@
+{
+  "name": "bench_45000",
+  "tav": "MfHpDePnAED",
+  "fingerprint": "7b84e31364c2264a20447ced667883c6d145d23e6547fb9c8439cf0f0fe79df69f83cfb2d928ea0499fb915d93b56e06b9af634e14685013e51ceedb2125ed92",
+  "timestamp": "2026-05-19T00:29:04.268955+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

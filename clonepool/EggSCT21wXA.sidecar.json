@@ -1,0 +1,11 @@
+{
+  "name": "bench_5290",
+  "tav": "EggSCT21wXA",
+  "fingerprint": "51cfe6233663a7fdb5e9d1814d4b50391f1bb9b43d99d00d11dc4bcc43dd9872e237ec465f98b3caf732b1c373c9b1a7f1d681e2d3a3bd2509a714203d99e571",
+  "timestamp": "2026-05-18T22:01:39.743785+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_80588",
+  "tav": "ekArhhuiTPR",
+  "fingerprint": "e1a8924752386ae43ad2eece3c86b828e8593fc844286a42c0e8a472c04901c09fa055e0bd1fa78183574f8c767a679b948e93288bdf5a3c07d17e83110f3378",
+  "timestamp": "2026-05-19T02:44:22.851420+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

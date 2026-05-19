@@ -1,0 +1,11 @@
+{
+  "name": "bench_40406",
+  "tav": "TaDns5PQdV",
+  "fingerprint": "02bd361b90d5bfb0876d2736dafb2e9d39b2f894d6d0b7ddc9ca3ed184e2e9c0236ac6cf636b6809c2e3030721dc6140a12cea26f32fc61abc2603c2d5d15564",
+  "timestamp": "2026-05-19T00:11:50.313598+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

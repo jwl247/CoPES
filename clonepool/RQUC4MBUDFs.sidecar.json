@@ -1,0 +1,11 @@
+{
+  "name": "bench_17215",
+  "tav": "RQUC4MBUDFs",
+  "fingerprint": "91e7e0fda2bf0da696186c3cb4437eb61631552e1eba73bda9e193a963a399ddc183f7c919bd5a3a29e591164c766187a90c96bf58dfccd9b3ba92984c21cc68",
+  "timestamp": "2026-05-18T22:45:25.802280+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

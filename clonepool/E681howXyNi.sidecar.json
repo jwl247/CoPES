@@ -1,0 +1,11 @@
+{
+  "name": "bench_68009",
+  "tav": "E681howXyNi",
+  "fingerprint": "4e3ff1abc3ea709b74ca6220b921d58917b7385185b85c82401ea09410ed074df0a55f7281954c8870a88c4c05e84eaecf5eb7b42ce06f9d12bb664c22e0fb9a",
+  "timestamp": "2026-05-19T01:56:25.201349+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

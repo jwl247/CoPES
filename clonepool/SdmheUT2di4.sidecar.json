@@ -1,0 +1,11 @@
+{
+  "name": "bench_65910",
+  "tav": "SdmheUT2di4",
+  "fingerprint": "99416affe81b1b45b719519fe71c8c61d56fccf1e0af7f7626f7e774fbd3e39af762a2fa72e1d1bc4065ba7d073dae5465b5645d61556e56aad0fe78cdb650a5",
+  "timestamp": "2026-05-19T01:48:20.105549+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_687",
+  "tav": "KaehtZCDHdL",
+  "fingerprint": "6f1566ec7d4d81cb0d9d1dbb0b629cfeb6b8b0936583cf31e7b7d40d894cf6e028a436197e6b8bee46e24c490f19f2ef62ad689370fdac25b9d06e75deb7430b",
+  "timestamp": "2026-05-18T21:45:12.312259+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

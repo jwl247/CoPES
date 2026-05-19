@@ -1,0 +1,11 @@
+{
+  "name": "bench_8039",
+  "tav": "FoytkbrRjMD",
+  "fingerprint": "588b158e586a5fcc4d08545550238465bc84e4bdbea5d4e643d4d5a7cbdc5a7bf2b4d7e03843920f7e2e9f6b652230b4434cd29c2be599cb45e1d995fbd8c8bd",
+  "timestamp": "2026-05-18T22:11:40.574276+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

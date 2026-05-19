@@ -1,0 +1,11 @@
+{
+  "name": "bench_82273",
+  "tav": "Vzk1shcmPLB",
+  "fingerprint": "ad5a60d4e4a1cc0047fe798cb8d2cdd00226143d4b14564bf730abbf63feb280f6df103b3f658cbeeed17d403bc0595b93d1520e25ce57da94d830c84748059b",
+  "timestamp": "2026-05-19T02:50:42.348181+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

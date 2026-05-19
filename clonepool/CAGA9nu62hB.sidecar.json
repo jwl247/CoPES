@@ -1,0 +1,11 @@
+{
+  "name": "bench_42623",
+  "tav": "CAGA9nu62hB",
+  "fingerprint": "42b827cb86a182e6f0c1518fe929f93ee5e16f6139c83013dc672bd46bd55f486c2e2f5b0aa45d899a5756b4509e74038b0490bea5bb6f0b478cd451d4641239",
+  "timestamp": "2026-05-19T00:20:04.138981+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

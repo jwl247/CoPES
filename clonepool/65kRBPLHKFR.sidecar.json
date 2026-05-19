@@ -1,0 +1,11 @@
+{
+  "name": "bench_737",
+  "tav": "65kRBPLHKFR",
+  "fingerprint": "1e61ed43b506a7bc779bc58fbb27822cf1890ff642ac4b63c656b513ee92590d0761aeb644a93c76a8ee10f97a196e70b42b19ceea61d22b5a740e30804b3148",
+  "timestamp": "2026-05-18T21:45:21.520890+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

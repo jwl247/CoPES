@@ -1,0 +1,11 @@
+{
+  "name": "bench_40242",
+  "tav": "TXRCrLvsp2T",
+  "fingerprint": "9e94495dcf78c6b01c83f8159f7d89490681f5d34c935e386322298091dffbd1943564e76e5aa371b6d5712ec16f219dfb9c28d245a544bdafa5d799dbe74a52",
+  "timestamp": "2026-05-19T00:11:12.922266+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_2990",
+  "tav": "USEsp3C2A6M",
+  "fingerprint": "a4062b7796d00252b2bfa373bb73e9ca528fd2d48ba14d14e647363d8aa9b9d5747d9aaf62d208030d1464ee04bb0d0708034a9719d912a45916086f091e4b5e",
+  "timestamp": "2026-05-18T21:53:04.386641+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_30973",
+  "tav": "TRcv185B7yz",
+  "fingerprint": "9dfb48b4e004b471ca804eddc05e64a1558e4e6d8db75fd35de34a754defc77b3e917fa93d51aa451ec3c7c90c661670031c187cd089b49de62cdc9fddae211f",
+  "timestamp": "2026-05-18T23:36:04.190293+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

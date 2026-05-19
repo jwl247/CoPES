@@ -1,0 +1,11 @@
+{
+  "name": "bench_8505",
+  "tav": "EUYAmcoWitE",
+  "fingerprint": "508f7a60f67e2d277e873eeafc633f8a219a684cf09fcad2df815df6ae4c52397dd2cdc729459858478dbd83a12214ebd2f7a95d8e0b3b214ba163c366bde18e",
+  "timestamp": "2026-05-18T22:13:20.701942+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

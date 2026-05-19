@@ -1,0 +1,11 @@
+{
+  "name": "bench_52480",
+  "tav": "KnxwhF22XTu",
+  "fingerprint": "705a5c266133a8488d0766b01843f5323e8572ec89eedc22c341c77c7a4347430f70acae66dee7b99ada66b8fca4a750c37e723d43f8506b435856f14281a27f",
+  "timestamp": "2026-05-19T00:57:34.480659+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

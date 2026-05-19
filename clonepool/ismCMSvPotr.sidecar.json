@@ -1,0 +1,11 @@
+{
+  "name": "bench_54178",
+  "tav": "ismCMSvPotr",
+  "fingerprint": "fa5b024ce63f0d17d122d5c5ed8b67fa75669af33fa26e7a3703b02751cf798139eb4b556240da00cd8ba6b76147c785021a4245cc97101ca13f2467cbaa55ce",
+  "timestamp": "2026-05-19T01:04:05.783040+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_19192",
+  "tav": "drv21X4ANAd",
+  "fingerprint": "dc6003a603489afa8fcdde7162f51f86b62a5e4d06f33cc81ffe7c91dfbaa39294a4bd1d17c0713a3b556eb4d5f7df0f7f830495225a4ae09da8c3db260c201c",
+  "timestamp": "2026-05-18T22:52:35.525972+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

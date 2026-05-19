@@ -1,0 +1,11 @@
+{
+  "name": "bench_61390",
+  "tav": "CpRAMmtunrJ",
+  "fingerprint": "46a702484ce361cfe78a8a64a9b209b369ce922198bc155049cfbd2301366fe5d2dddef9a53a373d71fe98e6d19bc1b403efd963e4d9189a64f23125f89e6881",
+  "timestamp": "2026-05-19T01:31:16.012545+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

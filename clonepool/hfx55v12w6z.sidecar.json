@@ -1,0 +1,11 @@
+{
+  "name": "bench_10354",
+  "tav": "hfx55v12w6z",
+  "fingerprint": "f328c5c428ef713be5aa7427e1ebd51bb091d751b04a7643b78042d947d7a069e25c158e2b32747a520d7a4debfd7ba53abcbf7feecf4e4a753424e14e8dfb63",
+  "timestamp": "2026-05-18T22:20:10.106943+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

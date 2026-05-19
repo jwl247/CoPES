@@ -1,0 +1,11 @@
+{
+  "name": "bench_10752",
+  "tav": "PcDztSC57oB",
+  "fingerprint": "872908a5e633d57e92f0be0aff9e6d3713748c3cfe420ba6df26c0ac94b77154a77979563d8078781b2a11dea145b5ba478f0fdea1b0d28bb6b3463da8aae3f0",
+  "timestamp": "2026-05-18T22:21:37.665185+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

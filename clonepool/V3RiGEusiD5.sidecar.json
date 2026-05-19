@@ -1,0 +1,11 @@
+{
+  "name": "bench_72174",
+  "tav": "V3RiGEusiD5",
+  "fingerprint": "a7a6b10fdbad61f0cefc135231373e8b09e50334802f788addadacdb2df931bf5e5975892507c8c5d27038e009f52b59355293bd5c014f59fc2b6203c083e082",
+  "timestamp": "2026-05-19T02:12:18.765940+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

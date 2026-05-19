@@ -1,0 +1,11 @@
+{
+  "name": "bench_55108",
+  "tav": "CoQ135AHfyr",
+  "fingerprint": "468c17ac2dcb4a49feb5f2470400d6ce59bbb624a6285823fc86c2c6312687692fcf029dd9d569905f794654023f2769b08ceda741f89fcc5d4f6861db44f493",
+  "timestamp": "2026-05-19T01:07:43.655194+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

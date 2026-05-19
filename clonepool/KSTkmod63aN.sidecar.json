@@ -1,0 +1,11 @@
+{
+  "name": "bench_85222",
+  "tav": "KSTkmod63aN",
+  "fingerprint": "6e3d502f47ac001f1a065aff078050ef9102756fcb9659c9bfd8e3ce2489060f1cf9fe7df6b57fe82fc4010d368e313dd1e323e7d9623e7c8c57f6dd3c9df6dd",
+  "timestamp": "2026-05-19T03:01:27.401664+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

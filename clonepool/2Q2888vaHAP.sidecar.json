@@ -1,0 +1,11 @@
+{
+  "name": "bench_65531",
+  "tav": "2Q2888vaHAP",
+  "fingerprint": "0859f77ea69a4f78ad1090ce797ebe7e2cc2c7e9141b34ac07b04aad64a929cdf5cec6bdaf68d5cc0327f8785cb9a036f2456e5e4aa3d3811ddea8fedb21786f",
+  "timestamp": "2026-05-19T01:46:58.359004+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

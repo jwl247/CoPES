@@ -1,0 +1,11 @@
+{
+  "name": "bench_35298",
+  "tav": "QTU968X1UNB",
+  "fingerprint": "8c3c7f22153b55181fcf037cbc537f85df681ea6b339e1e6edde18674a2b8b4f64cf5897fb50b6dcb00b29027d668ebeb779b7bc7c6fe2a9cf5774dd0ba3c80e",
+  "timestamp": "2026-05-18T23:52:31.727621+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

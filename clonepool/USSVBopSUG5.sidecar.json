@@ -1,0 +1,11 @@
+{
+  "name": "bench_68537",
+  "tav": "USSVBopSUG5",
+  "fingerprint": "a40b73b4ac97504e0c743910ca5d99bbade03e5d126e89f27f134c8ab0d8179020ccd631126535b4bc7251e0bf257f6a2db4da6e4a5ab1770cc6c2733ef57a97",
+  "timestamp": "2026-05-19T01:58:23.489230+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

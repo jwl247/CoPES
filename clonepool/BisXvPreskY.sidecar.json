@@ -1,0 +1,11 @@
+{
+  "name": "bench_64478",
+  "tav": "BisXvPreskY",
+  "fingerprint": "401a273b531dc8bd8b24a25574317b1dafeff3113014b60e615ccb5b09ccdc737655afddbc50528470f8cdde0d18b7a3849d9ccc3fe9695a9a66bcc1102f8363",
+  "timestamp": "2026-05-19T01:42:56.532608+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

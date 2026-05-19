@@ -1,0 +1,11 @@
+{
+  "name": "bench_52361",
+  "tav": "YTKDUX5XDLL",
+  "fingerprint": "bc0ca0d6094388815fa80df6a6d2c7d4eb5aa56e3bc87e7e4f600ef217f27a7ae902e78ff120bd514e4b42fb22e8c2f644ad08a811558bb27da7ebeaedf0ed7c",
+  "timestamp": "2026-05-19T00:57:07.834851+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

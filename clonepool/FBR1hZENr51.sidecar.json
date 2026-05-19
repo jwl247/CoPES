@@ -1,0 +1,11 @@
+{
+  "name": "bench_23647",
+  "tav": "FBR1hZENr51",
+  "fingerprint": "54c624ec4a4955e42282a730ad49329978a0d8d37fa4e1b060372aa98b84473df13a68a37fc5fc68a1fdc887afc8d08df370eaf7be66fa84c9ccc3fc8b15f26e",
+  "timestamp": "2026-05-18T23:08:46.662908+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_72118",
+  "tav": "CZ154JBfFF3",
+  "fingerprint": "4510390c3dcb98163a0a6eb64e71c50f98bdd4f2a2aedd7dfc3812e5993b81ae5b22789c8a8013baed5d606cf09347b255644a8f4f01b7a6568370dc29b12256",
+  "timestamp": "2026-05-19T02:12:05.973607+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_8708",
+  "tav": "BAR252Gp7w2",
+  "fingerprint": "3cc1a9acde16af7d8d386d30ae01c7b0ce53a1ac67ebfa1a6751822d3387c94638f05442847b0388542789fb35b7bfed154a64e12f6783789fb05351d9f1328b",
+  "timestamp": "2026-05-18T22:14:06.209720+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

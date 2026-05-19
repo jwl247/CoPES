@@ -1,0 +1,11 @@
+{
+  "name": "bench_20182",
+  "tav": "PUSCsrTr7nW",
+  "fingerprint": "865b7b1160768d0fe6c5fee67ed78ab125dd4182a94fd4d2fb5f36e68e639b20a584546f9ac39d3a851a9f52e689dab5e0421672c9d9aacb186a69c0ea21156f",
+  "timestamp": "2026-05-18T22:56:13.488648+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

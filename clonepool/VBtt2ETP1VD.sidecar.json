@@ -1,0 +1,11 @@
+{
+  "name": "bench_84458",
+  "tav": "VBtt2ETP1VD",
+  "fingerprint": "a88628c058cdb754584849c29f85d703b042a814c83dd1303ab70bf81e914bd7c52e31c78d5fc6d26b85aa8d93965710396db2cd0ef769e7fe3e8a36ef209b00",
+  "timestamp": "2026-05-19T02:58:36.078029+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

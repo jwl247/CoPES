@@ -1,0 +1,11 @@
+{
+  "name": "bench_85503",
+  "tav": "KMGncarsvEM",
+  "fingerprint": "6db46199cc16533a3f853834002597e8111bd3a6049eac30b6613a1c22dc3746cd368326e098328cd2c49aec98ec77eb77d72e5e5485aae5e10b15e489576a76",
+  "timestamp": "2026-05-19T03:02:34.249931+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

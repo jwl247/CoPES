@@ -1,0 +1,11 @@
+{
+  "name": "bench_80459",
+  "tav": "hrCAQMm699C",
+  "fingerprint": "f4371139dc5a90439c3aa57825c79f4f383ba94151be910cb8e37bce16ac4809c55e3979203a403e841f1ca6d15abb8527c5f002e3960be489de065cdd87e23d",
+  "timestamp": "2026-05-19T02:43:51.106233+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

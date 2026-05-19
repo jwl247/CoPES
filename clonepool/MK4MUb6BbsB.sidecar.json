@@ -1,0 +1,11 @@
+{
+  "name": "bench_200",
+  "tav": "MK4MUb6BbsB",
+  "fingerprint": "796efee71458b2065a59098f67dfdfe2bf9dd49e9a5cafddb71e5a5759ae34383a5bd06d75a440d2ca82d041f0326dca888a1cfb3d45c0506c953a9b5a666fb5",
+  "timestamp": "2026-05-18T21:43:39.177928+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

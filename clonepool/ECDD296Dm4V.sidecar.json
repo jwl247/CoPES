@@ -1,0 +1,11 @@
+{
+  "name": "bench_71641",
+  "tav": "ECDD296Dm4V",
+  "fingerprint": "4ee0a341a0354d6a5ae343c7d32651851406610b2aa60b5c88b4d230024846cb5a7a9a0bbcd8975100334356e24e651d3c397fe95f6a8eb592980c9b8b345f8d",
+  "timestamp": "2026-05-19T02:10:12.311816+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

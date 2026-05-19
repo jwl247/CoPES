@@ -1,0 +1,11 @@
+{
+  "name": "bench_87713",
+  "tav": "VDCCU39fXTi",
+  "fingerprint": "a8a86d3e5b787535cb5ac03a47d867ef047750671d85b868fc0dae1823d3a6ae1ae053aa43f95984836247150ea739208cd904d6f8342c48b1127b106251ec02",
+  "timestamp": "2026-05-19T03:10:44.887285+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

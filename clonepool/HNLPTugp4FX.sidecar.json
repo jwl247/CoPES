@@ -1,0 +1,11 @@
+{
+  "name": "bench_44565",
+  "tav": "HNLPTugp4FX",
+  "fingerprint": "61db5c21f51a187e34f483e3593064a850ce655351ff108284242a8841c732351f91c74767c6fac39b24e46db4e6e2bb0515db151cfabd4b7990ddaa1b976e8c",
+  "timestamp": "2026-05-19T00:27:25.805200+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

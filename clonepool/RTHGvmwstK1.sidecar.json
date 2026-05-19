@@ -1,0 +1,11 @@
+{
+  "name": "bench_80273",
+  "tav": "RTHGvmwstK1",
+  "fingerprint": "923213d1883ef3b0587ff9f846716a001f6bfc24bfc13b731661ecca16ea65056ff14e541bfff74ac0b6950e387224f24a6bde9b1e12c8a5031f28a817e3119e",
+  "timestamp": "2026-05-19T02:43:07.329638+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

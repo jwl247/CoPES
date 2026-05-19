@@ -1,0 +1,11 @@
+{
+  "name": "bench_21178",
+  "tav": "PGP4vaHUwQQ",
+  "fingerprint": "851d64aefe14e67d39732cfff2614c7eaac392935bd521153c0e2f004322d0e5b948132685393792d0424d5e1f0b446823e3703f9d47c0f0cdd3b51cb7eec8da",
+  "timestamp": "2026-05-18T22:59:50.364872+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

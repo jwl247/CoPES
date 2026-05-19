@@ -1,0 +1,11 @@
+{
+  "name": "bench_80545",
+  "tav": "VNGgCfbfnaB",
+  "fingerprint": "a997f593a79569e8fdb072a06f440f0cb6b540e9a5432bdc062f2d16d15cc8b53ff0a453d1c2a6908cd8d4ce02b9774c37bdf6ed925beb99453933b34e85d449",
+  "timestamp": "2026-05-19T02:44:12.630216+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

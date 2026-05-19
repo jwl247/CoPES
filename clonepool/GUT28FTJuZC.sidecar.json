@@ -1,0 +1,11 @@
+{
+  "name": "bench_40483",
+  "tav": "GUT28FTJuZC",
+  "fingerprint": "5c822ef192475be32f6badd3fda6eb424522bc79e15fa51d9ccf58576a67689d11c419a0326121d2edc7e8f4a2638460ef51695e1f7fc23f6cfe9b858f52fa5e",
+  "timestamp": "2026-05-19T00:12:09.896564+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_83522",
+  "tav": "PNRJT5vAMGr",
+  "fingerprint": "85bcbd49f610e79f85b927a97f02d7d277566aeafac186c7accb15ac48e69a0d2da8ff09fe61e2396cccf7f46d3db27ee9773e574de039cec1498a35818f953c",
+  "timestamp": "2026-05-19T02:55:19.045895+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

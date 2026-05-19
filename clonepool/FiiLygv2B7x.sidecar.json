@@ -1,0 +1,11 @@
+{
+  "name": "bench_80308",
+  "tav": "FiiLygv2B7x",
+  "fingerprint": "580011939bebcf535874555fe5375e3e78e259a7e2637f2300bcf3a8365b089361baaef42530d7b740c7009ecb29f318497f4620d2e981c4c2a81c4814b86e90",
+  "timestamp": "2026-05-19T02:43:14.918345+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

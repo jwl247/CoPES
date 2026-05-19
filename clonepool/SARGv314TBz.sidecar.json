@@ -1,0 +1,11 @@
+{
+  "name": "bench_89552",
+  "tav": "SARGv314TBz",
+  "fingerprint": "966fa3a4385f009d52691d98009e197f1606d9ae6efcc268b022d259dafbba2017f887b676f7f2282b8e183f1731080459e75535af05e46b67a5c19f5d5555c4",
+  "timestamp": "2026-05-19T03:17:40.477350+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

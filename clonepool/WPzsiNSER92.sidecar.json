@@ -1,0 +1,11 @@
+{
+  "name": "bench_4986",
+  "tav": "WPzsiNSER92",
+  "fingerprint": "afc0121ba4f39429ebbcb29bcac061b56e451f960fbf01630511743808f0d91293b26ed83ceace13ef8bccc6c3b03af5cadab337c4931058e913cd25ea0b9549",
+  "timestamp": "2026-05-18T22:00:33.104057+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

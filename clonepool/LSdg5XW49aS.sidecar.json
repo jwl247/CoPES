@@ -1,0 +1,11 @@
+{
+  "name": "bench_413",
+  "tav": "LSdg5XW49aS",
+  "fingerprint": "743c59a0ce9f8f3b5bf0feaaf540faa9528c306203f2edcca44d32dc625755309d5151c101408e5ff53970da01c302f179328061efb061121840ce17d31d1ed8",
+  "timestamp": "2026-05-18T21:44:17.228220+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

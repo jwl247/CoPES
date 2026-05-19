@@ -1,0 +1,11 @@
+{
+  "name": "bench_30496",
+  "tav": "RpstSetfduP",
+  "fingerprint": "946bfaf395912cee082714cee650c8e0c81f6ef950c27002292c6c7456e23385447ea49af602073ee2680b361e19d9e05d3bd1726b9453e32e515198ca9faf84",
+  "timestamp": "2026-05-18T23:34:14.302446+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_8278",
+  "tav": "SmbUp7pbP6L",
+  "fingerprint": "9a0fdfd4b0e9c28d9d8807634b1fd5727836b4f327d3e8fe108758fd607dfc45aa7fd7505c6a2a2ca6ae2486db25aae2540a0841f6bb55391047b9531a408d49",
+  "timestamp": "2026-05-18T22:12:31.095368+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

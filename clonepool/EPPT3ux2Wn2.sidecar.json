@@ -1,0 +1,11 @@
+{
+  "name": "bench_38008",
+  "tav": "EPPT3ux2Wn2",
+  "fingerprint": "500791bcde55d7dfb450ef0292b6d8eaed243c5b12f097502da70cebaad5aa548eee98fa1d0c5effbcfad66525f62f56ae849d4f3722a88c4e4b45c26a0815bd",
+  "timestamp": "2026-05-19T00:02:56.579858+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

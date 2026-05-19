@@ -1,0 +1,11 @@
+{
+  "name": "bench_70478",
+  "tav": "BUSKSavNS6m",
+  "fingerprint": "3e9d3e86a49e454afa8178534b98d49eb34d022f4ecdd8128a2b7dbb3990dd262f0051192379d4c5efd1390276bb28e9870508ea3de6b0b0a4f97f3bb7bf6030",
+  "timestamp": "2026-05-19T02:05:50.129606+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

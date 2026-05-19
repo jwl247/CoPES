@@ -1,0 +1,11 @@
+{
+  "name": "bench_10442",
+  "tav": "FGCPL3eKPP3",
+  "fingerprint": "5544574b3bc4b236374255ae3e9c36e0e09448d803c737d3a2e773dde2dcaa8dae21a03ac0aab012e96583978a12def2dce47fd1d1f55f7e70714c4123d7a9f5",
+  "timestamp": "2026-05-18T22:20:29.370379+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

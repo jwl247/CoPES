@@ -1,0 +1,11 @@
+{
+  "name": "bench_1010",
+  "tav": "EHLfxMErKAN",
+  "fingerprint": "4f67f9bc4124385ffb4e2bb739203df4ea20fb38a738975d01608a9860ebd65fa221bcb41aa31bc90d872c8589be0d94b2fb1b490e01771b6def43ffde300f5a",
+  "timestamp": "2026-05-18T21:46:09.941296+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

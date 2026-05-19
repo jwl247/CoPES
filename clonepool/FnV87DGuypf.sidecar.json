@@ -1,0 +1,11 @@
+{
+  "name": "bench_14423",
+  "tav": "FnV87DGuypf",
+  "fingerprint": "58639b404e09f73cae616b642d7832dd9f7e49cf8a039d73231fd378da3f99bcd3166b2d0b2c6cdb59e4d538cd1184a51b84af10a6c980ee3907f71a7487e541",
+  "timestamp": "2026-05-18T22:35:10.079093+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

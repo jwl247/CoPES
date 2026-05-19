@@ -1,0 +1,11 @@
+{
+  "name": "bench_64499",
+  "tav": "TLunAST4ASJ",
+  "fingerprint": "9d7f03eb1aacf577d131eabe0a25431d17c40e228fdf4dc2b151356fddbc14a55b728342ea9a9f2337b0ed50ae6eb3a94ac61d5690b3366df7019ad94f422cf0",
+  "timestamp": "2026-05-19T01:43:00.766873+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_8594",
+  "tav": "TX52mC9swri",
+  "fingerprint": "9e8b1ba717c7188b1fdb0e798cd90a56ad8c695b24e03c773a1cf10c80159f45b34201c20ff2ca318e6c58af7b7fa15858c910dbb6d02ac734f862c46e0ec039",
+  "timestamp": "2026-05-18T22:13:41.306613+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

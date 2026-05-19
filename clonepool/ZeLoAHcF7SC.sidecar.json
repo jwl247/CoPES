@@ -1,0 +1,11 @@
+{
+  "name": "bench_32587",
+  "tav": "ZeLoAHcF7SC",
+  "fingerprint": "c32a24ad60df162d932790370a07912bf6dd4130937e506dbcc140311623b9dd2961a7c2aa02d686dc6382a1f6f7575063b8f9f34161798a26e45d6138af1079",
+  "timestamp": "2026-05-18T23:42:13.867033+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

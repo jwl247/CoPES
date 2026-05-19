@@ -1,0 +1,11 @@
+{
+  "name": "bench_334",
+  "tav": "Tix3rMysh4F",
+  "fingerprint": "9fc49786b686666c3bd6a5ed65ece4dc917f4155f5507aeb1ca3f114b6a4a61ea5f094cb11d18863c5155d8768e5c0a2a011d672a83be226de34c87ea0c36e42",
+  "timestamp": "2026-05-18T21:44:04.663893+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

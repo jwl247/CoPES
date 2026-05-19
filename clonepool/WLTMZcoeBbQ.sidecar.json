@@ -1,0 +1,11 @@
+{
+  "name": "bench_16111",
+  "tav": "WLTMZcoeBbQ",
+  "fingerprint": "af6290a87ab336bb56fb7db4b96aaf79dc6214d2fd2ba4b0d067d2d4c159611b9925008cfa34bcf67774cc378f63a6807ea9b18e8aa87727967e33af55bdd896",
+  "timestamp": "2026-05-18T22:41:18.398215+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

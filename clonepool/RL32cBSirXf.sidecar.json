@@ -1,0 +1,11 @@
+{
+  "name": "bench_5715",
+  "tav": "RL32cBSirXf",
+  "fingerprint": "9172e08769d72f4e5a79323a58377a5153401ad124a35d5c0090058cb606ac0fc5a8272660bc48ea6bfa994fe01d7f525a897d5022138bbc255a6546b17e5bce",
+  "timestamp": "2026-05-18T22:03:12.093160+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

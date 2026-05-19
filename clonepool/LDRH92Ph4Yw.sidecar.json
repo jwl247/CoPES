@@ -1,0 +1,11 @@
+{
+  "name": "bench_516",
+  "tav": "LDRH92Ph4Yw",
+  "fingerprint": "72dfa97a5c9b2fe8c89f9f4fe9577da6aa58df7226b50a2a83e8a949bb952f745f9eb370341cadba38dc2447ef13d2900292310ec605403fd2f3de4e38c000fa",
+  "timestamp": "2026-05-18T21:44:38.749080+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_15211",
+  "tav": "HPEgonHdR3P",
+  "fingerprint": "61f3278a12a769aaad01f9df9f772bf6d354026b4191f5541087bf2b4061d18cfc8b26eb839530b0f17ef918bd8feb9521799f04b449e105ade2493c94477a20",
+  "timestamp": "2026-05-18T22:38:07.507429+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

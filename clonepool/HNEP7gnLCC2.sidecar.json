@@ -1,0 +1,11 @@
+{
+  "name": "bench_17930",
+  "tav": "HNEP7gnLCC2",
+  "fingerprint": "61d8a098a7dab6b323196a0a05765877a2a00dcd33761113ad1cb714a84fedbe2b6b3bb64e598f62bbceaf08308e8f56eb6b497d22510a06bb594f7478cfb9f3",
+  "timestamp": "2026-05-18T22:48:06.994833+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

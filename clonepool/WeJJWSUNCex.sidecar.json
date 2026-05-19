@@ -1,0 +1,11 @@
+{
+  "name": "bench_32771",
+  "tav": "WeJJWSUNCex",
+  "fingerprint": "b1396fc322e32a7db138f338f321125760c29a2612f07a4ed0144a1faf89abbe624a4eb109939c642d5f353279ab55ca0e7c6b26bdec10d35ddac6572effd57b",
+  "timestamp": "2026-05-18T23:42:59.268464+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_64676",
+  "tav": "hep1NHC26BC",
+  "fingerprint": "f30ab71a39f1fc1bd6bcc47d335f5d6446ce035f325520452fab63b4db257312f7e8e197b964138954d8f446579f4b692da991126a254d2e34e41bbf999a8e34",
+  "timestamp": "2026-05-19T01:43:42.392006+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

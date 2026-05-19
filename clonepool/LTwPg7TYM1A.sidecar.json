@@ -1,0 +1,11 @@
+{
+  "name": "bench_6860",
+  "tav": "LTwPg7TYM1A",
+  "fingerprint": "745ecc9ca12c27d1eec839a36fc6651ac14ba1df03b70a0ce01e72551d644da10c718b0ac912ba6f794905159c7cbce77be35364a94fbb6b6bad99c62a82cd03",
+  "timestamp": "2026-05-18T22:07:22.396442+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

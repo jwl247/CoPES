@@ -1,0 +1,11 @@
+{
+  "name": "bench_57326",
+  "tav": "NoetsyV2M2a",
+  "fingerprint": "825c1bd5faa3bf1366bff49f7ba29a53149dd208ca8666aae200f0947bc18ebca47026c414fcaf322159b613d14d39b5c28ec696a9dc0394b7911ba2e7e907fb",
+  "timestamp": "2026-05-19T01:15:53.170395+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

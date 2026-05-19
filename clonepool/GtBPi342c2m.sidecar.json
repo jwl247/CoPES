@@ -1,0 +1,11 @@
+{
+  "name": "bench_35",
+  "tav": "GtBPi342c2m",
+  "fingerprint": "5ef464b64281342a896515d094f166532eb548498ab084d6c1ab34ed8bd43ddf7409cb74dd3102ad449160595093dabd938822d5382e716c77515c8849315fe4",
+  "timestamp": "2026-05-18T21:43:10.378258+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 11,
+  "size_compressed": 19,
+  "meta": {}
+}

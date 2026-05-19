@@ -1,0 +1,11 @@
+{
+  "name": "bench_82703",
+  "tav": "gVeNuRXMex2",
+  "fingerprint": "ec1e50bc1e61272b2a8dfe991cf251438a891b141effcd552ad2e88fa75f31e23e77e922bc83ef3c32b00cd61dd5a05c1ce8ead66b742af85671b8fc3c6dba21",
+  "timestamp": "2026-05-19T02:52:19.612516+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

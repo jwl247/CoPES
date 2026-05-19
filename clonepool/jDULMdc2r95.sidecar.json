@@ -1,0 +1,11 @@
+{
+  "name": "bench_7162",
+  "tav": "jDULMdc2r95",
+  "fingerprint": "fc631aa95c79f3106c3dc440df449d00385a167d033d4dc03ede39a2eb779884f6e64ae87f7d2a3aa373c92d3f6ddd548a41701b53add2830e004fcabd3dc444",
+  "timestamp": "2026-05-18T22:08:26.542825+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

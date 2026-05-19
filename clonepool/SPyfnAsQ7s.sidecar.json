@@ -1,0 +1,11 @@
+{
+  "name": "bench_14883",
+  "tav": "SPyfnAsQ7s",
+  "fingerprint": "029e299ae63947ca86c1fe89245aebbd4c06fe5f3c5a322ea9e73f86df96a67de78cb68d8e0a0d39ed31b14742b64e6ce58f7ea9cf1958edefb504c0ce9780bd",
+  "timestamp": "2026-05-18T22:36:53.545077+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

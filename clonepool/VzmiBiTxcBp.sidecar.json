@@ -1,0 +1,11 @@
+{
+  "name": "bench_65050",
+  "tav": "VzmiBiTxcBp",
+  "fingerprint": "ad5b264108104a375dd8e76c816844d02d9cb1925893b140501d7b4dc60758b30d9fd3a49d6d65f7813dd83c890594d98892fa7d32fc65a259ba312dc6c3d1e0",
+  "timestamp": "2026-05-19T01:45:08.259824+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

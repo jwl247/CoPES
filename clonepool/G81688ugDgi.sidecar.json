@@ -1,0 +1,11 @@
+{
+  "name": "bench_1906",
+  "tav": "G81688ugDgi",
+  "fingerprint": "5a669e5b5c02b3a717e41eeb464d283d5c1b4b98c2bdbaf44a34191edd8364f06a9fbfcda4e57b7c3e1398c1cebc0755c9c98f19ecd1e7911e0a65a9ac4462db",
+  "timestamp": "2026-05-18T21:49:12.804156+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

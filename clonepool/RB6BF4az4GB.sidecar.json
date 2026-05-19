@@ -1,0 +1,11 @@
+{
+  "name": "bench_16644",
+  "tav": "RB6BF4az4GB",
+  "fingerprint": "9086d08af35bd734cd14496e2eeeac539678f2b0784799360404a0f19f07064a9269be7fd2cd968b3fa4ec76cf683bce37298d0b777ea059a49303769a25acb9",
+  "timestamp": "2026-05-18T22:43:17.807242+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_42019",
+  "tav": "W7ba13Vnxs3",
+  "fingerprint": "ae0f41019bd1fc9a50f42c482d5f08df23c377af373b854d407dbc9a96d455faac32a44cbcfedbb5b6782f34bddc2b1e461bc40b35f566234ce9c4b745c5e819",
+  "timestamp": "2026-05-19T00:17:50.757639+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

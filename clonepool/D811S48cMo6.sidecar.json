@@ -1,0 +1,11 @@
+{
+  "name": "bench_2809",
+  "tav": "D811S48cMo6",
+  "fingerprint": "4877028165e463495d29267e86a6ef1061b98a08fd63ffa6819080e1a4169409a8a906ec39e4e19404189eb47aa9c8d1292f0974ee6538921c100e7828d62b64",
+  "timestamp": "2026-05-18T21:52:26.972674+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

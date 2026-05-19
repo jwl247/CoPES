@@ -1,0 +1,11 @@
+{
+  "name": "bench_86759",
+  "tav": "M3813ruzpgV",
+  "fingerprint": "77ca711d2d5d07d6703d2004e95599ed731fdb7cf76fe37b916e6d678894a5fe061e3eae339ba1770dd3ac950e35ef9c27fe6f29b0b39a658b6d2e884c289687",
+  "timestamp": "2026-05-19T03:07:00.528841+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

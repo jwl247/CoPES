@@ -1,0 +1,11 @@
+{
+  "name": "bench_80366",
+  "tav": "MoZbiURzo3n",
+  "fingerprint": "7c5f2cdc781092a1d1c14720f3d1b98900ef9b217546132b8a0ee84276184517a02e61f6a7d36b7bedf5e7be2219faee9cb71e8ffec9c2c863b8665386d12217",
+  "timestamp": "2026-05-19T02:43:29.837666+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

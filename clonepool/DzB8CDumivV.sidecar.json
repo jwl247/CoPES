@@ -1,0 +1,11 @@
+{
+  "name": "bench_54090",
+  "tav": "DzB8CDumivV",
+  "fingerprint": "4da3079fc3a842c2403d403dd09855594d0fe28d6b74618ae5e9c0e9fae614adeefec30a85f51c871e57009c423944bd93346fd37cdfc7e952630644e431dcac",
+  "timestamp": "2026-05-19T01:03:48.349338+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

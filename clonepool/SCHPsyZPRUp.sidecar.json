@@ -1,0 +1,11 @@
+{
+  "name": "bench_834",
+  "tav": "SCHPsyZPRUp",
+  "fingerprint": "96a0d4ad9fc08f9d5bb5f77e1a78531e31ba24fee7650a2bf0496ae56e5a5147edb0461647b01cbd795129d09b712970f972cba4684524e2572a426a2c7a5e25",
+  "timestamp": "2026-05-18T21:45:40.748874+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

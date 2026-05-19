@@ -1,0 +1,11 @@
+{
+  "name": "bench_42991",
+  "tav": "KMCXB323ydi",
+  "fingerprint": "6db270b401f169514c2c023d0287966084595423284b90ca2baa918b6d2739a8fb67e7e516114aeac28caebbfeb2f9a8517e4a4ab83b8ddc052375d6b8823671",
+  "timestamp": "2026-05-19T00:21:25.984604+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

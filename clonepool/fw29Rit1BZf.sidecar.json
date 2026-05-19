@@ -1,0 +1,11 @@
+{
+  "name": "bench_25435",
+  "tav": "fw29Rit1BZf",
+  "fingerprint": "e8c1675508123a9ece311054469547e0a5449ca44ff9c1e6435d67fd00c35d0bf891c75d2e3db9a0deecc78eaf1fe76215f6e5d1c8d74565f5069a89633b402e",
+  "timestamp": "2026-05-18T23:15:33.416594+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

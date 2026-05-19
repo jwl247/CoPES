@@ -1,0 +1,11 @@
+{
+  "name": "bench_67623",
+  "tav": "LBBasegvX5g",
+  "fingerprint": "72a4a7a46132201f2f29291f1a7b96f9fef17f6ca69d4564c97c8171277572c50a409516b72c7ac133dd48d427168f44646e1eb7a1ee6b11de8794cffdecaa10",
+  "timestamp": "2026-05-19T01:54:52.551538+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

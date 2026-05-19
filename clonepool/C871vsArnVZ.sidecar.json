@@ -1,0 +1,11 @@
+{
+  "name": "bench_75508",
+  "tav": "C871vsArnVZ",
+  "fingerprint": "427f38320b1bd98455d7482f377782d3a9cf5dc3b23cfe77c81ab5285784e70594b82121d02f73548a90c9f4c3c7ba29364b982264e1dfb95944669b246b6066",
+  "timestamp": "2026-05-19T02:24:59.860997+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_50885",
+  "tav": "VPzRxBic9km",
+  "fingerprint": "a9c5583b11c0ef12e3eb05789f7958460789f12325e362a621f581578a628e156fd70b858c3b1be73d694b5f8805f7da4d58ee7a6ff74741e3481ad100963aab",
+  "timestamp": "2026-05-19T00:51:28.920990+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

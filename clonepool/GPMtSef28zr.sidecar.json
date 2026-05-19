@@ -1,0 +1,11 @@
+{
+  "name": "bench_90298",
+  "tav": "GPMtSef28zr",
+  "fingerprint": "5bfbe8121871337fa5a45a912d4526ae4ccd7e37bcd257477c0c3345680e8384550d618db980827d524dde0a1bf0b0356c084d2429ef6d5ea84a5230c18c3053",
+  "timestamp": "2026-05-19T03:20:29.030974+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

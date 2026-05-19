@@ -1,0 +1,11 @@
+{
+  "name": "bench_21755",
+  "tav": "Pi7obtbDkFk",
+  "fingerprint": "87c48ba5a2b7bcc37dc0b04c5e3481bb8a6162fb6017bd6bcf2f28c783892d22da31373b59592a918c593c2e70498c5089e501c24bb15635849cb5fa233003d5",
+  "timestamp": "2026-05-18T23:01:55.145782+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_67503",
+  "tav": "dnasLUTuCgt",
+  "fingerprint": "dbedbf95cd1d0bf5cb58ec5e98d09008628b2061a1031658872612171f723871086142a333a0ff3c08af27dd6a3ab2427bce55d406e8701cfb0b6da100b35a3a",
+  "timestamp": "2026-05-19T01:54:24.155120+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

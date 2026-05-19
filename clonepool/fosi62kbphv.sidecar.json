@@ -1,0 +1,11 @@
+{
+  "name": "bench_41377",
+  "tav": "fosi62kbphv",
+  "fingerprint": "e804d8c04c45b74164807a590d3544c060cc9662dc46f4a1bbd9a55e01bb6b4a70ffaa17cacd6a4df8829db7685c9551af6fff9dcc3b125e80aa13cbf1cfb01c",
+  "timestamp": "2026-05-19T00:15:30.493345+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

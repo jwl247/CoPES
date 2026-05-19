@@ -1,0 +1,11 @@
+{
+  "name": "bench_82486",
+  "tav": "Drm5be727nA",
+  "fingerprint": "4cdf5f26dfc4963bd48f5089cbdb01d55b5708b43b3df5646bad58c7d01504cf35346373cca036d97d9ba6c692c8ea349ac82ecf45582dae75d8e3e950f6529f",
+  "timestamp": "2026-05-19T02:51:30.647166+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,7 @@
+pyproject.toml
+src/phoenix_copes.egg-info/PKG-INFO
+src/phoenix_copes.egg-info/SOURCES.txt
+src/phoenix_copes.egg-info/dependency_links.txt
+src/phoenix_copes.egg-info/entry_points.txt
+src/phoenix_copes.egg-info/requires.txt
+src/phoenix_copes.egg-info/top_level.txt

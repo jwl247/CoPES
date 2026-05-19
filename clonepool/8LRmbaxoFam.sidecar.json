@@ -1,0 +1,11 @@
+{
+  "name": "bench_84300",
+  "tav": "8LRmbaxoFam",
+  "fingerprint": "2bda50d0cad8cf5e563ce4cc5ea9730b9c7385e45b38e5b89f2a036ad8175d8aa79bdc887e7ae5ed0b0468566a5c36f5d1657faaea4c6d885fc0ce4c6e6cf03c",
+  "timestamp": "2026-05-19T02:58:03.867562+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

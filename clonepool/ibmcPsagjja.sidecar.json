@@ -1,0 +1,11 @@
+{
+  "name": "bench_80279",
+  "tav": "ibmcPsagjja",
+  "fingerprint": "f8b4fbeb6cccd2f5f2134d2334a7eb7b0e19f38ab5ae73c5c62c3c9b4666f7e10c0ff80b38e784c362186d405bb676d1505cbb1cdb1e97cd02665c4151f6fc79",
+  "timestamp": "2026-05-19T02:43:08.062320+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

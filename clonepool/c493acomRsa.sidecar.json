@@ -1,0 +1,11 @@
+{
+  "name": "bench_83266",
+  "tav": "c493acomRsa",
+  "fingerprint": "d1932a3d41cdd8b5e8cb7de0e4c5bf8dfcd5dd73911f80ab37e38a9de8f839b90ba43ded1453367e9129d04267dc465549d4d905ae1775ccd082754d44e2dc2a",
+  "timestamp": "2026-05-19T02:54:24.348959+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_87448",
+  "tav": "KVCchrtrNAL",
+  "fingerprint": "6e8597242f23ca09534daed91b2c72cfc638abca4941fcc1f799ccdeb58edc0236a85d905494bae4c9aeec69f9b4bf2c61302d844696ed925e3f7b85699f3741",
+  "timestamp": "2026-05-19T03:09:40.419684+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

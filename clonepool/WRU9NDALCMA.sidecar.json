@@ -1,0 +1,11 @@
+{
+  "name": "bench_56246",
+  "tav": "WRU9NDALCMA",
+  "fingerprint": "afe6ddb82a8c35657c14bfb7cef5f27e96481eebeef1c3b7b283ace67a5897f5187ec4bf904a373012415cf5178b870ab1c040ec446b3852b94066c834a6959c",
+  "timestamp": "2026-05-19T01:11:47.980944+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

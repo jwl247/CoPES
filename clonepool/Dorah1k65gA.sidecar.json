@@ -1,0 +1,11 @@
+{
+  "name": "bench_80877",
+  "tav": "Dorah1k65gA",
+  "fingerprint": "4c92b5b05b5693670781be8efe7223b6083c625d3e4522406923d5a51eae4d076630deb9b3754d5f26daad83aea62c44148adb8124e9c7a0cc4b42ea770b1ab9",
+  "timestamp": "2026-05-19T02:45:27.924871+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

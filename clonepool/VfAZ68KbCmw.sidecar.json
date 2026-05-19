@@ -1,0 +1,11 @@
+{
+  "name": "bench_62660",
+  "tav": "VfAZ68KbCmw",
+  "fingerprint": "ab55c688a3803acad3ce2afbd1052bd3f167507fe63a86048fcfce4c7a2b64e9e35a99bb42f30bad2c269440529fdaa5a4454b80a0bcdef702a461b3809a67cf",
+  "timestamp": "2026-05-19T01:36:08.468802+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

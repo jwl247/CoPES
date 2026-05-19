@@ -1,0 +1,11 @@
+{
+  "name": "bench_2053",
+  "tav": "LomeSv3L42h",
+  "fingerprint": "766a21e0291951c651f5efb41d5b97aaf55f8bc7af99d17a05a3b654356c13e6eb13275e567c0f8066fac007cbc40601a9658ff51a9fe70dbbb6290945acbf10",
+  "timestamp": "2026-05-18T21:49:42.985867+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

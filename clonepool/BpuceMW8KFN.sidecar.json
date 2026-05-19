@@ -1,0 +1,11 @@
+{
+  "name": "bench_84922",
+  "tav": "BpuceMW8KFN",
+  "fingerprint": "40b96e28fd93eaf1105dc38b9e85608fc843cdd5a36c0f1d59fc414a069a5f0d80ccd52bf0d0a998dba7f942ff662690c35e80da083f11edf0b3ddc931b78acc",
+  "timestamp": "2026-05-19T03:00:15.899715+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

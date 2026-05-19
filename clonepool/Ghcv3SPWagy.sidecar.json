@@ -1,0 +1,11 @@
+{
+  "name": "bench_99286",
+  "tav": "Ghcv3SPWagy",
+  "fingerprint": "5dddbbddd9f0753a01f7831239f46a619d866ee6894ab687ee57e64e71d27407022a183af81c454a7c1ee191b79e84e8adb5e548690fd1c97affdbcc5c35c4f4",
+  "timestamp": "2026-05-19T03:54:03.042288+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_80574",
+  "tav": "T95pa5FWSCt",
+  "fingerprint": "9c46ec7c13ed26dd9984eb2d512314b39724cf9866a8ded1cefeb0fb93da3f779512eee757b64948d4239bdd79cdd2580c6f5e4b860fdc0a9db81fc6b8f7e3a5",
+  "timestamp": "2026-05-19T02:44:19.503195+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

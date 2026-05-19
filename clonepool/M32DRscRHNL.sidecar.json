@@ -1,0 +1,11 @@
+{
+  "name": "bench_62430",
+  "tav": "M32DRscRHNL",
+  "fingerprint": "77c7cf2342906645e266573174713336f9251a3fc9edf8cb923f0a990615bbce986048140285333e7d698e04054f67a22489708d7b68a3c2c5bdb9b68fc3da9e",
+  "timestamp": "2026-05-19T01:35:17.088559+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

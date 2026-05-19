@@ -1,0 +1,11 @@
+{
+  "name": "bench_960",
+  "tav": "REGVRFLkNMX",
+  "fingerprint": "90daac0493d621426c4a0700260fe58025f0c0f157d4d10cb8380851a13dbd94c091d276e36b8299062cf4bfe24e7f8163b2447dcc724f132d07e217a3c2fd12",
+  "timestamp": "2026-05-18T21:46:02.464269+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

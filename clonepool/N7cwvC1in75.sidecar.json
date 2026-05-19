@@ -1,0 +1,11 @@
+{
+  "name": "bench_42081",
+  "tav": "N7cwvC1in75",
+  "fingerprint": "7e3bb05740b8e43caf5fcdde1acb2dc922c3ff0e67d5059cc06138ed218037fea39a0184df486cbf7c03e25955b405d04ce2e13c0422ba8681b9a470634f25e4",
+  "timestamp": "2026-05-19T00:18:02.563227+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

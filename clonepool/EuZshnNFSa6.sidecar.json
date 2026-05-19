@@ -1,0 +1,11 @@
+{
+  "name": "bench_5101",
+  "tav": "EuZshnNFSa6",
+  "fingerprint": "5323f675a6b520a360c006b2ff6f8b8c80248f128be295a98e57ced44f67175bd42f0228f6c71dd2d7b11c77e62bdc4f03968c32b31d8e7de6f1575fd17b5de3",
+  "timestamp": "2026-05-18T22:00:58.116977+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

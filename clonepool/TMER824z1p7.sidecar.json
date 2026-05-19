@@ -1,0 +1,11 @@
+{
+  "name": "bench_68160",
+  "tav": "TMER824z1p7",
+  "fingerprint": "9d877ea505c45f24a2a09945e5f23f080c36975b1b67da4b27701c68305c10b9c1e323b2ebb130ef3f62fcb7fa00193aecb008056bbea8b0f6e3afe310371aeb",
+  "timestamp": "2026-05-19T01:56:59.238964+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

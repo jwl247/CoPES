@@ -1,0 +1,11 @@
+{
+  "name": "bench_52219",
+  "tav": "Nfs87QfhM22",
+  "fingerprint": "818e90bfc5af300b0657490fb8d1c09020f883ea738ecb06926d8e9e2ecf35e1299737c9db25273ac14be313cec5eac904e43fa672e84bd4c2b5aad52ffd1b09",
+  "timestamp": "2026-05-19T00:56:35.917892+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

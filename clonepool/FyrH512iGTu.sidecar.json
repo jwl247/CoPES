@@ -1,0 +1,11 @@
+{
+  "name": "bench_86427",
+  "tav": "FyrH512iGTu",
+  "fingerprint": "598f80c0e7d542ac676d532faee065e0941eb9ea04f3d0189a8ac7c70af4683cd7b51ad9a960582f7cac7bad8bdae063f9263ce93ee05aa59bb5d3c326c3e546",
+  "timestamp": "2026-05-19T03:05:53.054180+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

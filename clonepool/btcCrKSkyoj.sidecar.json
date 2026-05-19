@@ -1,0 +1,11 @@
+{
+  "name": "bench_53904",
+  "tav": "btcCrKSkyoj",
+  "fingerprint": "d097a374cf2a59befab17bff078ea92aef95191a7ca0b7b2195b86f0e7629d0e770e2cd4f53473113e2ffccfdc3dd276f85243f7b631eb702d890628dea12b77",
+  "timestamp": "2026-05-19T01:03:05.967958+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

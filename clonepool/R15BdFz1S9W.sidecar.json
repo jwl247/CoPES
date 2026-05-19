@@ -1,0 +1,11 @@
+{
+  "name": "bench_83763",
+  "tav": "R15BdFz1S9W",
+  "fingerprint": "8f7e7aad0766afc1210e818746d21ca00a3eadf3221c794c0e9d3c424761a2ca8dad1039c27e438d396dd5dc78ec4c07e3bf74eaabb39c01a433dc30c72a8283",
+  "timestamp": "2026-05-19T02:56:10.810333+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

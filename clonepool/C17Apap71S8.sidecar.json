@@ -1,0 +1,11 @@
+{
+  "name": "bench_41240",
+  "tav": "C17Apap71S8",
+  "fingerprint": "41c692232eea6871a0225ff19225d9f211ba452e8712a2dd68f40df4b5f841ece0c56ebf193f0e3e27365d349b2295c7d3d4b046510b612d9d45b8bdd1327701",
+  "timestamp": "2026-05-19T00:15:02.698983+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

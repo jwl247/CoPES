@@ -1,0 +1,11 @@
+{
+  "name": "bench_80687",
+  "tav": "VpaA91FLKx2",
+  "fingerprint": "ac4e02897b7d48574ae8656541b0f12bbfc6697df81e32bb4bd9589a4dadb623abe4a50df2be77b7f4f9ba434b8d6a617b35a51652b8f50289308b9bf219ed72",
+  "timestamp": "2026-05-19T02:44:47.071786+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

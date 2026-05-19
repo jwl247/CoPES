@@ -1,0 +1,11 @@
+{
+  "name": "bench_64121",
+  "tav": "TRAkUjo4DPN",
+  "fingerprint": "9def614a8877e3994ad44b129b8519a630c2a4e1e296f6f1470571afb82b27905afc34bdd6aae752084a006dc15388e978b765d3102244054ed53af1e8a80381",
+  "timestamp": "2026-05-19T01:41:37.465274+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

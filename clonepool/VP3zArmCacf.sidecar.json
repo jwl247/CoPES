@@ -1,0 +1,11 @@
+{
+  "name": "bench_4335",
+  "tav": "VP3zArmCacf",
+  "fingerprint": "a9ac92eea07c78908a71a8ae2ef77aa9a715d445e3ad3bdbb1d306d8c546f08bbc73b2be9c69b2974263141c8cd684f5b1270c6f7a0b3d43ea9ddd654f1948c2",
+  "timestamp": "2026-05-18T21:58:15.830607+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

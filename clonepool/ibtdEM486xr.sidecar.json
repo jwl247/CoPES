@@ -1,0 +1,11 @@
+{
+  "name": "bench_80295",
+  "tav": "ibtdEM486xr",
+  "fingerprint": "f8b82ce82476d3637826d123fe83ae5b04537e08e8adcc250a89f48121f740406cc0f2b9006008310e1c35b92d885fa285ca61110f4bf1369eef723fadb9083b",
+  "timestamp": "2026-05-19T02:43:11.663068+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

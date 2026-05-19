@@ -1,0 +1,11 @@
+{
+  "name": "bench_4370",
+  "tav": "LZFM84cSMUs",
+  "fingerprint": "74eae91363aa5cd85a66351035c348858e64d528af2ff1e6766ad61440da117be01c30e94623128a868a71267f7217c1686299816dccba7d8e445dfcf56e32ea",
+  "timestamp": "2026-05-18T21:58:23.065763+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

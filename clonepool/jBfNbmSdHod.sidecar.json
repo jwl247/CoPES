@@ -1,0 +1,11 @@
+{
+  "name": "bench_2012",
+  "tav": "jBfNbmSdHod",
+  "fingerprint": "fc335988cc62cb8022880bf2fdc6106ea9abbbbcc0c08b0bfc1e9e7bfad3efebc3fa0c149b2f51e5780b22875dddfe6121375c8263b9c335c6087b4772d1995c",
+  "timestamp": "2026-05-18T21:49:33.820157+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

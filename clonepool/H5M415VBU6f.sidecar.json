@@ -1,0 +1,11 @@
+{
+  "name": "bench_23176",
+  "tav": "H5M415VBU6f",
+  "fingerprint": "601b0f71e635a964dac743dee7cfad0a0e9c1467a293eb38f22397c6c4413fdad58663031a83925f8471276bb80a1830e64b5ee0497d0c4cb60bb3f3d06d68cb",
+  "timestamp": "2026-05-18T23:07:01.527862+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

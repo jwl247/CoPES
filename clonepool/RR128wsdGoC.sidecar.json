@@ -1,0 +1,11 @@
+{
+  "name": "bench_30656",
+  "tav": "RR128wsdGoC",
+  "fingerprint": "91f5e7b8d479a0530c0ab28e2607daab4ad21e29acc27d69b068c07051a17fb3a752b087b559eb470596a7a07ce14ff925589b075d5847c8e2ff69c318fd90d3",
+  "timestamp": "2026-05-18T23:34:52.770052+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

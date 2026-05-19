@@ -1,0 +1,23 @@
+{
+  "usys_intake": "1.5",
+  "tav": "SoMizumJLZ3",
+  "original_name": "sysbench",
+  "state": "white",
+  "version": "installed",
+  "filetype": "package:apt",
+  "category_hex": "7061636b61676573",
+  "size_bytes": 0,
+  "sha256": "",
+  "backend": "apt",
+  "notes": "installed from apt",
+  "pool_path": "/home/jwlef/Phoenix/clonepool/SoMizumJLZ3",
+  "companions": [],
+  "qr": {
+    "header": {"role": "state", "state": "white"},
+    "footer": {"role": "location", "tier": 1}
+  },
+  "auto_hotswap": false,
+  "registered_at": "2026-05-18T14:22:16Z",
+  "updated_at": "2026-05-18T14:22:16Z",
+  "clone_history": [{"version": "installed", "at": "2026-05-18T14:22:16Z"}]
+}

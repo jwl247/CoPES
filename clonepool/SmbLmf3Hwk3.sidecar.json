@@ -1,0 +1,11 @@
+{
+  "name": "bench_72246",
+  "tav": "SmbLmf3Hwk3",
+  "fingerprint": "9a0fcfae2e265a38f5ecb4e37b312a68c0e7b7b9116c44e7a623e99a96a1f81be044bfbe48d492b4467a66fec4a9b4cac2717f2948a0268e055d42568b2793b0",
+  "timestamp": "2026-05-19T02:12:36.312246+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

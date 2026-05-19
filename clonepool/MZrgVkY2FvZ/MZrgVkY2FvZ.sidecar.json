@@ -1,0 +1,34 @@
+{
+  "usys_intake": "1.5",
+  "tav": "MZrgVkY2FvZ",
+  "original_name": "distro_handler.py",
+  "state": "white",
+  "version": "v1",
+  "filetype": "script:python",
+  "category_hex": "73637269707473",
+  "size_bytes": 22504,
+  "sha256": "4baed80486b566dfa13a0763baff6b6c798da24f467d7d2825005d0ba83d32c9",
+  "backend": "direct",
+  "notes": "",
+  "pool_path": "/home/jwlef/Phoenix/clonepool/MZrgVkY2FvZ",
+  "companions": [],
+  "qr": {
+    "header": {
+      "role": "state",
+      "state": "white"
+    },
+    "footer": {
+      "role": "location",
+      "tier": 1
+    }
+  },
+  "auto_hotswap": false,
+  "registered_at": "2026-05-18T03:05:46Z",
+  "updated_at": "2026-05-18T03:05:46Z",
+  "clone_history": [
+    {
+      "version": "v1",
+      "at": "2026-05-18T03:05:46Z"
+    }
+  ]
+}

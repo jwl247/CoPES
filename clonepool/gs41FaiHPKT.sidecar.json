@@ -1,0 +1,11 @@
+{
+  "name": "bench_25790",
+  "tav": "gs41FaiHPKT",
+  "fingerprint": "ee533856ff263376d94d19e35ce17bea151a43f5eb0b7d05157f25b9f707ea04765a41ae60991c322e7aadf856603ef6cc402d913e61bdce80fdc1713cb0c790",
+  "timestamp": "2026-05-18T23:16:54.038841+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_9948",
+  "tav": "CpmLH73Pzen",
+  "fingerprint": "46b02fa7f7963a6327627d543b183b9e848707e905bc8f4c29deda1d3db5e19f62768159ed94f541dd4a42e16ccfa3ac516a2744b7a74ca8624730c2ec38c224",
+  "timestamp": "2026-05-18T22:18:42.536106+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

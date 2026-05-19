@@ -1,0 +1,11 @@
+{
+  "name": "bench_60661",
+  "tav": "PcMAwdcErV4",
+  "fingerprint": "872c4c262aa3dbf7fcfce56ab7cedc692539830d709f551d3f6ecb3174abb54e3c0e9359f95b75a9d147c70ccf414c57c5a7ae11f7ed6f62e88179df88dadf3c",
+  "timestamp": "2026-05-19T01:28:27.729381+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_22102",
+  "tav": "AzBzotRsc85",
+  "fingerprint": "3bb3dad5d9b99fb661e234d0a5c2009fb36bf0520ec47e862497b8e0640c1e7b39bd7400de61dbc2315b6908ef3cd2e49cfbc1f1beec250f5b641ab013e8a543",
+  "timestamp": "2026-05-18T23:03:10.014454+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

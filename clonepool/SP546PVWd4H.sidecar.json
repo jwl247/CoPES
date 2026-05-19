@@ -1,0 +1,11 @@
+{
+  "name": "bench_1334",
+  "tav": "SP546PVWd4H",
+  "fingerprint": "97bd7cda04527c96765f52c66867f743b4c9f5f67cf4ac709db5ca74ea66d7c9f5ae05c88d89ae669aa5f107bdb77e939317d955d2a06b49d4c6818231b43614",
+  "timestamp": "2026-05-18T21:47:16.643445+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

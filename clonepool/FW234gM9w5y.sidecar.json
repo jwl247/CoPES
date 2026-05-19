@@ -1,0 +1,11 @@
+{
+  "name": "bench_83359",
+  "tav": "FW234gM9w5y",
+  "fingerprint": "56b111b31d087b58a4d144c81bc76aa6c2896942e7f8b628793f43f83e82811d5fec430acdba8937095d5e6724fa2d863e58e314f132a1ca7d3a6d09e7b9a7a6",
+  "timestamp": "2026-05-19T02:54:43.480052+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

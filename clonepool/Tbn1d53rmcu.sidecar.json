@@ -1,0 +1,11 @@
+{
+  "name": "bench_20091",
+  "tav": "Tbn1d53rmcu",
+  "fingerprint": "9f074e68ac38e69a31edf7fd8a65b2c23d2fc8d35b54e45765e1638b817cbe7a57e544e81e521df7e760d3fc534ecac95ecf5848c94bfffdad233e713db3b046",
+  "timestamp": "2026-05-18T22:55:53.258055+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

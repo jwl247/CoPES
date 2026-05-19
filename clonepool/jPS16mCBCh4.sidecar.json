@@ -1,0 +1,11 @@
+{
+  "name": "bench_3001",
+  "tav": "jPS16mCBCh4",
+  "fingerprint": "fd69ed358f12e29f01fd63bf283b1722f9d867f9c1147a5b9d6fc04e47e817a1ed23b538d2cdf53e5d8ae0c0117e12b81518fc00d7e17d8ec6491f56b187fc7f",
+  "timestamp": "2026-05-18T21:53:07.888688+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

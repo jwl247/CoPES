@@ -1,0 +1,11 @@
+{
+  "name": "bench_686",
+  "tav": "TB3NB1JAiKA",
+  "fingerprint": "9c7a955c7a14915918525d44437db89b3277d52e047250ed7da83919336a444b541a4bd0752082289503d5ce765a0abe0d19ea152d6b471f4cc542b7db865cc4",
+  "timestamp": "2026-05-18T21:45:11.238874+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

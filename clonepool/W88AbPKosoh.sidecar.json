@@ -1,0 +1,11 @@
+{
+  "name": "bench_96384",
+  "tav": "W88AbPKosoh",
+  "fingerprint": "ae1d2ca73a94b9acb053cd3d904c9860aa2ad4e4e8026ac129f14f9d619864a935e32754a50a06442e6fd08f1fc490030c57dfa4f2917da289985d657cfc7b03",
+  "timestamp": "2026-05-19T03:43:27.433094+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

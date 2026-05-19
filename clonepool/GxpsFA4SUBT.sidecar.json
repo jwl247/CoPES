@@ -1,0 +1,11 @@
+{
+  "name": "bench_64138",
+  "tav": "GxpsFA4SUBT",
+  "fingerprint": "5f6eff2a0dea82623c32391f1e3f0cddd64411fc8e308c2d4db86a8737942a3d086e2f2a45cd9e53437eb99c37022903c33124f6fc6d32b41ddcbf8d20abb09e",
+  "timestamp": "2026-05-19T01:41:41.201412+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

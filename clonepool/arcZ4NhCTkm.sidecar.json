@@ -1,0 +1,11 @@
+{
+  "name": "bench_4869",
+  "tav": "arcZ4NhCTkm",
+  "fingerprint": "ca687f0f7bffd3aaa36b23846ac320684cae7aace2a393c2dbc0fdd4c328902f47d123d31d6a5e1232efbe65f1224b8e67bdb7bb7a087e3bec2e36bafcb7dab2",
+  "timestamp": "2026-05-18T22:00:07.824014+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

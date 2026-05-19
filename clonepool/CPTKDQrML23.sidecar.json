@@ -1,0 +1,11 @@
+{
+  "name": "bench_83443",
+  "tav": "CPTKDQrML23",
+  "fingerprint": "4414479ad7cc2078afef5b18fb3734a17bd74d371bd8e666e5c425b2f0b195db87d975afe065a397b463b8d8ebc2eab89e198dd6618924fa54cdf4d790fbf02b",
+  "timestamp": "2026-05-19T02:54:59.776532+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

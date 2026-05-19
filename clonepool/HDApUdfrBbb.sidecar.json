@@ -1,0 +1,11 @@
+{
+  "name": "bench_86384",
+  "tav": "HDApUdfrBbb",
+  "fingerprint": "60e982e359389f06d696a293fad40cf670c90f1ff5d001057a29c3fe98e63dd551e31415a2f82836c58e5d5f4b2d4a0e0361763a21c2f6707c2d72a52f6d3c31",
+  "timestamp": "2026-05-19T03:05:43.910475+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

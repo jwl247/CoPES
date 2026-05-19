@@ -1,0 +1,11 @@
+{
+  "name": "bench_18418",
+  "tav": "KBN89T124rP",
+  "fingerprint": "6caeed066781fb84029258f110882c77d4e345c9820e2b1ae83abe9c1014ef7fbd9b7843ed51bcf509cc64b80803b0dba6d53ece50108c86563240499b814e55",
+  "timestamp": "2026-05-18T22:49:48.307804+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

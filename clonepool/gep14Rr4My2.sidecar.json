@@ -1,0 +1,11 @@
+{
+  "name": "bench_80054",
+  "tav": "gep14Rr4My2",
+  "fingerprint": "ed1030573951c8c9b2b9c69fd5db6acdfe5170b886cb394edeac0c2f4f7dda7fd67d628805f69e1c62d009fa38acc8011ba0bc7920ca7542da18815312d55e28",
+  "timestamp": "2026-05-19T02:42:15.730778+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

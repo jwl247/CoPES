@@ -1,0 +1,11 @@
+{
+  "name": "bench_15203",
+  "tav": "TxX86KL5nf7",
+  "fingerprint": "a12ab00d698402c630fade83d72eda08956a68e6d52d1dbd238d75d113ab35ea9d370a6ce027fdd1ef11c47f88118ce190ad8faaa5109452d5e381b586e7cc81",
+  "timestamp": "2026-05-18T22:38:06.297777+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_11499",
+  "tav": "MSPytoK4Y8S",
+  "fingerprint": "7a30a4edec73d0238f59b1db4bc3a0dd24af394d297ba6194538e7695d33613a6b06c7070070442473478b54941b6cb32e2bb1a7b51ce19bc38b44536283fc50",
+  "timestamp": "2026-05-18T22:24:23.939330+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

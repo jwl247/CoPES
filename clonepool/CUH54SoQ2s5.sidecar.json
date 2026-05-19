@@ -1,0 +1,11 @@
+{
+  "name": "bench_15328",
+  "tav": "CUH54SoQ2s5",
+  "fingerprint": "44938f88e357fe544e49f7444bbb1b4e41303f33461534634726a533a4eddf35bd5d90a19f937e6e1066df22f80695021009f0c0f6fcf9a362654f14cf83549b",
+  "timestamp": "2026-05-18T22:38:33.400738+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

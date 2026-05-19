@@ -1,0 +1,11 @@
+{
+  "name": "bench_49984",
+  "tav": "BuSioWHXPGe",
+  "fingerprint": "413122d82f93707308e24309d10e2b043a1e825ea541753ee55257a8e4b94a1fef800915e4ba89207db70b81ff6b5bacf48ddc06e02b462e775a15b100c43b32",
+  "timestamp": "2026-05-19T00:48:00.688263+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

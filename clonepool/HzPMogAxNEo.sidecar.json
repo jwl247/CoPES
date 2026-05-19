@@ -1,0 +1,11 @@
+{
+  "name": "bench_70086",
+  "tav": "HzPMogAxNEo",
+  "fingerprint": "6592b1345ddf881cc20c1316728f27795453bdfae004ba6064df93087e58422d4a25b5ca2a3cb2bb8f236e481b4c63e8dedb52baca8200ee836a25e62ee9b07c",
+  "timestamp": "2026-05-19T02:04:26.211576+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

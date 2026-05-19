@@ -1,0 +1,11 @@
+{
+  "name": "bench_33355",
+  "tav": "DoZ1559C7Hg",
+  "fingerprint": "4c8ab623c5a1a657a1b878959cf570be397ba7cc720d9458e55d6a58bd6bf30e27a779cd58320ef4df191ef22090d9c24a4fdf8abfb2a15dbfe8529caba6e9ba",
+  "timestamp": "2026-05-18T23:45:14.796194+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

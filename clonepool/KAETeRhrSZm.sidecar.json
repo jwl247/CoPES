@@ -1,0 +1,11 @@
+{
+  "name": "bench_80891",
+  "tav": "KAETeRhrSZm",
+  "fingerprint": "6c910cfc3f581a5811473f8bcf921650ec79e82185f12c56b20e093849512cc9cfd564a9ae3d66377cdd0d11259bcdab9cd4474679be40492ca645fb9519d24a",
+  "timestamp": "2026-05-19T02:45:31.372519+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

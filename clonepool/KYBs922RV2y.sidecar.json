@@ -1,0 +1,11 @@
+{
+  "name": "bench_8967",
+  "tav": "KYBs922RV2y",
+  "fingerprint": "6ed469e71041ddd2edc7c92f84587c38eae85ded294bf08325929267c9b9da1c315d4306b8a5f14cb1f95029da9bbf55f2dcc827533beab7cfd01055e363d17c",
+  "timestamp": "2026-05-18T22:15:03.831171+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

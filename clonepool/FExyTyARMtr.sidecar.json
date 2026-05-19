@@ -1,0 +1,11 @@
+{
+  "name": "bench_5576",
+  "tav": "FExyTyARMtr",
+  "fingerprint": "5523d9cfb139465f36aecfe715eb8b3249cb9f59b35ffe9aaab09e860c6e9ea2a158a85034adac405e57523f3c8890b68f7034c7ad8658f7802109ee2b0ac0d4",
+  "timestamp": "2026-05-18T22:02:40.474928+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

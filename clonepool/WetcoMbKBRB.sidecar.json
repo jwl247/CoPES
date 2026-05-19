@@ -1,0 +1,11 @@
+{
+  "name": "bench_27481",
+  "tav": "WetcoMbKBRB",
+  "fingerprint": "b1490c90f500c452f726e842a83326f1dc5f011d7833726dcfd8623e14738e2f20d63df13cc46465e9bd0f88ff12cb66dc49f6f050895531759c1b1ea16312eb",
+  "timestamp": "2026-05-18T23:22:59.171325+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

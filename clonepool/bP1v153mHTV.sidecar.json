@@ -1,0 +1,11 @@
+{
+  "name": "bench_64436",
+  "tav": "bP1v153mHTV",
+  "fingerprint": "cd8ac67a30df9840fb1a787bca7c60dd99793c7d29bec80404b27a6a5e802850c0cc000e14a18775373dab2db0d5050086f777fad85b4bc4e906d699ff3416a9",
+  "timestamp": "2026-05-19T01:42:47.749812+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

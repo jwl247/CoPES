@@ -1,0 +1,11 @@
+{
+  "name": "bench_15740",
+  "tav": "QDbPPsDoHSs",
+  "fingerprint": "8ace5b57a77327ccd4bc06e1d938e42f09a961511576478a2694175f2a2d81e54699a5ab89fa60356530ea3d21ab48005fd7ef196b2d98d0269ecf8ecd33089a",
+  "timestamp": "2026-05-18T22:40:01.889422+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_80763",
+  "tav": "CK18Gn6mQtz",
+  "fingerprint": "439ecfad37718e93b000edabf9dc049523eed4aafb6294cb3c684cd43d63a37edaa47a17cffb4351d919faa741dee59567b9cb89a2fc334395680793c9cd8261",
+  "timestamp": "2026-05-19T02:45:05.078903+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

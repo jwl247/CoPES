@@ -1,0 +1,11 @@
+{
+  "name": "bench_6767",
+  "tav": "PHAPA63A9an",
+  "fingerprint": "85320291c24602af9b9db2dc4b2504ee2d6e68c2b220534f20b556a8556e3bff54553273599eeb9e88b663fa2ed382e6d61e43771f6d916798ae9630463266d5",
+  "timestamp": "2026-05-18T22:07:02.423082+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_29803",
+  "tav": "EUFLGN8t2mN",
+  "fingerprint": "5087d1696061f3f94666d2887d305941b4f8748779dfaf4b11ba2dceec30c57e3a66bb33f022d5e9adfbd20a0879139b3cfb5787a5375d2442f2db05cd7e85f2",
+  "timestamp": "2026-05-18T23:31:35.804118+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

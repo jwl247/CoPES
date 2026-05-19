@@ -1,0 +1,11 @@
+{
+  "name": "bench_36353",
+  "tav": "S7G29UN5NUv",
+  "fingerprint": "961c437b3e510897287065bbffdbc86e68a6dee02911f00652ffa94168f25e6a7f5942a5f8c275566f11771fe483d0039a0c8647473c89d713e6981f54af4fc5",
+  "timestamp": "2026-05-18T23:56:33.351038+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

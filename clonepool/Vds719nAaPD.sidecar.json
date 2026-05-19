@@ -1,0 +1,11 @@
+{
+  "name": "bench_42725",
+  "tav": "Vds719nAaPD",
+  "fingerprint": "ab3372b2912f23e4fe4d17c50fdf88e4e60889ec1abc34d3e6a69f43776470c0129bf3ba7ba899805cee43bf6fecec0a09761d3f3b04dc1996b1cbbe5c7ffef1",
+  "timestamp": "2026-05-19T00:20:28.431925+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

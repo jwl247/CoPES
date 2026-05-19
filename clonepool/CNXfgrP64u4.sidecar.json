@@ -1,0 +1,11 @@
+{
+  "name": "bench_84750",
+  "tav": "CNXfgrP64u4",
+  "fingerprint": "43fbdf31430547bf12adca3d3f9cf96aea85d380e9d77d38114e0925ca9613159708565e09c34e16c4ad8558aa2d11306203c0aeba691d28443f05817b0087f7",
+  "timestamp": "2026-05-19T02:59:35.074802+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

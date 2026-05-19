@@ -1,0 +1,11 @@
+{
+  "name": "bench_754",
+  "tav": "AR9dyRzsBzm",
+  "fingerprint": "384bf74ff64e8fde1b487ea34c9a69acd3eb66a9d3ec99ee2b9aaae8ecb8b223ded08e259f5ede73b958541a7df68f9ddca1cfeb1c09a836322aaba88c01110e",
+  "timestamp": "2026-05-18T21:45:24.420556+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

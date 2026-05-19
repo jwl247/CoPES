@@ -1,0 +1,11 @@
+{
+  "name": "bench_2016",
+  "tav": "CudT74FxnfH",
+  "fingerprint": "47308aaa4242dcd88db432ccbc2c52e336b532f99c1ff9d1650b345a40c76ca015b5c46f77f0fcb13434e9ae2394cd6003c7f1d29996cd8a4bed62e637b1f5f0",
+  "timestamp": "2026-05-18T21:49:34.333648+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

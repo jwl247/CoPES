@@ -1,0 +1,11 @@
+{
+  "name": "bench_8535",
+  "tav": "EU5muARfLtx",
+  "fingerprint": "5083782999b70c8127c001b431b55b7d2b3b0ee11e52524ee21e6036466c168a19aa9ba650190ac492ae856d3e88f18418274a18aa42e54b3769235c0b93188f",
+  "timestamp": "2026-05-18T22:13:27.926113+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

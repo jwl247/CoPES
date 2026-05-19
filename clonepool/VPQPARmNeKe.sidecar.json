@@ -1,0 +1,11 @@
+{
+  "name": "bench_15932",
+  "tav": "VPQPARmNeKe",
+  "fingerprint": "a9b5da8efd0617b5170ef07f8d5724e65f4ae60c83ea59c07d7866d95530bc148353f5926ab252fd9419fa3aaa6026e071e5be800da91cb5aea8ca7310d1ff0d",
+  "timestamp": "2026-05-18T22:40:41.055846+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

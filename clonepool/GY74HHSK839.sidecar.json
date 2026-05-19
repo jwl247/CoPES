@@ -1,0 +1,11 @@
+{
+  "name": "bench_48760",
+  "tav": "GY74HHSK839",
+  "fingerprint": "5ce2a77be293bf58dd668cdfbaa31134850b22c32276d6d2cbedf99c49d2c97532914eda0f564ef3b5bae105b0d8ccfdaf9df0a3ad64e5a1914f478e87be6729",
+  "timestamp": "2026-05-19T00:43:24.689585+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

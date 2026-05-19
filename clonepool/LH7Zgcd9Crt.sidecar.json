@@ -1,0 +1,11 @@
+{
+  "name": "bench_64743",
+  "tav": "LH7Zgcd9Crt",
+  "fingerprint": "734127dbd4aacdf92b94c26af7e460e5c456a1453831cff4ed5085639625f8c31e4aeef33c4d9e59a0e8ccf0e67e7393ea58ebd900f92d633e350db3d9cb048d",
+  "timestamp": "2026-05-19T01:43:58.307856+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_92880",
+  "tav": "EC1A3f3Zarn",
+  "fingerprint": "4edb279cb0df2ecbb8a912c1b9c41b7fd8366c6bd4f16e1ef9e71d76fd06bc8961eb3ba51ffdb90935cc42543f2c7706ddbb741c57565ec4dd72bff7ea492757",
+  "timestamp": "2026-05-19T03:30:10.887467+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

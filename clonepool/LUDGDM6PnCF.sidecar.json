@@ -1,0 +1,11 @@
+{
+  "name": "bench_70363",
+  "tav": "LUDGDM6PnCF",
+  "fingerprint": "74660530f2d4c1a0a23f82c3e5826d59dc34c863567f969d6afd0f7d7d2f0d3812fc39fd4cee8fac443dac936f74b82707f9e392b4241bfa6c48efda021bd363",
+  "timestamp": "2026-05-19T02:05:26.716656+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

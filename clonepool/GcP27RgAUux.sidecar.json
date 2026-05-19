@@ -1,0 +1,11 @@
+{
+  "name": "bench_90483",
+  "tav": "GcP27RgAUux",
+  "fingerprint": "5d53785ac0a24ea3a7ee455a28fd5b7df6d0d3c81684292721b226fb92445cfd005f2f7759d72b8993f91298597022de05230051afffee824c86fe43177ad0aa",
+  "timestamp": "2026-05-19T03:21:14.531584+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

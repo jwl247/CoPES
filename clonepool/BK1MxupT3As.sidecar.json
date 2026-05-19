@@ -1,0 +1,11 @@
+{
+  "name": "bench_3150",
+  "tav": "BK1MxupT3As",
+  "fingerprint": "3da4650747b8b4c4a63576c69a8e49f6f73e42b07ba500547902a2dd116f0a1181fef4e50b3eccaeae38ad4dfe73f395a6147c76a718cf755e06e7f8396e6b18",
+  "timestamp": "2026-05-18T21:53:40.226460+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

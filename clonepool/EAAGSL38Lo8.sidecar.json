@@ -1,0 +1,11 @@
+{
+  "name": "bench_99500",
+  "tav": "EAAGSL38Lo8",
+  "fingerprint": "4eaa85de1fa330f73d5ee8f833280339f4f1291d9a171c9ef84e5adf9e70cb21f6174c1838cbd9fe9c0a7360ba0839ce1c85bc65f654ea8b440a3f0c7cd4a950",
+  "timestamp": "2026-05-19T03:54:51.239203+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

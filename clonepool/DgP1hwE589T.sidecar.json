@@ -1,0 +1,11 @@
+{
+  "name": "bench_70200",
+  "tav": "DgP1hwE589T",
+  "fingerprint": "4bcd72c675cc761677c2720d1f4aae6c1827c336a5dfce7a46705a9be7317b340959a563d28fa9be0801086a7cc1a632b60f99650e0adbaa5a3af0c96bbf10a8",
+  "timestamp": "2026-05-19T02:04:51.944823+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

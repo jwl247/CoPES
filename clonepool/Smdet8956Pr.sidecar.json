@@ -1,0 +1,11 @@
+{
+  "name": "bench_14399",
+  "tav": "Smdet8956Pr",
+  "fingerprint": "9a10dcff13c4f2a10e60fb0be01fb90e76a95cc7d0ff1bd26fb2e5f439b014ded3a327c74f3a4406773f433b07ac34c7a531971e3d7a5b8adf38b340ac93680c",
+  "timestamp": "2026-05-18T22:35:04.839937+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

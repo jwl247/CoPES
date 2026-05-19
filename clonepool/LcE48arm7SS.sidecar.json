@@ -1,0 +1,11 @@
+{
+  "name": "bench_7055",
+  "tav": "LcE48arm7SS",
+  "fingerprint": "75397cbb3aa76f6baca578002039700b206ea8120eb789d9e1092a88ae97a47ceb5b0a7153d483a1e8628755969634fd6d5368bd196ca7f65ee7dc957db4fe75",
+  "timestamp": "2026-05-18T22:08:02.909990+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_38337",
+  "tav": "KYTVP51MK28",
+  "fingerprint": "6edb85c5dd57e5e97c9cda08d8bf9553eeefa2444aa95bdc598e4b896eab159907de4b8f0be3250465aacbf914af711c60719f437628a373dee70e3433b269ad",
+  "timestamp": "2026-05-19T00:04:12.820402+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

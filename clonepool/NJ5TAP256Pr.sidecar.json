@@ -1,0 +1,11 @@
+{
+  "name": "bench_44592",
+  "tav": "NJ5TAP256Pr",
+  "fingerprint": "7f4fa1856f4b3391772a10506d1e36e7964bec181ffcbd372bfd6c8168a9cb791f4698dcbbbce5748439d79add8f8535f7046294167bca24f1c0ed03a5b7ebd2",
+  "timestamp": "2026-05-19T00:27:31.988295+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

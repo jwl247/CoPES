@@ -1,0 +1,11 @@
+{
+  "name": "bench_1999",
+  "tav": "Cpy2fLMbH67",
+  "fingerprint": "46b581f38fec8ed8e0571e9dadbd6c13a6defa9dc4ac3abda87aa8502c1671cc9aa1932e233f653f0e885da2b538abae49a9e89dc86e743604e6e44721f2c902",
+  "timestamp": "2026-05-18T21:49:30.301109+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

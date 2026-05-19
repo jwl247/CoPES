@@ -1,0 +1,11 @@
+{
+  "name": "bench_64001",
+  "tav": "S24kNUFCsd8",
+  "fingerprint": "9593318522ec9f6f607e49a943362b59ad2e491e67b220eaafecf7d169ec4d188cc4ea6fe98b7c78ec11d385a8f8cd7fe194b9807e32c3bc428b12e51fe7fdb4",
+  "timestamp": "2026-05-19T01:41:08.030985+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

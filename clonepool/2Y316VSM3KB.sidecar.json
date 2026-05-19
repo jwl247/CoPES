@@ -1,0 +1,11 @@
+{
+  "name": "bench_75612",
+  "tav": "2Y316VSM3KB",
+  "fingerprint": "092d792efc34d8d6df13fe532020b1192c74a0642f02544ca08e5a75f4800bd98bb41531ec3f08d0475c40926f55d0c208bd14c92a5ecbf1a5f27ef440da5a45",
+  "timestamp": "2026-05-19T02:25:23.564906+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

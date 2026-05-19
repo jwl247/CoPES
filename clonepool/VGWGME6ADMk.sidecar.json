@@ -1,0 +1,11 @@
+{
+  "name": "bench_71120",
+  "tav": "VGWGME6ADMk",
+  "fingerprint": "a8ffcfcc335ed5bb92e626da18cdac2b156ea22b4cfcc942a10626a7d876631232ce85a704208902ca563a7c192cd83e20490cfdf95c3f45c2bd044d7e5af9ae",
+  "timestamp": "2026-05-19T02:08:14.956985+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

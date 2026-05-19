@@ -1,0 +1,11 @@
+{
+  "name": "bench_34101",
+  "tav": "PX7rCrauT2",
+  "fingerprint": "02523f175ef0098dce060c061e55f528298375569e79553aff6150579639b149e7d41e0d5a7bdddc146822707c016a6c4c52fd7fc2c48dfb102855a84d82521e",
+  "timestamp": "2026-05-18T23:48:01.073287+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

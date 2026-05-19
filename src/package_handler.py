@@ -66,12 +66,15 @@ class PackageRecord:
         self.timestamp = _now()
 
     def _gen_tav(self, name: str) -> str:
-        try:
-            import base58
-            raw = hashlib.sha3_512(name.encode()).digest()[:8]
-            return base58.b58encode(raw).decode()
-        except ImportError:
-            return hashlib.sha3_512(name.encode()).hexdigest()[:16]
+        """SHA3-512 → first 8 bytes → base58 (max 11 chars). No external deps."""
+        digest = hashlib.sha3_512(name.encode()).digest()[:8]
+        alpha  = '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz'
+        n      = int.from_bytes(digest, 'big')
+        result = ''
+        while n:
+            result = alpha[n % 58] + result
+            n //= 58
+        return result or '1' 
 
     def header_qr(self) -> str:
         color = QR_STATES.get(self.state, "white")
@@ -317,6 +320,48 @@ class PackageHandler:
                     (rec.tav, "register", rec.timestamp)
                 )
 
+    def intake(self, path: str, notes: str = None) -> dict:
+            """
+            Intake a file directly into the clone pool via Helix.
+            Generates TAV, writes sidecar, stores in Helix, logs audit trail.
+            This is the file intake path — package install goes through install().
+            """
+            from pathlib import Path as _Path
+            p = _Path(path).resolve()
+            if not p.exists():
+                return {"ok": False, "error": f"File not found: {path}"}
+        
+            name = p.name
+            rec  = PackageRecord(name)
+        
+            helix = self._get_helix()
+            if not helix:
+                return {"ok": False, "error": "Helix offline"}
+        
+            data = {
+                "path":     str(p),
+                "name":     name,
+                "tav":      rec.tav,
+                "size":     p.stat().st_size,
+                "notes":    notes or "",
+            }
+        
+            clone = helix.store(name, data, meta={"source": str(p), "notes": notes or ""})
+        
+    self._log("ph.intake", name, {
+        "tav":  rec.tav,
+        "path": str(p),
+        "size": p.stat().st_size,
+    })
+
+    return {
+        "ok":   True,
+        "name": name,
+        "tav":  rec.tav,
+        "path": str(p),
+        "fingerprint": rec.fingerprint,
+    }
+
     # ── D1 sync ───────────────────────────────────────────────────────────────
 
     def _d1_push(self, action: str, data: dict) -> dict:
@@ -444,7 +489,7 @@ def main():
         print(json.dumps(info, indent=2) if info else f"Not found: {args.name}")
     elif args.cmd == "list":
         pkgs = ph.list_packages(args.state, args.tier)
-        [print(f"  {p['name']:30} {p['version']:15} {p['backend']:10} [{p['state']}]") for p in pkgs] if pkgs else print("[ph] no packages found.")
+        [print(f"  {p['name']:30} {(p['version'] or 'unknown'):15} {(p['backend'] or ''):10} [{p['state']}]") for p in pkgs] if pkgs else print("[ph] no packages found.")
     elif args.cmd == "intake": print(json.dumps(ph.intake(args.path, args.notes), indent=2))
     else: parser.print_help()
 

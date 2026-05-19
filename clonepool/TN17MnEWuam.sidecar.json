@@ -1,0 +1,11 @@
+{
+  "name": "bench_75276",
+  "tav": "TN17MnEWuam",
+  "fingerprint": "9d9bd43ee1b9e66e207fbfd375cb035c919df47cac3ff698f50f84f05e4c21263acbd5470a4409fb15257e48490a372f51fac2b02bc9cd9ce19b226a9cd9f7b1",
+  "timestamp": "2026-05-19T02:24:03.098737+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

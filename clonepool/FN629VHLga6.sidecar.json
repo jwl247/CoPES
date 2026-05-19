@@ -1,0 +1,11 @@
+{
+  "name": "bench_95529",
+  "tav": "FN629VHLga6",
+  "fingerprint": "55dfc66b2bd342f3e152a2091fa2b8e6a9ed1f6d3ad72e57a04ef6c42cf546edcfd22276c47133ec62dde13404145a2505e36b42be8d2ab1bb360cc2450dfc4d",
+  "timestamp": "2026-05-19T03:40:18.577901+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

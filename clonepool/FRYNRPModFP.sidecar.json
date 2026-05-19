@@ -1,0 +1,11 @@
+{
+  "name": "bench_75425",
+  "tav": "FRYNRPModFP",
+  "fingerprint": "563aedabc2686a029b72e144c12e4b169b9b6e93dadc74ff31a779210d0884dc1c56d91b0bd8a5b54816e545d8eaa732c256050cdac9696d837e7b043399727b",
+  "timestamp": "2026-05-19T02:24:38.400621+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

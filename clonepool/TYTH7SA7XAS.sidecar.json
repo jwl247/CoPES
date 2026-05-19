@@ -1,0 +1,11 @@
+{
+  "name": "bench_93454",
+  "tav": "TYTH7SA7XAS",
+  "fingerprint": "9eaf9e487e3310fb2fd9ecbb5af99fd682fb1d4183e81f2a4d1eec7e6f55372e1ff8a880ca196c72d1f5455c45e575703f6aae9a242b006cc3dc47ba6547eb5f",
+  "timestamp": "2026-05-19T03:32:16.796137+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

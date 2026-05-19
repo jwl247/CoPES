@@ -1,0 +1,11 @@
+{
+  "name": "bench_14567",
+  "tav": "TF8H96D12UV",
+  "fingerprint": "9ce65f4860bbd13eeafc0cddcdc8037fb4f2dfe918b52d01eb46c60034e2c43439dcca2823403e0057cedf083c9969ef7e73551bd5426a859e375feb88604910",
+  "timestamp": "2026-05-18T22:35:42.570557+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_64889",
+  "tav": "R2AqDmek32N",
+  "fingerprint": "8f9b6ff3bbc7a01f4a1fd134db6fb994da87cf3fea8890faad7074efbe626e5567fe7f998c31495627a33bb5d3c3ed62cdc0838fb0070f5ccc41b7ce0de46c04",
+  "timestamp": "2026-05-19T01:44:30.184081+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_29111",
+  "tav": "KAUTS8285Cp",
+  "fingerprint": "6c976b2d518c0d0526f7597f0d9a389fc7998b3faf51bbf164057e63c0e12cbf185118d82fba8279b22abfe78a0147172ecb3b3fc6a8656c3b982c47b405d8a2",
+  "timestamp": "2026-05-18T23:29:03.471927+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

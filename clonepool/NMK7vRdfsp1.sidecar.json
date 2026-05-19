@@ -1,0 +1,11 @@
+{
+  "name": "bench_32654",
+  "tav": "NMK7vRdfsp1",
+  "fingerprint": "7fa503bfef6c531e0a03416c7679fdd90b5f71de4e9689795b29906cf85a992604b26cee763adb0af7e6331a03f262e546835a0edf5c2472492d25fafd33f076",
+  "timestamp": "2026-05-18T23:42:31.510641+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_14011",
+  "tav": "AtM1PccCDL4",
+  "fingerprint": "3b199fc27d764f49c42c7d5e9e183450925e0c63653b98e055c6a63f6f04b777def8e046ffd19c23a7091cee8850a08ec0cbbc046103299ef6fb896f4ecb2bd5",
+  "timestamp": "2026-05-18T22:33:36.736807+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

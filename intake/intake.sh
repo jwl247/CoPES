@@ -58,7 +58,21 @@ log() {
 }
 
 # ── Hex ───────────────────────────────────────────────────────
-to_hex() { echo -n "$1" | xxd -p | tr -d '\n'; }
+# ── TAV address (SHA3-512 → first 8 bytes → base58, max 11 chars) ────────────
+gen_tav() {
+  [[ -z "${PYTHON_CMD}" ]] && { echo "notav"; return 1; }
+  "${PYTHON_CMD}" - "$1" <<'PYEOF'
+import hashlib, sys
+digest = hashlib.sha3_512(sys.argv[1].encode()).digest()[:8]
+alpha  = '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz'
+n      = int.from_bytes(digest, 'big')
+r      = ''
+while n:
+    r = alpha[n % 58] + r
+    n //= 58
+print(r or '1')
+PYEOF
+}
 
 # ── File size ─────────────────────────────────────────────────
 get_size() { wc -c < "${1}" 2>/dev/null | tr -d ' ' || echo "0"; }
@@ -239,7 +253,7 @@ write_sidecar_basic() {
   cat > "${sidecar}" <<SIDECAR
 {
   "usys_intake": "1.5",
-  "hex_name": "${hex}",
+  "tav": "${tav}",
   "original_name": "${orig}",
   "state": "white",
   "version": "${version}",
@@ -249,7 +263,7 @@ write_sidecar_basic() {
   "sha256": "${checksum}",
   "backend": "${backend}",
   "notes": "${notes}",
-  "pool_path": "${CLONEPOOL_DIR}/${hex}",
+  "pool_path": "${CLONEPOOL_DIR}/${tav}",
   "companions": [],
   "qr": {
     "header": {"role": "state", "state": "white"},
@@ -307,7 +321,7 @@ CREATE TABLE IF NOT EXISTS custody (
   intaked_at TEXT DEFAULT (datetime('now'))
 );
 INSERT INTO custody (hex_id, name, action, version, source, destination, state, actor)
-VALUES ('${hex}','${name}','${action}','${version}','${src}','${dst}','${state}','${actor}');
+VALUES ('${tav}','${name}','${action}','${version}','${src}','${dst}','${state}','${actor}');
 SQL
 }
 
@@ -378,9 +392,9 @@ intake_file() {
   [[ ! -f "${filepath}" ]] && { echo "[intake:MISS] File not found: ${filepath}"; return 1; }
 
   local orig; orig=$(basename "${filepath}")
-  local hex;  hex=$(to_hex "${orig}")
-  local pool_dir="${CLONEPOOL_DIR}/${hex}"
-  local sidecar="${pool_dir}/${hex}.sidecar.json"
+  local tav;  tav=$(gen_tav "${orig}")
+  local pool_dir="${CLONEPOOL_DIR}/${tav}"
+  local sidecar="${pool_dir}/${tav}.sidecar.json"
 
   mkdir -p "${pool_dir}"
 
@@ -441,22 +455,22 @@ intake_file() {
   cp "${filepath}" "${pool_dir}/${version}_${orig}"
   log "INFO" "stored: ${pool_dir}/${version}_${orig}"
 
-  write_sidecar_basic "${sidecar}" "${hex}" "${orig}" "${version}" \
+  write_sidecar_basic "${sidecar}" "${tav}" "${orig}" "${version}" \
     "${filetype}" "${category_hex}" "${size}" "${backend}" "${notes}" "${checksum}"
   enrich_sidecar_companions "${sidecar}" "${companion_list}"
-  custody_log_local "${hex}" "${orig}" "intake" "${version}" \
+  custody_log_local "${tav}" "${orig}" "intake" "${version}" \
     "${filepath}" "${pool_dir}/${version}_${orig}" "white" "${backend}"
-  report_clonepool "${hex}" "${orig}" "${version}" "white" \
+  report_clonepool "${tav}" "${orig}" "${version}" "white" \
     "${pool_dir}" "${sidecar}" "1" "${size}"
-  report_custody  "${hex}" "${orig}" "intake" "white" "${backend}"
-  report_glossary "${hex}" "${orig}" "Intaked via ${backend}: ${filetype}" \
+  report_custody  "${tav}" "${orig}" "intake" "white" "${backend}"
+  report_glossary "${tav}" "${orig}" "Intaked via ${backend}: ${filetype}" \
     "${category_hex}" "${version}" "${size}" "${pool_dir}"
 
   # ── Auto evict old versions for this file ─────────────────
   evict_old_versions "${pool_dir}" "${orig}" "true"
 
   echo "[intake:OK] ${orig} → clonepool ${version}"
-  echo "[intake:OK] hex:      ${hex}"
+  echo "[intake:OK] tav:      ${tav}"
   echo "[intake:OK] type:     ${filetype}"
   echo "[intake:OK] sha256:   ${checksum:0:16}..."
   [[ -n "${companion_list}" ]] && \
@@ -478,8 +492,8 @@ intake_clone() {
 
   [[ "${name}" == *.lol ]] && name="${name%.lol}"
 
-  local hex; hex=$(to_hex "${name}")
-  local pool_dir="${CLONEPOOL_DIR}/${hex}"
+  local tav; tav=$(gen_tav "${name}")
+  local pool_dir="${CLONEPOOL_DIR}/${tav}"
 
   if [[ ! -d "${pool_dir}" ]]; then
     echo "[intake:MISS] '${name}' not found in clonepool"
@@ -505,9 +519,9 @@ intake_clone() {
   cp "${latest}" "${dest}"
 
   log "INFO" "clone out: ${name} ${version} → ${dest}"
-  custody_log_local "${hex}" "${name}" "clone_out" "${version}" \
+  custody_log_local "${tav}" "${name}" "clone_out" "${version}" \
     "${latest}" "${dest}" "white" "user"
-  report_custody "${hex}" "${name}" "clone_out" "white" "user"
+  report_custody "${tav}" "${name}" "clone_out" "white" "user"
 
   echo "[intake:OK] ${name} ${version} → ${PWD}/"
   echo "[intake:OK] This is the latest version — ready to use"
@@ -585,20 +599,20 @@ intake_from_backend() {
     return $?
   fi
 
-  local hex; hex=$(to_hex "${pkg_name}")
-  local pool_dir="${CLONEPOOL_DIR}/${hex}"
-  local sidecar="${pool_dir}/${hex}.sidecar.json"
+  local tav; tav=$(gen_tav "${pkg_name}")
+  local pool_dir="${CLONEPOOL_DIR}/${tav}"
+  local sidecar="${pool_dir}/${tav}.sidecar.json"
 
   mkdir -p "${pool_dir}"
-  write_sidecar_basic "${sidecar}" "${hex}" "${pkg_name}" "${version}" \
+  write_sidecar_basic "${sidecar}" "${tav}" "${pkg_name}" "${version}" \
     "package:${backend}" "7061636b61676573" "0" "${backend}" \
     "installed from ${backend}" ""
-  custody_log_local "${hex}" "${pkg_name}" "backend_install" "${version}" \
+  custody_log_local "${tav}" "${pkg_name}" "backend_install" "${version}" \
     "${backend}" "${pool_dir}" "white" "${backend}"
-  report_clonepool "${hex}" "${pkg_name}" "${version}" "white" \
+  report_clonepool "${tav}" "${pkg_name}" "${version}" "white" \
     "${pool_dir}" "${sidecar}" "1" "0"
-  report_custody  "${hex}" "${pkg_name}" "backend_install" "white" "${backend}"
-  report_glossary "${hex}" "${pkg_name}" "Package installed from ${backend} v${version}" \
+  report_custody  "${tav}" "${pkg_name}" "backend_install" "white" "${backend}"
+  report_glossary "${tav}" "${pkg_name}" "Package installed from ${backend} v${version}" \
     "7061636b61676573" "${version}" "0" "${pool_dir}"
 
   echo "[intake:OK] ${pkg_name} (${backend} ${version}) → D1"
@@ -748,8 +762,8 @@ intake_directory() {
   [[ ! -d "${dirpath}" ]] && { echo "[intake:MISS] Directory not found: ${dirpath}"; return 1; }
 
   local dirname; dirname=$(basename "${dirpath}")
-  local hex;     hex=$(to_hex "${dirname}")
-  local pool_dir="${CLONEPOOL_DIR}/${hex}"
+  local tav;     tav=$(gen_tav "${dirname}")
+  local pool_dir="${CLONEPOOL_DIR}/${tav}"
   local version; version=$(get_next_version "${pool_dir}")
 
   echo ""
@@ -890,8 +904,8 @@ intake_directory() {
   for f in "${known_files[@]}"; do
     local rel="${f#${dirpath}/}"
     local file_orig; file_orig=$(basename "${f}")
-    local file_hex;  file_hex=$(to_hex "${file_orig}")
-    local file_pool="${CLONEPOOL_DIR}/${file_hex}"
+    local file_tav;  file_tav=$(gen_tav "${file_orig}")
+    local file_pool="${CLONEPOOL_DIR}/${file_tav}"
     local file_version; file_version=$(get_next_version "${file_pool}")
     local filetype;  filetype=$(detect_filetype "${file_orig}")
     local category_hex; category_hex=$(filetype_to_category "${filetype}")
@@ -914,28 +928,28 @@ intake_directory() {
     mkdir -p "${snapshot_dir}/$(dirname "${rel}")"
     cp "${f}" "${snapshot_dir}/${rel}"
 
-    local sidecar="${file_pool}/${file_hex}.sidecar.json"
-    write_sidecar_basic "${sidecar}" "${file_hex}" "${file_orig}" \
+    local sidecar="${file_pool}/${file_tav}.sidecar.json"
+    write_sidecar_basic "${sidecar}" "${file_tav}" "${file_orig}" \
       "${file_version}" "${filetype}" "${category_hex}" "${size}" \
       "${backend}" "dir:${dirname}/${rel}" "${checksum}"
 
-    custody_log_local "${file_hex}" "${file_orig}" "dir_intake" \
+    custody_log_local "${file_tav}" "${file_orig}" "dir_intake" \
       "${file_version}" "${f}" "${file_pool}/${file_version}_${file_orig}" \
       "white" "${backend}"
-    report_clonepool "${file_hex}" "${file_orig}" "${file_version}" "white" \
+    report_clonepool "${file_tav}" "${file_orig}" "${file_version}" "white" \
       "${file_pool}" "${sidecar}" "1" "${size}"
-    report_custody "${file_hex}" "${file_orig}" "dir_intake" "white" "${backend}"
+    report_custody "${file_tav}" "${file_orig}" "dir_intake" "white" "${backend}"
 
     # Auto evict old versions
     evict_old_versions "${file_pool}" "${file_orig}" "true"
 
-    manifest_entries+="  {\"hex\":\"${file_hex}\",\"name\":\"${file_orig}\",\"path\":\"${rel}\",\"version\":\"${file_version}\",\"checksum\":\"${checksum}\"},"
+    manifest_entries+="  {\"tav\":\"${file_tav}\",\"name\":\"${file_orig}\",\"path\":\"${rel}\",\"version\":\"${file_version}\",\"checksum\":\"${checksum}\"},"
     (( success++ )) || true
     echo "  [OK] ${rel}"
   done
 
   # ── Write directory sidecar ───────────────────────────────
-  local dir_sidecar="${pool_dir}/${hex}.sidecar.json"
+  local dir_sidecar="${pool_dir}/${tav}.sidecar.json"
   local now; now=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
   local dir_checksum; dir_checksum=$(get_checksum "${dirpath}" 2>/dev/null || echo "dir-no-checksum")
 
@@ -944,7 +958,7 @@ intake_directory() {
 {
   "usys_intake": "1.6",
   "type": "directory",
-  "hex_name": "${hex}",
+  "tav": "${tav}",
   "original_name": "${dirname}",
   "state": "white",
   "version": "${version}",
@@ -963,12 +977,12 @@ ${manifest_entries%,}
 }
 DIRSIDECAR
 
-  custody_log_local "${hex}" "${dirname}" "dir_intake" "${version}" \
+  custody_log_local "${tav}" "${dirname}" "dir_intake" "${version}" \
     "${dirpath}" "${snapshot_dir}" "white" "${backend}"
-  report_clonepool "${hex}" "${dirname}" "${version}" "white" \
+  report_clonepool "${tav}" "${dirname}" "${version}" "white" \
     "${pool_dir}" "${dir_sidecar}" "1" "${total_size}"
-  report_custody "${hex}" "${dirname}" "dir_intake" "white" "${backend}"
-  report_glossary "${hex}" "${dirname}" \
+  report_custody "${tav}" "${dirname}" "dir_intake" "white" "${backend}"
+  report_glossary "${tav}" "${dirname}" \
     "Directory snapshot: ${#known_files[@]} files, ${version}" \
     "6469726563746f7279" "${version}" "${total_size}" "${pool_dir}"
 
@@ -980,7 +994,7 @@ DIRSIDECAR
   echo "  Version   : ${version}"
   echo "  Files     : ${success} intaked"
   echo "  Size      : $(human_size ${total_size})"
-  echo "  Hex       : ${hex}"
+  echo "  TAV       : ${tav}"
   echo "  Snapshot  : ${snapshot_dir}"
   echo ""
   echo "  To restore: intake clone ${dirname}"
@@ -992,9 +1006,9 @@ intake_clone_directory() {
   local name="${1:-}"
   local version="${2:-latest}"
 
-  local hex; hex=$(to_hex "${name}")
-  local pool_dir="${CLONEPOOL_DIR}/${hex}"
-  local sidecar="${pool_dir}/${hex}.sidecar.json"
+  local tav; tav=$(gen_tav "${name}")
+  local pool_dir="${CLONEPOOL_DIR}/${tav}"
+  local sidecar="${pool_dir}/${tav}.sidecar.json"
 
   if [[ ! -d "${pool_dir}" ]]; then
     echo "[intake:MISS] '${name}' not found in clonepool"
@@ -1037,9 +1051,9 @@ intake_clone_directory() {
   cp -r "${snapshot}" "${dest}"
 
   log "INFO" "dir clone out: ${name} ${ver} → ${dest}"
-  custody_log_local "${hex}" "${name}" "dir_clone_out" "${ver}" \
+  custody_log_local "${tav}" "${name}" "dir_clone_out" "${ver}" \
     "${snapshot}" "${dest}" "white" "user"
-  report_custody "${hex}" "${name}" "dir_clone_out" "white" "user"
+  report_custody "${tav}" "${name}" "dir_clone_out" "white" "user"
 
   echo "[intake:OK] ${name}/ ${ver} → ${PWD}/"
   echo "[intake:OK] $(ls "${dest}" | wc -l | tr -d ' ') files restored"

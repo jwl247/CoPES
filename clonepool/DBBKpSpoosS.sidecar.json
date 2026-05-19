@@ -1,0 +1,11 @@
+{
+  "name": "bench_44026",
+  "tav": "DBBKpSpoosS",
+  "fingerprint": "48cade6736471e65c25a716819438e00bcf91b11d41a560bae62e7be059e4a79d1bcd50a50db623781a14ad5288bded8545a9aa67105a248e7fdc4237c544bae",
+  "timestamp": "2026-05-19T00:25:20.100581+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_13156",
+  "tav": "RCM5ZbDEruT",
+  "fingerprint": "90a7fba45e2f23ce6cf194f541e15b370091f991ef5eddbf70d5f2f1c1553ee17047a3a220541abde6ed04c633cf674abb07bd43f0aa6bcfbe619cebd0195a6d",
+  "timestamp": "2026-05-18T22:30:29.488419+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

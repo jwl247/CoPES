@@ -1,0 +1,11 @@
+{
+  "name": "bench_37681",
+  "tav": "TLSXLizHax5",
+  "fingerprint": "9d729d63b55dc08e84b1ee8392da8b782936a4a15146c73d39636ba18b37391a5a68a6c9fa285e133e8a36578f2b320b8f959ab836076c14d091273ca0aed60c",
+  "timestamp": "2026-05-19T00:01:43.205270+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

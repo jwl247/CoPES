@@ -1,0 +1,11 @@
+{
+  "name": "bench_2959",
+  "tav": "LE7mvXcnAMD",
+  "fingerprint": "72f216307f14c3109df062726ab6a173f803a3aa1e001a6813dbebba6ea02163f20e1a6a55e709ab381533124e644210938ad078bde718512c15b5e5afaf06bf",
+  "timestamp": "2026-05-18T21:52:57.163674+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

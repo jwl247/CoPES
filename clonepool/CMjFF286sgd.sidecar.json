@@ -1,0 +1,11 @@
+{
+  "name": "bench_10400",
+  "tav": "CMjFF286sgd",
+  "fingerprint": "43e6c05bc6d8d65a99c70150ff2cf5ce01bf244c8f84fb330ffd9a836e737f05ccba332e094f6971889ac53b3a75fef1136e88504c1b3429af043bfefc83ae1c",
+  "timestamp": "2026-05-18T22:20:20.145625+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

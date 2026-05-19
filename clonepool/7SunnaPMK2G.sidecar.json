@@ -1,0 +1,11 @@
+{
+  "name": "bench_84308",
+  "tav": "7SunnaPMK2G",
+  "fingerprint": "268adecb2c2e68b12fe64ab638e5158d4f52d030cea71f19ae80398b88711ef93c81c626778a9e05095f28ed731b636313f7f77917c16cc07c74fac19ec0b43c",
+  "timestamp": "2026-05-19T02:58:04.657088+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

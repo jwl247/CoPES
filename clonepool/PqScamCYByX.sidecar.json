@@ -1,0 +1,11 @@
+{
+  "name": "bench_18219",
+  "tav": "PqScamCYByX",
+  "fingerprint": "8885d269d57c70fe71ace1572939e7a5450c4958f807fd96da1afee97c33dbee429bfa0f79d60181ff8c656b555dd266216af01f6ee7cc1aba2b11b62b3b5df2",
+  "timestamp": "2026-05-18T22:49:08.307436+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

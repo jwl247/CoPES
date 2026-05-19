@@ -1,0 +1,11 @@
+{
+  "name": "bench_1729",
+  "tav": "NPrudfixXyk",
+  "fingerprint": "7fe84107d05ac6fb2b76e289fdcdda850b983e0049d3001412df0f9e20701ae8e36e65884b426a13d409d5c93b4374d381136fdb4aeed8c4ddaa0898d164d8ac",
+  "timestamp": "2026-05-18T21:48:35.944737+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

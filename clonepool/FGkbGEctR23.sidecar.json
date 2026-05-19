@@ -1,0 +1,11 @@
+{
+  "name": "bench_1880",
+  "tav": "FGkbGEctR23",
+  "fingerprint": "5552fe62ce087fa4ded451977f5787fde63348152e733e88916357ec71277d9fa9f88a4f06b9e3ff53099866f5684b3e009cef4468b1666ccbaa10e110a19b1f",
+  "timestamp": "2026-05-18T21:49:08.003197+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

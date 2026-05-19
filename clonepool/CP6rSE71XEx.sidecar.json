@@ -1,0 +1,11 @@
+{
+  "name": "bench_42082",
+  "tav": "CP6rSE71XEx",
+  "fingerprint": "440af85fe65960a1accd1decaab7876206161cd50703a8d2c55e4c503c765f4b39e3b3dfdd2520ad3e9fc751ee30c3aced65ea8232914e30bd2a04ea6901ae5e",
+  "timestamp": "2026-05-19T00:18:02.669184+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

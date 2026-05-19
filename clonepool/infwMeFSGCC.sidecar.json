@@ -1,0 +1,11 @@
+{
+  "name": "bench_4963",
+  "tav": "infwMeFSGCC",
+  "fingerprint": "f9d4acbd75d4fc8dafdba9510aa5f76f6941db4bf9145a618e98c93ce89c52d4c81d22a5779b27ebb039e7e06b45f63bb53984fdc9ee19efdc0db20319511d43",
+  "timestamp": "2026-05-18T22:00:27.820093+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

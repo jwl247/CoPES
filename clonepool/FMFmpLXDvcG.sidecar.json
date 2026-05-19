@@ -1,0 +1,11 @@
+{
+  "name": "bench_18008",
+  "tav": "FMFmpLXDvcG",
+  "fingerprint": "55c9d2f3bf6f5ed1b9cbb0051e2c2ede4f52b2f77be200054e3449a33a02ab87b3cb0665a64168786d6547a9a88f4f29b1fee8a862bac6992bb992702f4817d1",
+  "timestamp": "2026-05-18T22:48:23.675929+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_53301",
+  "tav": "UcioPVMAiXd",
+  "fingerprint": "a51ac1fb93acff5c37513448425993c8e8418058dc6005eaf2dd8e002e784927675a0048a1b0d6cdb27c5473ef70e39511c944b3565591b9950a9254f1ad3348",
+  "timestamp": "2026-05-19T01:00:45.278948+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

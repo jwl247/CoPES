@@ -1,0 +1,11 @@
+{
+  "name": "bench_92225",
+  "tav": "LXEX1BRFW31",
+  "fingerprint": "74b5c19d1bb91d78c1641e7e7a420e200597a44796a3be3c1aa4da8cccdf2b9ec9d5be385b66bac9ae077a9112cc2b75bc15603b0c044021eab8e251ffb140ad",
+  "timestamp": "2026-05-19T03:27:46.358732+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

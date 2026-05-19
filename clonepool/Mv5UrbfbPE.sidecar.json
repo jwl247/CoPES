@@ -1,0 +1,11 @@
+{
+  "name": "bench_823",
+  "tav": "Mv5UrbfbPE",
+  "fingerprint": "0227ea600fb8b541df18133b29d936789511cdc92c92727c2720a42d808ebfaa4314de1fcf9a27b71b4e06e52c50b751a8768bca8fd4552a8faceb951d015a45",
+  "timestamp": "2026-05-18T21:45:38.342101+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

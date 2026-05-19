@@ -1,0 +1,11 @@
+{
+  "name": "bench_33500",
+  "tav": "Sh548MW7M9N",
+  "fingerprint": "99987a699d085435b3b7e5eed37168ce54e3dd1e1072915abdb9e83eb16e815e8d0af5ccc1e37f245323c3f4489020f308e705b1874e5b651653571be8b7017b",
+  "timestamp": "2026-05-18T23:45:49.295281+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

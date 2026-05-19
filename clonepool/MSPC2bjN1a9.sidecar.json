@@ -1,0 +1,11 @@
+{
+  "name": "bench_44754",
+  "tav": "MSPC2bjN1a9",
+  "fingerprint": "7a3048d316cc1a6a0cb7e656521d58296c0857eb00e95f3a166e159b026a71e30e6b83e1f42f410cca79d2cf011f22930bc339d52e2149a8e03e7d788a44e272",
+  "timestamp": "2026-05-19T00:28:06.792939+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

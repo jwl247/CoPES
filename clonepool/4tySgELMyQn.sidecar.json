@@ -1,0 +1,11 @@
+{
+  "name": "bench_64702",
+  "tav": "4tySgELMyQn",
+  "fingerprint": "174b0eb19703edf3aad82c4e70ddc8405d2e50d2e7a2c50cc4dd01fc35bc8e0f2ddcf2ec10767987fcf15ef12ff6e1cc57afa19f7e3be64dee27cab959c9e2d9",
+  "timestamp": "2026-05-19T01:43:48.782312+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

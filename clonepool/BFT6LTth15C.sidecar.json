@@ -1,0 +1,11 @@
+{
+  "name": "bench_5718",
+  "tav": "BFT6LTth15C",
+  "fingerprint": "3d468c44ed489ce374170f195fca3ba65bec13f8d193b2c8e47a084824d5e1f7789fd6febc160615aebd12e0f9e4fab7a2293f180fd0463f2907861bd0c3c375",
+  "timestamp": "2026-05-18T22:03:12.473538+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

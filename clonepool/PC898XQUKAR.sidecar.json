@@ -1,0 +1,11 @@
+{
+  "name": "bench_18407",
+  "tav": "PC898XQUKAR",
+  "fingerprint": "84ad0c5fda8d42d27f7b52e2dd9d4a55a597a86158c70733649ecf9c24b7bd45e4b22d337ab72a0ddcaee4da20a45d304150301814723d348b492d37e137b4e4",
+  "timestamp": "2026-05-18T22:49:45.823218+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

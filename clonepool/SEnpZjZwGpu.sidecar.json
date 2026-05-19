@@ -1,0 +1,11 @@
+{
+  "name": "bench_3083",
+  "tav": "SEnpZjZwGpu",
+  "fingerprint": "96e2feca83a99b26f075db0768ed5dc5989f732b4bc3bac2084aa39f252a0c234023eb845d2a153892b7bd534211f896cbd0ec8e40bd79eee235ac2acf14d4c3",
+  "timestamp": "2026-05-18T21:53:25.081846+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

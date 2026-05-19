@@ -1,0 +1,11 @@
+{
+  "name": "bench_25108",
+  "tav": "B2PX91s9RMF",
+  "fingerprint": "3beddfc63926c3567be130662302ec43a219d4b566ebd6dcc15af1650cc14a5f2bca4ec3734ce2126ed889df31f07d9b52ed41b8dc18c00cacc84e1cebc1412a",
+  "timestamp": "2026-05-18T23:14:20.334080+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

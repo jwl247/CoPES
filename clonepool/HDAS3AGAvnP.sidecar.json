@@ -1,0 +1,11 @@
+{
+  "name": "bench_70202",
+  "tav": "HDAS3AGAvnP",
+  "fingerprint": "60e955d3abb928b4b2244aa7ec4a7739bb0238c0090fc7eb44fcbfd85e8603b994c3d0300ec45758dd6c528e0df7a6bf04c679ed42938adf143d9bb1ecd4b20e",
+  "timestamp": "2026-05-19T02:04:52.201828+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

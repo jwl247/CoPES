@@ -1,0 +1,11 @@
+{
+  "name": "bench_42284",
+  "tav": "LouDND64VZg",
+  "fingerprint": "766d934a5dd137dfe4c7b9a2687f2aa5ce3320fc00863fb74c8c6f7ea41fe995ff66a1af6a77e986e33870bfb23994d44df7c62f523703d1bfae6e6de4a27308",
+  "timestamp": "2026-05-19T00:18:44.159544+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

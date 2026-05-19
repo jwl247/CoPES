@@ -1,0 +1,11 @@
+{
+  "name": "bench_64970",
+  "tav": "VNDkhhTexfp",
+  "fingerprint": "a996a1324c71136fbda46715df42327d9286bd63442ba17221b094ca38051ac8ed4a729a2fa3d1e7936e00e683b39283208d4da414aae2a2b96b7eeae63817f2",
+  "timestamp": "2026-05-19T01:44:49.802704+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

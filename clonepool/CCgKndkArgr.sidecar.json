@@ -1,0 +1,11 @@
+{
+  "name": "bench_90686",
+  "tav": "CCgKndkArgr",
+  "fingerprint": "42f7ed5238667bc3b44585156924d379b94194506971df5d2b49d65e5093233c2989150b81ad82a694431d6315ac064766d2156aa5d40ba15379fe4b43103e0b",
+  "timestamp": "2026-05-19T03:21:57.074559+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

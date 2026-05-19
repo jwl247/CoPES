@@ -1,0 +1,11 @@
+{
+  "name": "bench_80807",
+  "tav": "NyesYcQE15A",
+  "fingerprint": "8363fb51ea46ee099d6461f6dbd0d1aa0aba630a52d8cdfe6e18bbf32ba963da7de8a04d75916da8d5ed383d2099badc634c539848220a9def07a541de01cdbb",
+  "timestamp": "2026-05-19T02:45:15.079158+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

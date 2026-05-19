@@ -1,0 +1,11 @@
+{
+  "name": "bench_39178",
+  "tav": "LMJB16APMnG",
+  "fingerprint": "73af892cf6eec03186d777f2a26ce97a7e3ed9d2870b436c9538b3984839301f09cfb40f51ca68455f43466e4c5740bb2e4ebc6559cbc08a383b39ff6f65f133",
+  "timestamp": "2026-05-19T00:07:13.957733+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

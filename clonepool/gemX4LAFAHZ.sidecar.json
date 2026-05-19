@@ -1,0 +1,11 @@
+{
+  "name": "bench_68507",
+  "tav": "gemX4LAFAHZ",
+  "fingerprint": "ed0f0f29eabaf0644802bedb084191b80b8854ddfae08a97ad056c4ac5159cb9df09409d5dea84e41dbaff8c63b09940dfd3b00a6813d14c86dac29515b96e5c",
+  "timestamp": "2026-05-19T01:58:15.291927+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

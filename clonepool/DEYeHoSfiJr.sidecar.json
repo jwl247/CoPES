@@ -1,0 +1,11 @@
+{
+  "name": "bench_32432",
+  "tav": "DEYeHoSfiJr",
+  "fingerprint": "4923bbac224a338f4022d6596bd797112e7c562ceebe9043bbbdf302f01f230f3e053d2fa72e1bbb6251ac706deb2107635e6d94911b0c99c7cd86d1089f6a2d",
+  "timestamp": "2026-05-18T23:41:39.271329+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_80190",
+  "tav": "CDA8Ayzand8",
+  "fingerprint": "4304933b8ca048fbddb58391b4fe6333fc2f3cd6de3237d35b95d338cfd38ed64adc4ce4e09aa56de4918a28a5200768051bd32f542e50307daf722044a93862",
+  "timestamp": "2026-05-19T02:42:45.975402+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

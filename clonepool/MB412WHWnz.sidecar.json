@@ -1,0 +1,11 @@
+{
+  "name": "bench_65574",
+  "tav": "MB412WHWnz",
+  "fingerprint": "02145713e3f1cbef8b057195fbd3bc3548dc27402890ba3e2d614ad064663d1bbd812811c5efb4ccf0a43908053324b51d6b36d3503a1166246640f7ae040414",
+  "timestamp": "2026-05-19T01:47:08.822448+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

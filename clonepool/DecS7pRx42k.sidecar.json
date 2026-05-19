@@ -1,0 +1,11 @@
+{
+  "name": "bench_7020",
+  "tav": "DecS7pRx42k",
+  "fingerprint": "4b9ec71c3765d94986f2e0ade6017e4271f2de13dcf0c9a4600aa456dec803e75d15a3c4d8e52c1b880edb4e679d75aebb8c8e5bb0bec75791cc9d720dc08db5",
+  "timestamp": "2026-05-18T22:07:55.958581+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

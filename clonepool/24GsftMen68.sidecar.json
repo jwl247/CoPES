@@ -1,0 +1,11 @@
+{
+  "name": "bench_14382",
+  "tav": "24GsftMen68",
+  "fingerprint": "0650e93c9ae927e570bd1575b277e2e6fc8ea514f94a14d0db5b5108f551d9255f04ef9be8e3303cd8ba04b3a1bebba8e80e4bdb23834852adda520c86f9dfa4",
+  "timestamp": "2026-05-18T22:35:00.377894+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

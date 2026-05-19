@@ -1,0 +1,11 @@
+{
+  "name": "bench_64395",
+  "tav": "VzudutvDib1",
+  "fingerprint": "ad5ec1748b5eec887d90320d1cc9d57580a5c02a83c471b8578f30c9840e2f56923f1a989a1c6d0fd5dc5e13926865822d6be4d5887f5c6e1e69bfc8a52cb1db",
+  "timestamp": "2026-05-19T01:42:39.006248+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

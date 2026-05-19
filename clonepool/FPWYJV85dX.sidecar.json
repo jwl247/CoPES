@@ -1,0 +1,11 @@
+{
+  "name": "bench_172",
+  "tav": "FPWYJV85dX",
+  "fingerprint": "017bad8c1305058e069efb6da6d0a753e9f192e252c956d262db1572749218adb784698c64de76ff6dda7f21eb2c876e2a9e295465fca96e6c37c552d5ea978b",
+  "timestamp": "2026-05-18T21:43:34.310580+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

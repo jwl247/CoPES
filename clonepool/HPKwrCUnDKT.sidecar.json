@@ -1,0 +1,11 @@
+{
+  "name": "bench_978",
+  "tav": "HPKwrCUnDKT",
+  "fingerprint": "61f58c1bd76580b676812bbdecc1774499db802d2a0e04e1f3280ebab430f434a0ec6eb49facc94beb9111120321160f9b6aa2a0a6ee94abd9a5ca6cc5c7faaa",
+  "timestamp": "2026-05-18T21:46:04.924174+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

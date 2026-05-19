@@ -1,0 +1,11 @@
+{
+  "name": "bench_32783",
+  "tav": "PpBUg6RDEno",
+  "fingerprint": "88648c06afb34bf473ac81c2aa17144729fcbea12f5b16283ef8567749462c897be118f72f95d21b0858e3f5dc702559e32397cae20b7648f5dbb0c6a4f1fa7d",
+  "timestamp": "2026-05-18T23:43:02.386747+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

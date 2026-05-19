@@ -1,0 +1,11 @@
+{
+  "name": "bench_2176",
+  "tav": "SYMBymftWm1",
+  "fingerprint": "98b252ff4b85a9e45241391feeb23ddf4c0cc3e38767f4077f224e60f7eb41c4b440542b3953c3ef4c258be6462af343f88650b64819d9b733aae5867fbadad5",
+  "timestamp": "2026-05-18T21:50:10.582670+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

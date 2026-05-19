@@ -1,0 +1,11 @@
+{
+  "name": "bench_17376",
+  "tav": "cmPAN7rrHWr",
+  "fingerprint": "d5d3828c6278783b025ba0e138427bcab3f0c022a03ea0c0668768066ecc970edb2786be201693be8c6e03b28e71f13058ff8bb9e9a07da4d148e7201fe7b71b",
+  "timestamp": "2026-05-18T22:46:01.643274+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

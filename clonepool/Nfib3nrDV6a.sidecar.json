@@ -1,0 +1,11 @@
+{
+  "name": "bench_75572",
+  "tav": "Nfib3nrDV6a",
+  "fingerprint": "818aae96f3c002c3bed2476e712112e6ac888f56ba6de1c62d0310a416362d28204038e72e7a13659ee6f40fd1d5256641d33f6b47b0606efe9e8a52d52ae2ef",
+  "timestamp": "2026-05-19T02:25:13.990183+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

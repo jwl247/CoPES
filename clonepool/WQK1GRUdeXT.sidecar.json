@@ -1,0 +1,11 @@
+{
+  "name": "bench_48016",
+  "tav": "WQK1GRUdeXT",
+  "fingerprint": "afc851c885e47c2ab895cb5f59be83d52676403db0d2fca1613e73fd7897c4381ea3b6197452bb3363e08d1cfb824f8705d4d36c6f3da10f1063c6b84806f910",
+  "timestamp": "2026-05-19T00:40:39.901407+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

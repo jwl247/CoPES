@@ -1,0 +1,11 @@
+{
+  "name": "bench_11245",
+  "tav": "LCDi4Fo1Fnh",
+  "fingerprint": "72c0026d91bc8132027011c662a771402666ad22e86197fb9c7beeb360ae32adb1acdbe35a266715ca5874f41c40dd3ae7565cd7f5c8e1dfbd837b55ffd77d84",
+  "timestamp": "2026-05-18T22:23:28.728237+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

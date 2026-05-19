@@ -1,0 +1,11 @@
+{
+  "name": "bench_17287",
+  "tav": "MSJTydrhrCU",
+  "fingerprint": "7a2e227d2819614d35571f149ddda8c5d7c62b897fb1495cf41c775a20f874dd92e645ab21b8909389ca69239f0fe0c3e649e4e36d42d6e4bedae5e95f2d720b",
+  "timestamp": "2026-05-18T22:45:41.027362+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

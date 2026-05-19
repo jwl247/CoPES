@@ -1,0 +1,11 @@
+{
+  "name": "bench_6933",
+  "tav": "VRTR7sJRiN2",
+  "fingerprint": "a9ec02bca1e42617bc6c6de1bb2c7969714a4f09f8ff03c70c05651da63447f5bd411fbfe7885351c6f889d5a6dddfc2a7814a825f5896c707cc4a37dcc9d0ed",
+  "timestamp": "2026-05-18T22:07:37.703370+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

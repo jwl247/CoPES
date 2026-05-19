@@ -1,0 +1,11 @@
+{
+  "name": "bench_32580",
+  "tav": "YoDvTEGxULM",
+  "fingerprint": "be19fc9d643e85d6891e5902963d287eb1f6e91f706a4fec143016d488e4f9448fa95cc2edf4c1e8e042e27c0a25179318e801b75476c59dffc78611a665b3ab",
+  "timestamp": "2026-05-18T23:42:12.984082+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

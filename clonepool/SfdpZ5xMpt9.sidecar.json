@@ -1,0 +1,11 @@
+{
+  "name": "bench_58336",
+  "tav": "SfdpZ5xMpt9",
+  "fingerprint": "99729bebceefdec27a28d122c171f67e50432226c0dc048f437743a0353a72ab173c96e0ab0a6fd597e02e497f61169b2fcb715fc24a746a8b0fe7c04f9621ab",
+  "timestamp": "2026-05-19T01:19:40.014746+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

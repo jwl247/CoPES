@@ -1,0 +1,11 @@
+{
+  "name": "bench_45171",
+  "tav": "CYRABQ6WQBA",
+  "fingerprint": "4500cb434a4a20c1a3f9ef11165806a63b9d62c12efbf6d65972751ce16c2aa6b075f7a9e692525b54dec4e3d3d056e7af8ff79c45aad37485336804f3447525",
+  "timestamp": "2026-05-19T00:29:42.172857+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

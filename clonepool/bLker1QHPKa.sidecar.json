@@ -1,0 +1,11 @@
+{
+  "name": "bench_345",
+  "tav": "bLker1QHPKa",
+  "fingerprint": "cd4f0e1e4a1c2bfdd5301e84cb150c496eae122c96c5da5a8b3fc9bab58c276020cf18207e69b6774299fb6026bf6f9eda0643b8afbe2f607aeaf6a8577b315e",
+  "timestamp": "2026-05-18T21:44:06.847043+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

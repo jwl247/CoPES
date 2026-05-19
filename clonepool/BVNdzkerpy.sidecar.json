@@ -1,0 +1,11 @@
+{
+  "name": "bench_83549",
+  "tav": "BVNdzkerpy",
+  "fingerprint": "0114cad9a70a765a9e34d80e78e6e9ac2f91928e3faee8071a56b7bbf14154bd1682e11a6b89578d650b10af7de05802c6c38adf0040176ca97da96c09d9601f",
+  "timestamp": "2026-05-19T02:55:25.749047+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

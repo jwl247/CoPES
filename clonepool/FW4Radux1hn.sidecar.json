@@ -1,0 +1,11 @@
+{
+  "name": "bench_26076",
+  "tav": "FW4Radux1hn",
+  "fingerprint": "56b227dc915e10d5bbb0a6cdbaf7d3513d7bcaf919004091fb4c69ab01a9974035930bf40066cb781754f8f73d80e766d948a5380c8f9776a799627f5e364251",
+  "timestamp": "2026-05-18T23:17:57.856690+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

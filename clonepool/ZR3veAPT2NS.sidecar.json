@@ -1,0 +1,11 @@
+{
+  "name": "bench_62293",
+  "tav": "ZR3veAPT2NS",
+  "fingerprint": "c1cb6b408bc941cfb426ae87555f2cd8ffa41f50719a5fa59d44b4aa241030e499905cb9ea60e06f5e97880a89649a911e3de4cd05846726e199a949863b40cf",
+  "timestamp": "2026-05-19T01:34:42.362710+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

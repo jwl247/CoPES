@@ -1,0 +1,11 @@
+{
+  "name": "bench_37148",
+  "tav": "LZ1HF33DPW5",
+  "fingerprint": "74e482aab641d26e42f058b9df32b181e42d34dda78e0a4c4d73c05b1e7af74abf321bc03b7cb829004235edbed7d49ae2c9028c2e2173acbc520c71e5d9cd91",
+  "timestamp": "2026-05-18T23:59:36.423027+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

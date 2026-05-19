@@ -1,0 +1,11 @@
+{
+  "name": "bench_86557",
+  "tav": "PiDAVMYUPK",
+  "fingerprint": "02574af6f9b2b0b2f2e57dbfdc36adfb43a84edbd6bd163d1105c4a5d41fda3afd16439d507161abd23d12247cded1d98e2fe6a4ff3b652f3a9824b46429016a",
+  "timestamp": "2026-05-19T03:06:20.208074+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

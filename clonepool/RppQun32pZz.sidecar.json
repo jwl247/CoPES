@@ -1,0 +1,11 @@
+{
+  "name": "bench_8990",
+  "tav": "RppQun32pZz",
+  "fingerprint": "946a663e8b5b9dfd16f18c70169db9e717b06b751882e965cb7785d498cffc4b00c813253289d5e611930127afd102fc22b75faee84a9e6c5784535feaa87fa1",
+  "timestamp": "2026-05-18T22:15:09.438682+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_43699",
+  "tav": "X86KS7qWc7J",
+  "fingerprint": "b416db9aa10744e1f8ec1b8d9122b7dd4402ff929d66e8df42d88cd3ea7eacb7833dfe1dc5ec5fb93d800486c716ec764b89cb3cbdec2a85dd32232b48e914aa",
+  "timestamp": "2026-05-19T00:24:06.758421+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_230",
+  "tav": "SU54anHuXSR",
+  "fingerprint": "98416eea81baf1fa5943a029f3a3fdae8526e9b76a7fc2dd6e7655026562704628d8750f68fabc697a264f7cce4f1b41df528a9d084351de366ff703ece9bbe1",
+  "timestamp": "2026-05-18T21:43:45.481665+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

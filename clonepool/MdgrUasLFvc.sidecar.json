@@ -1,0 +1,11 @@
+{
+  "name": "bench_65935",
+  "tav": "MdgrUasLFvc",
+  "fingerprint": "7b5a97a613243615a889fb3cbf4008b0034bf7d868eaec98d2f83cddf3fee9278bd74df64e058e151dda5186628bc66d70939c29deea7b401e14cafd84d0e8da",
+  "timestamp": "2026-05-19T01:48:26.112506+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

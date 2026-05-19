@@ -1,0 +1,11 @@
+{
+  "name": "bench_24587",
+  "tav": "CAPhospZB9q",
+  "fingerprint": "42bb96acd6cfb918be440b6b1529e30a79324515f44ca2d7ab02bf1d306cf345c071773538a224c2ece5aaa4163d49e1984445b1b667b2b804ad446f2148c008",
+  "timestamp": "2026-05-18T23:12:21.905459+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

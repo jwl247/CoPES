@@ -1,0 +1,11 @@
+{
+  "name": "bench_461",
+  "tav": "TGRLXJMC8Nx",
+  "fingerprint": "9d08858738b73e8de4cdbc4323463ca03b5cb4f16f589c7ab295d401b1c598b045bfcf5599ff95b221daccc3c65cab9da61d43e9f84b1e4829b51249306f8902",
+  "timestamp": "2026-05-18T21:44:27.356208+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

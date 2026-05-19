@@ -1,0 +1,11 @@
+{
+  "name": "bench_80413",
+  "tav": "PCp751oYSET",
+  "fingerprint": "84bf3b24f4ce2c489ced1fd40678cfe7bdbc834a47c42ae3f08608bb9b8a0c2b09a30fe3b98315433da4990e3564a4b726bef4716600e1aa9018dbf8be65c637",
+  "timestamp": "2026-05-19T02:43:40.531155+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

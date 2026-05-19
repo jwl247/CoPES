@@ -1,0 +1,11 @@
+{
+  "name": "bench_61372",
+  "tav": "CX58MRidvCt",
+  "fingerprint": "44dd4ab93daf29d551cdadeec74a0fce39828b112e975f32e60e1ba8fe9cb158b0e303fb097e47638435545b3ebcee9f093f52f44c95e05579b630f1833720cf",
+  "timestamp": "2026-05-19T01:31:12.146553+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

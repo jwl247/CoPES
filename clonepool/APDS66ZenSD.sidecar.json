@@ -1,0 +1,11 @@
+{
+  "name": "bench_90850",
+  "tav": "APDS66ZenSD",
+  "fingerprint": "3818ea80e8bc5cb26b7652d1498a04f3bbc733d5d508e8f8ca32e21b7d24d9ffd6022b1388331ee316119218145a2bc9f0e0f9c1e8dc6af622ca16d21d2c7c58",
+  "timestamp": "2026-05-19T03:22:29.830774+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_90800",
+  "tav": "ez24V1kWsGY",
+  "fingerprint": "e3160182aed4aa45d3d9d9b1798bcbf25e9f75d5ea005ea711af406fb01449a96f40a29b6ca3a4c1b2d78c6aefb03a2c56d581469f6145adced7a3ec973aa9b8",
+  "timestamp": "2026-05-19T03:22:19.445734+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

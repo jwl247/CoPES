@@ -1,0 +1,11 @@
+{
+  "name": "bench_407",
+  "tav": "KfGB4krYMZS",
+  "fingerprint": "6f8f17b4d74ca9b1664da9ecf8bd3d1c95af9bd3ac980320aa30ed44df26670d74929545409c6f5cbe33c069d63694cfc96c169f62a0d3229aa1b1fff5df97a8",
+  "timestamp": "2026-05-18T21:44:16.571834+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

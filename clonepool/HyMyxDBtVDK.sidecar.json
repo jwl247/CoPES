@@ -1,0 +1,11 @@
+{
+  "name": "bench_53392",
+  "tav": "HyMyxDBtVDK",
+  "fingerprint": "6577ad6e8a339692ea51c75e07def2bac10e01abc228ebf5e40f089820ef561916c547a99574511c048b46bf66552ce71b955f39c1f55b74de5622f3025d5744",
+  "timestamp": "2026-05-19T01:01:04.434660+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

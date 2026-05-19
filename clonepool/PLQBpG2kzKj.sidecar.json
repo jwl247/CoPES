@@ -1,0 +1,11 @@
+{
+  "name": "bench_256",
+  "tav": "PLQBpG2kzKj",
+  "fingerprint": "858774a8e591132ae2771b4037d03ae56b15a446797e3d3f29ebbe44f13d6d72e19ecd306806bf23e7fbdc565842830cb45679b0776ae8517086ff6259f727e5",
+  "timestamp": "2026-05-18T21:43:50.480830+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

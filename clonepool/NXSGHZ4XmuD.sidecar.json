@@ -1,0 +1,11 @@
+{
+  "name": "bench_1519",
+  "tav": "NXSGHZ4XmuD",
+  "fingerprint": "80b026049dc93464948cfaed9ad95680c9f4b4cd31ef20c8f7638574616f898726e55ca20dad963c9afd02ea3d720be321b2f58a2f9f734aef2c2761476aa71a",
+  "timestamp": "2026-05-18T21:47:55.103524+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

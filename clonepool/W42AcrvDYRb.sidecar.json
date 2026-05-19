@@ -1,0 +1,11 @@
+{
+  "name": "bench_18831",
+  "tav": "W42AcrvDYRb",
+  "fingerprint": "adb0e433fd6d4afe77d5104d464e8f0695142640c7f891df3585ad4c6bb9aa8afb9eabdd780759ba617d20443ee5da590bdda033b37e0abe5b95cc67c586a097",
+  "timestamp": "2026-05-18T22:51:18.059091+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

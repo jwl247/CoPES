@@ -1,0 +1,11 @@
+{
+  "name": "bench_38018",
+  "tav": "HaCovR59ABH",
+  "fingerprint": "63149275ad8b78583eb7bf239e91096a8f74e149c9d8a8028b879f91b4e420dd1dc488b812c6b475ee2593fb6dbbd4adc61388541a79d39466de315d6a61fc65",
+  "timestamp": "2026-05-19T00:02:59.491835+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

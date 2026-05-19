@@ -1,0 +1,11 @@
+{
+  "name": "bench_80063",
+  "tav": "LkeZetmCnou",
+  "fingerprint": "7617beb121dc4d8cc0159ad2815acc8bbaf82bd50be709c96bcf89ea90e30d600d0db4b9ff9093509610a730bb9c59943b53d17f75731d51a7985a9b92b691fe",
+  "timestamp": "2026-05-19T02:42:16.989309+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

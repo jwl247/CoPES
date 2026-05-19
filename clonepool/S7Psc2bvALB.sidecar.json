@@ -1,0 +1,11 @@
+{
+  "name": "bench_70017",
+  "tav": "S7Psc2bvALB",
+  "fingerprint": "961fd61bec58b464026ef27e0a6255d1831f8d015a596350c0f5d672888cfbcbe72ce66d1a6081582b5747d5aad73877e2d477c069d22c1bd2a86a0acb4d7ad0",
+  "timestamp": "2026-05-19T02:04:10.073440+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

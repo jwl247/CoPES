@@ -1,0 +1,11 @@
+{
+  "name": "bench_86521",
+  "tav": "AWSbSiGCWk6",
+  "fingerprint": "38d79f597f08b15f980509464b6e0179348a9e011a6f6c5ba2618d8d6a23c57db3f8c70e0bbd85b620d8c41730bf0ea2749fa4beb9b26d54d769b927b02d8fa6",
+  "timestamp": "2026-05-19T03:06:12.022585+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

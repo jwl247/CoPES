@@ -1,0 +1,11 @@
+{
+  "name": "bench_58300",
+  "tav": "PDSgLib7tCw",
+  "fingerprint": "84cfdef957fd69d04b2d552e7cd15bb8599a7ab429cefe9e5543482124e22fc927ad58589d0648bc9f6f12623d27a1344f53095a3a1ab0c4c309a0b1361c062d",
+  "timestamp": "2026-05-19T01:19:34.158068+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

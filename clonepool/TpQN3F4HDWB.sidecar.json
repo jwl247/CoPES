@@ -1,0 +1,11 @@
+{
+  "name": "bench_838",
+  "tav": "TpQN3F4HDWB",
+  "fingerprint": "a054816bc9bf0abcc265e69c7bdf5dd0a371f111162aaf230c6f2f63e7eaacfe1f1975bb8ade8e63fa664945b716098dcb65a5f90e4dd5d7463e47094f2ab084",
+  "timestamp": "2026-05-18T21:45:41.467982+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

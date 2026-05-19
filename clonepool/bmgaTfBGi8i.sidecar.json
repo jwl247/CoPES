@@ -1,0 +1,11 @@
+{
+  "name": "bench_7283",
+  "tav": "bmgaTfBGi8i",
+  "fingerprint": "cfe0e8d3f224a13ba5318a2ae898f712ecc74dd88e6b836607cef47bef16d22d532140e1b8668fcccf7df48101bf6f3594bd0953c4766a2ba0bd2db337f77ffc",
+  "timestamp": "2026-05-18T22:08:52.981530+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

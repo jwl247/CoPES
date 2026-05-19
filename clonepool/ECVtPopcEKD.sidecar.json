@@ -1,0 +1,11 @@
+{
+  "name": "bench_61347",
+  "tav": "ECVtPopcEKD",
+  "fingerprint": "4ee839e33433ba1c09d81f3cf4ca51bf08a4f0dccc367e1f81108b617d8970083aa50c7f352bbb849084729f4d6dfd7d1bd1d176a9191e60c7af5863fc8a1f4f",
+  "timestamp": "2026-05-19T01:31:06.110835+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

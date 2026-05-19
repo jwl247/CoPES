@@ -1,0 +1,11 @@
+{
+  "name": "bench_16281",
+  "tav": "2HDFC4p6xGz",
+  "fingerprint": "07a64ef93b6ee7b3adfbd5f70f0eda37a9ee9eabd6664934c9b699cb9ca8a65f88e71cecd37f5b9e4ba0571764167e6f9aaac7f0dacaba83fef5884f612cc9b8",
+  "timestamp": "2026-05-18T22:41:55.206939+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

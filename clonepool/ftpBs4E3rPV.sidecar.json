@@ -1,0 +1,11 @@
+{
+  "name": "bench_91893",
+  "tav": "ftpBs4E3rPV",
+  "fingerprint": "e8872fb880973e7c9c774ae680cfb6dc9b663bbd26b0b461b683bea0a7ac7e767e1329c6f3631d7301f64a4722bd25fdccdb9b1018de3958be6c304a68a3fc37",
+  "timestamp": "2026-05-19T03:26:32.135292+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

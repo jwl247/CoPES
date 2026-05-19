@@ -1,0 +1,11 @@
+{
+  "name": "bench_55292",
+  "tav": "SKFC16rp6r4",
+  "fingerprint": "97588bcbaf591fd93c925216eeaefeff67c2808b256f1489f1163090705d134d1298bedf18ae6db594d0a2b437a0b8075f6dbee61c1a6565201e15b72fa72277",
+  "timestamp": "2026-05-19T01:08:26.780660+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

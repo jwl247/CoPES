@@ -1,0 +1,11 @@
+{
+  "name": "bench_8060",
+  "tav": "Xyw3GvZsFdQ",
+  "fingerprint": "b93a0db6ecb8c8e7c579af7bd6ed842989976a20cc25bbe3b287a2a3def79de2bacf102dc7405acc4f6ffd735673384667e54fa062d0db70d767debdfad2baf1",
+  "timestamp": "2026-05-18T22:11:43.831644+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

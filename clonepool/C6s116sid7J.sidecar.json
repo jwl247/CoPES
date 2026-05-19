@@ -1,0 +1,11 @@
+{
+  "name": "bench_18936",
+  "tav": "C6s116sid7J",
+  "fingerprint": "425e744ccdcfa42530ac23403ba2ebc66a2ff989de9e1e5e57f3da675bbd88c6b44c4a8fc8aee3b5d636b245ead93759c28e510fd248664a2f700bb22a8cab1f",
+  "timestamp": "2026-05-18T22:51:40.237170+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

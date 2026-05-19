@@ -1,0 +1,11 @@
+{
+  "name": "bench_32000",
+  "tav": "S8RyAQ7Sf72",
+  "fingerprint": "963b2da1dc54589dc1f8c333c11a3bc849ca8904b737b3b4c69afcf0559007ca5f805517b930fafb5a251dfea84514d788d623bc1d6eeb1fd08e97ca0c46944e",
+  "timestamp": "2026-05-18T23:40:03.582084+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

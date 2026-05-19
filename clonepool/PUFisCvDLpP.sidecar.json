@@ -1,0 +1,11 @@
+{
+  "name": "bench_85290",
+  "tav": "PUFisCvDLpP",
+  "fingerprint": "8656b6171f886b78cf5f8519afcdaf5b30b6423eadbb299a1ae70cafd535451b6e964a32ed78432eb60eb62f8c01ac22a4688774b50d277e2e9b4202ba4d5db5",
+  "timestamp": "2026-05-19T03:01:41.990843+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

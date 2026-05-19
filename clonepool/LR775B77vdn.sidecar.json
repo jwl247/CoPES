@@ -1,0 +1,11 @@
+{
+  "name": "bench_2738",
+  "tav": "LR775B77vdn",
+  "fingerprint": "74140dbffb7dbe59379ab3c16147f5c073fada222b022552df7058a709b498ad0221107b95c3b9d52505f38e631289170ab10e02d98fd64b7ac3a3b5562d5968",
+  "timestamp": "2026-05-18T21:52:11.017850+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

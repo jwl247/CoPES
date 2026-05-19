@@ -1,0 +1,11 @@
+{
+  "name": "bench_8510",
+  "tav": "NduPoT1vEVX",
+  "fingerprint": "815ad25edbb1c452a47bee07d2bcc3e981572443f9898d0d93a64a203184422af957f18971bdb2695fc2613ba12f6e23fa2a8d44eb65d1b62f8cb7ea69ed7d19",
+  "timestamp": "2026-05-18T22:13:22.392011+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

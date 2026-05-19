@@ -1,0 +1,11 @@
+{
+  "name": "bench_22105",
+  "tav": "GV53VBKRyn",
+  "fingerprint": "01989899212737ad1f918a220075e76a4c8c28158fbd6cafc432dca4502ef0782437b37c1be1573b9f3a00e21c4ce0e6ef464ea82b19c1db75c44e750b705237",
+  "timestamp": "2026-05-18T23:03:10.389771+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

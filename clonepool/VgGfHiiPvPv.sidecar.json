@@ -1,0 +1,11 @@
+{
+  "name": "bench_4081",
+  "tav": "VgGfHiiPvPv",
+  "fingerprint": "ab72f13c892333458c550d2d81968cb59f375b89736e048497f5f683c36792caa6adf3715503633ba63b524efd3cc7035e741fc228e1ea37965dfb2bad9f74af",
+  "timestamp": "2026-05-18T21:57:21.920428+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

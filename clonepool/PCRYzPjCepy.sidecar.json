@@ -1,0 +1,11 @@
+{
+  "name": "bench_72817",
+  "tav": "PCRYzPjCepy",
+  "fingerprint": "84b4f85302bd48eaac88508482c2b6f990ac585a40a917849b763e2ae4a7e0e85643d155610dfbd89c17ff6d69d725375814822162cac93381f8c5e5dc6ff580",
+  "timestamp": "2026-05-19T02:14:44.600615+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

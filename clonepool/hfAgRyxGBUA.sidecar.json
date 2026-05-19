@@ -1,0 +1,11 @@
+{
+  "name": "bench_7705",
+  "tav": "hfAgRyxGBUA",
+  "fingerprint": "f3141f009c230fd7a0cb0f603c325d9f8b3662cdf0e3357394a3465416faab0daa6822ca2627dcfe1acf05ba5b330e845bc614e45ae428fe47c44bd0263470c6",
+  "timestamp": "2026-05-18T22:10:27.327794+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

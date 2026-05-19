@@ -1,0 +1,11 @@
+{
+  "name": "bench_56003",
+  "tav": "SPFmuHVymet",
+  "fingerprint": "97c25d8953c6ac454949b1d1bd136778cb24c6b9ee1f2f2a041c2f1fb987fbdcbf8d5e07c058d5938ac1ffd13a8bb3fe03d05e6ec01878544b4ad65508b4c455",
+  "timestamp": "2026-05-19T01:10:56.273713+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

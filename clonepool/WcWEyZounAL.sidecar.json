@@ -1,0 +1,11 @@
+{
+  "name": "bench_43111",
+  "tav": "WcWEyZounAL",
+  "fingerprint": "b10a178236f273f1d41f985c2bedb73c2b013128b437c21fdde07fb04942d980fa7e351b8bc52fa10efd1210fd803b95eb6d46eb665145870c4e135a391db4de",
+  "timestamp": "2026-05-19T00:21:51.230950+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

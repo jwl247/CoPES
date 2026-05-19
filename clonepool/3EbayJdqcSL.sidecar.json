@@ -1,0 +1,11 @@
+{
+  "name": "bench_234",
+  "tav": "3EbayJdqcSL",
+  "fingerprint": "0d5bd4fd2554d389bf9d7ec1ea7db450285b564613a6003ec5251189bf25e208c5bb0c4bf57aac1de9442dc82f4f4d421e1458eef4fb07b921474b75090c068d",
+  "timestamp": "2026-05-18T21:43:45.892478+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

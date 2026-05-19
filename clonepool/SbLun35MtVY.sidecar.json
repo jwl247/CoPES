@@ -1,0 +1,11 @@
+{
+  "name": "bench_33561",
+  "tav": "SbLun35MtVY",
+  "fingerprint": "99015cb5999bd583af2d93f78c839d36172a5ac47671aa2fc0c72d69d99994dc9d5350775d3bdaec7228351e0c3144d4c58b369461132bcd468e5ca4812fcc84",
+  "timestamp": "2026-05-18T23:46:00.793093+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

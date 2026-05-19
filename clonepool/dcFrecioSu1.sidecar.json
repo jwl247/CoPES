@@ -1,0 +1,11 @@
+{
+  "name": "bench_80356",
+  "tav": "dcFrecioSu1",
+  "fingerprint": "dadd370faf0309acd1d95b42bb2a6d9c94132fc47e1c56af3878f8e9385c12790a092f1dc6e59f13a57eb39d5b2ab75d93a6e1ba774c6d264bb158ed8f175633",
+  "timestamp": "2026-05-19T02:43:28.433666+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

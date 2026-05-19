@@ -1,0 +1,11 @@
+{
+  "name": "bench_980",
+  "tav": "RsHKcCur8a1",
+  "fingerprint": "94ab6b30c37535fe87d088a7aa33ec89c424429136d3007f95cf1602f76663226eebca90490c3b40a6ca6e2566d833e561c9c6c521d1ad5506f4545a273073d3",
+  "timestamp": "2026-05-18T21:46:05.109979+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

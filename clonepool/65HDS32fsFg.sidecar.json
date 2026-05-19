@@ -1,0 +1,11 @@
+{
+  "name": "bench_2268",
+  "tav": "65HDS32fsFg",
+  "fingerprint": "1e558ce94212b4dbb2412bbbba49aa01de50d6d9275dc4cb636211218a7147d56630b087794bf863c70d9fb81cd98d39cec65e1388a8190e09dba6633000065b",
+  "timestamp": "2026-05-18T21:50:30.684804+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

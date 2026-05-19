@@ -1,0 +1,11 @@
+{
+  "name": "bench_64288",
+  "tav": "SyepDS5126E",
+  "fingerprint": "9b4e0d34cb5710b367385e4142d90f9143e521d312ee6bcf36ff196dd9b482ca9eaceb4b45131776584a1cb8b3df0816344ee511be905707f00c2dc1db2bb146",
+  "timestamp": "2026-05-19T01:42:16.469515+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

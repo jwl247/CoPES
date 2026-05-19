@@ -1,0 +1,11 @@
+{
+  "name": "bench_38289",
+  "tav": "RAuyMMYDEck",
+  "fingerprint": "90822bef96b2393dd1398f1369efa40609efc5e351dd5292fc33ccfa6de035551ccffebdbc1646cf01a2a5aa0998c53c60011728bb9cf6acd4e2274f41db1db3",
+  "timestamp": "2026-05-19T00:04:01.839916+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

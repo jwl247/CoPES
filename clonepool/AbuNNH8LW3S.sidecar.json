@@ -1,0 +1,11 @@
+{
+  "name": "bench_87018",
+  "tav": "AbuNNH8LW3S",
+  "fingerprint": "3967beef2abeefc951b6b74f05cbedab9095e6386b265c549c3c0acac4f0732fc0e9cfe4d19f38b9417148ca8fa6bd4c6483f6dbac8a99c678d80d3785d1c9e2",
+  "timestamp": "2026-05-19T03:07:58.263290+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

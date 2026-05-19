@@ -1,0 +1,11 @@
+{
+  "name": "bench_52162",
+  "tav": "TR8ASSYT82K",
+  "fingerprint": "9dee33fd369b2fa82f062d4a6156b28bc22affb314bf03f66fe3b42ea539084feb4b333a0dd47763f563d8f5c57e707d86a7095447f1885b9ff14f5f7c270405",
+  "timestamp": "2026-05-19T00:56:25.914971+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

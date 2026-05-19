@@ -1,0 +1,11 @@
+{
+  "name": "bench_1329",
+  "tav": "CPF4kad1tnk",
+  "fingerprint": "440eb4e3b19aaaa9b16003405dfcb2c59189e217d251854861a093c6de5f3859c5b125b2d69645378c287158ee79a0361a5bbdafb9fc616b7aaccb31198bfd50",
+  "timestamp": "2026-05-18T21:47:15.981051+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

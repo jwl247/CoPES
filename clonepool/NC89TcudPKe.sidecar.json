@@ -1,0 +1,11 @@
+{
+  "name": "bench_83970",
+  "tav": "NC89TcudPKe",
+  "fingerprint": "7eb286e452311e911af2d71de95a0eadc6f3e99177c3cb381b75259fee5b6cb08779e7bdbbe4cdcf138cedd188221186a606d498b06c471b0ad61c622fb1f8f3",
+  "timestamp": "2026-05-19T02:56:54.585407+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

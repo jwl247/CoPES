@@ -1,0 +1,11 @@
+{
+  "name": "bench_5023",
+  "tav": "SXE3wCRVCTs",
+  "fingerprint": "9894b01e29985de265aa8ea94d2bdbcd466dfaa4f52ec9849606d66896725a577e0af992de872c02615153469127ed580da749306912a1cd2a850f4ef1ced126",
+  "timestamp": "2026-05-18T22:00:42.002128+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

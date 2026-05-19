@@ -1,0 +1,11 @@
+{
+  "name": "bench_49450",
+  "tav": "RT7neTGqitf",
+  "fingerprint": "922dc2c55affade8eb20f1de90ddc47b8688a8174bd25f69ef085fedc61e9ba28db3d4f0e0ed694fc83abd0a50f5e6deae227be3546e16b575b98601e03405cf",
+  "timestamp": "2026-05-19T00:46:01.922273+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

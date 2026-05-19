@@ -1,0 +1,11 @@
+{
+  "name": "bench_68506",
+  "tav": "GKNDC152nW9",
+  "fingerprint": "5b92800da4620c166b6b317e48b5e0b6bd5707f8c78c5ecea93f4b909f0ae44859345efb0aff3244bde89ca5d0950e3ec7132200b4a5aab0612b1a7399f7532a",
+  "timestamp": "2026-05-19T01:58:15.197343+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

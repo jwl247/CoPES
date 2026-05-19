@@ -1,0 +1,11 @@
+{
+  "name": "bench_16013",
+  "tav": "NQWAbBaXbw",
+  "fingerprint": "0234d92e9804d4eaed61b202c7608d944e3d199d14daa303cb63b9871384c13c8ff3f900a8aedae71a3abf4ca8ebbb7baf5d88e6222b867d3812309516847e1b",
+  "timestamp": "2026-05-18T22:40:57.275403+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

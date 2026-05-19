@@ -1,0 +1,11 @@
+{
+  "name": "bench_72018",
+  "tav": "UdpeDk2rNyq",
+  "fingerprint": "a537cdd3081723ecc2a268a13e829a5178ca8c36ffcedd756db77b2c27bdc5b41df69bdcb126bf3d26fc40a3c8e754055e22b1dbf24807f8d622ac5a02c59d45",
+  "timestamp": "2026-05-19T02:11:41.881151+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

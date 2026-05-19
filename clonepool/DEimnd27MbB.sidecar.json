@@ -1,0 +1,11 @@
+{
+  "name": "bench_75103",
+  "tav": "DEimnd27MbB",
+  "fingerprint": "49285774494ad54ea57431641c63848b51fef8590c26b46583759ce20a47417a04b75a3edb417e6053d27badcb52d19855c05cfa907fe15aa0a42fc27db96b34",
+  "timestamp": "2026-05-19T02:23:21.086032+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

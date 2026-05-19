@@ -1,0 +1,11 @@
+{
+  "name": "bench_31753",
+  "tav": "URANU1S9VzA",
+  "fingerprint": "a3e9bb3af0c39ef3750fbca250519c282591d83e1e45851523f2b18a24b4b18f421b0415c1f8420956788dcc8f7e464e2aa8ca163347572ae5e1c0670182029f",
+  "timestamp": "2026-05-18T23:39:05.039859+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

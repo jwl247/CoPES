@@ -1,0 +1,11 @@
+{
+  "name": "bench_8011",
+  "tav": "dKVzT52pfRW",
+  "fingerprint": "d9230b448f9682cd95f2c4adf93b19d2b732bd7a113a6a9bae1a958db0a4372b9d66af2b2a8894078d0db97d7cb1ea0007ab33a4c01f72d19e0c7429b654632d",
+  "timestamp": "2026-05-18T22:11:35.031612+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_82243",
+  "tav": "URASb2SfWaZ",
+  "fingerprint": "a3e9c3817c2de2ce536ef671eee8d94bbc725521720921f17c6237188d6c71f37141547151439e70531cd93db057b0896df6a7f00ffda8a21e812abacfc9b620",
+  "timestamp": "2026-05-19T02:50:37.112953+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

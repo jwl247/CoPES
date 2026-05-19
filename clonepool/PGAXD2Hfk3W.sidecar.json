@@ -1,0 +1,11 @@
+{
+  "name": "bench_3936",
+  "tav": "PGAXD2Hfk3W",
+  "fingerprint": "8517af51e6fe0b2d0d991f23cf7b704dd721355204d633e61716f4fef1e2cd36937c676a732a698e69e90d6d7b38c3c3149ca9dd63fc77bec4122c89eb8109dd",
+  "timestamp": "2026-05-18T21:56:47.880032+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

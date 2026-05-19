@@ -1,0 +1,11 @@
+{
+  "name": "bench_8084",
+  "tav": "CywWy185trG",
+  "fingerprint": "47a25097a71fade5a578b0de2709310399d78e4f47da03a04923dca3ed5383bf1dc6790102b8d45133d73859b68a80f89a465803d6d4fd257f1264dd32584ee6",
+  "timestamp": "2026-05-18T22:11:47.928896+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

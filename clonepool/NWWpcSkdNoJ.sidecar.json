@@ -1,0 +1,11 @@
+{
+  "name": "bench_2260",
+  "tav": "NWWpcSkdNoJ",
+  "fingerprint": "8097d5684c32a5a18e2f3f656242c3449176b80a9007e3dca49c8c81839105a854f287c5143b4bc3c207e55e39c6b311c03d96e3a9120b2616fb7cfcbe5ef8ef",
+  "timestamp": "2026-05-18T21:50:28.688062+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

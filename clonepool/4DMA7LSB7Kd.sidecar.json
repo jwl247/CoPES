@@ -1,0 +1,11 @@
+{
+  "name": "bench_8623",
+  "tav": "4DMA7LSB7Kd",
+  "fingerprint": "1335672c3fd8161072efb1fecece4c54035faed6a8c08d79456c43eef8e9328d2b6b100200f88afc1bb0885f459c1a5e45a6050fcee38c9e620e06213e6ef043",
+  "timestamp": "2026-05-18T22:13:47.404453+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_90700",
+  "tav": "Q537PruoZD5",
+  "fingerprint": "89ec90c1642d33cc008ef2e48f9479ce7e66b26be18a905c5079cb9292c76fd8a16e44b9cdb53b6a4308f1ba7ce7342cd6f9df849eb1e36b21d9d4cfc15a28f2",
+  "timestamp": "2026-05-19T03:21:58.936160+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_31823",
+  "tav": "WHRYs74F8x8",
+  "fingerprint": "af129428b657c99963e2db57b2e354ecb398e95e31c4ebde9910d25539c0d6f021c185d2ff9c87d4152a08413905e02feb11141fae551fd4bb3799336ed416ad",
+  "timestamp": "2026-05-18T23:39:22.015321+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

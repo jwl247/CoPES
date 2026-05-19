@@ -1,0 +1,11 @@
+{
+  "name": "bench_6783",
+  "tav": "LDANX5SLEza",
+  "fingerprint": "72d8e1311c740ae774a23ef198dd63b604ca910900b02c1d59fd29eeed7e0dab4b18ac7304a47f405dbc7c2bba06cf916ca7b2c5cff4547f6d9de2d1ab1d6af1",
+  "timestamp": "2026-05-18T22:07:05.675993+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

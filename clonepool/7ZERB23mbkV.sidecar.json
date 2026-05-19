@@ -1,0 +1,11 @@
+{
+  "name": "bench_36223",
+  "tav": "7ZERB23mbkV",
+  "fingerprint": "2731acdec4c616c2b485bcf01b79a99b6586b5a72bedc53d6a4c3d3397ebd00e5e80af4e4d060941a67fa89800d2059d0d7fef7fcda1266dfcc2552a2f8bf8ba",
+  "timestamp": "2026-05-18T23:56:03.162564+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_521",
+  "tav": "QfHDbg14Nvy",
+  "fingerprint": "8d742ffbf5443486b761f987c77e1d91d0b99695cb2963756f97428654e43b05aa5cca3cc5c1bfbfcebb00ed2b2a64e6873d8fe2f5c5bf993dd8f6080b489bec",
+  "timestamp": "2026-05-18T21:44:39.633089+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

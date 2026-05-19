@@ -1,0 +1,11 @@
+{
+  "name": "bench_80133",
+  "tav": "LPnGUMh5KLE",
+  "fingerprint": "73f1183a7d2a0fc318cb8e755875c04518d1dea505b6c153c690fe55b7d5f13c09e6b0b0d17805a0c3ec3a55f6c50ed40e5a5f037fadd6aaf438ad91b1a70cc5",
+  "timestamp": "2026-05-19T02:42:32.589867+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

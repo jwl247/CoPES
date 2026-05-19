@@ -1,0 +1,11 @@
+{
+  "name": "bench_13800",
+  "tav": "EcPUGMod62g",
+  "fingerprint": "515ea0969dc2ca554b88c51337cff01295a9de255549d8099c384cfc5fdce1b4f1798117ed3df6497fd00f27ffd887f66a6d01de2374903daee40e13f3abf496",
+  "timestamp": "2026-05-18T22:32:47.992041+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

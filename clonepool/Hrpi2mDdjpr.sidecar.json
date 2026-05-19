@@ -1,0 +1,11 @@
+{
+  "name": "bench_6996",
+  "tav": "Hrpi2mDdjpr",
+  "fingerprint": "64cb1e4ed04d525f320341904d3dc2b46ffc4046897125bb1011a9e6af70c31c4db6e7b323ea74d58b425108e4c170e09fd6f483b35f75321ff1fb556bd7a584",
+  "timestamp": "2026-05-18T22:07:51.871020+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_27133",
+  "tav": "AdvoPgckMRH",
+  "fingerprint": "399d2c7deb751318f4a236756a33c01c05b2175d982340a7ae7f88153eca801be8535f050336d3da74a72acf750a8a0e216b3814989678805121d9f8fd76c3a5",
+  "timestamp": "2026-05-18T23:21:43.498277+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

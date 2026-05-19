@@ -1,0 +1,11 @@
+{
+  "name": "bench_61502",
+  "tav": "UKdV1BGTNTP",
+  "fingerprint": "a357bc9f9a88e82edafbb4499a4d42e09561d0c3de1dd73f03198b5e44c9f4c6d79b6b0bbf9d0eb01da957b0a1af976071ae8b588772b4493e75c1e49d349a0b",
+  "timestamp": "2026-05-19T01:31:43.344448+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

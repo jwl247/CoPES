@@ -1,0 +1,11 @@
+{
+  "name": "bench_311",
+  "tav": "Bv8ijusMxY5",
+  "fingerprint": "414355a0b9b4bc8650ad6575c33d3f49e26089cd39283e167e1d5d2e89ce0251d7d026c459fe5343dc6ba23f1c8a296b3e73859a8fc6bfb19e376770600ea9bf",
+  "timestamp": "2026-05-18T21:44:00.221430+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

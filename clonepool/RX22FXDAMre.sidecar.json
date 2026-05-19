@@ -1,0 +1,11 @@
+{
+  "name": "bench_15660",
+  "tav": "RX22FXDAMre",
+  "fingerprint": "9294b0eb81bb51f7e123f8fc6955f7891e6d467b47428c422c58c69654de37db4829fe8c43445594550b4815c641a5944989850ce5a2bee2e7b265f76ff4c142",
+  "timestamp": "2026-05-18T22:39:44.994840+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_38839",
+  "tav": "CSPSXBM4eqs",
+  "fingerprint": "4461aea2959b6b3e005370083171b78ef844c9bfa19088866c6e2829b09242f30538b61b0654d907c40413e8062a781d042e48a52262919b844dc5f11def560b",
+  "timestamp": "2026-05-19T00:05:58.328918+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

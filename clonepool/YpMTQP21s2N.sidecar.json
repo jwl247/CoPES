@@ -1,0 +1,11 @@
+{
+  "name": "bench_5418",
+  "tav": "YpMTQP21s2N",
+  "fingerprint": "be37cd7e72ac70e71fdf7f65f425ad639b85e96dab777bce2c4f124ce9d71d555f01e6d4803ef15d6d5b0ca20ef38a43232cd7b7ea699e2affd325ef0227f66d",
+  "timestamp": "2026-05-18T22:02:06.946196+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

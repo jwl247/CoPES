@@ -1,0 +1,11 @@
+{
+  "name": "bench_338",
+  "tav": "JZ7oe72SBfC",
+  "fingerprint": "68f26e424535fd073d1cf4197adbc17d45c7d040dca519aa473a676861f6ef0a81b066db8f99bb7ad005e60c68e876debc89f70c5b65bd7076ea6946be9faaff",
+  "timestamp": "2026-05-18T21:44:06.108971+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_23369",
+  "tav": "MSCUWS6e63n",
+  "fingerprint": "7a2b68b81243fdcda201c4633f908f61755875a92cbdcb5185b6e7e92c12b17c4867d151c5727253b6c2029b01aade56905c3876613e53b7e5f90ccc173b081a",
+  "timestamp": "2026-05-18T23:07:43.897797+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

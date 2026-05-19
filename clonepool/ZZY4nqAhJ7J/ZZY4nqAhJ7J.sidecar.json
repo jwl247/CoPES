@@ -1,0 +1,20 @@
+{
+  "usys_intake": "1.6",
+  "type": "directory",
+  "tav": "ZZY4nqAhJ7J",
+  "original_name": "src",
+  "state": "white",
+  "version": "v1",
+  "snapshot_path": "/home/jwlef/Phoenix/clonepool/ZZY4nqAhJ7J/v1_src",
+  "file_count": 9,
+  "size_bytes": 78930,
+  "backend": "direct",
+  "notes": "",
+  "pool_path": "/home/jwlef/Phoenix/clonepool/ZZY4nqAhJ7J",
+  "registered_at": "2026-05-18T04:52:34Z",
+  "updated_at": "2026-05-18T04:52:34Z",
+  "files": [
+  {"tav":"W9nETTaJq8p","name":"dependency_links.txt","path":"phoenix_copes.egg-info/dependency_links.txt","version":"v1","checksum":"01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"},  {"tav":"QD6xfmtcRk","name":"top_level.txt","path":"phoenix_copes.egg-info/top_level.txt","version":"v1","checksum":"01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"},  {"tav":"TWLzjFvDsyU","name":"SOURCES.txt","path":"phoenix_copes.egg-info/SOURCES.txt","version":"v1","checksum":"24aaa8986082b0e5c9e762678d9d748b045eca733caed1e1597db41adeeac2a7"}
+  ],
+  "clone_history": [{"version": "v1", "at": "2026-05-18T04:52:34Z"}]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_25060",
+  "tav": "PCiR7ZXXSaq",
+  "fingerprint": "84bca48b07179d3e2608a794e0a579d1117678c672cad1fa430f2476d347c59f1652c50e29208558d83646f6c21b918bc5b744dbf67cb1bfeaa44f1ce20637e3",
+  "timestamp": "2026-05-18T23:14:08.300711+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

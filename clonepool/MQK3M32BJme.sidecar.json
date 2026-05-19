@@ -1,0 +1,11 @@
+{
+  "name": "bench_59256",
+  "tav": "MQK3M32BJme",
+  "fingerprint": "79f99eaa8d1931616dd27d539a76d35081a1ee9368f90f1d49174c4b91697bef8e43e906aff3fd3b741b7f71809560aba9b1351655bc508196620f9a2ac11631",
+  "timestamp": "2026-05-19T01:23:12.825361+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

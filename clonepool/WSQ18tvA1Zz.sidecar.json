@@ -1,0 +1,11 @@
+{
+  "name": "bench_95733",
+  "tav": "WSQ18tvA1Zz",
+  "fingerprint": "afff5eb7fcaf56d16eae7a2d1eb45220867f2b8900aa0b3025189086c107a0e43a4d5fd5c604d3211dcf31313bb3233f4a00eb2a2f348cdac1231ec03959ca41",
+  "timestamp": "2026-05-19T03:41:07.168137+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

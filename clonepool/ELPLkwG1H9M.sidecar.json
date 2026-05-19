@@ -1,0 +1,11 @@
+{
+  "name": "bench_40705",
+  "tav": "ELPLkwG1H9M",
+  "fingerprint": "4fb85ada2ca3941497e2a87b903337d57e28dacf19f6b176b22555e2e952f951d348acf5ca43ba8daf0292cb80ea350bc729d352051ea4b9ebb5b9909919116a",
+  "timestamp": "2026-05-19T00:12:57.689798+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

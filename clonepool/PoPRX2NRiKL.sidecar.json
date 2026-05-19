@@ -1,0 +1,11 @@
+{
+  "name": "bench_879",
+  "tav": "PoPRX2NRiKL",
+  "fingerprint": "884f97f1969b4c1b5015fc2a30089310e57659a791f215de3d1779a01012ce1b5bcc2a2cd59d50b0d77056857ea39ac535b11c7497aa105800c0f9107ed1345b",
+  "timestamp": "2026-05-18T21:45:47.948840+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

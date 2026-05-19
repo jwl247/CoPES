@@ -1,0 +1,11 @@
+{
+  "name": "bench_6703",
+  "tav": "VM6dEMc25e5",
+  "fingerprint": "a978ff77b5cb990eecaacb6a670c9bd0a6d70f335b6f19d4b0e49234757d94cb6a8f24603f41ffb48fabf974d59577e88dcd92ca6e6aadfbe51f3d64fec16fb2",
+  "timestamp": "2026-05-18T22:06:48.524787+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

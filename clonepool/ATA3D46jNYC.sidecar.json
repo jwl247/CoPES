@@ -1,0 +1,11 @@
+{
+  "name": "bench_8038",
+  "tav": "ATA3D46jNYC",
+  "fingerprint": "3880eccdd28718c55701d88e7466ea65103ab656bdedc757507ea13766686b9cf6d0dbdef6a13b956281145eb98e43d09e6489f1c1a37568892321dfdb319343",
+  "timestamp": "2026-05-18T22:11:40.434766+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

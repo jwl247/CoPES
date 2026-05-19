@@ -1,0 +1,11 @@
+{
+  "name": "bench_8816",
+  "tav": "hb4GeiB1ork",
+  "fingerprint": "f2a7a6bf084bfcbdba09e2e10a16106cd1d5d36c52935702c7df9cdc2e0f4d9c136db4104d0c46523831aee6038b340b55620738fa3be5896a26e7c3c9f04a32",
+  "timestamp": "2026-05-18T22:14:30.415358+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

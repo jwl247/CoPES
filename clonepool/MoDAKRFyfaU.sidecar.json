@@ -1,0 +1,11 @@
+{
+  "name": "bench_31700",
+  "tav": "MoDAKRFyfaU",
+  "fingerprint": "7c55e067c49e288d7f8c1214368a54c08493c5480d6128af23b8a52ec95601415bdd89804811ab05171d1a850b291990efddc679157d048e02b5a6f21e4c2cbf",
+  "timestamp": "2026-05-18T23:38:53.311258+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_64761",
+  "tav": "FsivogPTnun",
+  "fingerprint": "58edd440ea9c8f19ba41eb248ad4b8d9e83111bee45e864865615590deca919c82ff92ce8560c9f64e4f3d6bcce4e21f383e1024bb34f94308403812c19f59e1",
+  "timestamp": "2026-05-19T01:44:01.919158+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

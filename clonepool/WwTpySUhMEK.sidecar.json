@@ -1,0 +1,11 @@
+{
+  "name": "bench_25600",
+  "tav": "WwTpySUhMEK",
+  "fingerprint": "b2fe5f45bd8df2e4947425df8db3f336b3f2744153f6a75ea927cfb73b4ddf078654a07b2dba31ce9b64fa28edfd97a2f9c32e0974f0412e2e1a7c50bf78d69c",
+  "timestamp": "2026-05-18T23:16:12.307907+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

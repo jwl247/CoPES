@@ -1,0 +1,11 @@
+{
+  "name": "bench_42000",
+  "tav": "4PCJGHautk4",
+  "fingerprint": "14394174d759045de8acebb8dc0e21e033dc96742dd9a49b98c9c84522de034d9a93718828d826d95c0818a94ab6cbb12f42c249fcffff81d9590af014170fb3",
+  "timestamp": "2026-05-19T00:17:45.023654+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_20744",
+  "tav": "DCLa32R27QU",
+  "fingerprint": "48e9769f91efe571d8220038bfcd7c2e52145ac5cd05228c69adc25b81a014cab991f3cf779f016071b6a5eb5e89d481aae56a600e469285780477a944732c2c",
+  "timestamp": "2026-05-18T22:58:18.883383+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

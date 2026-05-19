@@ -1,0 +1,11 @@
+{
+  "name": "bench_29828",
+  "tav": "33Dism2DN9S",
+  "fingerprint": "0c2f9ce24199434d5f90645764c2bb44b4e43f4a7a3915dfcece4321de329a9926c4bb144c0e9b6b70bc9ee5dc453b7049228f3589296fcb3d1a65be219a0b7d",
+  "timestamp": "2026-05-18T23:31:42.120417+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

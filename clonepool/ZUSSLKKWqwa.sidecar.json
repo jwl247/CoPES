@@ -1,0 +1,11 @@
+{
+  "name": "bench_63094",
+  "tav": "ZUSSLKKWqwa",
+  "fingerprint": "c224d386de435e452664670513f803e14e08c429e8e5bf4e89fcf11b6efc02dda31d5382caab410dc1e24ef82313970a284b0470e9cb9a166107a34a6234f44b",
+  "timestamp": "2026-05-19T01:37:49.885280+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

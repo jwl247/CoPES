@@ -1,0 +1,11 @@
+{
+  "name": "bench_99006",
+  "tav": "S11STdmpwM8",
+  "fingerprint": "95774cb7c2d78dbf3fdfb6516b575451a4c386512413c39fc657bcd259147187a505fd8cb0d818add19861cf7abc640cfacd66171cf482e6fbd116830090eadb",
+  "timestamp": "2026-05-19T03:53:08.367324+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

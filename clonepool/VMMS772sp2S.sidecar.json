@@ -1,0 +1,11 @@
+{
+  "name": "bench_17164",
+  "tav": "VMMS772sp2S",
+  "fingerprint": "a97fbc37a26ccc8fdb4903c6d83c480688bd62c8f83e5ed6d1e836b4e942b2743a399c700cbe7040a55ef0d8cd408ad72980a02cb4b7a173855e3f1bc594f497",
+  "timestamp": "2026-05-18T22:45:13.850147+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

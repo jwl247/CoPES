@@ -1,0 +1,11 @@
+{
+  "name": "bench_19603",
+  "tav": "K64dkCZTSAG",
+  "fingerprint": "6c2306dfecefd64d44f9ef6b6565f4ae4c1ea94e1ffbeac6ff6952c0017b91a302af676e254153e66a6b0c07e3d96a716f82d5523b5afc4f2f0665e07a978aca",
+  "timestamp": "2026-05-18T22:54:05.907804+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

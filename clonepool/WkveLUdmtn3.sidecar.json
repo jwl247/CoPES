@@ -1,0 +1,11 @@
+{
+  "name": "bench_64247",
+  "tav": "WkveLUdmtn3",
+  "fingerprint": "b1e84d184cf387a0b096993ebf24f6cf08580c18bda902be07df86fb9cc820c7da36cb87b9e3c1ded0f3b231b228c38269a6ac72467ff3ca25d43f67a782307b",
+  "timestamp": "2026-05-19T01:42:06.914846+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

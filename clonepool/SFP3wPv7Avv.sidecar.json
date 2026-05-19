@@ -1,0 +1,11 @@
+{
+  "name": "bench_81897",
+  "tav": "SFP3wPv7Avv",
+  "fingerprint": "96f291b7f6a9bbfbff33dd29bb89b6ce176e1a8d6c456102acf736a4964a29c4ae9c919328355908a2d98d62e95deb79df43eb7f74b784cc38e1364f4bd38b03",
+  "timestamp": "2026-05-19T02:49:19.722420+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

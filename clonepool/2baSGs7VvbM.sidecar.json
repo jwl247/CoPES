@@ -1,0 +1,11 @@
+{
+  "name": "bench_80081",
+  "tav": "2baSGs7VvbM",
+  "fingerprint": "098af0a61716217c54ebcac46e31b907b739144cb8fe3281a4e71cdda9bf3f0505f67905d83ce9b491884d83119b68b577038a889a8a5ab0107be4e744f6c520",
+  "timestamp": "2026-05-19T02:42:20.571686+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

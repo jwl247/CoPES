@@ -1,0 +1,11 @@
+{
+  "name": "bench_35700",
+  "tav": "NebcnPr8tf4",
+  "fingerprint": "816d1f5905e6ba73c9c622ec117c1cec566162b64c4f0b9af82c4b2213b101492a5a487db8ba63fff571c976309441f3591a3877c62f494b213471cd3585bad1",
+  "timestamp": "2026-05-18T23:54:00.791916+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

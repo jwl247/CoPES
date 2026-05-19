@@ -1,0 +1,11 @@
+{
+  "name": "bench_12468",
+  "tav": "KmgMeinVRz5",
+  "fingerprint": "70386cce5fdc875e8575ec55cd743428c2b271d3a72e899a398cfe0c104778e960d24b7e93233e75aa7659976462dd4fb0578402d74bfea6ec52be70d40fc5ab",
+  "timestamp": "2026-05-18T22:28:03.390130+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

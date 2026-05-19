@@ -1,0 +1,11 @@
+{
+  "name": "bench_80125",
+  "tav": "GTcisXSM3Lm",
+  "fingerprint": "5c6c359b1fdea332f9875aa759ee0adfddd6c8bd5f45fbf2bb9605188d809907564164bd99668610e86287a6017492424495ae855f9c6384338198ef087f715a",
+  "timestamp": "2026-05-19T02:42:31.604095+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

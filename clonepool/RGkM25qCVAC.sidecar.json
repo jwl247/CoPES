@@ -1,0 +1,11 @@
+{
+  "name": "bench_1260",
+  "tav": "RGkM25qCVAC",
+  "fingerprint": "911c1f37f982847db5bdbcc5d837b1c97844cd8e0374cb5c9edda14146ae7b6d5b42869b8415a1c79a5f7496d645edf0977a07d4117fe3067f46728df0619361",
+  "timestamp": "2026-05-18T21:47:00.746023+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

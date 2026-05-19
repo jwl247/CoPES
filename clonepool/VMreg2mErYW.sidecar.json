@@ -1,0 +1,11 @@
+{
+  "name": "bench_64968",
+  "tav": "VMreg2mErYW",
+  "fingerprint": "a98d0729cc6af4afc03906369f4b0559cf3e9c32cbe697e3e935255c3767b0323d2d178793c06b8141cf5baea195def9a6d9728a9f9c17333272ac4d50bd1c8e",
+  "timestamp": "2026-05-19T01:44:48.110316+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

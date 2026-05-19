@@ -1,0 +1,11 @@
+{
+  "name": "bench_90930",
+  "tav": "SGGAbusN7pj",
+  "fingerprint": "9709d3355f103c903ce71ccffeb8c2b6ae719c91f9bbaaaec7d14f151bfc6fc2120e1957ce8b5b8d26bad43dcbdc478e098adb89489bb4064881448e4fa24282",
+  "timestamp": "2026-05-19T03:22:49.112194+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

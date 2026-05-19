@@ -1,0 +1,11 @@
+{
+  "name": "bench_22354",
+  "tav": "PZ792RdTeGe",
+  "fingerprint": "86d6bf6ea623474f28e1ae6e1883bda24f3b3fd7983deaa7ec1d5812da629b0498f71b834b755e328230d5735695fa8372921e5eb488f0e0936d3fa36b4ac782",
+  "timestamp": "2026-05-18T23:03:58.951528+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

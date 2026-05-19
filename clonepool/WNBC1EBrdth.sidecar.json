@@ -1,0 +1,11 @@
+{
+  "name": "bench_80993",
+  "tav": "WNBC1EBrdth",
+  "fingerprint": "af8ffcbb961175ae038ea9f4ec48ce1edd9a083185c3d5189379480d8ee28dd56e7800c0f8a874cf8c74f688f972e0c7b6080d16eabdf742320cfbbceebe600c",
+  "timestamp": "2026-05-19T02:45:53.377182+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_7902",
+  "tav": "NVB12LWTx5f",
+  "fingerprint": "80746d722c270dca89dbd3ee21d60b00cc42f8986a12d6b2d0c0207841fe9395da0b480b8643940f784da30f11e300c9c6f7bf318d48b357e26e359e0f9b39ee",
+  "timestamp": "2026-05-18T22:11:10.816504+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

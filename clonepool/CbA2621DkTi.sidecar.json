@@ -1,0 +1,11 @@
+{
+  "name": "bench_36215",
+  "tav": "CbA2621DkTi",
+  "fingerprint": "4549122b74707d59b26c68168af654aeeaf846a9e34fd2ad9d08d5900e28b3d876100dc2d1ac4b483191e0180a66dc83b5bcc94261bc71ab5ba22a6db8182f90",
+  "timestamp": "2026-05-18T23:56:01.794370+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

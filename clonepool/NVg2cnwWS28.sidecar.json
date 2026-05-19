@@ -1,0 +1,11 @@
+{
+  "name": "bench_60090",
+  "tav": "NVg2cnwWS28",
+  "fingerprint": "8081a25af114c60d1cc23cd627aeaa0cf8f04714140c2b4a03f055e64a51d9f661ee9d0243e7202f4037f34bb032bb14dadb3331cc4e47d02411275072693494",
+  "timestamp": "2026-05-19T01:26:20.043910+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_42237",
+  "tav": "TR78PLhAkTX",
+  "fingerprint": "9dedbb648bd2dcd6e9e4549ec84e04dcfa4fb92a5da22b2b14119d544aee708e5307aad32a9daf59b80faac878451c39caa461c11da9fdd17d10d6f164a1c47c",
+  "timestamp": "2026-05-19T00:18:33.810870+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

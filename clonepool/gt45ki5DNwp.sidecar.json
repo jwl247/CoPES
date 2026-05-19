@@ -1,0 +1,11 @@
+{
+  "name": "bench_32670",
+  "tav": "gt45ki5DNwp",
+  "fingerprint": "ee6da4cc135068df40c482920d90453bbc8cbdebcfc7c6fb1f9e6e07bab603fb22c3fc7dc28df6d63cc1bb104c807b353e8995dbffaaa5298c0696a94505d77e",
+  "timestamp": "2026-05-18T23:42:34.970164+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

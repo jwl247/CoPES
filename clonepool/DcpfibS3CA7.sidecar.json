@@ -1,0 +1,11 @@
+{
+  "name": "bench_63807",
+  "tav": "DcpfibS3CA7",
+  "fingerprint": "4b6f9142905de8fc2fdd6a03e395a9ca10c3ed31e82ed51107e0db30834912dc017537027bc84aa2d9f7b7ade4158c04234db5c4946b7a599244bef2bd2aa0bc",
+  "timestamp": "2026-05-19T01:40:27.568049+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

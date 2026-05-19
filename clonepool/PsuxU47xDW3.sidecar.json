@@ -1,0 +1,11 @@
+{
+  "name": "bench_61381",
+  "tav": "PsuxU47xDW3",
+  "fingerprint": "88c709f07ef15c5c954e69022a195dc91edf69fa93f97d16e1f992c0f3852497d78b0a92c4354b9ce8aebac15014ff75c4639f69a97129ccd5ca41e30b4fc9ac",
+  "timestamp": "2026-05-19T01:31:14.866442+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

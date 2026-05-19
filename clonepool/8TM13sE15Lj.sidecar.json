@@ -1,0 +1,11 @@
+{
+  "name": "bench_4540",
+  "tav": "8TM13sE15Lj",
+  "fingerprint": "2c90dd61c2b43c98054582a02e4559f2c8b77da9dba52074b18a177bf6f6e17bdf66b0f2a3141b24dbab34108a715e50fd322c546488e00fc1250c8a63e42fb6",
+  "timestamp": "2026-05-18T21:58:59.877141+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_14248",
+  "tav": "JnifPpsU86D",
+  "fingerprint": "6a5956a7b5991c62dfd9e1b40f2add59dd459b900b03e604af82916bd813195aae40c4f1f8d36f56cf8cf51c67ffef4f11e75522393c2d794e08847c457d6505",
+  "timestamp": "2026-05-18T22:34:29.614753+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

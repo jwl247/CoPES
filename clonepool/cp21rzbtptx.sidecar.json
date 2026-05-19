@@ -1,0 +1,11 @@
+{
+  "name": "bench_73495",
+  "tav": "cp21rzbtptx",
+  "fingerprint": "d6190dcc0841fd5935587e778bdea81a42f08da68869c55bf4a195b37a30791f266a500ae811ea2c55bc345593ec7fb2affb1be7e8672d74e9944ce63c09616d",
+  "timestamp": "2026-05-19T02:17:17.930469+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

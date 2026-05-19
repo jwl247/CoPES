@@ -1,0 +1,11 @@
+{
+  "name": "bench_42900",
+  "tav": "fVSortKTgvm",
+  "fingerprint": "e61e8708e250acfa599f092ef422fcba37cf8fb682cc3e0a4e30c283bd17eb260ff0e1f5d84e2f59f889cafd95626138a01ee92de70654a4c8aa64e312d83ffd",
+  "timestamp": "2026-05-19T00:21:07.727602+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

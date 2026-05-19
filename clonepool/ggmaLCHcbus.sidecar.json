@@ -1,0 +1,11 @@
+{
+  "name": "bench_31829",
+  "tav": "ggmaLCHcbus",
+  "fingerprint": "ed43dc91eb932c5a4b967a63f0ee976875d707116b8e4c4882a87c579029a978366e63ccc44dd294ee331d7a78fdc95989c17352380bad7fa8d22863fd43a204",
+  "timestamp": "2026-05-18T23:39:22.882595+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

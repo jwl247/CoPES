@@ -1,0 +1,11 @@
+{
+  "name": "bench_85116",
+  "tav": "YBNvR13FibG",
+  "fingerprint": "ba6819ce61e8e2577e684fa3c096e23952c221003cfe2fc3f86cd97f3a6774930ce2cf6611ba96e7c0691ed317fe25336758734da4d7bd3cf3655fb1c9d557e6",
+  "timestamp": "2026-05-19T03:01:02.691830+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

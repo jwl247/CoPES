@@ -1,0 +1,11 @@
+{
+  "name": "bench_21167",
+  "tav": "CSM1nakzvan",
+  "fingerprint": "44609404efd4b19363ef5178123d9fdeb73ccfebc7568c098de1f22f94293f4cb40647e10fe4689c29c1600e1621780d893be3bfd937286b91ff8a843b1c91e0",
+  "timestamp": "2026-05-18T22:59:48.981585+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

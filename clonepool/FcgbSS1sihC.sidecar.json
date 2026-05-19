@@ -1,0 +1,11 @@
+{
+  "name": "bench_720",
+  "tav": "FcgbSS1sihC",
+  "fingerprint": "5760f12c7265ca8f6a50ffefb3381c26729c529979d9d50b6c3bf67f6e2da7529eee872e4b00f1d57af9359241f3136dbcd9dd6eb50acf9bb7eeaadc7b242dc0",
+  "timestamp": "2026-05-18T21:45:17.892972+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

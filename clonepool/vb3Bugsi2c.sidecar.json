@@ -1,0 +1,11 @@
+{
+  "name": "bench_55162",
+  "tav": "vb3Bugsi2c",
+  "fingerprint": "058611872585b0613da9d8f7620964386f910dfbae64d2dad3b4164b937efa770ed51a3d62c1137b0a34e728ba258591fe035feeab791ed54b41a3a56c0ed9ae",
+  "timestamp": "2026-05-19T01:07:56.215288+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

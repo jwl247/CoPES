@@ -1,0 +1,11 @@
+{
+  "name": "bench_32380",
+  "tav": "ULX4yDXTYre",
+  "fingerprint": "a36f34f0a7ca6b8b3a1a7561ba203250780401d87de8d9c236060508ed609894738f34b135397b7e0e2f3b6a204fd51481fe428bfd2a402c7ed71ad6c942665d",
+  "timestamp": "2026-05-18T23:41:29.252708+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

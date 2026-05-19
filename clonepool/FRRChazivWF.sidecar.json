@@ -1,0 +1,11 @@
+{
+  "name": "bench_3230",
+  "tav": "FRRChazivWF",
+  "fingerprint": "5637aad76c340f2cc6b9acda3e1c8ad710070d0ddd418df47ae415eb1fbffa793d71fa0835bf19adf3727e9081ab195344618e6639d9f814090e78a99ca4d58c",
+  "timestamp": "2026-05-18T21:53:56.558464+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

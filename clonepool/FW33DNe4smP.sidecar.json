@@ -1,0 +1,11 @@
+{
+  "name": "bench_21390",
+  "tav": "FW33DNe4smP",
+  "fingerprint": "56b1867930611efe7dd0ab21f3cfb2bd437b2fede0896dd2df6caf9809f784c5242a0b98c5a1f1df2e403a5e0e5ecaf3b8ee6f10ed56285ae8420cbece4c4b82",
+  "timestamp": "2026-05-18T23:00:39.899945+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

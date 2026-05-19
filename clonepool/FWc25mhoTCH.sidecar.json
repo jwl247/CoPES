@@ -1,0 +1,11 @@
+{
+  "name": "bench_3611",
+  "tav": "FWc25mhoTCH",
+  "fingerprint": "56c087cd0a589de601b6619a4c4abceb2c51338e2a00f325627e800de32d951c70657290d8e646bf5318ca2bf6f3ea1bccb453e674bbc9d051387da7926214c9",
+  "timestamp": "2026-05-18T21:55:28.992833+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

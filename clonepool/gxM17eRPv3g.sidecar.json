@@ -1,0 +1,11 @@
+{
+  "name": "bench_5900",
+  "tav": "gxM17eRPv3g",
+  "fingerprint": "eedee52ea588dd9f5c137dc5e020a4dca93c381ba8fc3b0cee1b708776101e1ca441b20b19c3779c2931f863c7441c116644271a7a722652123713ebc2e44218",
+  "timestamp": "2026-05-18T22:03:53.515281+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

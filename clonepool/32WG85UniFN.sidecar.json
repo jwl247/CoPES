@@ -1,0 +1,11 @@
+{
+  "name": "bench_38829",
+  "tav": "32WG85UniFN",
+  "fingerprint": "0c1cbfc76f68367d5ef0880f7ce74ccf39b287d955afa9f1ee6d5fe39bde831050c039dc4a9c50227fd128157cc165feeb507cceaad899bc7ce2c34da39ab0ba",
+  "timestamp": "2026-05-19T00:05:56.402579+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

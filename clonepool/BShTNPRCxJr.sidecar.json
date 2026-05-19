@@ -1,0 +1,11 @@
+{
+  "name": "bench_75280",
+  "tav": "BShTNPRCxJr",
+  "fingerprint": "3e6f5ab4234259ffe2751c3e30c3eb7a580071bd0a0fe29ebb3a3c42aa551ddebdf13e74dbf3a436e609798c7e434d1e0f2ad700e540d0c81a4a9b621fbe50f0",
+  "timestamp": "2026-05-19T02:24:03.654234+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_80380",
+  "tav": "Rr92dawyLkb",
+  "fingerprint": "948d41e6e217f4cc52e52aa2760e803bd5120a64d6921c51f0969f0f47a7cdd3e8467e9f8d05d1d3b5bf3ea38df54f467cd578334cc5f45a863fbdccfded1e55",
+  "timestamp": "2026-05-19T02:43:33.075660+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

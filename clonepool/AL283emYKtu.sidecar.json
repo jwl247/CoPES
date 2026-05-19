@@ -1,0 +1,11 @@
+{
+  "name": "bench_12307",
+  "tav": "AL283emYKtu",
+  "fingerprint": "37c49ad2e1eb2b0234175a6af3967be2f515bcefa183851d7de8be085836ea900454a29772b24e5f6503d0ff83dde68f744fa8c049bac610db241fcf1561a0a0",
+  "timestamp": "2026-05-18T22:27:31.689182+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

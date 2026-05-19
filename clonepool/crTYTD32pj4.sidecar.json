@@ -1,0 +1,11 @@
+{
+  "name": "bench_50425",
+  "tav": "crTYTD32pj4",
+  "fingerprint": "d65971e04230f2eb49671f4f4a2cff12f12ba7183e750c32f5a8b10d3624db55a1d399e0d651a363002211544f2fe5e9bef944de1c15e47d82b55b02cdd4a9c6",
+  "timestamp": "2026-05-19T00:49:42.319447+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

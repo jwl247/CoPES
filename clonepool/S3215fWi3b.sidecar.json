@@ -1,0 +1,11 @@
+{
+  "name": "bench_51305",
+  "tav": "S3215fWi3b",
+  "fingerprint": "0294a05cf2cccf42fb55a1fbc2829c84ee1b33efc4abf66a26ef23e048499304d3a228ab5e6728ef25a231be4407f3a9e70ba9f8033957dcc95f798a16b448e9",
+  "timestamp": "2026-05-19T00:53:06.375709+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

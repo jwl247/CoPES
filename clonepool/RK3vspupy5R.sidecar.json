@@ -1,0 +1,11 @@
+{
+  "name": "bench_15044",
+  "tav": "RK3vspupy5R",
+  "fingerprint": "9158e61404d4c8d8b1d77323496142ad1e4369d7efbb0327f35099142f5b79f843a004a3951f829dd9317f2a41b2117a2b336f12e4dead40122eb0dedc7ebdf5",
+  "timestamp": "2026-05-18T22:37:32.702721+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_12389",
+  "tav": "Bp5RuSDBX46",
+  "fingerprint": "40a381e73ed8bcdb31c53fb8fd5933551e0e76c42eb0ae89861ac1e324697723cc2dcff23a89932a0380cd975cc13e60246aedcfb6a5a5bed07e1b6f65aab0a6",
+  "timestamp": "2026-05-18T22:27:49.835414+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

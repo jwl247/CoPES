@@ -1,0 +1,11 @@
+{
+  "name": "bench_80214",
+  "tav": "LccdqhS26Mn",
+  "fingerprint": "7543c2d2b44d8b219202e68504462a9ccc27134c3580176799beac6032f42128ec524bf14a40b0a9670ccf84df36e5f9602db0e3c84b3ac525a33a028705b31e",
+  "timestamp": "2026-05-19T02:42:54.075234+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

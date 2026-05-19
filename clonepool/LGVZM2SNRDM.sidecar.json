@@ -1,0 +1,11 @@
+{
+  "name": "bench_14361",
+  "tav": "LGVZM2SNRDM",
+  "fingerprint": "7330c629d91a1aa435d470c1456c278aff2928b43a471df25e5c18b799d657549ac1ed3572fc71a9b9909743b7bb1d456de84ed79ebb06d81c187ce6fcb14776",
+  "timestamp": "2026-05-18T22:34:55.647824+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

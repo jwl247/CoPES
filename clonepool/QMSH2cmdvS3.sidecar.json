@@ -1,0 +1,11 @@
+{
+  "name": "bench_34235",
+  "tav": "QMSH2cmdvS3",
+  "fingerprint": "8b9d51a239ffcaa02d924472a153835d2a04d5abee46c60d95b304a04322f84cf790b360ba9819ae3cbc44fb3e3efdba1805442c4a9333ea9c3bf55ad7fe5891",
+  "timestamp": "2026-05-18T23:48:32.887032+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

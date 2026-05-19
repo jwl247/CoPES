@@ -1,0 +1,11 @@
+{
+  "name": "bench_38934",
+  "tav": "PWM25VNxYmM",
+  "fingerprint": "868de5d9a6213150384867e0741a8269531d3fa4ce78cd87273df1bbc8b6dfa2f89c66a70742d43d1741e3d4a9d76e5bb88dede3322a5d2497d5f7520f94c844",
+  "timestamp": "2026-05-19T00:06:21.959459+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

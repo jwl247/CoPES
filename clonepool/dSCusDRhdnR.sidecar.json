@@ -1,0 +1,11 @@
+{
+  "name": "bench_36000",
+  "tav": "dSCusDRhdnR",
+  "fingerprint": "d9d3fdf0ed8db61a98ce9c893bb221b3e07235f566c241e26e93ca8719b5b8c8624859895ad5ffe5eeb43ce5ea6f11e206b4bdf0e35185a6f7b767799ee1c2cd",
+  "timestamp": "2026-05-18T23:55:10.262711+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

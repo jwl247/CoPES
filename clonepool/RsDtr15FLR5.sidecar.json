@@ -1,0 +1,11 @@
+{
+  "name": "bench_64915",
+  "tav": "RsDtr15FLR5",
+  "fingerprint": "94a9dc0bdb0b6b5099b9e8d562ae00c4ba7be89caf097c9d68faff76194460186a34b9e65280df144d4e4b08bfcc2a46ea8099424ea851953fbee0b17f920484",
+  "timestamp": "2026-05-19T01:44:37.154748+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

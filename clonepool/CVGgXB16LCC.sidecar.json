@@ -1,0 +1,11 @@
+{
+  "name": "bench_51816",
+  "tav": "CVGgXB16LCC",
+  "fingerprint": "44adc5b05e4f3f3d896a6fe59d26619479c14c06937429618eee825ca6381d91e28c470d95e219bc4c1749db6d2179d92e017cbd72aba97658779d21e9febab8",
+  "timestamp": "2026-05-19T00:55:08.165680+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

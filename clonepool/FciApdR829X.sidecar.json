@@ -1,0 +1,11 @@
+{
+  "name": "bench_16288",
+  "tav": "FciApdR829X",
+  "fingerprint": "5761a8af0c2b1d6a99e3bd2e6337448a8fa7c08425f187c58295e31e2d8584d4bede4c283b8289dfd9bb78a8d7d6ee0af8b76eebcce52773680f6d25b80a00f6",
+  "timestamp": "2026-05-18T22:41:57.091091+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

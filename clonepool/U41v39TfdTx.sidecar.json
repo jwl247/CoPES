@@ -1,0 +1,11 @@
+{
+  "name": "bench_80105",
+  "tav": "U41v39TfdTx",
+  "fingerprint": "a1bbbaa262a594bbd7308c3bc303565f979636275b32e85cc1f5c6a90efa2cec74b3e75dad7ca8a898eb540ffcb183b062628c536a58700182d7ea1ad0f7c449",
+  "timestamp": "2026-05-19T02:42:26.068355+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

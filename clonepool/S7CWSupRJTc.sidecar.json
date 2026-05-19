@@ -1,0 +1,11 @@
+{
+  "name": "bench_40653",
+  "tav": "S7CWSupRJTc",
+  "fingerprint": "961aaa6c317edb5b7427060c7cbcb63a25de5b5cbaee3ed8085921a9854c523df275e2c472b097bdd2353fffc8ea511fe8031d1c32a707251ea5c6218a7ae03b",
+  "timestamp": "2026-05-19T00:12:46.177429+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

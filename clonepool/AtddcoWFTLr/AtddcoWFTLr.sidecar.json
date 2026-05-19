@@ -1,0 +1,23 @@
+{
+  "usys_intake": "1.5",
+  "tav": "AtddcoWFTLr",
+  "original_name": "stress-ng",
+  "state": "white",
+  "version": "installed",
+  "filetype": "package:apt",
+  "category_hex": "7061636b61676573",
+  "size_bytes": 0,
+  "sha256": "",
+  "backend": "apt",
+  "notes": "installed from apt",
+  "pool_path": "/home/jwlef/Phoenix/clonepool/AtddcoWFTLr",
+  "companions": [],
+  "qr": {
+    "header": {"role": "state", "state": "white"},
+    "footer": {"role": "location", "tier": 1}
+  },
+  "auto_hotswap": false,
+  "registered_at": "2026-05-18T14:22:21Z",
+  "updated_at": "2026-05-18T14:22:21Z",
+  "clone_history": [{"version": "installed", "at": "2026-05-18T14:22:21Z"}]
+}

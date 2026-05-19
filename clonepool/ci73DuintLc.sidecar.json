@@ -1,0 +1,11 @@
+{
+  "name": "bench_37731",
+  "tav": "ci73DuintLc",
+  "fingerprint": "d57d02652a3d13b520b114ae0c07965d5e4f63c331d9cc35ac96056b29d777aa43219ee0ad59cc7ce93cfd8d11520e5ca4fdf5513b81c76d907bf457414bbc37",
+  "timestamp": "2026-05-19T00:01:54.352470+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

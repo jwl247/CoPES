@@ -1,0 +1,11 @@
+{
+  "name": "bench_70169",
+  "tav": "DSJASQ8bPi7",
+  "fingerprint": "4a59ce1e9224f648d1b1a887b2a7f051d6e64b54b6a86e46388d721a5fbf2ba642e62215c3925e9e8d03cd29291a8e807772f1de0c2e0574e69f7276dd2b0921",
+  "timestamp": "2026-05-19T02:04:44.991175+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

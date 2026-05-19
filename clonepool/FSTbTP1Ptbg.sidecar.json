@@ -1,0 +1,11 @@
+{
+  "name": "bench_25739",
+  "tav": "FSTbTP1Ptbg",
+  "fingerprint": "565324e6127484b747dc0c8a5f4a901e34d89101ba754bf8a9ddcfa82cae54b5f6b15dc4deceaf71a608c64cc1b42e43d9e0e7dde73054efd4c44336ff912b49",
+  "timestamp": "2026-05-18T23:16:42.146976+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

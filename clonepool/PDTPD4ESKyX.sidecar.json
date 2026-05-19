@@ -1,0 +1,11 @@
+{
+  "name": "bench_9444",
+  "tav": "PDTPD4ESKyX",
+  "fingerprint": "84d0310afa806deeb62b15c4f20e43de39406e4b196937e388ec9fdcd6d8d3187a95874703c2f32e139c7214dc4fa9cd1cc816cdb85d903ad8a2802e0c0f0177",
+  "timestamp": "2026-05-18T22:16:51.205243+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

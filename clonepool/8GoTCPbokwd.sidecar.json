@@ -1,0 +1,11 @@
+{
+  "name": "bench_65296",
+  "tav": "8GoTCPbokwd",
+  "fingerprint": "2b7aa09997d3523cba62f4607cae27028f5185c4c51aa3fb312a05cbbedb6fa5f8a5e47443d0734146baba03df2ae91ebd467d90aa3de3e063c18846728c1053",
+  "timestamp": "2026-05-19T01:46:02.157055+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

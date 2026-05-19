@@ -1,0 +1,11 @@
+{
+  "name": "bench_53723",
+  "tav": "PDYatiq95CX",
+  "fingerprint": "84d28ede8e02fa4c33b515cb117de1583101686118479e38d259dbdee0e526891e65610664ef79c5ff9d41bcc6e0030b717ead9bf07c590727f373445041b247",
+  "timestamp": "2026-05-19T01:02:21.746548+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

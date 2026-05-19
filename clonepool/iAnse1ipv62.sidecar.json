@@ -1,0 +1,11 @@
+{
+  "name": "bench_75745",
+  "tav": "iAnse1ipv62",
+  "fingerprint": "f621d998ef330dbf5e7f35f9f3b661e75be920f2b00cdfa0abc0bba239af0adf00fdda1ff9786ba8d65d603358c8111007972735cc40bf22c8361cfa30b79af4",
+  "timestamp": "2026-05-19T02:25:55.710211+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

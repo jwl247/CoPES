@@ -1,0 +1,11 @@
+{
+  "name": "bench_10155",
+  "tav": "CmS7DoCPt16",
+  "fingerprint": "46584634a553b711989ef041d9093c60c7e4957cb856b9d0cd30e6452323282e822204cbcc09328a0c9ba4bcdd19be07bd7caa2614dd3e2c7aa7526731d27fce",
+  "timestamp": "2026-05-18T22:19:26.748091+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

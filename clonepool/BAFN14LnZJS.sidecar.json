@@ -1,0 +1,11 @@
+{
+  "name": "bench_14620",
+  "tav": "BAFN14LnZJS",
+  "fingerprint": "3cbd44f95c05970b4ce666c329e34c52ae5bc7dbc09f7ebc3a6d701e0addf732014f273031618d5c5843d450951e25b5de03ed01f1348290ba6c4c2ffd43ce46",
+  "timestamp": "2026-05-18T22:35:54.204135+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

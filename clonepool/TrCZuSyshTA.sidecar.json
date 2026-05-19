@@ -1,0 +1,11 @@
+{
+  "name": "bench_32773",
+  "tav": "TrCZuSyshTA",
+  "fingerprint": "a083ea68c075097de476c4a125a1cd50f8d7f410629342e62b26df58bdc598f4fa2f05172612f6c0eeacde37185a1b7730bf5f3f23767a97a280d666084f0fe8",
+  "timestamp": "2026-05-18T23:42:59.575509+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_80318",
+  "tav": "24Si64kXSHp",
+  "fingerprint": "065562b82716285387dfb5b7c8cb547e8d13ae206fc64bf980d9d23859de8abae530359b72107da4b2e258ec088f0e55593e61dfe808cc8ee781ba0d21d3c556",
+  "timestamp": "2026-05-19T02:43:17.772411+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

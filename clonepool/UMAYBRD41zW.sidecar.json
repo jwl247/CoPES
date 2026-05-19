@@ -1,0 +1,11 @@
+{
+  "name": "bench_91377",
+  "tav": "UMAYBRD41zW",
+  "fingerprint": "a38041127f03c03f54d67d7704f8fd603f263e885f9dc59c882777fd5fa1241f606b315dddd1183c90ec0a1200d18358a3a623afc8d62f84d176603caa9f40fe",
+  "timestamp": "2026-05-19T03:24:31.915079+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

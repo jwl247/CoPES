@@ -1,0 +1,11 @@
+{
+  "name": "bench_82996",
+  "tav": "AZ9xLibnPtz",
+  "fingerprint": "391f3786b5d43ce7e930693bb169bd4ce57c9fdd2ac8540900cf6a2f94c65d0cb1b17ff012d11f44d1b9b04afb0858a83a13f4434ea94b1fb561d3e9b58e3167",
+  "timestamp": "2026-05-19T02:53:24.090258+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

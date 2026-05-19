@@ -1,0 +1,11 @@
+{
+  "name": "bench_86941",
+  "tav": "WPKtQ5PCMPD",
+  "fingerprint": "afae550c33604ab08350ad3346020896872531426f2090399e9e312f0b0aa55778a5791781df1aa300de12c3d6c3a9d5d8f141cf69623c295ad3b2cae65a7244",
+  "timestamp": "2026-05-19T03:07:41.352044+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

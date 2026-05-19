@@ -1,0 +1,11 @@
+{
+  "name": "bench_64037",
+  "tav": "J879PTdpPoA",
+  "fingerprint": "665e6c090df67ee59b113ab4071294be5054b3b6a806fe04ac012b12d7ceef8999a622fd149e9e57e3a06e1a3c44148e987860a585b561efa7ecd81a9f84c9f7",
+  "timestamp": "2026-05-19T01:41:15.553836+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_35425",
+  "tav": "9Q57PSBLti1",
+  "fingerprint": "3234fe70a6f41a2efebb7ed6c69b124ca89d4cda7a1c6e53409cc8c718957042046b94b90dfdbddd10873cf6acbb8777cbc18a843104fd1534bf399b905b436e",
+  "timestamp": "2026-05-18T23:52:57.136040+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

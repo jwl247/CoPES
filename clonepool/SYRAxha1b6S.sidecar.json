@@ -1,0 +1,11 @@
+{
+  "name": "bench_8644",
+  "tav": "SYRAxha1b6S",
+  "fingerprint": "98b422d7c1dd8853d471e25bf5cdb28480772e909a65d16165bcc5d124b5242ebf307b6d3bf15df3792a701ff0b9981601d473e89ae319f453ec10c4b72ab064",
+  "timestamp": "2026-05-18T22:13:52.470272+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

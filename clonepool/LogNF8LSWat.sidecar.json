@@ -1,0 +1,11 @@
+{
+  "name": "bench_40574",
+  "tav": "LogNF8LSWat",
+  "fingerprint": "7667baf93efcf539338cc3a56a77d0db916260087b909056d1357f4e5d8ad9f45e122a00793f6c7e32eacd9015ea53a305eed04d6814d86a2547361f8fba22d2",
+  "timestamp": "2026-05-19T00:12:30.349882+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

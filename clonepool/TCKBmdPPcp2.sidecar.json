@@ -1,0 +1,11 @@
+{
+  "name": "bench_91285",
+  "tav": "TCKBmdPPcp2",
+  "fingerprint": "9c9c2b731fc633e34904a1d6b7613c9472d941a39a5fdffcb6bf1d92ff2d5e2fd7bdf7d3cc0907abfbf3b78c392eca7c2af7cebd2435fecf113f4fc2b600d50e",
+  "timestamp": "2026-05-19T03:24:10.626892+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_53891",
+  "tav": "FZSADUsCzr4",
+  "fingerprint": "570b35a7aa33e759a14317dc9a52f20fdf4e3b54ae96426499ef7439032bcd64b3b9009a8944502e070a44ca9edb89038946c4fdbd88c5d1550460c300445797",
+  "timestamp": "2026-05-19T01:03:02.716061+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

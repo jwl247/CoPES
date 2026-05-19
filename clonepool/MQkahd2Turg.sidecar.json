@@ -1,0 +1,11 @@
+{
+  "name": "bench_34019",
+  "tav": "MQkahd2Turg",
+  "fingerprint": "7a053d72f0b11bb152b9cc2f9966bbc4d7826c383db6bd23a6af140109428d3636de55db016643db2be00c9f4aaab587fb4a2c4f0c3aa90c3dbdaa4e275c3f98",
+  "timestamp": "2026-05-18T23:47:45.255030+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

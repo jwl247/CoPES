@@ -1,0 +1,11 @@
+{
+  "name": "bench_60604",
+  "tav": "GA6SL9R8p16",
+  "fingerprint": "5a9dd421b4d2af792d2389d79e0da8fe3d6bcd1f5fd17156a60cd6063e2f662298ece6d18d85de2f8807bf4092c676e2c34cf6a1d56cb69000918d004cbc4a8e",
+  "timestamp": "2026-05-19T01:28:14.200718+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

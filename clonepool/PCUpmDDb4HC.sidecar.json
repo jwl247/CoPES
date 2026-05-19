@@ -1,0 +1,11 @@
+{
+  "name": "bench_28022",
+  "tav": "PCUpmDDb4HC",
+  "fingerprint": "84b6756a96e63627b50f2b6e444f5d9f17b9b62ba1b0f81bd29ef52f4683fed015ee7404680c10a38ee311beb1b7865730ad8dcc23763fb4604934b3de12625a",
+  "timestamp": "2026-05-18T23:25:02.717706+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

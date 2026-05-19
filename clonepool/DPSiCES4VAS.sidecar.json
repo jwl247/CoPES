@@ -1,0 +1,11 @@
+{
+  "name": "bench_48310",
+  "tav": "DPSiCES4VAS",
+  "fingerprint": "4a0e876c252fd87b121bce7673cdb1d0c1d3d40524b52c4d2dea98030925ebb4b9609f31e83dd38ebd9eb68386ba99750f423883e3f567e32bc01d0201cf92ce",
+  "timestamp": "2026-05-19T00:41:44.129575+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

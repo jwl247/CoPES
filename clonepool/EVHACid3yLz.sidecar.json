@@ -1,0 +1,11 @@
+{
+  "name": "bench_52815",
+  "tav": "EVHACid3yLz",
+  "fingerprint": "50a30990c61924d7cfbc4d3a165ae2b67552d6826df78f90a09dcdc6ac0d38e64fecda62a034673956e13fd6f1d2aa10ce8e4e40f5284de16cb212dcdd8a1669",
+  "timestamp": "2026-05-19T00:58:51.347373+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

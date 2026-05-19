@@ -1,0 +1,11 @@
+{
+  "name": "bench_32261",
+  "tav": "C72DUi2MAEq",
+  "fingerprint": "4262a59b9d9bd7f6994e46487e862a63d039dd997eb11b216033ee52b2694ac3708b9c6bb9d5d35d80f918127ed2687b19cf3161dc53f0b7427ced22e5840e2c",
+  "timestamp": "2026-05-18T23:41:04.950821+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_81403",
+  "tav": "DvGE37TRGUX",
+  "fingerprint": "4d3bcc0e4fe66a784ce4ba2d935e1dea60088b9c1db677a718b16f3e5fa5fae15d25507b2371541794de10fb1c589e19e6008b1cd4bb0141b5630ab88a209c4d",
+  "timestamp": "2026-05-19T02:47:25.627913+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

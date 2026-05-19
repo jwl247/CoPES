@@ -1,0 +1,11 @@
+{
+  "name": "bench_85550",
+  "tav": "PZNva534BK5",
+  "fingerprint": "86ddedfc2b386e5813d05b9381081489c5b3ab69b73c6f8c3b43681c80802284d454d232993f87c8ebaf19188d4056528a7f90d4093a568254afe8d29f93d004",
+  "timestamp": "2026-05-19T03:02:44.636815+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

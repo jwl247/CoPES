@@ -1,0 +1,11 @@
+{
+  "name": "bench_60894",
+  "tav": "cnNHsaMgzTC",
+  "fingerprint": "d5ed8091a320b16b9180aaf26985f3e11d72870053ad861ea65cc36623d6b4d326de14b30d75b0ee1e14ccf0f855223d07dd39942d8f42ba3dc778b3d362fd06",
+  "timestamp": "2026-05-19T01:29:20.935330+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

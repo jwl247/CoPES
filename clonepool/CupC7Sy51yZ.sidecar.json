@@ -1,0 +1,11 @@
+{
+  "name": "bench_60915",
+  "tav": "CupC7Sy51yZ",
+  "fingerprint": "47356dc18a6ea990828c97b22a26d59e1d7c1581ff761c7267c45d3b540247af897b462ff7618a3656664528eef30ef2dfe4f22f6c8bcced6a4f83149618e0b9",
+  "timestamp": "2026-05-19T01:29:24.675253+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

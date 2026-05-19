@@ -1,0 +1,11 @@
+{
+  "name": "bench_85310",
+  "tav": "MT1PNXJaSUR",
+  "fingerprint": "7a40c09efc0c52f27437e93a2dff16639550cc207d5b92cbc0eba794f84c066c886f9d897ebfadc51ee393a84f4d8d4fde7b121da70e21a9108687671cbd6ed9",
+  "timestamp": "2026-05-19T03:01:48.104711+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

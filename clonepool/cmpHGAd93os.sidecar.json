@@ -1,0 +1,11 @@
+{
+  "name": "bench_290",
+  "tav": "cmpHGAd93os",
+  "fingerprint": "d5def037795007c6e436d7b8c388a28f05a75063d79f5f09a5f402f7e6c4c5f9c0fe2b2fc93356c1caced2e6fffbd19b3d28b7991829c0808f6d171eaf627c36",
+  "timestamp": "2026-05-18T21:43:57.117849+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

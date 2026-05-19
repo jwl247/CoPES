@@ -1,0 +1,11 @@
+{
+  "name": "bench_9411",
+  "tav": "NLFL64nXAGr",
+  "fingerprint": "7f88e6dfd1378dfb206fd2234abac3a877515af8220e1ba62f91d40e5cd36579f41828e5a6ec1b72496fdb125a5e5f16d63ffe578f9f1f0b64babaa85bc904b1",
+  "timestamp": "2026-05-18T22:16:42.803703+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

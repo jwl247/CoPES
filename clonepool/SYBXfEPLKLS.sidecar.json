@@ -1,0 +1,11 @@
+{
+  "name": "bench_10435",
+  "tav": "SYBXfEPLKLS",
+  "fingerprint": "98adedca9997d6e768b2b5639e0a38d49f6f218e262b1d39b060fe694f1aeb3037cca502befdf9992f5d6f46837546df124e7de53d9f0dc771d84ef990e2a6eb",
+  "timestamp": "2026-05-18T22:20:27.272462+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

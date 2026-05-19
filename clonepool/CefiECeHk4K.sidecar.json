@@ -1,0 +1,11 @@
+{
+  "name": "bench_33149",
+  "tav": "CefiECeHk4K",
+  "fingerprint": "45a5bebc6c1efd3ca65e770e3faeac84f8b67daa6b5339797d3b152347ef9d8c10d3acfee4e89325d5071f33ce774376983247b6c3848a3a9b92271772de44ea",
+  "timestamp": "2026-05-18T23:44:28.938513+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

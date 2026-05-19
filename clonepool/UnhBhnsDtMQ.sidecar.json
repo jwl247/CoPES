@@ -1,0 +1,11 @@
+{
+  "name": "bench_83310",
+  "tav": "UnhBhnsDtMQ",
+  "fingerprint": "a621e80354aa1feb95ddb4be53296dc6d90782862e69b71e0ef85bd128a110dda2f9f5eed8cadacb8c8bb3e806496b0deee0be338515da4d4118b0e3fd04445b",
+  "timestamp": "2026-05-19T02:54:32.510629+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

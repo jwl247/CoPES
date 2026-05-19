@@ -1,0 +1,11 @@
+{
+  "name": "bench_92157",
+  "tav": "NCBB1XERN18",
+  "fingerprint": "7eb3e76c34003f4b1bf1d656f6dbd59c71ce0afe00e8efa6a5bcc5a2e4728a1b5ad06a7181845198a4ef99acfd5973a421a9b82f00d86135fe53db8f93cfc0cc",
+  "timestamp": "2026-05-19T03:27:29.974328+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

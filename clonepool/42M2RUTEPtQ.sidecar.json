@@ -1,0 +1,11 @@
+{
+  "name": "bench_85390",
+  "tav": "42M2RUTEPtQ",
+  "fingerprint": "121312281c5456c51ed72b86fcf6161f320b6dc1344227c6eb2818dd317fff467ae226f4659713c920a072d658711c07ac9306a07b6f5c9866f1ec54e51b1d73",
+  "timestamp": "2026-05-19T03:02:06.189858+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_132",
+  "tav": "LajF6CaMgBd",
+  "fingerprint": "7511fd9d32f68d34a25518a939e87c6b6c486cf4a522c6e5158262255dfd79d9788328ab815a2c7fdec631c2492fb14ece5d61175d62d1a2156cc2038f49ddec",
+  "timestamp": "2026-05-18T21:43:27.357026+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

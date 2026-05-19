@@ -1,0 +1,11 @@
+{
+  "name": "bench_67483",
+  "tav": "JCYG911C35G",
+  "fingerprint": "66d367130100ab7700b9728626e9ac959a68855525419b4c88839bf30a59b5aee489255aa0d0f00a747999fe6be5977084ff5137ef46fdc486520daf7e428914",
+  "timestamp": "2026-05-19T01:54:20.152456+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

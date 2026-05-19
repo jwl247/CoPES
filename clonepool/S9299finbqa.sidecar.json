@@ -1,0 +1,11 @@
+{
+  "name": "bench_3910",
+  "tav": "S9299finbqa",
+  "fingerprint": "964ab9c293dd6b21bb29c492592c9a7f8501e811f9d3cca07d92503df03b1d20c56d2f584e356973cc836e292e5d6a4d11e22342caf4541f88f4eabc0b3b4b9e",
+  "timestamp": "2026-05-18T21:56:40.396942+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

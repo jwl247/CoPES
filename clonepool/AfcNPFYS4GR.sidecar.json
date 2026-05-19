@@ -1,0 +1,11 @@
+{
+  "name": "bench_4044",
+  "tav": "AfcNPFYS4GR",
+  "fingerprint": "39c99098e22ca582f495c3a387e89eedc81780d786e1ed555b206cc5588d4452c5a53acd8c06f90edf22468bf058a5fec12a9785bb0573604f450b1be4f04a07",
+  "timestamp": "2026-05-18T21:57:13.001065+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

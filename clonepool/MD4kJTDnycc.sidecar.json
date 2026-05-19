@@ -1,0 +1,11 @@
+{
+  "name": "bench_47918",
+  "tav": "MD4kJTDnycc",
+  "fingerprint": "78d0d83dd63c08b94a3b238257dcf8018abcad89a179c5f6ae9346b0f045b83b10188846a48da66b31eba15f6fd17329e696fe4afd856ad6ff843a2848ff4c4f",
+  "timestamp": "2026-05-19T00:40:17.598383+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

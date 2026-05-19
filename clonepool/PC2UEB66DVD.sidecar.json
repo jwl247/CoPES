@@ -1,0 +1,11 @@
+{
+  "name": "bench_9954",
+  "tav": "PC2UEB66DVD",
+  "fingerprint": "84aa77e3834ce42c9c6de6781ae5b2b19467728e29c652b94640e6bca8ce71b6355fd13b254fe0b3f78b2f72e54f74ea73ea68afaeb339e054684bcb170d9459",
+  "timestamp": "2026-05-18T22:18:43.291088+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

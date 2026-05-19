@@ -1,0 +1,11 @@
+{
+  "name": "bench_830",
+  "tav": "apCk1JTFK52",
+  "fingerprint": "ca28e2ddd4ded761518eea6f8b2bfc8bff010461c96325098b2b0a0e3ba1fd82aeda330ceb642e8811f42a5fefb395e1cf6b2d537a643a52a41d32c85b9c64d1",
+  "timestamp": "2026-05-18T21:45:40.279925+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

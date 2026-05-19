@@ -1,0 +1,11 @@
+{
+  "name": "bench_80132",
+  "tav": "L5VAMki2jxs",
+  "fingerprint": "720e526c1aa093a87c77434d7f933e1eb784fdc026b1cf2665d843edad3ba515e6c1d1e7244ad86ba3a251cd8d5842ab074fe69d28e040301bb1a5e941de9033",
+  "timestamp": "2026-05-19T02:42:32.483889+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

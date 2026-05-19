@@ -1,0 +1,11 @@
+{
+  "name": "bench_73046",
+  "tav": "Pi33eJErTea",
+  "fingerprint": "87c2617b23245983bcef270942b6b85c4bae21c341fb0fa5775fa883ad29393649982d2b06a2a750ae03fe227a7f8e26b9c44e7dc6d5382c10cf898dc160c5b6",
+  "timestamp": "2026-05-19T02:15:34.368388+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

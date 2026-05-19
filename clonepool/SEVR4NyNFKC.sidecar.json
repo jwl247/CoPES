@@ -1,0 +1,11 @@
+{
+  "name": "bench_83981",
+  "tav": "SEVR4NyNFKC",
+  "fingerprint": "96db138d2bddc3bfea2bbe7796583fdd801306e2590e5fbfee76ecce1492f7ee03621d2bf591ecc887d3e653d38ef42bab0acc84d2143b32cbbbc690c98f8513",
+  "timestamp": "2026-05-19T02:56:57.170176+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

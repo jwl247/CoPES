@@ -1,0 +1,11 @@
+{
+  "name": "bench_3572",
+  "tav": "KoZDGuYS3Xp",
+  "fingerprint": "7069f382642e385b14017928634379634458d6c5c23a3eead45160f1600685da6ea3dff0ad3ebfec009e79bee619f72b9ef3ed5f7780bd603e0a9c16a518a9be",
+  "timestamp": "2026-05-18T21:55:18.849030+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

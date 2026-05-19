@@ -1,0 +1,11 @@
+{
+  "name": "bench_52379",
+  "tav": "JbFnVaiRV7G",
+  "fingerprint": "692ad691da0f93cb947f60af393d749ce3255f4daef26eea844af0b288eb14fc6a533e581a47950b4f54194a183f107bc5ebf8ee76e1b3c2cd746480aebeae8f",
+  "timestamp": "2026-05-19T00:57:12.273797+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

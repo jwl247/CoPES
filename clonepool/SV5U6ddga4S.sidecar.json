@@ -1,0 +1,11 @@
+{
+  "name": "bench_95550",
+  "tav": "SV5U6ddga4S",
+  "fingerprint": "985c018da45d4a038c47d6e6ec8713860c2aaeac3746f99f0e41b8b0863d911da3f12a1f64b259e25557f8b04ee2ebbec8b8faa09a5ac8e4d6b063e33ab32650",
+  "timestamp": "2026-05-19T03:40:24.115401+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

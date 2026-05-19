@@ -1,0 +1,11 @@
+{
+  "name": "bench_78428",
+  "tav": "fT1SCSGLyzD",
+  "fingerprint": "e5de34e1e640e59e2d9e37b7d2f10512388ebcd2dabbc02aa0043db3c2c071dcf1dc978fc5d331d281ee438ff93a0d5f4eb62e9eed9a034825846c7ed8ff3ae8",
+  "timestamp": "2026-05-19T02:36:05.043167+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

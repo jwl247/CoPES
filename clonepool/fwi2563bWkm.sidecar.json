@@ -1,0 +1,11 @@
+{
+  "name": "bench_4224",
+  "tav": "fwi2563bWkm",
+  "fingerprint": "e8d38b77ea9d470e006d371d8716f152b7e9f9da37481031c081d00aa51f7e1de3264b5a44772168d5cc821714c3193e5608f55c1aadc64f52cdecd35cc3dc5b",
+  "timestamp": "2026-05-18T21:57:55.285086+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

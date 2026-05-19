@@ -1,0 +1,11 @@
+{
+  "name": "bench_80326",
+  "tav": "USLACqCcViA",
+  "fingerprint": "a40892c00ca4f6abdfb3445ec29f4e89083e974102c48429d5f78864b9e8776adb4de26966001053a57dae5810ea91efb367875ba0f93b4223f51f7952228b58",
+  "timestamp": "2026-05-19T02:43:18.860308+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

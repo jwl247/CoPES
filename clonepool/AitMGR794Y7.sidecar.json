@@ -1,0 +1,11 @@
+{
+  "name": "bench_19226",
+  "tav": "AitMGR794Y7",
+  "fingerprint": "3a20002a10b505d8db8cb13e6d0e8b6ff4d59eec5d8fdf6516231498f08bb27d8cab10c1d7a14322bd078ce83f669e0a90998e8069adfbe2ef585445ab67586d",
+  "timestamp": "2026-05-18T22:52:40.995901+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

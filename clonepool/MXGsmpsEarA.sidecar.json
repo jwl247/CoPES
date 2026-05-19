@@ -1,0 +1,11 @@
+{
+  "name": "bench_64319",
+  "tav": "MXGsmpsEarA",
+  "fingerprint": "7ab15a695b17814fa61a08c7147b9c93fbf3cfcf84710aac8c8becb72dd5382b64e201d17c5e4934ffd85616caa2a6e92cffed9ec2fa77de256effb041b86b25",
+  "timestamp": "2026-05-19T01:42:23.394970+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

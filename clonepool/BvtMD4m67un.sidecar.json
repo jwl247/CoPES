@@ -1,0 +1,11 @@
+{
+  "name": "bench_64187",
+  "tav": "BvtMD4m67un",
+  "fingerprint": "41572f2fedc97735c6735e719e9833a25238e7d673e391688c39767d0b27cdfa750c9952a4358eaa836a3cd6566c0da9a2a3a6e9d06baff1dcdb5b91fdd06c97",
+  "timestamp": "2026-05-19T01:41:52.162661+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

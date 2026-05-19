@@ -1,0 +1,11 @@
+{
+  "name": "bench_32631",
+  "tav": "FNS638zDvNj",
+  "fingerprint": "55e8e7af6dc1cb309908c1cf2c530b4f664b70daf4da210dc7b423d1fa1a32487bb18df36d1c736b76eab42f168706453453e0da7f4f81f445612db5e48d99c0",
+  "timestamp": "2026-05-18T23:42:24.985743+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

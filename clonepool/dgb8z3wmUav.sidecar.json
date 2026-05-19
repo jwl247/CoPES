@@ -1,0 +1,11 @@
+{
+  "name": "bench_48004",
+  "tav": "dgb8z3wmUav",
+  "fingerprint": "db4f8a82c6198bbbb54e75fca4a7984741bf6a03f30db1abf7766e2db5a94409e5eeb618c97c55af3a36a1df27bcdc90dd39b719cbcec2385895f63ef5c0b3ec",
+  "timestamp": "2026-05-19T00:40:36.954860+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

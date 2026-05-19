@@ -1,0 +1,11 @@
+{
+  "name": "bench_52280",
+  "tav": "LTE1ct8S4DE",
+  "fingerprint": "744bf8f0b3bdfa29818edeb40880299161332c34220c7d8157b61e01ba4779f4f2d417fcba5e09c5660d32d35ae3086c9f56fee0d14a130c96085299926454b4",
+  "timestamp": "2026-05-19T00:56:49.499170+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

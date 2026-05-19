@@ -1,0 +1,11 @@
+{
+  "name": "bench_38098",
+  "tav": "DwCA75rWLF6",
+  "fingerprint": "4d5455afb3c684f50bb39f0bbad4a4a33c12b1fbb4379fe64b7e042ec539cdc153110c519909fd96320f5eb576c04f60ef0c352fd9bbc1c29d5b9d5432bf8ee2",
+  "timestamp": "2026-05-19T00:03:17.464052+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

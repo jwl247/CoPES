@@ -1,0 +1,11 @@
+{
+  "name": "bench_902",
+  "tav": "AmHsP18DZG",
+  "fingerprint": "0101a56b70122e5745e5d65758e53231fc9f256f929fae5d93a90fc93d0aebeade1ab2e214c38e7fe6d3a2081e2634c78f8b7040ec4539c7299ae772334e54dc",
+  "timestamp": "2026-05-18T21:45:50.979684+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

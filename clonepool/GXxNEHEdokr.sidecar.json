@@ -1,0 +1,11 @@
+{
+  "name": "bench_8069",
+  "tav": "GXxNEHEdokr",
+  "fingerprint": "5cdeb345bb0d2497c3e5fa0b62297a80c9a3c04e0cd20b571d07a97eb796d30c798eb31e8c993e82bfbfdb6aea25b0193285fc6d38c76cd46f08cc02e25be240",
+  "timestamp": "2026-05-18T22:11:44.875271+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

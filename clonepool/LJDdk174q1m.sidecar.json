@@ -1,0 +1,11 @@
+{
+  "name": "bench_64405",
+  "tav": "LJDdk174q1m",
+  "fingerprint": "735e4e42d380ac84b4b755b984e5ea3a76c51acd052759fae0eb1735a34031d9728687b683b23675d6de447712ffaa66a9479ee9da860f51495b9ebade57145d",
+  "timestamp": "2026-05-19T01:42:41.327863+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

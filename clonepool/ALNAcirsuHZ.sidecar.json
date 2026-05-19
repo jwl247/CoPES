@@ -1,0 +1,11 @@
+{
+  "name": "bench_3473",
+  "tav": "ALNAcirsuHZ",
+  "fingerprint": "37cdb9705f7681d0a412da8c68812e0a2fdac5c14c17ea1a29ddbb6280e0b656415155ba8434e44d7056c909687101a7758c1d066d01937e3cd4ace130ca3e59",
+  "timestamp": "2026-05-18T21:54:54.479463+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_1992",
+  "tav": "PY9W6hVaXeN",
+  "fingerprint": "86bd6f47cbb51657fa66b50751b2a92d78a212abb2b058c6ab4e231f080b43aa21a65e4c8d676120c58b6eff53a593f8990c7967f2a8aec1b9603f5a34db3be3",
+  "timestamp": "2026-05-18T21:49:29.590951+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

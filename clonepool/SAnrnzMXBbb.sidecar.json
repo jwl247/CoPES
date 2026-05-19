@@ -1,0 +1,11 @@
+{
+  "name": "bench_64240",
+  "tav": "SAnrnzMXBbb",
+  "fingerprint": "96797599e981488e4eef0279688e752d42c18a61db42cfb9e4a4db50e70c63ec0eec4b6ab51dd91207f7dec3aa28c57f3abf1b4265b2d54916c2c06a3036e1d0",
+  "timestamp": "2026-05-19T01:42:06.041454+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

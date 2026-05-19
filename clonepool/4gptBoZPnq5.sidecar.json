@@ -1,0 +1,11 @@
+{
+  "name": "bench_3097",
+  "tav": "4gptBoZPnq5",
+  "fingerprint": "160a80abfff5a56816e28d74dabb91b894643b794d3e5dde519f8e33ffdabb81d579ef766cb1c611df74d43020a9a499bdc57e869aa48455f81da1e608e34460",
+  "timestamp": "2026-05-18T21:53:28.661915+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

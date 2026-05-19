@@ -1,0 +1,11 @@
+{
+  "name": "bench_53559",
+  "tav": "RAMCrxiadRf",
+  "fingerprint": "90734377cf253e7e8dddd3778d91f7c7716deec358d15398aa1f2d8467cd3abb7cb9d7f49e8d2285c40f8f758b0e6380d1f3a27df2670a7acef2e185dff288e4",
+  "timestamp": "2026-05-19T01:01:43.002639+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

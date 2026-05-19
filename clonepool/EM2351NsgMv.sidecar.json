@@ -1,0 +1,11 @@
+{
+  "name": "bench_20405",
+  "tav": "EM2351NsgMv",
+  "fingerprint": "4fc90cd227527e59f44281ef1b4058ab364105cc1d720b3649a0079e4be7f37121c41fefc2a07e3d609383911d9ad63f99ee43d63b78811426159ae66a480af3",
+  "timestamp": "2026-05-18T22:57:03.771905+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

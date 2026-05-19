@@ -1,0 +1,11 @@
+{
+  "name": "bench_54017",
+  "tav": "CXL1zycR166",
+  "fingerprint": "44e4110e9ba5a85788ecb7377a5ccf4351407422b4e8167e8d95a3071b10a59909dd11bd3b3c9d832456bb1b32db1e324b2ca33c6f4714a4ca137dbc5f9a7492",
+  "timestamp": "2026-05-19T01:03:32.940733+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

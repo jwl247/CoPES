@@ -1,0 +1,11 @@
+{
+  "name": "bench_52589",
+  "tav": "US5tko242N",
+  "fingerprint": "02d3e5e195531c63eed52babe1b60a37f1cf4d7d89bb185d41e7fb584d41481bb084c938e634ba77211fbe93a6997c9b6146d618ea8d86c702afc51f8a234741",
+  "timestamp": "2026-05-19T00:57:58.998279+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

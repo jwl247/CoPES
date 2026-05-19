@@ -1,0 +1,11 @@
+{
+  "name": "bench_2286",
+  "tav": "cpNgRS54PQz",
+  "fingerprint": "d62274af090b9c5f3fc5e1731784aaf6dc5933e64b3c08f17c304d5b0a3053d3364fdd01110ea06824eb0de04a25331f43975ec54a43d61337b4de4b157e6b2e",
+  "timestamp": "2026-05-18T21:50:33.657203+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

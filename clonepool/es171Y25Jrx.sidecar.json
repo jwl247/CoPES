@@ -1,0 +1,11 @@
+{
+  "name": "bench_42871",
+  "tav": "es171Y25Jrx",
+  "fingerprint": "e25cda326c0385c5924156410d6f6b666199221e6102ecd9a644276a6fddbfbd412d489f55b625e18cb17b78784f0ad7a0a015a08a0fef1ed8f10e93bacfb11b",
+  "timestamp": "2026-05-19T00:21:01.095394+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

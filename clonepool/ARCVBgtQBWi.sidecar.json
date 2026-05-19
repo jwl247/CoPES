@@ -1,0 +1,11 @@
+{
+  "name": "bench_75847",
+  "tav": "ARCVBgtQBWi",
+  "fingerprint": "384d4314da19eccb5b500acef2567b56a5d8487aa8969878df0a4462aed74821c4b0f457228a113098f5e577f2464e0884515426cfac79ec7e383f4e43456b7c",
+  "timestamp": "2026-05-19T02:26:19.218261+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

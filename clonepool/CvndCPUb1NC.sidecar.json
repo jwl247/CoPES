@@ -1,0 +1,11 @@
+{
+  "name": "bench_73447",
+  "tav": "CvndCPUb1NC",
+  "fingerprint": "474f1a9a07b5544d2288eae6212727a1e5933ccc2a01188e1a069cdfafd763e2c48f5566fb56da1df1c2cd187e50d7ce379356fd88348dbe8579b9098d5ce065",
+  "timestamp": "2026-05-19T02:17:05.513891+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

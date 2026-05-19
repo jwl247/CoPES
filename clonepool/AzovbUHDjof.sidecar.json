@@ -1,0 +1,11 @@
+{
+  "name": "bench_40033",
+  "tav": "AzovbUHDjof",
+  "fingerprint": "3bc43363cd78a23aa627b261cf79b1639642a7266158475fe294fc31f47c2351a6a1e561cf03dfa440621bc36de531b41893c9b989f47696e9783679bc5ef2db",
+  "timestamp": "2026-05-19T00:10:26.991898+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

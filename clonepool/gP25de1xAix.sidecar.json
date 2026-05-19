@@ -1,0 +1,11 @@
+{
+  "name": "bench_20431",
+  "tav": "gP25de1xAix",
+  "fingerprint": "eb6f78890026227dba8dcfe96565d3fb1a974bc9572261eb96588f39b46bb82414336bf35b81aa25182b9014a9009d4e9bff93b7efae0bbd5262030215b33081",
+  "timestamp": "2026-05-18T22:57:09.664256+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

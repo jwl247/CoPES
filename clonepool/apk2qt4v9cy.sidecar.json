@@ -1,0 +1,11 @@
+{
+  "name": "bench_28276",
+  "tav": "apk2qt4v9cy",
+  "fingerprint": "ca371f551a7b5d1ef54f89391be1a490a38eacdc11216dd77a25c8f81a4d9ce59ed42b5309e7a19924a6cc973231880b5280b326021cb1b210dcbb1e83d6f1ca",
+  "timestamp": "2026-05-18T23:25:59.482033+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

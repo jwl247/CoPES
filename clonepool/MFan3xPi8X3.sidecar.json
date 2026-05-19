@@ -1,0 +1,11 @@
+{
+  "name": "bench_10785",
+  "tav": "MFan3xPi8X3",
+  "fingerprint": "791348c4efd659f2fe03869874cea688cdd17262398d18378e19cb8321ac329f5ed4868d1d41ce4d7ac08338064fa9c971931186d4ee8d3b50b4f719b2d6754a",
+  "timestamp": "2026-05-18T22:21:44.321303+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_16415",
+  "tav": "RAPLPTps3Yo",
+  "fingerprint": "90743b86c9d1a67ca17bd533982624278527130bdccc4be4d4f4fe135900023cf8ce86b2da0b075fc64c4a969916ad10e5e590d276810203ba6416f54eb3e83c",
+  "timestamp": "2026-05-18T22:42:25.959233+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_80733",
+  "tav": "HDhdV453LFS",
+  "fingerprint": "60f787776de48f61667c5636bd9a3594b1a1ef7eec988b79f817b2559ec01c5be27751855f2d027fc771eda13e8530f6fa9feac77ef09b18402439eba4c50797",
+  "timestamp": "2026-05-19T02:44:58.260460+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

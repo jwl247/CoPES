@@ -1,0 +1,11 @@
+{
+  "name": "bench_9900",
+  "tav": "AZ2mnu3Bwdk",
+  "fingerprint": "391bf308bd557e5b432f564bdc779eea8c7c9ac12dd85a51772b16fb40eaa085a156b640eb05efd10266c5f642f25cc1bab95e0c67e0853d74cc999c0ddcd14d",
+  "timestamp": "2026-05-18T22:18:31.395064+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

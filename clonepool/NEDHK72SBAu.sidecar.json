@@ -1,0 +1,11 @@
+{
+  "name": "bench_23361",
+  "tav": "NEDHK72SBAu",
+  "fingerprint": "7ee9a3dbb74e6cde0e88510c8b4f6214d5a087a08012d01a2af0159a4f939d1d2646d1c425d6d8ef33ddf89059bf8c360b332ae9d9c22b1d7cf7ca5911672757",
+  "timestamp": "2026-05-18T23:07:42.782337+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

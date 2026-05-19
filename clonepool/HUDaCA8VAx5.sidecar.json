@@ -1,0 +1,11 @@
+{
+  "name": "bench_52563",
+  "tav": "HUDaCA8VAx5",
+  "fingerprint": "627696dd9ee5c66e1e9122e19759e09f268db172042ef73a4303391e49f1649824216993449a03a002562988375e413403172a0be10764d3bfe72ae94c20b2a1",
+  "timestamp": "2026-05-19T00:57:54.179198+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

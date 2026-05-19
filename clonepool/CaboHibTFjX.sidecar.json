@@ -1,0 +1,11 @@
+{
+  "name": "bench_75348",
+  "tav": "CaboHibTFjX",
+  "fingerprint": "453a6957b8e6eb6a716997660f54c2ef2c1c0a1071c8ae03c9c992e0a49ba4857d8f178fa96fdabb748ad672828c5c46408abd8123dc6571e5137cc0571b72fa",
+  "timestamp": "2026-05-19T02:24:19.813427+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

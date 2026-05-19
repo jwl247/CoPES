@@ -1,0 +1,11 @@
+{
+  "name": "bench_8129",
+  "tav": "SVX82NPMjo1",
+  "fingerprint": "9867ad8862360cb4265e0524b5039b3ba8ce68ee6e29aaf4bf5d68194d05c4bf2ceb72e4a8cb761354543fd09af61e9968bcd3f70fb39054ad9c69add398a120",
+  "timestamp": "2026-05-18T22:11:58.239044+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

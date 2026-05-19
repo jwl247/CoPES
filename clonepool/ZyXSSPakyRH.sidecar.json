@@ -1,0 +1,11 @@
+{
+  "name": "bench_42061",
+  "tav": "ZyXSSPakyRH",
+  "fingerprint": "c5245d2c23ec45a84de148ef208faab34743943f050d7e23e11a44afeb00bb466060361230aae0a33536a32f2d8908a9eacbcb625ca97d1512c9df33ebd78542",
+  "timestamp": "2026-05-19T00:17:59.037722+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

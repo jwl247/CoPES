@@ -1,0 +1,11 @@
+{
+  "name": "bench_1123",
+  "tav": "LMUTa3hkCvv",
+  "fingerprint": "73b4372c90cc057b4232eac9eb12ea412d4fa7a51f92c5827d2039d196c67b59b05629c1a2009d263bd1b4075c81d528d819a715fc56d860d1e01756afde276e",
+  "timestamp": "2026-05-18T21:46:32.966617+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_86510",
+  "tav": "HX5RAbGejyo",
+  "fingerprint": "62c20b34936a03fe67c6b955ece36fb609b66b36288285fa84d41a99edbd57f1d52ca99d5a857425144b5b40b7a50add53807d6004ee0e0a9b6648be11c2bacb",
+  "timestamp": "2026-05-19T03:06:09.232976+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

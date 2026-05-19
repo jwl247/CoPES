@@ -1,0 +1,11 @@
+{
+  "name": "bench_854",
+  "tav": "EPVio8CSZG6",
+  "fingerprint": "500a6c313a3796e3c80051dcda9aa5bc3b6a50f3df815d49b57d18ef818361f010cfbf097747ff0ce26f7b5cfabea4eab9d0e318dea356c491f7e564e4099cb1",
+  "timestamp": "2026-05-18T21:45:44.981839+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_25071",
+  "tav": "VCXAbsySLEK",
+  "fingerprint": "a896ab104f86de5817cd2fdaf5a431c3d792b9db9dc262a99d00b19f084239d3e740a336f34e731b94e3d18f53191c143e7d03e07a13dcad255812fba11da285",
+  "timestamp": "2026-05-18T23:14:11.028501+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

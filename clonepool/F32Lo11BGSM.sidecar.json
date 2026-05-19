@@ -1,0 +1,11 @@
+{
+  "name": "bench_97583",
+  "tav": "F32Lo11BGSM",
+  "fingerprint": "53e8b9107124a46a90c6f02da8e0aac3c46c9ede914d5ffc66935f0417fc389f220422f9606d08d34b5e795caf1b007d3cc5860ee0f49cad80ab632250b9d86d",
+  "timestamp": "2026-05-19T03:48:01.141794+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

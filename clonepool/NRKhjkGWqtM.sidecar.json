@@ -1,0 +1,11 @@
+{
+  "name": "bench_23160",
+  "tav": "NRKhjkGWqtM",
+  "fingerprint": "800ed5527b411f3a9cb875c9eec81f1f27bb29c3f2e4433714be44fd610b1449054414c1d4f9067b3ef70f76a7bd5fdbfdb22f237550b5567082e5155a9a2d61",
+  "timestamp": "2026-05-18T23:06:58.316175+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

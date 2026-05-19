@@ -1,0 +1,11 @@
+{
+  "name": "bench_48039",
+  "tav": "hzTasgocMh3",
+  "fingerprint": "f51130c9d3e81e9a1125c91f46c9cfe10bb452f459356c366418d05bb11fcbc626b09159357752a08675a08c767fe77cd80a0430ed661972aea5d9ca71f88d27",
+  "timestamp": "2026-05-19T00:40:44.238094+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_60127",
+  "tav": "MCK7sPN54EG",
+  "fingerprint": "78bcfec12141b89ddcf8de4502ccdc31d15f74236b6c0f6c41637babb5967e2391ae8efa6bafc6ba9a4897ca2cb43280fa5b58ad0b47a7f6797ba699e1e04721",
+  "timestamp": "2026-05-19T01:26:28.758472+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

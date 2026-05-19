@@ -1,0 +1,11 @@
+{
+  "name": "bench_80577",
+  "tav": "MBhHzLvw7B8",
+  "fingerprint": "78acb20f50ddcd03e822cfb65b1e03f9c9586dbc85c382caf399612e44e445efd09817a4cf1428474ec79ccb84f701b46894bf5c7d6fdafbf28b6ec71da52b99",
+  "timestamp": "2026-05-19T02:44:19.937763+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

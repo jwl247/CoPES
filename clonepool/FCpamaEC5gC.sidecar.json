@@ -1,0 +1,11 @@
+{
+  "name": "bench_18637",
+  "tav": "FCpamaEC5gC",
+  "fingerprint": "54eb419e89540319ee0ed7a5f686c0cb7d3b475b06d3e68334c24fe586d1b5d32f762abc705506e2cb16a7d8f534db115ccd875e881d08fcea497e6014f0ddb6",
+  "timestamp": "2026-05-18T22:50:37.429024+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

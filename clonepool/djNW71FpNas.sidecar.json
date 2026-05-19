@@ -1,0 +1,11 @@
+{
+  "name": "bench_95121",
+  "tav": "djNW71FpNas",
+  "fingerprint": "db98f506ca64fed83a97ea5654c86ea5d81beec339405ff0ca32aa0cd22b89ab61f5bddbf7c12752a9b6d1cccc84f1592aedeff85c2a8467796d9b62085a3f7d",
+  "timestamp": "2026-05-19T03:38:42.173730+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

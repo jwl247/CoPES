@@ -1,0 +1,11 @@
+{
+  "name": "bench_49804",
+  "tav": "W14A5mux722",
+  "fingerprint": "ad62a1d2c75c7aebbe3c6d54c1310d21dff4402d6469bdc0a31fe287629d94fa12b3bdd17e8c6ec8017c3092edde5178339f0481fd80d96cb1c852e72bacf639",
+  "timestamp": "2026-05-19T00:47:21.532394+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

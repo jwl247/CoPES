@@ -1,0 +1,11 @@
+{
+  "name": "bench_78361",
+  "tav": "RDUC83xBcaz",
+  "fingerprint": "90c59b8a3d69a51f097c553083db7a0b261be45da8cae9a34a896ad4849a83de1922ff654717c34d253b04d0868849ddf2207bb387c9e98b78b38995295eccde",
+  "timestamp": "2026-05-19T02:35:49.682649+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

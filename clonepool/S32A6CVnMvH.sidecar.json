@@ -1,0 +1,11 @@
+{
+  "name": "bench_73681",
+  "tav": "S32A6CVnMvH",
+  "fingerprint": "95ac672685909e4a8b142bea0011a79f68b9e9c7d434e1bf8afb9ad033f5a1ed782e0a9df4c0e33b8bf1fc76257bcdf72c42c5268c8b3dab30d957d47adce2ed",
+  "timestamp": "2026-05-19T02:17:58.405256+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

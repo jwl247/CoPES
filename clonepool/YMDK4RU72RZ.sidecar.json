@@ -1,0 +1,11 @@
+{
+  "name": "bench_72625",
+  "tav": "YMDK4RU72RZ",
+  "fingerprint": "bb6b9cb785a19714b52b570f90e8426f3ec90ef23b8f0c819ebde66a5a85293eb1398e2c31a324ebd5b3621d27d9abdc0687596b9c76904015ad6ea6283b581c",
+  "timestamp": "2026-05-19T02:14:02.965306+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

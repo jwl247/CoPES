@@ -1,0 +1,23 @@
+{
+  "usys_intake": "1.5",
+  "tav": "fcWFVJQr1Cz",
+  "original_name": "prometheus",
+  "state": "white",
+  "version": "installed",
+  "filetype": "package:direct",
+  "category_hex": "7061636b61676573",
+  "size_bytes": 0,
+  "sha256": "",
+  "backend": "direct",
+  "notes": "installed from direct",
+  "pool_path": "/home/jwlef/Phoenix/clonepool/fcWFVJQr1Cz",
+  "companions": [],
+  "qr": {
+    "header": {"role": "state", "state": "white"},
+    "footer": {"role": "location", "tier": 1}
+  },
+  "auto_hotswap": false,
+  "registered_at": "2026-05-18T14:22:14Z",
+  "updated_at": "2026-05-18T14:22:14Z",
+  "clone_history": [{"version": "installed", "at": "2026-05-18T14:22:14Z"}]
+}

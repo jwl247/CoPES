@@ -1,0 +1,11 @@
+{
+  "name": "bench_62081",
+  "tav": "BaerF1Esbpr",
+  "fingerprint": "3f41468c2eb7903f834660d3275dc458ebe16f1b0ad7f35bbc293996a07db7858999dc888d83a31c6db80b803745eaba141795d3b839cea9fb45a2e76049c03b",
+  "timestamp": "2026-05-19T01:33:53.564511+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_300",
+  "tav": "GDNnHJdZFVG",
+  "fingerprint": "5af46e021a4ecebfc2dcdf2722e7c39208112f405921c9feccac39e7d2dc6b913d3869f88c76986b176bbd45be971736ad7f4833b16ff6bb4d65140543fba175",
+  "timestamp": "2026-05-18T21:43:59.069476+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

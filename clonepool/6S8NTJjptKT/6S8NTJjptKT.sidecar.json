@@ -1,0 +1,34 @@
+{
+  "usys_intake": "1.5",
+  "tav": "6S8NTJjptKT",
+  "original_name": "package_handler.py",
+  "state": "white",
+  "version": "v1",
+  "filetype": "script:python",
+  "category_hex": "73637269707473",
+  "size_bytes": 23039,
+  "sha256": "c4020505d90a2e5a83b6ab20e4524760e80fa96349c53eb2358dc46d5f187262",
+  "backend": "direct",
+  "notes": "",
+  "pool_path": "/home/jwlef/Phoenix/clonepool/6S8NTJjptKT",
+  "companions": [],
+  "qr": {
+    "header": {
+      "role": "state",
+      "state": "white"
+    },
+    "footer": {
+      "role": "location",
+      "tier": 1
+    }
+  },
+  "auto_hotswap": false,
+  "registered_at": "2026-05-18T03:05:44Z",
+  "updated_at": "2026-05-18T03:05:44Z",
+  "clone_history": [
+    {
+      "version": "v1",
+      "at": "2026-05-18T03:05:44Z"
+    }
+  ]
+}

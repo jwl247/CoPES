@@ -1,0 +1,11 @@
+{
+  "name": "bench_39861",
+  "tav": "UmdbHsPcw7c",
+  "fingerprint": "a605e212c3f9442f83f547cd2d005f3aa91caff7bd8d35804ae0a2e55f7b9627270a0f0b68ca64fac713507aeadc02401a04ca05b82a3dcce6f9214233d9df13",
+  "timestamp": "2026-05-19T00:09:48.548217+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

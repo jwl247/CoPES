@@ -1,0 +1,11 @@
+{
+  "name": "bench_3012",
+  "tav": "CUC7FperPCx",
+  "fingerprint": "44914d94d9cacca5ff5069ebc7c8a7d373626989420d2b378a04e6fb716f85238ebbb23bd0395e26068af5828e51d44357f8e37d86a498f0466b61f51f73d39f",
+  "timestamp": "2026-05-18T21:53:10.270548+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_604",
+  "tav": "4M95F1NR2Tv",
+  "fingerprint": "1403030e3793f6cddf43c22456916c646354f9ee84d0e78e736f87f87d4c3bca125dd5fd8942f7d424fb9b4d82953502e36da567cec800a3de5f36d67807bf73",
+  "timestamp": "2026-05-18T21:44:55.146125+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

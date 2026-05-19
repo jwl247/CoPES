@@ -1,0 +1,11 @@
+{
+  "name": "bench_64543",
+  "tav": "FMys2575Nf4",
+  "fingerprint": "55dcf94098811553af1804a9ad58e57de45a4413b3c5a5cf7e0b4078d7ec583cab55c66765ce0c245b12dab8d70ee08419bc2cb6cdc69860fdaa87ab328941b3",
+  "timestamp": "2026-05-19T01:43:11.632632+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

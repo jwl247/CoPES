@@ -1,0 +1,11 @@
+{
+  "name": "bench_16097",
+  "tav": "35J5pANxevy",
+  "fingerprint": "0c665fa75ad256b6c21726e136082227871443f8dfceea10c68423c372c6227a6daf66623bd9c303bfe8de502c4fc54e73dd3766a6284cfe1d0aa9ddb56b78d2",
+  "timestamp": "2026-05-18T22:41:15.335316+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

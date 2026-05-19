@@ -1,0 +1,11 @@
+{
+  "name": "bench_74419",
+  "tav": "DLKMJ945FES",
+  "fingerprint": "49bc03e5ed4a44134e0162117c7eaec00e947aaacd7be3ab1e57d8243e3e23c5d3011ce9e42c89644dd4eaf22cc2ab070d00ae25058223873e5ebee411782a85",
+  "timestamp": "2026-05-19T02:20:46.199078+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

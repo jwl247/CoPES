@@ -1,0 +1,11 @@
+{
+  "name": "bench_83875",
+  "tav": "fgs128Bczks",
+  "fingerprint": "e74bce5e2d0eeaac3e10fe89347a93a2b3bb510177ad4c74240add1ccfaa02022df18b877b2b9a02e2dc731359c547c6cad433c708eb643a77add3f0d074a8de",
+  "timestamp": "2026-05-19T02:56:34.833617+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

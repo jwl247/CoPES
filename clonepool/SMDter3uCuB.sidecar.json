@@ -1,0 +1,11 @@
+{
+  "name": "bench_42310",
+  "tav": "SMDter3uCuB",
+  "fingerprint": "978cbb50cd8fa0fe8de443004e0e1907053fe49a29e605a0c04fb90f62ce007db8105650dd2b69675785ebf44b27f6c0b51935b0854f7359e577a487055f1c3b",
+  "timestamp": "2026-05-19T00:18:50.743160+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

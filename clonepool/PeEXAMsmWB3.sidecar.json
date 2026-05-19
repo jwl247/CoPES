@@ -1,0 +1,11 @@
+{
+  "name": "bench_72413",
+  "tav": "PeEXAMsmWB3",
+  "fingerprint": "875e0c46c73db61a8d03b64f316fe509c6f131c00c0f766ec1075a04145f34a147cd429a48d8c9fa208fe08e067195025037aa5667f3d4672991f1a13d61a761",
+  "timestamp": "2026-05-19T02:13:15.582245+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_58173",
+  "tav": "WSAcgRoDzWU",
+  "fingerprint": "aff9477a5cfb17b10986335b008572c62e482a0a06933dcdc73ce1dcafd73ac616dfbc34a71249d52292e46cc19a2fac06aa79293b9382f8f49c72619cbc539a",
+  "timestamp": "2026-05-19T01:19:04.929055+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

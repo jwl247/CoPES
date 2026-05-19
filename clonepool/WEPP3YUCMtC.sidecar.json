@@ -1,0 +1,11 @@
+{
+  "name": "bench_56465",
+  "tav": "WEPP3YUCMtC",
+  "fingerprint": "aec26d3ea71420b1af8c7bf35725c68098319c6fcacf6cc89482a54ae8c0c04b0db56064aaf718dc7ecd83d96a4e19f6a1d046a04577657bdc105f9d44d407e4",
+  "timestamp": "2026-05-19T01:12:39.506116+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

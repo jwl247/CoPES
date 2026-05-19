@@ -1,0 +1,11 @@
+{
+  "name": "bench_40391",
+  "tav": "FpaS2244Msp",
+  "fingerprint": "589acc6a018a295bc278e5f2aef4c7a3d858385d1651684878732d3193b491d983353cb0a0904bda9ce7087a2d2962e630831d583899942ec51f237c7af74c18",
+  "timestamp": "2026-05-19T00:11:46.903649+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

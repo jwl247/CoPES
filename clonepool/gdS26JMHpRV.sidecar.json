@@ -1,0 +1,11 @@
+{
+  "name": "bench_8295",
+  "tav": "gdS26JMHpRV",
+  "fingerprint": "ecebcc991cbe6d481f4069c0d174eb5a82fbb1dc0202c9c2802310433c33344dcf806557f822bc763f3c55c4d514e51fca5c9480572d3324bbf4b86dbfb989e8",
+  "timestamp": "2026-05-18T22:12:34.403047+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

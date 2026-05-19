@@ -1,0 +1,11 @@
+{
+  "name": "bench_95305",
+  "tav": "ZNX9TJ6Q4MT",
+  "fingerprint": "c188a37eea392d1668d6e0d5c4233b6e2481dfaefa63508ab37c7e847039e68a46677f587dff2c6f520482a4df93f539f0054934c3ddd29252e15bd05f032643",
+  "timestamp": "2026-05-19T03:39:26.806076+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

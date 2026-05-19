@@ -1,0 +1,11 @@
+{
+  "name": "bench_32811",
+  "tav": "RLUSipLvV4d",
+  "fingerprint": "917e70c58ceb1b5a86ecbe3604d67123f5c2aa84825dace0b9c3e43062feda1d79309982ea2a0a07736748f7290d56b3e02f5014b1b9febd2a94ee2e90f6b2cd",
+  "timestamp": "2026-05-18T23:43:08.862359+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

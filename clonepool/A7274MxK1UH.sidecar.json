@@ -1,0 +1,11 @@
+{
+  "name": "bench_50581",
+  "tav": "A7274MxK1UH",
+  "fingerprint": "366d8c6dbe1baeaefca028bb49b5e9a6cb719ba29a46c22c741d210e5a4d90b5d9a1252e5006033545e92345d54b08b866448e6a40b90b39dc03b7596cfe860b",
+  "timestamp": "2026-05-19T00:50:19.163187+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

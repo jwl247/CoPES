@@ -1,0 +1,11 @@
+{
+  "name": "bench_6953",
+  "tav": "RP6CmmGRypu",
+  "fingerprint": "91c37c9bf15aa16a74fb7e017494bfe1bf9e3347562d6f615f3bb33ef6d3dbd40b205f56048a38a4899cf7a7f97733103aa84f1583a8599fce6d51ec62fbebff",
+  "timestamp": "2026-05-18T22:07:42.706433+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

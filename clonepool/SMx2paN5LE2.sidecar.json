@@ -1,0 +1,11 @@
+{
+  "name": "bench_64822",
+  "tav": "SMx2paN5LE2",
+  "fingerprint": "979fe792243fd46fcdecbb7344013f1d5c46d11847a25b24347096bb126f8108dca74698458502c51a35f71dfd69c5d4eb85fd433986b65deb63617bc39f887c",
+  "timestamp": "2026-05-19T01:44:15.393953+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

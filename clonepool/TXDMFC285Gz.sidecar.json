@@ -1,0 +1,11 @@
+{
+  "name": "bench_57703",
+  "tav": "TXDMFC285Gz",
+  "fingerprint": "9e8ee48ce280f3b7b7dffb68f3b2317068b5ffce66bb2d047f9fe056333c73d9d1c609cfabe77aca9c246e75f9435d92bc11d4d2071372000acb2a5bafa8b221",
+  "timestamp": "2026-05-19T01:17:19.968531+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

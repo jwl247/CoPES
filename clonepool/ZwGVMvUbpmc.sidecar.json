@@ -1,0 +1,11 @@
+{
+  "name": "bench_70543",
+  "tav": "ZwGVMvUbpmc",
+  "fingerprint": "c4e8c91e86bb55d721add247aa38dd72399801f232dfaefbeee6abac06194d5815347c6961a33d80604b20b5f71ea084ef05acb88d21a7f1e1fcf1a614e0d043",
+  "timestamp": "2026-05-19T02:06:04.562305+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

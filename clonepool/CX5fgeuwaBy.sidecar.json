@@ -1,0 +1,11 @@
+{
+  "name": "bench_9461",
+  "tav": "CX5fgeuwaBy",
+  "fingerprint": "44dd89a457b65eb0ffcdf3a9bcb4a2c449cc4bd94c903104ec86e525c8c37c40cbb177373d4f1a9c3f6b216d053749ea53d9a5558ff86d17fe85dbafd7f1a850",
+  "timestamp": "2026-05-18T22:16:54.436709+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

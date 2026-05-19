@@ -1,0 +1,11 @@
+{
+  "name": "bench_4326",
+  "tav": "RqskNEWECom",
+  "fingerprint": "94864e2647041bdcce290e140f583f2daffbc17a453efe2efccd41dc3de4ff7f03ac025fa3f3ec8446d884e06262fa774bb47f34acee553b553317c5915a8c88",
+  "timestamp": "2026-05-18T21:58:14.867352+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

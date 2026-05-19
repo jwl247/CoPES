@@ -1,0 +1,11 @@
+{
+  "name": "bench_54923",
+  "tav": "SizSCavAYnS",
+  "fingerprint": "99cb2735197edd3f841cc8761333f61b3c32dd6a9a8055337e8dcdff4b2c012e48f90b7320565059ed581bd0743f4481916ea7700d01ffc9258a4c829a361392",
+  "timestamp": "2026-05-19T01:07:05.965607+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_65562",
+  "tav": "ELZ61L9Sk6A",
+  "fingerprint": "4fbcc9f49046ddfffc1bcca87b359a2e9d974e4a0eb312811af937cfa010496aa9bdb3988aa857db22a8c40fd8e425f7c3ff638cde84ec1b38b4983699159647",
+  "timestamp": "2026-05-19T01:47:05.713942+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

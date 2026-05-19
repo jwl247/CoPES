@@ -1,0 +1,11 @@
+{
+  "name": "bench_76103",
+  "tav": "UHAP4RYQDAx",
+  "fingerprint": "a316a11776cdc4399786d45764bc0d145277f733d89f0da933aec60e71b287566b0d9cbcb63ab709156b1d41af6472a3791a15c6042cdb311cb3374211b693b7",
+  "timestamp": "2026-05-19T02:27:16.311175+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

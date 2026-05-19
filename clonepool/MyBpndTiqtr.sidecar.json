@@ -1,0 +1,11 @@
+{
+  "name": "bench_99908",
+  "tav": "MyBpndTiqtr",
+  "fingerprint": "7d5d26dfdd1381c704fff5d4ad0a732e3bc8e15ca5eb166b7ebca3ecfaa05f6d955020de7680cc9c5e66a64f46f67dd6bb53003e64e783ae902ecfd51af032be",
+  "timestamp": "2026-05-19T03:56:24.908528+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

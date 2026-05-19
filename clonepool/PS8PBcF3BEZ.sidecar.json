@@ -1,0 +1,11 @@
+{
+  "name": "bench_30209",
+  "tav": "PS8PBcF3BEZ",
+  "fingerprint": "861e986c4e3ad50a71b3124b47c6c8405261173867ddfdb594a0940f1f2f1ace13a3e51726f51de22733a4c647a3855d7aa1b3169a972a0773b33023e3bb2556",
+  "timestamp": "2026-05-18T23:33:07.944972+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

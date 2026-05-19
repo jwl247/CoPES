@@ -1,0 +1,11 @@
+{
+  "name": "bench_57290",
+  "tav": "CSH45FbDKhg",
+  "fingerprint": "445ec6b8d25d38ff1a92cae4a7d91eb625056ce6fa3a9ca7a508213dc8d5a52beb253f4a9100160ccd6c7fc7e1cb4823072a8d1f8881246d65cb150b965bdff3",
+  "timestamp": "2026-05-19T01:15:45.055715+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_37000",
+  "tav": "CMn1LTfVitb",
+  "fingerprint": "43e801d9d1575d34e4f1b645f68a00fc9863f46e881698c1aebe792f32c0017fae95bfdf30c00c53cf83b6bed598946d8b34d78ab350b80c030b6bd6449e3742",
+  "timestamp": "2026-05-18T23:58:59.500340+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

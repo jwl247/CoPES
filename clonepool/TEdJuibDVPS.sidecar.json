@@ -1,0 +1,11 @@
+{
+  "name": "bench_80673",
+  "tav": "TEdJuibDVPS",
+  "fingerprint": "9cd93120bcfe5725a486320fae316c0492cfe1320127b3ab2f85da2a23894e2f4042ff8fdd36e41c566b3e47002d241aed0e825552b01e1628173ccc5d5a6f50",
+  "timestamp": "2026-05-19T02:44:43.796857+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

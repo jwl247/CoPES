@@ -1,0 +1,11 @@
+{
+  "name": "bench_45003",
+  "tav": "VSRSTPx3FHG",
+  "fingerprint": "aa057fe45b13f527e2ad137aef9d3ce99ea805e826adb4027d973e2d871dbda9347dc94b00f7944f2736dbebe9ff26d23171cbf7b10d83d2345445f06b8fd9fe",
+  "timestamp": "2026-05-19T00:29:04.660209+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

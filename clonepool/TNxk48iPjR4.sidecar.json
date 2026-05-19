@@ -1,0 +1,11 @@
+{
+  "name": "bench_240",
+  "tav": "TNxk48iPjR4",
+  "fingerprint": "9db523ef330a32fb391cf0c086d0f3598a35254452f8c57c7c9ec1ebba2d324e34c198a3576980646d754e4a90cb83fcb5de47b3bd5649bbaa4470829882b63f",
+  "timestamp": "2026-05-18T21:43:47.681498+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_72200",
+  "tav": "naEinctypv",
+  "fingerprint": "04b298e24167d2c32a87912248aef0760ab14e5003aa65fa7e8cf98c31a6b2952d35008001bf910e590b422e09f33e5ef12c046ff8a7b54aae22b2a8c2ee3ecf",
+  "timestamp": "2026-05-19T02:12:25.538045+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

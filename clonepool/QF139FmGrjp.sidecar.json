@@ -1,0 +1,11 @@
+{
+  "name": "bench_13",
+  "tav": "QF139FmGrjp",
+  "fingerprint": "8af3816f379ed26f4f5f921d41d4fec050c0bafdf526f902e4c19276a8a88e6c3f63feb5d93906accf8b068d301e2936a30c90563e6dc968ad259f314b0edb92",
+  "timestamp": "2026-05-18T21:43:07.606372+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 11,
+  "size_compressed": 19,
+  "meta": {}
+}

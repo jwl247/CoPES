@@ -1,0 +1,11 @@
+{
+  "name": "bench_44165",
+  "tav": "LZ7CCSd37Hc",
+  "fingerprint": "74e7335f5a12040b94bf5a53e692c182cae5fc96787b2796b848bfc4689e60bc435a1e9a67e4ecff343461c4211251ea47f7452444ca1a627f26c1211a5b7fd9",
+  "timestamp": "2026-05-19T00:25:52.041125+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

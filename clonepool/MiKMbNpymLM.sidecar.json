@@ -1,0 +1,11 @@
+{
+  "name": "bench_84827",
+  "tav": "MiKMbNpymLM",
+  "fingerprint": "7bd4c0cd65663de25473b2952ae4d9cdf7f27adfaa9ceaf1cd9cdace1beac2a4ad3944db6d45556a4ac06a7cff1ca746c7baa827c820e603a12edcccf2cf6067",
+  "timestamp": "2026-05-19T02:59:52.352872+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

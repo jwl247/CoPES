@@ -1,0 +1,11 @@
+{
+  "name": "bench_92801",
+  "tav": "dh7Pirz23RT",
+  "fingerprint": "db5d4e49bbbb936ab3e7071f572d352ebd389762ef3dfeb7de478d256309bb079ad0087adf2a5fa585f6e4215343edc11ad567fcf23fc998649919e00dd40e06",
+  "timestamp": "2026-05-19T03:29:51.383479+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_52887",
+  "tav": "RRM238XLVRQ",
+  "fingerprint": "91ff00f9789920afc6787a720d96b64d09a7c0b200f24b4e6dc0de18f3882df7f8a0de2556a4c9e0194c2ea84ccab82118638569d6dd0093ced85a34d2ae4b0a",
+  "timestamp": "2026-05-19T00:59:06.926784+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_38016",
+  "tav": "PsCGiMEYARU",
+  "fingerprint": "88b412ba58b0b5b78605a56bbdadb29f3216e1051b803d9383ba1d6ee77b81d116776e68a99b84995536a5b85f26a86884c503530ce7271b1b296c06319ccdaa",
+  "timestamp": "2026-05-19T00:02:59.182770+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

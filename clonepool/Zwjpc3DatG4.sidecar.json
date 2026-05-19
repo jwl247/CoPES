@@ -1,0 +1,11 @@
+{
+  "name": "bench_8511",
+  "tav": "Zwjpc3DatG4",
+  "fingerprint": "c4f538868cee96fd22068188719edc404926fa2248ae95e0b2ec9c2e66777dfd0a2ddc609a4d1b88d5566bf3853d6447aa196280dec835380b97c00e58eeb01c",
+  "timestamp": "2026-05-18T22:13:22.504960+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

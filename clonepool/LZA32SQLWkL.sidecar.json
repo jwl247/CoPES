@@ -1,0 +1,11 @@
+{
+  "name": "bench_49201",
+  "tav": "LZA32SQLWkL",
+  "fingerprint": "74e87e5eef45712d9843073199e10aa50b30221a192d05696df00ad2ed57affe58336bb0635d73193e416bbe4a3e5638fbee805538cc3bf6be4399d49d465d13",
+  "timestamp": "2026-05-19T00:45:07.822577+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

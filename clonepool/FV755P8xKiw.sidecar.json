@@ -1,0 +1,11 @@
+{
+  "name": "bench_85322",
+  "tav": "FV755P8xKiw",
+  "fingerprint": "5698f8b000cf64d0defcc58086a1ab28210d56a2d161b27da5afb5ce1acb34d3bbe3f35ad0663483a6ccce222d16f0c13309fd8bfa24d5d7bd837ac5e8323250",
+  "timestamp": "2026-05-19T03:01:50.963896+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_15822",
+  "tav": "gbPLtTJoRKT",
+  "fingerprint": "ecb5ce1799936f4ec369e875a2d4a9185425a791c72c6e1d58b92d754dc397926c9db76a7f10654ad57b2cdddaa1bd9109f2cf0b7f69af8f35119ff859210e50",
+  "timestamp": "2026-05-18T22:40:19.111901+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

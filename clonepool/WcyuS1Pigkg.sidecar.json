@@ -1,0 +1,11 @@
+{
+  "name": "bench_5218",
+  "tav": "WcyuS1Pigkg",
+  "fingerprint": "b116ad7f1f40d269290568ff02a19b90c2a9bebb3d8339f4ecb1a9db73db842c87c205c84625de1ab4d924e2551fc827c5fa37e00fd5684f8d86c389185894cb",
+  "timestamp": "2026-05-18T22:01:23.978773+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

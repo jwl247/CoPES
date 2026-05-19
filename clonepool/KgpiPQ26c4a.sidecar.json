@@ -1,0 +1,11 @@
+{
+  "name": "bench_30580",
+  "tav": "KgpiPQ26c4a",
+  "fingerprint": "6fb849259e8572f38ec7cf6fd75b23a5883fc16118683002dd26066123926afaedf210e1b2c5465d2f54ee6308e5a9ee8bd059f61a866ea392e8c4c4b3c83584",
+  "timestamp": "2026-05-18T23:34:34.904756+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

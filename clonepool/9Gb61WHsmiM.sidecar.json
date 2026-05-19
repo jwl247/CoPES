@@ -1,0 +1,11 @@
+{
+  "name": "bench_83120",
+  "tav": "9Gb61WHsmiM",
+  "fingerprint": "316f8685f78007fef80cf462ce57a7e4ff1154630afc838b45beb3adc1c8a76686708ab92e865906c4d59c5df14b048707098fd9d418d1bb707eb30e044b52f2",
+  "timestamp": "2026-05-19T02:53:49.782940+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

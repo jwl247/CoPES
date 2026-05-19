@@ -1,0 +1,11 @@
+{
+  "name": "bench_42786",
+  "tav": "LS25PvG3w6V",
+  "fingerprint": "742c276f7706a3b65103e184c9cd0e798ad78ebdd9defc426d64c40494a7df4b2a27343852a4f6ca3920200d3bf820f313238482ea3a19226f646a446d9f1c38",
+  "timestamp": "2026-05-19T00:20:42.642993+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_485",
+  "tav": "9FxKQUrbyst",
+  "fingerprint": "315ecbef5f1dbc678a72c7f4e2dd8e2ca6e5250bd00df1aa88e0c563c6ef4408020b6fbfaec5ced1c19a7e46f9a53382c00481004fc79f31c6022f5ededd7c85",
+  "timestamp": "2026-05-18T21:44:31.979738+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

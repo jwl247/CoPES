@@ -1,0 +1,11 @@
+{
+  "name": "bench_33229",
+  "tav": "MF5B65MnSM",
+  "fingerprint": "02162b53326b1f124e0daf4910195808e154bdd732bf2c5ed561a16fe0275ee19caf11c7fd23131c40eca132a1817c87317587bae85c101e8e987a75302d3849",
+  "timestamp": "2026-05-18T23:44:46.249722+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

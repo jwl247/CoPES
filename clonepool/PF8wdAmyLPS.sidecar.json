@@ -1,0 +1,11 @@
+{
+  "name": "bench_68985",
+  "tav": "PF8wdAmyLPS",
+  "fingerprint": "84fc93fd69c4dbe1fe68fd7b8dc6f4b688bb68c501de9b50fa87873afb0124ab4db414cc386a1df7624d28370315c622fc2e318ecfc3274194638cae63acf5d5",
+  "timestamp": "2026-05-19T02:00:09.453191+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

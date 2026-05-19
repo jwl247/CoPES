@@ -1,0 +1,11 @@
+{
+  "name": "bench_36005",
+  "tav": "CMB2XbcWBPk",
+  "fingerprint": "43d817b346e0ab87ef126784c597f503307e5f764ac26217bf0c68d1b13a8cb8706798983e16259ba05433aeb9dd1a532d5b39b11fa54ef5f8cf323649c2206c",
+  "timestamp": "2026-05-18T23:55:12.265246+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

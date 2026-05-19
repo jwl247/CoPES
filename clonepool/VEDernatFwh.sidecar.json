@@ -1,0 +1,11 @@
+{
+  "name": "bench_12963",
+  "tav": "VEDernatFwh",
+  "fingerprint": "a8c37a21d060fb44e3d7fb959a07c130b8d8c5c00e459b9200173fe0b2436c34437252b65789f0be9e788b8190877a39a3bdd7427cbcef3525ce128e540f1610",
+  "timestamp": "2026-05-18T22:29:48.084815+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

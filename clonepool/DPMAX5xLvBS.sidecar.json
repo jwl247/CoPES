@@ -1,0 +1,11 @@
+{
+  "name": "bench_28020",
+  "tav": "DPMAX5xLvBS",
+  "fingerprint": "4a0c017371ce8ab99b2054445db934631d5174bfcdb35e72b3d76e6e63ca142cf2f4d02e46c365e1751324a9afc00e8aa338dcb81004c7863be6647c982e0ab7",
+  "timestamp": "2026-05-18T23:25:02.257264+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

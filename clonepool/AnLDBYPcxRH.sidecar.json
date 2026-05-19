@@ -1,0 +1,11 @@
+{
+  "name": "bench_1080",
+  "tav": "AnLDBYPcxRH",
+  "fingerprint": "3a7aee781e5b0ef4e7fcc498566077f5a9f37fa9f22d4342a62064d790334e793b73206406b03f67252fd93c4609d68d2b3aa56c450f91ddd9b6e43d3511c371",
+  "timestamp": "2026-05-18T21:46:24.944911+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_93769",
+  "tav": "EPA23WDJRHA",
+  "fingerprint": "5001755ff47b7b91e4bb8b138e170b3b89ed65af383b1cc391664f68d2ff839c9afba9591bb35291f664500e82380ae20aec9b6aea2ba3254897539b4dcbfa7e",
+  "timestamp": "2026-05-19T03:33:28.302531+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

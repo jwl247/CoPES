@@ -1,0 +1,11 @@
+{
+  "name": "bench_55197",
+  "tav": "ARPC5K9NTGQ",
+  "fingerprint": "385221ebfca102adb4c1b80ac674b52ab90e83231391cf5f967247e4a7cc38607938b7798d00ac06bb8b400004366aa1a5e6cf04dfec34ccd4aa92706d2041d4",
+  "timestamp": "2026-05-19T01:08:03.038310+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

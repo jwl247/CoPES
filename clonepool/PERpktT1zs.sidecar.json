@@ -1,0 +1,11 @@
+{
+  "name": "bench_17540",
+  "tav": "PERpktT1zs",
+  "fingerprint": "024aa726ed8f9bfc48177ef16d8cb090813316dae94a1d41ce755669a3a1d83987bf88a02ae169bf463f359d3fe8a97385bb067b5d033499d1b8111957c31d5a",
+  "timestamp": "2026-05-18T22:46:37.671975+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

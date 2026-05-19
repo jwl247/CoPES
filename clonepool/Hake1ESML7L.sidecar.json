@@ -1,0 +1,11 @@
+{
+  "name": "bench_73391",
+  "tav": "Hake1ESML7L",
+  "fingerprint": "63230dabd192cf6b51d7b64126abd2b7b67132d521e9d334c285a2f6d16ab8a197b4f22b1e6d32bc92eeca27510ed62fb807adf64ef5b297d3ed9711e3ba05a0",
+  "timestamp": "2026-05-19T02:16:52.027119+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

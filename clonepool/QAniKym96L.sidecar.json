@@ -1,0 +1,11 @@
+{
+  "name": "bench_919",
+  "tav": "QAniKym96L",
+  "fingerprint": "026362a047bbc1b525c0ec7e6f5180cb6eab12ef5f90f730559623228d45e75ac8bcd8b542643f3e86441b0405137f862cc7f7196ebef077e139b8da93022ced",
+  "timestamp": "2026-05-18T21:45:54.727191+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

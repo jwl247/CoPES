@@ -1,0 +1,11 @@
+{
+  "name": "bench_3070",
+  "tav": "P24GN84WrQr",
+  "fingerprint": "83a366d94a30f4232863d181f4c538305de3279732b202171203cadc5e75035e5ccc78a41d1e5e9efbb0f338ef94f0738f73df6675e94225fa73251cefee1217",
+  "timestamp": "2026-05-18T21:53:22.448499+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_8185",
+  "tav": "Cuvco25h3mL",
+  "fingerprint": "47385a2869577c733d236184e456e203e84af86102b4c8193a34ae56cd06027b60b141593a7ce431ff805c015e66dba56802311764e567c8f0586d8e789da000",
+  "timestamp": "2026-05-18T22:12:10.421757+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

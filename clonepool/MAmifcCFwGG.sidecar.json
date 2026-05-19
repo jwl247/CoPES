@@ -1,0 +1,11 @@
+{
+  "name": "bench_18800",
+  "tav": "MAmifcCFwGG",
+  "fingerprint": "78945216dfc5fdcdc7b4c052f51c16d638b17fd22aebe0b4bcf1779587920125af0f9cf843a1f471346dd6ca6057ee9a41793fc0300404b12ff4466d54d32379",
+  "timestamp": "2026-05-18T22:51:12.170973+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

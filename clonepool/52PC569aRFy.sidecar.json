@@ -1,0 +1,11 @@
+{
+  "name": "bench_93255",
+  "tav": "52PC569aRFy",
+  "fingerprint": "180e949f1869bf0c5e6ae21cd65581caeb104bf5ebec1bf71b676a9572747d55560efcf5edbb9dc3f37c905443aa91941b40437ed9f40113d7de8e35e471ca9b",
+  "timestamp": "2026-05-19T03:31:29.240546+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

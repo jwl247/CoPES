@@ -1,0 +1,11 @@
+{
+  "name": "bench_79265",
+  "tav": "LcdFFSVCrZu",
+  "fingerprint": "754409ee2b3e5df0e082ea68c758188b82bd318d334ccbf24d6c3096531045d4f013106b7e54bc95c3974764f09c87fff002c43fe8149923d4f2aa4cfece6ca5",
+  "timestamp": "2026-05-19T02:39:14.126850+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

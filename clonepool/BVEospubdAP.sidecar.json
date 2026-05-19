@@ -1,0 +1,11 @@
+{
+  "name": "bench_64788",
+  "tav": "BVEospubdAP",
+  "fingerprint": "3eb2655f3c771ca03f21291971abe2252f7ff61612d75887ecdf2441d89c509236b25e9ed0c6cedc5a75d5badffe629743f762775a4615d6975b7e7589177dbd",
+  "timestamp": "2026-05-19T01:44:06.868849+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

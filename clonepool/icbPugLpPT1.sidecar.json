@@ -1,0 +1,11 @@
+{
+  "name": "bench_5485",
+  "tav": "icbPugLpPT1",
+  "fingerprint": "f8cab988f584d7e46a592795ca50a8243186390eb15d03cef72dba7fc9e3862800290ce466f4af0bcc6016d9193a8e9c1a493e66913501c628e94a845c2d1151",
+  "timestamp": "2026-05-18T22:02:21.674834+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

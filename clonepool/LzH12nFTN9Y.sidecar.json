@@ -1,0 +1,11 @@
+{
+  "name": "bench_87480",
+  "tav": "LzH12nFTN9Y",
+  "fingerprint": "777f5f14fe30ee33a6bdd155a62b2d42ff657398d61da18538c947fc52361335dfcc4795d19e4006744d9666f6fd2972cbf7105a73131c3e05e3b1a038a9426e",
+  "timestamp": "2026-05-19T03:09:47.993249+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

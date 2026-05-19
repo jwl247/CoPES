@@ -1,0 +1,11 @@
+{
+  "name": "bench_570",
+  "tav": "DR8faaqeRWi",
+  "fingerprint": "4a3b187ef53b8ac38be9af153f9a5eac8e6fc26a5f7633818fb17af06362cb2c074c28a69d427d9306a16c4412c3471fe0e623b9ad48cc90628c0b0b4430a3d2",
+  "timestamp": "2026-05-18T21:44:48.389885+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

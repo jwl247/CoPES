@@ -1,0 +1,11 @@
+{
+  "name": "bench_72014",
+  "tav": "BigfsEDvfGx",
+  "fingerprint": "401535fcd87cd79d3b3b32600bf46708e39a5bd3156a5a991266f9aae3989dcc74f87243515bcec0b23e6a210c6eced64117751bfa1dd33aefc1827eb6ac32a8",
+  "timestamp": "2026-05-19T02:11:41.316643+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

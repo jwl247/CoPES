@@ -1,0 +1,11 @@
+{
+  "name": "bench_150",
+  "tav": "TverE5avNcF",
+  "fingerprint": "a0f96d23c92bce887bf427868b4e71f10d434f5da0510f485a5a7f243492ad7f8b1e8ca22d3ef2c277d7b57d9a9ae422ade68be146ea0cd897fd975dcd4f809e",
+  "timestamp": "2026-05-18T21:43:31.171353+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

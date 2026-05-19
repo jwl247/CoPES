@@ -1,0 +1,11 @@
+{
+  "name": "bench_7308",
+  "tav": "LLMiAVP2uF7",
+  "fingerprint": "7396c1c16d2bda4a5bf62ecda4d511d8baa36b54bde65f253dbd452c73583f46afa3b0fb772b5c8dc56e83414ca727f22d30181e3483fd3ba99747261152081c",
+  "timestamp": "2026-05-18T22:08:58.991516+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

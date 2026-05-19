@@ -1,0 +1,11 @@
+{
+  "name": "bench_14814",
+  "tav": "SYGS17E2FG",
+  "fingerprint": "02a1ef0c5537f587f6bdcb29bb773c0239e9f6ac0457ed41b9c218908cb7ba7b2effd55c2088e2ba0f0c157dc5f22bb01d647ae4b441a2b2cf18e9bef303455c",
+  "timestamp": "2026-05-18T22:36:37.745996+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

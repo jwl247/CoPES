@@ -1,0 +1,11 @@
+{
+  "name": "bench_86054",
+  "tav": "MB27A7BucMG",
+  "fingerprint": "789adddf85723143a6380238c4876fc910e2fc15cfe4f0bccc7ddca4aec0025f109c30e945850d36ba7bca670dd4c44073dff36b61f33364efcfe30dd04763e3",
+  "timestamp": "2026-05-19T03:04:33.905115+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

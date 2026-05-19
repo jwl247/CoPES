@@ -1,0 +1,11 @@
+{
+  "name": "bench_32662",
+  "tav": "ArqoVv1EC3W",
+  "fingerprint": "3af1f2c1721e7f4571b4dbd4669efc13a6507e8ce4824f98471b79803727aa3801d7847ca43f743141894e791637c1920bef7fec62d8896ae1810434303752fc",
+  "timestamp": "2026-05-18T23:42:32.950851+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

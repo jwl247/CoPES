@@ -1,0 +1,11 @@
+{
+  "name": "bench_60790",
+  "tav": "HMrFyUsHgtv",
+  "fingerprint": "61ce8fdb1b806dbfcea508d4955c78d3121f0488f58617c53113177f2a0bb78c2566962aa493ee1640ee1efab6373fa3b94cfd822b652d66a271a4fbdb1dda71",
+  "timestamp": "2026-05-19T01:28:59.558326+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

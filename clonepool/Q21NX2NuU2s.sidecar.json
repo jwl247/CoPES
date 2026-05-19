@@ -1,0 +1,11 @@
+{
+  "name": "bench_30406",
+  "tav": "Q21NX2NuU2s",
+  "fingerprint": "899c9bee76ac494896b037b04b3fd9f1c2eea33bf8df9ba59bb0da4fa9849830e5afc82d082c89b5516ef0294e288eb741b632d3c14bde7ed2fabb46f5288f87",
+  "timestamp": "2026-05-18T23:33:53.085732+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

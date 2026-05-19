@@ -1,0 +1,11 @@
+{
+  "name": "bench_1548",
+  "tav": "DF524FXCFsN",
+  "fingerprint": "49318d9038d2b6f953191dbee70f8747aa00bc4b683e7b124acc13af236cf021ec265eaeebe7385fb3f5d22c27eb8c05e6f5ba91dd8587f560934f56de7bbdf8",
+  "timestamp": "2026-05-18T21:47:58.537900+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

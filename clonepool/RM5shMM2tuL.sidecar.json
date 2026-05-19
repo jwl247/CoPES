@@ -1,0 +1,11 @@
+{
+  "name": "bench_75346",
+  "tav": "RM5shMM2tuL",
+  "fingerprint": "918e8f780fbe0cef86b50f6381486c9324f52cec700cf44f0621bae4bb00e1be28a28689e6a7ab6a718ec7193522cdbb985873348cb2857d2544ac9b7af993f0",
+  "timestamp": "2026-05-19T02:24:19.505135+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

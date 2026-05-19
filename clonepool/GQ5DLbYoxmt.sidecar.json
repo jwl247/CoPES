@@ -1,0 +1,11 @@
+{
+  "name": "bench_3605",
+  "tav": "GQ5DLbYoxmt",
+  "fingerprint": "5c0eb5657adecf07832a726143b83a23034e3a0fd5381225b32041e0dbf6e7655d0e936ba0ca1af2c54c4b5e1add9a97847be8b181bbeed4350960058935f001",
+  "timestamp": "2026-05-18T21:55:27.251442+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

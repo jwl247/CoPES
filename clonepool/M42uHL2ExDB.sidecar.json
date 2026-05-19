@@ -1,0 +1,11 @@
+{
+  "name": "bench_48131",
+  "tav": "M42uHL2ExDB",
+  "fingerprint": "77e282958b551676f379f618807dcfe8f9d2fa585d9d4baac2d89565d0ba0aed5662424a0611698624d4a6cc71f799090137c84ce9cfe92e3f1f4cf56503ff0e",
+  "timestamp": "2026-05-19T00:41:07.439899+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

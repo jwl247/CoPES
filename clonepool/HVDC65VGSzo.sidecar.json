@@ -1,0 +1,11 @@
+{
+  "name": "bench_39136",
+  "tav": "HVDC65VGSzo",
+  "fingerprint": "6290cde4651af8f4c4e4e8d2f9c6939ab88ef288ccb019cf77b60cc3460fe3f112417f1bda054941fe555bd559ac3162ea93fe97489884b10e8e3a5f801adfa6",
+  "timestamp": "2026-05-19T00:07:04.967629+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

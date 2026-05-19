@@ -1,0 +1,11 @@
+{
+  "name": "bench_50155",
+  "tav": "vNux7WHGDP",
+  "fingerprint": "05808d52242097ba4978eebb11f1a6e5eb7b9c6527d4293a746c3f6ea995907a197671692a15849a74d79c2e61902b32cdd11a750498b528a9b98b174df326b8",
+  "timestamp": "2026-05-19T00:48:39.009560+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

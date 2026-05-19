@@ -1,0 +1,11 @@
+{
+  "name": "bench_98121",
+  "tav": "SP731Es74Ls",
+  "fingerprint": "97be639c50502a1ca33d98a2f8d956a82a9452c0d1d566c7db2ad7bd9b789cc9a6a6261447d5b9d91cebbb1f066b16fff3e501d71604ef4c3f4c6ad744591ad3",
+  "timestamp": "2026-05-19T03:49:53.013468+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

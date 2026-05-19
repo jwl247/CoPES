@@ -1,0 +1,11 @@
+{
+  "name": "bench_8401",
+  "tav": "FaussUF1CSD",
+  "fingerprint": "5732357bc11ce082543a60d5d63dabfc8086b57dac6c480eb0a03aee35f657a682b1aab9a59c8e556b5668b8d5a92fffc265fefef98fe5cd8c25785f0ce4830b",
+  "timestamp": "2026-05-18T22:12:57.946767+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

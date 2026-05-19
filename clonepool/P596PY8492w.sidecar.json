@@ -1,0 +1,11 @@
+{
+  "name": "bench_80090",
+  "tav": "P596PY8492w",
+  "fingerprint": "83f4c36db5ff37d85bc8c51c310c2c0b029419789cffc12f38ff154e13bb3c383cdf54619b1c01e7da34f0d662e17abf424a01a705b9c2c7ab38b73e35977469",
+  "timestamp": "2026-05-19T02:42:22.158838+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

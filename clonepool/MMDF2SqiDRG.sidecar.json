@@ -1,0 +1,11 @@
+{
+  "name": "bench_52308",
+  "tav": "MMDF2SqiDRG",
+  "fingerprint": "79a7d10910ecc077b510421e446331c675ea8fda747288c33d1d9bf876e438053b34d9e88c13a20ebd77749f2435939d6265c579c124e3c9840202c77fe2de9c",
+  "timestamp": "2026-05-19T00:56:55.638012+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

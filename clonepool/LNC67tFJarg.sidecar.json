@@ -1,0 +1,11 @@
+{
+  "name": "bench_56259",
+  "tav": "LNC67tFJarg",
+  "fingerprint": "73c727f34371d24dd4aed4efdef3822ab4041472f5b549c718c7a7a983d68f848de10c9329818b128b6a172250191a72ff7ae8f86797280b720c4f3b23ef27c9",
+  "timestamp": "2026-05-19T01:11:50.902496+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_74957",
+  "tav": "GHHCVNnGvm3",
+  "fingerprint": "5b5b717360010b36b42a55f201c7c7a4b9ee28bed407e07562ab0987d8d466cb8615808453cb6afa48912ed5e926b74352f08a50a889851d10c444e6efd91c36",
+  "timestamp": "2026-05-19T02:22:44.578426+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

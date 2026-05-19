@@ -1,0 +1,11 @@
+{
+  "name": "bench_25961",
+  "tav": "EoM535mTT9w",
+  "fingerprint": "527fce9326721f7eb3a4e07272c72abd788c91b32fbc2b8e1e1361e48f409d4538598ee3456f75bebaa3f95a5a94acaae7a2d27a8bed1d48153c8dec764925ec",
+  "timestamp": "2026-05-18T23:17:32.534659+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

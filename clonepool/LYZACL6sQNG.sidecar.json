@@ -1,0 +1,11 @@
+{
+  "name": "bench_68391",
+  "tav": "LYZACL6sQNG",
+  "fingerprint": "74d8a039def0204da1d618c4218c76ef38c48c7c6269b2089a2018040bafc7ee61100ad893708f076077bdb6f59848f8465867f7ae224cb3ad3661503393c4a9",
+  "timestamp": "2026-05-19T01:57:53.928930+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

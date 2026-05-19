@@ -1,0 +1,11 @@
+{
+  "name": "bench_39585",
+  "tav": "AM4appN9M6x",
+  "fingerprint": "37e01cf60a231359e0b964aa7c6fd13833c44fb5f67cc62b0b8e7123e0c3c34a047da4a8864399d935db422fd15fb8454f420f262c2acd84fc4579fc5c9648cc",
+  "timestamp": "2026-05-19T00:08:42.340370+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

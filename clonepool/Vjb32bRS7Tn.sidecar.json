@@ -1,0 +1,11 @@
+{
+  "name": "bench_282",
+  "tav": "Vjb32bRS7Tn",
+  "fingerprint": "abca77a63d36ecd193fa6e15906b26fa2f41438aa1f81094fcdb8f740c0a172b03c319e3dd65f3dc2ec3db7bf5169a0caf36462cacaeabe7b58b9bea03f6aef2",
+  "timestamp": "2026-05-18T21:43:55.240792+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

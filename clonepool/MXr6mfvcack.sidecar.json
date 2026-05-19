@@ -1,0 +1,11 @@
+{
+  "name": "bench_82828",
+  "tav": "MXr6mfvcack",
+  "fingerprint": "7ac0781c6f0d8bc54a4e03735e560b40a8eda187f97b4ae52965460b2731fd0f2bd109cdace56edfcff7bb19643c296ad9e2ecf13fc81478a212b4f4a648ecff",
+  "timestamp": "2026-05-19T02:52:46.831462+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 20,
+  "meta": {}
+}

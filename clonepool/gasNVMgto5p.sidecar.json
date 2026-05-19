@@ -1,0 +1,11 @@
+{
+  "name": "bench_93503",
+  "tav": "gasNVMgto5p",
+  "fingerprint": "eca82b20c28014f7ae61569213870305156c154c4f0af55e10d34fda7de50172e1fa75bde986a44796f68a89023297bcc384bf5f05044a432dee5406a9eac011",
+  "timestamp": "2026-05-19T03:32:27.540506+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_15956",
+  "tav": "RH41X386jNf",
+  "fingerprint": "912428910d4394c8f41d973aff8eecff2df879588bd07a3d4afd5e63de0e6038fe912649a1b227718b5d2fc95121a1e299df7993a087d6ecb2872dde55d45d86",
+  "timestamp": "2026-05-18T22:40:45.920015+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

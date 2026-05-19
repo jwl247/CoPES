@@ -1,0 +1,11 @@
+{
+  "name": "bench_70804",
+  "tav": "hEPAsp2KnRi",
+  "fingerprint": "f0861863f356902d7da64edbc5e01eaaecec345bfa5c4790fdbe4ae5dd1213fa0035eacaefa9507d2573eeb71cd085449b131fe7926ea25c6f76dc3eeb83ec24",
+  "timestamp": "2026-05-19T02:07:03.350023+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

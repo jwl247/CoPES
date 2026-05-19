@@ -1,0 +1,11 @@
+{
+  "name": "bench_4715",
+  "tav": "BGY99vxDATL",
+  "fingerprint": "3d633bb56fab11ab0cd2cb5a6c7f20da7f78a856319c6fcc23943c5fde87dfbf9617692706abb864f90eb98860b5deeb4cf9d7da2940065520fa61e34b3326ca",
+  "timestamp": "2026-05-18T21:59:33.835770+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_30672",
+  "tav": "LRUmasfm2ML",
+  "fingerprint": "741de903b6150d7fc8ea61fd29fb3ea3fe2d6b66234ca47c164c7bd3db86b55f9030e3e14cee19a76c486e5a54aa10e0f4902cccc664bcb0d7ef2a15dc7df977",
+  "timestamp": "2026-05-18T23:34:56.448654+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

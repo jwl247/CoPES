@@ -1,0 +1,11 @@
+{
+  "name": "bench_96108",
+  "tav": "CAVquToBbPM",
+  "fingerprint": "42be61c5193fc388051e77ca19c6b79555719882635a6270fa2c8eb601afd5e8c79a9624bba543665bf8c017006462c470ff87457957d23eb8f7c6e101617d5b",
+  "timestamp": "2026-05-19T03:42:26.739219+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

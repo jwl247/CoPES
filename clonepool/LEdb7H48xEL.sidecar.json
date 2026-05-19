@@ -1,0 +1,11 @@
+{
+  "name": "bench_42698",
+  "tav": "LEdb7H48xEL",
+  "fingerprint": "72ffa6a71cbe9a89a0335f9b50264098dd3fd9d044f96b59d112afbd3db8f0dd47f57b79708c7aaf878234e27b61d5739cf23d1af3048f3d899ff40745ee26d8",
+  "timestamp": "2026-05-19T00:20:21.190684+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

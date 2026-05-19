@@ -1,0 +1,11 @@
+{
+  "name": "bench_55028",
+  "tav": "ECgebCACNwA",
+  "fingerprint": "4eed1f5e03c0156122db1058287c11b73e6c31024d5557bd69e7742e18294a8397293785154f1cc19f4ec55dca77766e9a4ce6cb923680a4b6db2418ecb0c912",
+  "timestamp": "2026-05-19T01:07:27.543225+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

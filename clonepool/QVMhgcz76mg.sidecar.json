@@ -1,0 +1,11 @@
+{
+  "name": "bench_18630",
+  "tav": "QVMhgcz76mg",
+  "fingerprint": "8c6e581c9ed525f3305cee40e6352abadcebf8f7265f283759487e9eed401abf5badd9a953557c777b126ad2a3a4ab8b122d64553af6886b9a53708376975ed4",
+  "timestamp": "2026-05-18T22:50:36.630939+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

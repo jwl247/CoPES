@@ -1,0 +1,11 @@
+{
+  "name": "bench_40430",
+  "tav": "Run6C52PRTz",
+  "fingerprint": "94ed48ca1f75b2bd107d14058df215e7358451fab9a2091f469eb530d10c20c19a026da7aa45a5dcc1711783ce4edeedfe8416b43413674938059e2b3ae69f6c",
+  "timestamp": "2026-05-19T00:11:56.425037+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

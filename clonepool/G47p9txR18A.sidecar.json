@@ -1,0 +1,11 @@
+{
+  "name": "bench_25493",
+  "tav": "G47p9txR18A",
+  "fingerprint": "5a001fee6134a22f6ed85abc6d97d64e7fb8997f57ae64ea26f1ea1e15341bd2417cad88b300aeaf3cd87e47b0073dd3bca37605aa82a263faa0e11b212861fc",
+  "timestamp": "2026-05-18T23:15:46.445666+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_3510",
+  "tav": "TG86RZFjuty",
+  "fingerprint": "9d00ad2df1770c06334888e1c08485d88302dbefddf6cdb8553dab7b4818cf06e84a2599a9a94222067945fe11b628dd105457a012cfe3678a34f81068d80452",
+  "timestamp": "2026-05-18T21:55:03.349645+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_80777",
+  "tav": "WibpDM32exe",
+  "fingerprint": "b1aaf51da48210178cc546a637cdaf0511284bdac6c72e659334bf3922a02d4f066bf385cd31e48ecd9769f6fa2110e5ef3a9467b365b366b9ef3dcfdea89fc3",
+  "timestamp": "2026-05-19T02:45:08.296867+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

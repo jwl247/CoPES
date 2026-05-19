@@ -1,0 +1,11 @@
+{
+  "name": "bench_36449",
+  "tav": "E4H385PANMR",
+  "fingerprint": "4e0f45f0e4eacc9c2156cf0586c613ffd15cbacfc9d7714e163ac43fec2a70f2d21fe34a82604063bc37a77327be16f0a5c8f85888ac866bc88bf74f8cd319fd",
+  "timestamp": "2026-05-18T23:56:56.358423+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

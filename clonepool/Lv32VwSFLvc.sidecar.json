@@ -1,0 +1,11 @@
+{
+  "name": "bench_27687",
+  "tav": "Lv32VwSFLvc",
+  "fingerprint": "770f75bf66e973d184be5082d2113855fa06717b72cedb045d64fa00c59c483cf2afb0480bd7b6ba4e2b1d26945191ccea4ce632aae2a44f909341a929dcae5b",
+  "timestamp": "2026-05-18T23:23:46.743218+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

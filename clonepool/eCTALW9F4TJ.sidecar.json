@@ -1,0 +1,11 @@
+{
+  "name": "bench_302",
+  "tav": "eCTALW9F4TJ",
+  "fingerprint": "de638fef03437871b9474267e50e0c9aa81ce35c2ef793d232f65b51cc3d650d6dc905fb6b1e45815131eedbb892e5cc9b5b49696bd90e962a2ae9ffc43aff9d",
+  "timestamp": "2026-05-18T21:43:59.261563+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

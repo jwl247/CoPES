@@ -1,0 +1,11 @@
+{
+  "name": "bench_23789",
+  "tav": "VMhuXAJSSPX",
+  "fingerprint": "a9890cb962e7d9b6d8b5836f53ab45df897c7664c93f487f3f9f2452a199b51018c2899e36face4995b635817b9ca802cd8c7adf5669fe7a68f7769100c2bd50",
+  "timestamp": "2026-05-18T23:09:20.085605+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

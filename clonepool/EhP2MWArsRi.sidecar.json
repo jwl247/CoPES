@@ -1,0 +1,11 @@
+{
+  "name": "bench_5380",
+  "tav": "EhP2MWArsRi",
+  "fingerprint": "51e25da2caf38279c208b1a55371d80be1e5038cb21f9c4cc8622dcf584aa1f25e7ea4dd536801270e97b62e841627825cd8f9fe1f7b46e3f1fbde94eb031b53",
+  "timestamp": "2026-05-18T22:01:58.811287+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

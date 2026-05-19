@@ -1,0 +1,11 @@
+{
+  "name": "bench_50064",
+  "tav": "ZyAREM2opwM",
+  "fingerprint": "c51accd218c70cec613170b60e376971eebf73409f30f6969456828b3821356cef254fbbf0bf542e1b7e01d44dbaaa4843dac929a60b4420e2a406b03267b0b1",
+  "timestamp": "2026-05-19T00:48:18.183740+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

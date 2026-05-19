@@ -1,0 +1,11 @@
+{
+  "name": "bench_7433",
+  "tav": "dwTRGAnuPsd",
+  "fingerprint": "dcd7daa96b48aae05657588ad1614f6204bc51faff51fc3e809b3aa440de34fe0def35f491b499d59f20c2f5257b4f8612082936c6f4a7d4cecaa1572500dc90",
+  "timestamp": "2026-05-18T22:09:26.605862+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

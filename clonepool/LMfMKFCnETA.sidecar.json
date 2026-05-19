@@ -1,0 +1,11 @@
+{
+  "name": "bench_8047",
+  "tav": "LMfMKFCnETA",
+  "fingerprint": "73b92bcff56da4b9e58d2af731716fb245e22110b8b61a361fa6b1953283c60513c5fa1692a59a5cc34038907eaaa829aa1d981634f65e036d5f7292726d8713",
+  "timestamp": "2026-05-18T22:11:41.532498+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

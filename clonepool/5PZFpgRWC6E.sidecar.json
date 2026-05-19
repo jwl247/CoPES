@@ -1,0 +1,11 @@
+{
+  "name": "bench_6090",
+  "tav": "5PZFpgRWC6E",
+  "fingerprint": "1a3d509fb11bd1e3ec18c8dd10d7a5e1f630c859b5acdd91dabb53ce67811a0dc12ad4f3c9677299464461f92fbab77da60e22fc6442a9e99831e76bec417957",
+  "timestamp": "2026-05-18T22:04:35.058044+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

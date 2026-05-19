@@ -1,0 +1,11 @@
+{
+  "name": "bench_5547",
+  "tav": "g14mR391DXr",
+  "fingerprint": "e92c263659173b6d3c1f2ce6a7b3f9b53de053986981698089e520af9a618624584d5bf493d911aa9404ec2c7f3bd1b79624dc09caf6d380c26535ab19a385e2",
+  "timestamp": "2026-05-18T22:02:34.199045+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

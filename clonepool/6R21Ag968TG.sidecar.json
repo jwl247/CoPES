@@ -1,0 +1,11 @@
+{
+  "name": "bench_2621",
+  "tav": "6R21Ag968TG",
+  "fingerprint": "205e65843bcd75d76b2415f0ff0effac31f71a7b313a5e1323d0f5ec0bc1e408704c4855ea1589985f038edef46dbf0823c9fe773e7fcf86d91d7cb176e51018",
+  "timestamp": "2026-05-18T21:51:44.851149+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

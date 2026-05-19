@@ -1,0 +1,34 @@
+{
+  "usys_intake": "1.5",
+  "tav": "X7pwBQnyX4",
+  "original_name": "helix.py",
+  "state": "white",
+  "version": "v1",
+  "filetype": "script:python",
+  "category_hex": "73637269707473",
+  "size_bytes": 26249,
+  "sha256": "412f2fe26e9be3bf8991976de561219e6a3aa278453ff4e7b57413e19363e4b8",
+  "backend": "direct",
+  "notes": "",
+  "pool_path": "/home/jwlef/Phoenix/clonepool/X7pwBQnyX4",
+  "companions": [],
+  "qr": {
+    "header": {
+      "role": "state",
+      "state": "white"
+    },
+    "footer": {
+      "role": "location",
+      "tier": 1
+    }
+  },
+  "auto_hotswap": false,
+  "registered_at": "2026-05-18T03:01:15Z",
+  "updated_at": "2026-05-18T03:01:15Z",
+  "clone_history": [
+    {
+      "version": "v1",
+      "at": "2026-05-18T03:01:15Z"
+    }
+  ]
+}

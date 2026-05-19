@@ -1,0 +1,11 @@
+{
+  "name": "bench_16383",
+  "tav": "WHR27Nvt9au",
+  "fingerprint": "af1256668cd95d36eff8574bc6f3560b9900874d24bb366f92bfcfdf5889b67c9ba51ff2a6da0c070b23fcf239817c67fd655e4dc5217295c53d1d1794f53090",
+  "timestamp": "2026-05-18T22:42:18.426516+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

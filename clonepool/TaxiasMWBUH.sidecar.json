@@ -1,0 +1,11 @@
+{
+  "name": "bench_90352",
+  "tav": "TaxiasMWBUH",
+  "fingerprint": "9ef1c9fa3b5e145e7aebf22e5bf4f8d0c6cdcda25c0a7fd6ff4394c58b8e2c1b572dca483432fe561e472b9c17e9b8f1fcc71a5181b0add8e9ab19c8fb1437be",
+  "timestamp": "2026-05-19T03:20:42.716330+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_420",
+  "tav": "TRJT72pznnL",
+  "fingerprint": "9df2e22ebf5807911b7f7a3683ecd05188e0c0c69c06ac1bb3319f1180816300ae10ad534e3f0349f1aa82cc2124591240695d9d7a6d2cbd48c71a6668fd1ff3",
+  "timestamp": "2026-05-18T21:44:18.926508+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

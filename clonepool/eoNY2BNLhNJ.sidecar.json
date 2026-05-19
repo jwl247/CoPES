@@ -1,0 +1,11 @@
+{
+  "name": "bench_12583",
+  "tav": "eoNY2BNLhNJ",
+  "fingerprint": "e1fd0caf3b9f8ebb6fb96eb392e1ded428785358a489cd3e29b1a062e351a00fe3607ea76746870bdc62d510485bf3c6ba99db12fc6bb28297ccc3071a7b222f",
+  "timestamp": "2026-05-18T22:28:28.788263+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

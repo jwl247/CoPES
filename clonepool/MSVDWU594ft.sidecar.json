@@ -1,0 +1,11 @@
+{
+  "name": "bench_28585",
+  "tav": "MSVDWU594ft",
+  "fingerprint": "7a3306a23e3a06dbde2ef2d99a2b941ddee6fc556c5df24c3714f05b27920ea996da0804049256fa042272bffedfb5de8e3c021363d526b03e94bf8b0b1b27a5",
+  "timestamp": "2026-05-18T23:27:10.089563+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

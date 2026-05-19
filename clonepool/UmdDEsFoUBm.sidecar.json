@@ -1,0 +1,11 @@
+{
+  "name": "bench_37203",
+  "tav": "UmdDEsFoUBm",
+  "fingerprint": "a605b5ca41061fccc4cb8e6c9e2744f7dc2f691d3b7ba2dcbe5dc4d0a7fd381cf5b7482ed964625ed5720b2054530fabc480ff75174b6d7f2bb3ac669c2d069c",
+  "timestamp": "2026-05-18T23:59:47.736989+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

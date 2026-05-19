@@ -1,0 +1,11 @@
+{
+  "name": "bench_96110",
+  "tav": "RBB65EDRpxs",
+  "fingerprint": "90890c86673e1b644fbe25aa9491a12f092792f31d1b8286368cc39529a6b79ea18b0dea4e89a2e2435d9f6f16cd0a512f425c055160312b0b76cf1e013a5f31",
+  "timestamp": "2026-05-19T03:42:27.049232+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_40735",
+  "tav": "EWS13S4nuhc",
+  "fingerprint": "50c172d758e21cdb01c20e1baa26c5c3c21dbec68c5f6e311ea95b2b6bd9ec6083fb72f61cf9ecf04db3264cd96120b94ebdd8af9f418aa84e0d6db9a7ef43f6",
+  "timestamp": "2026-05-19T00:13:03.952666+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

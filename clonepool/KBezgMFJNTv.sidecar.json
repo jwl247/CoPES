@@ -1,0 +1,11 @@
+{
+  "name": "bench_7615",
+  "tav": "KBezgMFJNTv",
+  "fingerprint": "6cb69a10c51eb95585218332f502c4c6b5355b556aa5ae59f6b2b81d09ecfa8156c9d7d1eb2491e58c3a3faa9f884b11e4ab05b54c6e7836fe4c73a99f110e61",
+  "timestamp": "2026-05-18T22:10:07.573087+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

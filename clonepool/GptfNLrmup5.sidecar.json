@@ -1,0 +1,11 @@
+{
+  "name": "bench_9944",
+  "tav": "GptfNLrmup5",
+  "fingerprint": "5e9d9de03b01570afd78deae7d0e78980f19d548dcb63067d10f9ee8b2985250d2d0b8018ad880a5124af4a8c1df04229fa2fd65052cd79aa4d652f7e02f09a6",
+  "timestamp": "2026-05-18T22:18:40.906133+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

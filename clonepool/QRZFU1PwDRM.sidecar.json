@@ -1,0 +1,11 @@
+{
+  "name": "bench_24150",
+  "tav": "QRZFU1PwDRM",
+  "fingerprint": "8c0a0b786deeeec42cf4b5d898760581e426c8b4cd77f44991cef303d52ab6450a20e0323e6529e44a763a54b3d9fdec8af22d7f4b882250a0302b2763b8fb5d",
+  "timestamp": "2026-05-18T23:10:41.083848+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

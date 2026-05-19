@@ -1,0 +1,11 @@
+{
+  "name": "bench_3218",
+  "tav": "GcNTcSAFeSf",
+  "fingerprint": "5d53371704f0f7240aec51be73f92d4009881646c3c73c0757e85ebebf709b30100c13e14af99b222ac4130b00f1e1ab91dc8d188529fa851ca089ecb71cc0f7",
+  "timestamp": "2026-05-18T21:53:54.165381+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_80820",
+  "tav": "SAiyofticqa",
+  "fingerprint": "9677b1ca851b99c5575d81a9fbcfa585ab3ed66140928636c4cf44201c072e99d3d812df495069d622fd1c6c4545e972fb683e12131ec1bfdf0355a8cc8d758b",
+  "timestamp": "2026-05-19T02:45:18.134809+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

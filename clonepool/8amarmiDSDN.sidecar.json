@@ -1,0 +1,11 @@
+{
+  "name": "bench_31586",
+  "tav": "8amarmiDSDN",
+  "fingerprint": "2d54c4888bba230191a09cc7a35abd21596790808033152405ce55d7abe35e5e0a607382d18091928f8c5583a7ae2a74af344e296e813a988fa0b82051bf5fdc",
+  "timestamp": "2026-05-18T23:38:25.315932+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

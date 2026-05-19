@@ -1,0 +1,11 @@
+{
+  "name": "bench_84934",
+  "tav": "HwPp6nCFS48",
+  "fingerprint": "6543bbc28486b2f99818298d79159e8ff255ad73522f2bc8dc3978ed2808f6db413265c5ca24192632ce306e25978f0f84932d99d1fe23442b4635d19c8e79d2",
+  "timestamp": "2026-05-19T03:00:19.688898+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

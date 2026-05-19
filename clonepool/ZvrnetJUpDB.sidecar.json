@@ -1,0 +1,11 @@
+{
+  "name": "bench_20237",
+  "tav": "ZvrnetJUpDB",
+  "fingerprint": "c4de00801be60e46ba11445a6a4a43aad8fea3569fccbbadfbe7af79f5e35f138e6e709008234b3de36c720b6b015628e67be5392691d40402d2b355ef219624",
+  "timestamp": "2026-05-18T22:56:25.677835+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

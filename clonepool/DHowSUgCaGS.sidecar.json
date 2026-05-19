@@ -1,0 +1,11 @@
+{
+  "name": "bench_64640",
+  "tav": "DHowSUgCaGS",
+  "fingerprint": "4979db7359216b6bba46dfa38a793b69b937a8c8d03aba3e5a9d143b3bb57cdb7be1d4262e2d3fbe09f7c421e11844eeedf4803c71091c5b6e45d8a4552343c7",
+  "timestamp": "2026-05-19T01:43:35.068223+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

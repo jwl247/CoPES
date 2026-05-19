@@ -1,0 +1,11 @@
+{
+  "name": "bench_17875",
+  "tav": "UC91334WUQ4",
+  "fingerprint": "a2920f4f6dd50f7d5fcb48d9d00602b12b2f0b71c4ae8b09136cd3c24c8645db739ec37d2070a096d1ed1673a6fe610fccb5482bd9f9c99cd40171909d6d5a3f",
+  "timestamp": "2026-05-18T22:47:56.419420+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

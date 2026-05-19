@@ -1,0 +1,11 @@
+{
+  "name": "bench_10890",
+  "tav": "XTduGE5cnS4",
+  "fingerprint": "b61a9b19ecce159967054960ecc492819f24306df452562a4bb1f2b7d5db6205187ada62939f7aa34e374d6e7a448b41cb0a1493c90c057d20f8ae7599b24fe8",
+  "timestamp": "2026-05-18T22:22:06.871948+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

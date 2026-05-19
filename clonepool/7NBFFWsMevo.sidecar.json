@@ -1,0 +1,11 @@
+{
+  "name": "bench_53380",
+  "tav": "7NBFFWsMevo",
+  "fingerprint": "260df5f28461ec446c686dd026620e8296673f9c6d18085a5f4898e194f085809c76afb9e06d75143375a3eda241ace80f3d36b0c886cb9e34f3e9c6cf08ad2c",
+  "timestamp": "2026-05-19T01:01:01.576469+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

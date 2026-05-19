@@ -1,0 +1,11 @@
+{
+  "name": "bench_17961",
+  "tav": "PJSfd34RAP3",
+  "fingerprint": "8553ce9cb910fc721db59c6f10a7b712b550e01a06ecdf99e2e62ebef61515a4ddeb5429b5254a38aca0cb50012317a5afea01686e00d9f650703cf38cc105a8",
+  "timestamp": "2026-05-18T22:48:12.717942+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

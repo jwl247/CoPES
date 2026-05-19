@@ -1,0 +1,11 @@
+{
+  "name": "bench_18332",
+  "tav": "CX5ebVHS182",
+  "fingerprint": "44dd87747785b2ff7579358b2d4c0dd7efd99ac5247f0a1ea1bdbedaaac4622f62a421ee3dc438ef4a6364b01dec559ffb6a6c7551c6cd97c421af843ad967e9",
+  "timestamp": "2026-05-18T22:49:30.727387+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

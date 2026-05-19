@@ -1,0 +1,11 @@
+{
+  "name": "bench_57009",
+  "tav": "QEirTPUs55w",
+  "fingerprint": "8aec2468d5a829eeb81071effde78d90517f7d2620c1316e862f493c7f8b94e989b2de8ceef5b7f2c60d2c074b364d40e21673eb5ca34bfc188f65a86faaeb4f",
+  "timestamp": "2026-05-19T01:14:37.983659+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

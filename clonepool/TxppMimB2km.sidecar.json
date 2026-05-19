@@ -1,0 +1,11 @@
+{
+  "name": "bench_47031",
+  "tav": "TxppMimB2km",
+  "fingerprint": "a132bcf29131e97e98f6b16c45dae5985290eb0dec898b5c252fc1b685170729b20182672ffe898e1245e7fe28c9f6435e081dae147c247bcf90319a6656a0f6",
+  "timestamp": "2026-05-19T00:36:52.803175+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

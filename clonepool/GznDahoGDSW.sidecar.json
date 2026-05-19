@@ -1,0 +1,11 @@
+{
+  "name": "bench_40280",
+  "tav": "GznDahoGDSW",
+  "fingerprint": "5fa2916b240fc4efc43b26850e380fa49a7c7c198a85c470dfba6cb11964769e884d30af5830126afbf998110d960b8ca88d82474d62f3f8dbcc0ecb24e2ef0d",
+  "timestamp": "2026-05-19T00:11:22.108085+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

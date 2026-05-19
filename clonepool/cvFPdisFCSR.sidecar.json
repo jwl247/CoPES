@@ -1,0 +1,11 @@
+{
+  "name": "bench_38060",
+  "tav": "cvFPdisFCSR",
+  "fingerprint": "d6bd7828d1c52c3e1ece2f608c175f2cccdb45668414c98cfbcdf106d60f7283101535c995c4d664c7d935f2c94604909180de9b3982884cb3f7afaf1de5daab",
+  "timestamp": "2026-05-19T00:03:09.350280+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

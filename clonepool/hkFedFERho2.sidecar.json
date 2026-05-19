@@ -1,0 +1,11 @@
+{
+  "name": "bench_15055",
+  "tav": "hkFedFERho2",
+  "fingerprint": "f39a52d2255835dd278fae95241c3cb2f25dccbe8a3bcdd16329abe2d32dfd0e75feda4a3a9beed31665fd447820d92c79c137329b05167ebd05305f15ed662c",
+  "timestamp": "2026-05-18T22:37:35.150280+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

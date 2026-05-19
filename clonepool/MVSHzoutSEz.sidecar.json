@@ -1,0 +1,11 @@
+{
+  "name": "bench_40182",
+  "tav": "MVSHzoutSEz",
+  "fingerprint": "7a80dc7a7770f8e766d444bfeb65a7a763fba55ddfb2ed9bf2abe2643aab4ec573cedeb8080503a98fd0fe00d0b3a95d565f78251e66cf54518c5aab262fdcc8",
+  "timestamp": "2026-05-19T00:10:58.253655+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

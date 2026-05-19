@@ -1,0 +1,11 @@
+{
+  "name": "bench_56582",
+  "tav": "UxcbBydgRMM",
+  "fingerprint": "a727b2f9beda15d4f231210421e53713c62602e9b3dbfc262a68377d0295cae1974443c5b455ed7f917226aa8825ffb1a1f20260f3badaad4da7ae9332e9d010",
+  "timestamp": "2026-05-19T01:13:03.583077+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

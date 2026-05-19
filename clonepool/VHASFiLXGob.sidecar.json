@@ -1,0 +1,11 @@
+{
+  "name": "bench_90236",
+  "tav": "VHASFiLXGob",
+  "fingerprint": "a9112da691f6862a564053ca63ec719ab1b17d2aaa281adc6dcacde549c9cb9fd92d420963aed61b0a67088e774f8343273d4881c9d2dfb15d913fc9102cf784",
+  "timestamp": "2026-05-19T03:20:16.432540+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

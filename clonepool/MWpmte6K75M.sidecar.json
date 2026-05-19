@@ -1,0 +1,11 @@
+{
+  "name": "bench_8585",
+  "tav": "MWpmte6K75M",
+  "fingerprint": "7aa57a4efb8925d486181d0db31d88fc9c4de1e357847a49374ca96a3efaae21df9bed266e39a6c19931ed717f5ba3ba8716f7020bcae761e096817524ea7481",
+  "timestamp": "2026-05-18T22:13:38.990697+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

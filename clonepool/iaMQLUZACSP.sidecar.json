@@ -1,0 +1,11 @@
+{
+  "name": "bench_72576",
+  "tav": "iaMQLUZACSP",
+  "fingerprint": "f88f94f17ad965d4bdb601ae87c0201007b3e244cde3701b4ed5099fc7d9b38e45cd5fd42e3970f7e7b61d1c5735e760589a3bd0ead7ac0d7b44f9a8481faed8",
+  "timestamp": "2026-05-19T02:13:53.725800+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

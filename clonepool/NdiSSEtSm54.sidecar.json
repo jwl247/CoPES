@@ -1,0 +1,11 @@
+{
+  "name": "bench_32543",
+  "tav": "NdiSSEtSm54",
+  "fingerprint": "8155d6760598ac13dbcd7b6f0db214a22e20109816009b15b8203cdc285c94886031e42baf0c1974f9a9cbd70463a16336275cbd9e8f0400ae1203c0cd248e3f",
+  "timestamp": "2026-05-18T23:42:03.922316+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

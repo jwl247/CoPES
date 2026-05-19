@@ -1,0 +1,11 @@
+{
+  "name": "bench_80027",
+  "tav": "6BpMagcAsD6",
+  "fingerprint": "1f020c6d4b1cfafdd11ec9dc047da3a1a4b8f699857a7daef330d5d92371cbcf9cddbfe5db36ef8c59800006247d1235c1979e865bd4a6678f23218d1eb21428",
+  "timestamp": "2026-05-19T02:42:09.276640+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_65014",
+  "tav": "hpt8X61ybbq",
+  "fingerprint": "f4147984961fc98c2230bb1e94f09e81ca08b2994d9e9e037c09edc560aab226086df07fc5998a30af2f01c959da028298d54a3c7b469d67f990de2df711c48e",
+  "timestamp": "2026-05-19T01:44:58.154465+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

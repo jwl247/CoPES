@@ -1,0 +1,11 @@
+{
+  "name": "bench_53942",
+  "tav": "N4VzDGitd21",
+  "fingerprint": "7de95b640fe0cab287cd8d78413b2901756c0ccfbcdd1c9de7a1e9ced8144ca7fd71f84ac850636605158399a7b8e045d5225722e15071651c3f5a0a603ed763",
+  "timestamp": "2026-05-19T01:03:13.741366+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

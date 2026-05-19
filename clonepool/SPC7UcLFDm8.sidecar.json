@@ -1,0 +1,11 @@
+{
+  "name": "bench_40997",
+  "tav": "SPC7UcLFDm8",
+  "fingerprint": "97c0b2f44e03f5af88fed5c78d270a118df5ae2e8f2aae482d300f790850a9f92e46dabc81442dbe6cc1ec18f72d6a0c7cba7128c08f811fec0bc0be091e50e3",
+  "timestamp": "2026-05-19T00:14:03.894805+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

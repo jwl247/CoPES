@@ -1,0 +1,11 @@
+{
+  "name": "bench_56364",
+  "tav": "PNFQW14grXk",
+  "fingerprint": "85b83cb63b253ce3004dd3d73d7b85e0e19643454ea1266025329fb4d3aec8ccfb57ac588dfd5db6055b3c000a4cbe27218f1f02c0ec59fd6b1c83d163d80179",
+  "timestamp": "2026-05-19T01:12:15.697301+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

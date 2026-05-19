@@ -1,0 +1,11 @@
+{
+  "name": "bench_534",
+  "tav": "MRAtKY4syz4",
+  "fingerprint": "7a104c2cf909df2da80f47e92b77941356292c530fcd3e3b51e972b035c691db073810d2e5600d2aa01e18326a9799a6db84168100ff43cda9b57f1be86ec6ec",
+  "timestamp": "2026-05-18T21:44:41.653469+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 12,
+  "size_compressed": 20,
+  "meta": {}
+}

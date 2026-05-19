@@ -1,0 +1,11 @@
+{
+  "name": "bench_24115",
+  "tav": "AU8265mPLaX",
+  "fingerprint": "389a65067dd088b437a044bd5c38fc2fe92261085b2df3ae9f61b7fcdfa64d4fa02585a94029a4452f6a66c28079f9844e4667063ef257def92196ea2ba569b2",
+  "timestamp": "2026-05-18T23:10:33.532027+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

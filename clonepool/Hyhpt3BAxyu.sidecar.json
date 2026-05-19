@@ -1,0 +1,11 @@
+{
+  "name": "bench_53382",
+  "tav": "Hyhpt3BAxyu",
+  "fingerprint": "6580b4aaf919dd28d2ba4be4474876416b803b3a55bc90dcfa225efcdc521147ab435aa70fa40c88a0e179ac99e92af10218ef11b2f53bc2df1d8d553e61dff2",
+  "timestamp": "2026-05-19T01:01:01.884152+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bench_3031",
+  "tav": "PoJN5BLx18C",
+  "fingerprint": "884d4aa9330dfb298e6348b116ba60de8ee33ef693189103c54fda6e9b062f50e4dace864533acc03d394f8b91d4adb219e5de3a623d6bf6f4002160cd0e8324",
+  "timestamp": "2026-05-18T21:53:13.785047+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}

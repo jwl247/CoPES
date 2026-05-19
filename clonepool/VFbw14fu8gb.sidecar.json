@@ -1,0 +1,11 @@
+{
+  "name": "bench_23264",
+  "tav": "VFbw14fu8gb",
+  "fingerprint": "a8e8005d57a47b54f63c4273fa3877f670d443e78ef19daa495e0229fb78d75bc298951fdf2fd2fa82799ccc50be12e6a861aec6a6addfac6fea1a52e28ea0fe",
+  "timestamp": "2026-05-18T23:07:20.403257+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

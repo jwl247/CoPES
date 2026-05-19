@@ -1,0 +1,11 @@
+{
+  "name": "bench_80978",
+  "tav": "jbBKWaifsZ8",
+  "fingerprint": "fe9fe815dfdf13af7dd08d301138b6c7ca12b463e02fcc54f3359bf0456b0373c1e264243b5c23e003a38fd69431b0b8c39d09d29b2e983c41f751f88fe1380d",
+  "timestamp": "2026-05-19T02:45:50.393149+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

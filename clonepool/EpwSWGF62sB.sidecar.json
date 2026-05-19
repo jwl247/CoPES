@@ -1,0 +1,11 @@
+{
+  "name": "bench_38441",
+  "tav": "EpwSWGF62sB",
+  "fingerprint": "52a9d52cc713424a651f41361e4d301d2587ac9b6b1dfb076cf2f9b7fcd5070f46b445fe2ee73ae08894eaaa1a59e9465cb4ad4f2422b50e8afdbdd209a80aea",
+  "timestamp": "2026-05-19T00:04:33.666061+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

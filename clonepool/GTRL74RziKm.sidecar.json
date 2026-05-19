@@ -1,0 +1,11 @@
+{
+  "name": "bench_48255",
+  "tav": "GTRL74RziKm",
+  "fingerprint": "5c6706affe51514cc3a0eaa9a1bd2af7b4c08c3dcba75dff09d37b8d48f855143dff1d78e9d26c4f08c7a0ad63d9b47ced098b973c3ace24ecdb34ea6400e31c",
+  "timestamp": "2026-05-19T00:41:31.237996+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 14,
+  "size_compressed": 22,
+  "meta": {}
+}

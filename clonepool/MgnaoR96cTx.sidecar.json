@@ -1,0 +1,11 @@
+{
+  "name": "bench_1719",
+  "tav": "MgnaoR96cTx",
+  "fingerprint": "7bac5d415e25b14fe0d2b125c7a54bf0a0067c756f007330fabf567b53597760a2ac4a4bfe7442779798ea9da84738ae9cb3649b6c94bae2f15b55eb53bda580",
+  "timestamp": "2026-05-18T21:48:33.751002+00:00",
+  "tier": "T1",
+  "state": "active",
+  "size_raw": 13,
+  "size_compressed": 21,
+  "meta": {}
+}
