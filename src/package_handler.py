@@ -398,6 +398,9 @@ class PackageHandler:
             payload = json.dumps({
                 "action":    action,
                 "timestamp": _now(),
+                "hex_id":    data.get("fingerprint", ""),
+                "b58":       data.get("tav", ""),
+                "name":      data.get("name", ""),
                 "data":      data,
             }).encode()
             req = urllib.request.Request(
@@ -406,7 +409,8 @@ class PackageHandler:
                 method="POST",
                 headers={
                     "Content-Type":  "application/json",
-                    "Authorization": f"Bearer {PHOENIX_AUTH}",
+                    "X-Phoenix-Auth": PHOENIX_AUTH,
+                    "User-Agent":    "CoPES-PackageHandler/2.0",
                 }
             )
             with urllib.request.urlopen(req, timeout=10) as resp:
