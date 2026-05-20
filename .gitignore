@@ -27,3 +27,8 @@ logs/
 # OS
 .DS_Store
 Thumbs.db
+clonepool/
+*.sidecar.json
+clonepool/
+*.sidecar.json
+db/*.db
