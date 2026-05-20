@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# lol — CoPES native egress handler
+# Usage: lol <name.lol>
+# Strips .lol extension, pulls from clone pool, delivers native
+
+set -euo pipefail
+
+if [[ $# -eq 0 ]]; then
+    echo "Usage: lol <name.lol>"
+    exit 1
+fi
+
+NAME="${1%.lol}"
+egress_helix pkg "$NAME"
