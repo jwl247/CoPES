@@ -47,7 +47,7 @@ BACKENDS = {
 
 # ── QR state ──────────────────────────────────────────────────────────────────
 
-QR_STATES  = {"active": "white", "deprecated": "grey", "retired": "black"}
+QR_STATES   = {"active": "white", "deprecated": "grey", "retired": "black"}
 TIER_COLORS = {"T1": "primary", "T2": "secondary", "T3": "tertiary", "T4": "tertiary"}
 
 # ── Package record ────────────────────────────────────────────────────────────
@@ -56,14 +56,15 @@ class PackageRecord:
     def __init__(self, name: str, version: str = None, backend: str = None,
                  tav: str = None, tier: str = "T1", state: str = "active",
                  meta: dict = None):
-        self.name      = name
-        self.version   = version or "unknown"
-        self.backend   = backend or "unknown"
-        self.tav       = tav or self._gen_tav(name)
-        self.tier      = tier
-        self.state     = state
-        self.meta      = meta or {}
-        self.timestamp = _now()
+        self.name        = name
+        self.version     = version or "unknown"
+        self.backend     = backend or "unknown"
+        self.tav         = tav or self._gen_tav(name)
+        self.fingerprint = hashlib.sha3_512(name.encode()).hexdigest()
+        self.tier        = tier
+        self.state       = state
+        self.meta        = meta or {}
+        self.timestamp   = _now()
 
     def _gen_tav(self, name: str) -> str:
         """SHA3-512 → first 8 bytes → base58 (max 11 chars). No external deps."""
@@ -74,29 +75,29 @@ class PackageRecord:
         while n:
             result = alpha[n % 58] + result
             n //= 58
-        return result or '1' 
+        return result or '1'
 
     def header_qr(self) -> str:
         color = QR_STATES.get(self.state, "white")
         return f"USYS:{self.tav}:HEADER:{color}"
 
     def footer_qr(self) -> str:
-        fp    = hashlib.sha3_512(self.name.encode()).hexdigest()
         color = TIER_COLORS.get(self.tier, "primary")
-        return f"USYS:{self.tav}:FOOTER:{fp[:16]}:{color}"
+        return f"USYS:{self.tav}:FOOTER:{self.fingerprint[:16]}:{color}"
 
     def to_dict(self) -> dict:
         return {
-            "name":      self.name,
-            "version":   self.version,
-            "backend":   self.backend,
-            "tav":       self.tav,
-            "tier":      self.tier,
-            "state":     self.state,
-            "header_qr": self.header_qr(),
-            "footer_qr": self.footer_qr(),
-            "timestamp": self.timestamp,
-            "meta":      self.meta,
+            "name":        self.name,
+            "version":     self.version,
+            "backend":     self.backend,
+            "tav":         self.tav,
+            "fingerprint": self.fingerprint,
+            "tier":        self.tier,
+            "state":       self.state,
+            "header_qr":   self.header_qr(),
+            "footer_qr":   self.footer_qr(),
+            "timestamp":   self.timestamp,
+            "meta":        self.meta,
         }
 
 
@@ -142,6 +143,17 @@ class PackageHandler:
                 CREATE INDEX IF NOT EXISTS idx_pkg_name  ON packages(name);
                 CREATE INDEX IF NOT EXISTS idx_pkg_state ON packages(state);
             """)
+
+    # ── Audit log (PH local) ─────────────────────────────────────────────────
+
+    def _log(self, action: str, subject: str, meta: dict = None):
+        """Local catalog log — not Frank's immutable audit, just PH tracking."""
+        with self._lock:
+            with sqlite3.connect(PH_DB) as cx:
+                cx.execute(
+                    "INSERT INTO catalog (tav, action, timestamp, note) VALUES (?,?,?,?)",
+                    (subject, action, _now(), json.dumps(meta or {}))
+                )
 
     # ── Acquaint — learn the clone pool ───────────────────────────────────────
 
@@ -242,6 +254,50 @@ class PackageHandler:
                 pass
         return "apt"
 
+    # ── Intake — file intake path ─────────────────────────────────────────────
+
+    def intake(self, path: str, notes: str = None) -> dict:
+        """
+        Intake a file directly into the clone pool via Helix.
+        Generates TAV, writes sidecar, stores in Helix, logs audit trail.
+        This is the file intake path — package install goes through install().
+        """
+        p = Path(path).resolve()
+        if not p.exists():
+            return {"ok": False, "error": f"File not found: {path}"}
+
+        name = p.name
+        rec  = PackageRecord(name)
+
+        helix = self._get_helix()
+        if not helix:
+            return {"ok": False, "error": "Helix offline"}
+
+        data = {
+            "path":  str(p),
+            "name":  name,
+            "tav":   rec.tav,
+            "size":  p.stat().st_size,
+            "notes": notes or "",
+        }
+
+        helix.store(name, data, meta={"source": str(p), "notes": notes or ""})
+        self._register(rec)
+        self._log("ph.intake", rec.tav, {
+            "name": name,
+            "path": str(p),
+            "size": p.stat().st_size,
+        })
+
+        return {
+            "ok":          True,
+            "name":        name,
+            "tav":         rec.tav,
+            "path":        str(p),
+            "fingerprint": rec.fingerprint,
+            "size":        p.stat().st_size,
+        }
+
     # ── Search ────────────────────────────────────────────────────────────────
 
     def search(self, query: str) -> list:
@@ -319,48 +375,6 @@ class PackageHandler:
                     "INSERT INTO catalog (tav, action, timestamp) VALUES (?,?,?)",
                     (rec.tav, "register", rec.timestamp)
                 )
-
-    def intake(self, path: str, notes: str = None) -> dict:
-            """
-            Intake a file directly into the clone pool via Helix.
-            Generates TAV, writes sidecar, stores in Helix, logs audit trail.
-            This is the file intake path — package install goes through install().
-            """
-            from pathlib import Path as _Path
-            p = _Path(path).resolve()
-            if not p.exists():
-                return {"ok": False, "error": f"File not found: {path}"}
-        
-            name = p.name
-            rec  = PackageRecord(name)
-        
-            helix = self._get_helix()
-            if not helix:
-                return {"ok": False, "error": "Helix offline"}
-        
-            data = {
-                "path":     str(p),
-                "name":     name,
-                "tav":      rec.tav,
-                "size":     p.stat().st_size,
-                "notes":    notes or "",
-            }
-        
-            clone = helix.store(name, data, meta={"source": str(p), "notes": notes or ""})
-        
-    self._log("ph.intake", name, {
-        "tav":  rec.tav,
-        "path": str(p),
-        "size": p.stat().st_size,
-    })
-
-    return {
-        "ok":   True,
-        "name": name,
-        "tav":  rec.tav,
-        "path": str(p),
-        "fingerprint": rec.fingerprint,
-    }
 
     # ── D1 sync ───────────────────────────────────────────────────────────────
 
@@ -466,38 +480,9 @@ def get_ph() -> PackageHandler:
 # ── CLI ───────────────────────────────────────────────────────────────────────
 
 def main():
-    import sys as _sys, argparse, json
-    from pathlib import Path
+    import argparse
     parser = argparse.ArgumentParser(description="Phoenix Package Handler — COPES")
     sub = parser.add_subparsers(dest="cmd")
-    sub.add_parser("status"); sub.add_parser("glossary"); sub.add_parser("sync"); sub.add_parser("acquaint")
-    si = sub.add_parser("install"); si.add_argument("name"); si.add_argument("--backend",default=None); si.add_argument("--version",default=None); si.add_argument("--target",default=None)
-    ss = sub.add_parser("search"); ss.add_argument("query")
-    sp = sub.add_parser("info"); sp.add_argument("name")
-    sl = sub.add_parser("list"); sl.add_argument("--state",default="active"); sl.add_argument("--tier",default=None)
-    si2 = sub.add_parser("intake"); si2.add_argument("path"); si2.add_argument("--notes",default="")
-    args = parser.parse_args()
-    ph = get_ph()
-    if args.cmd == "status": ph.print_status()
-    elif args.cmd == "glossary": print(json.dumps(ph.glossary(), indent=2))
-    elif args.cmd == "sync": print(json.dumps(ph.d1_sync(), indent=2))
-    elif args.cmd == "acquaint": ph._acquaint(); print("[ph] acquainted with clone pool.")
-    elif args.cmd == "install": print(json.dumps(ph.install(args.name, args.backend, args.version, args.target), indent=2))
-    elif args.cmd == "search": print(json.dumps(ph.search(args.query), indent=2))
-    elif args.cmd == "info":
-        info = ph.info(args.name)
-        print(json.dumps(info, indent=2) if info else f"Not found: {args.name}")
-    elif args.cmd == "list":
-        pkgs = ph.list_packages(args.state, args.tier)
-        [print(f"  {p['name']:30} {(p['version'] or 'unknown'):15} {(p['backend'] or ''):10} [{p['state']}]") for p in pkgs] if pkgs else print("[ph] no packages found.")
-    elif args.cmd == "intake": print(json.dumps(ph.intake(args.path, args.notes), indent=2))
-    else: parser.print_help()
-
-if __name__ == "__main__":
-    import argparse
-
-    parser = argparse.ArgumentParser(description="Phoenix Package Handler — COPES")
-    sub    = parser.add_subparsers(dest="cmd")
 
     sub.add_parser("status",   help="Full status")
     sub.add_parser("glossary", help="TOC and index of clone pool")
@@ -520,41 +505,41 @@ if __name__ == "__main__":
     sl.add_argument("--state", default="active")
     sl.add_argument("--tier",  default=None)
 
+    si2 = sub.add_parser("intake", help="Intake a file into the clone pool")
+    si2.add_argument("path")
+    si2.add_argument("--notes", default="")
+
     args = parser.parse_args()
     ph   = get_ph()
 
     if args.cmd == "status":
         ph.print_status()
-
     elif args.cmd == "glossary":
         print(json.dumps(ph.glossary(), indent=2))
-
     elif args.cmd == "sync":
         print(json.dumps(ph.d1_sync(), indent=2))
-
     elif args.cmd == "acquaint":
         ph._acquaint()
         print("[ph] acquainted with clone pool.")
-
     elif args.cmd == "install":
-        result = ph.install(args.name, args.backend, args.version, args.target)
-        print(json.dumps(result, indent=2))
-
+        print(json.dumps(ph.install(args.name, args.backend, args.version, args.target), indent=2))
     elif args.cmd == "search":
-        results = ph.search(args.query)
-        print(json.dumps(results, indent=2))
-
+        print(json.dumps(ph.search(args.query), indent=2))
     elif args.cmd == "info":
         info = ph.info(args.name)
         print(json.dumps(info, indent=2) if info else f"Not found: {args.name}")
-
     elif args.cmd == "list":
-        packages = ph.list_packages(args.state, args.tier)
-        if packages:
-            for p in packages:
-                print(f"  {p['name']:30} {p['version']:15} {p['backend']:10} [{p['state']}]")
+        pkgs = ph.list_packages(args.state, args.tier)
+        if pkgs:
+            for p in pkgs:
+                print(f"  {p['name']:30} {(p['version'] or 'unknown'):15} {(p['backend'] or ''):10} [{p['state']}]")
         else:
             print("[ph] no packages found.")
-
+    elif args.cmd == "intake":
+        print(json.dumps(ph.intake(args.path, args.notes), indent=2))
     else:
         parser.print_help()
+
+
+if __name__ == "__main__":
+    main()
