@@ -16,6 +16,7 @@ import sqlite3
 import urllib.request
 import urllib.error
 import threading
+import subprocess
 from pathlib import Path
 from datetime import datetime, timezone
 
@@ -203,6 +204,15 @@ class PackageHandler:
             except Exception:
                 pass
 
+        try:
+            result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
+            executed = result.returncode == 0
+            stdout = result.stdout.strip()
+            stderr = result.stderr.strip()
+        except Exception as e:
+            executed = False
+            stdout = ""
+            stderr = str(e)
         d1_result = self._d1_push("install", rec.to_dict())
 
         return {
@@ -213,6 +223,9 @@ class PackageHandler:
             "cmd":     cmd,
             "tav":     rec.tav,
             "d1":      d1_result,
+            "executed": executed,
+            "stdout":   stdout,
+            "stderr":   stderr,
         }
 
     def _build_install_cmd(self, name: str, backend: str,
