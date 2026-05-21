@@ -15,13 +15,16 @@ dependencies = [
     "base58",
     "qrcode",
     "prometheus-client",
+    "numpy",
 ]
 
 [project.scripts]
-ph           = "package_handler:main"
-frank        = "frank:main"
-egress_helix = "helix:egress_main"
-ph-distro    = "distro_handler:main"
+ph               = "package_handler:main"
+frank            = "frank:main"
+egress_helix     = "helix:egress_main"
+ph-distro        = "distro_handler:main"
+intake-package   = "package_handler:intake_package_main"
+intake-dir       = "package_handler:intake_dir_main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
