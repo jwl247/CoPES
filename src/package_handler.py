@@ -51,6 +51,19 @@ BACKENDS = {
 QR_STATES   = {"active": "white", "deprecated": "grey", "retired": "black"}
 TIER_COLORS = {"T1": "primary", "T2": "secondary", "T3": "tertiary", "T4": "tertiary"}
 
+# ── File types to skip in directory intake ────────────────────────────────────
+
+SKIP_EXTENSIONS = {
+    ".pyc", ".pyo", ".pyd", ".so", ".o", ".a",
+    ".git", ".DS_Store", ".swp", ".tmp", ".lock",
+}
+
+SKIP_DIRS = {
+    "__pycache__", ".git", ".venv", "venv", "node_modules",
+    "clonepool", ".mypy_cache", ".pytest_cache",
+}
+
+
 # ── Package record ────────────────────────────────────────────────────────────
 
 class PackageRecord:
@@ -68,7 +81,7 @@ class PackageRecord:
         self.timestamp   = _now()
 
     def _gen_tav(self, name: str) -> str:
-        """SHA3-512 → first 8 bytes → base58 (max 11 chars). No external deps."""
+        """SHA3-512 -> first 8 bytes -> base58 (max 11 chars). No external deps."""
         digest = hashlib.sha3_512(name.encode()).digest()[:8]
         alpha  = '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz'
         n      = int.from_bytes(digest, 'big')
@@ -109,7 +122,7 @@ class PackageHandler:
     Intake authority. Helix's face to the outside world.
     Talks to the clone pool (Helix). Knows where everything is.
     Pulls from Phoenix DB + 10 distros + personal DB.
-    Frank and Helix use Package Handler — not the other way around.
+    Frank and Helix use Package Handler -- not the other way around.
     """
 
     def __init__(self):
@@ -148,7 +161,7 @@ class PackageHandler:
     # ── Audit log (PH local) ─────────────────────────────────────────────────
 
     def _log(self, action: str, subject: str, meta: dict = None):
-        """Local catalog log — not Frank's immutable audit, just PH tracking."""
+        """Local catalog log -- not Frank's immutable audit, just PH tracking."""
         with self._lock:
             with sqlite3.connect(PH_DB) as cx:
                 cx.execute(
@@ -156,7 +169,7 @@ class PackageHandler:
                     (subject, action, _now(), json.dumps(meta or {}))
                 )
 
-    # ── Acquaint — learn the clone pool ───────────────────────────────────────
+    # ── Acquaint -- learn the clone pool ──────────────────────────────────────
 
     def _acquaint(self):
         """Acquaint with where everything is in the clone pool."""
@@ -205,14 +218,15 @@ class PackageHandler:
                 pass
 
         try:
-            result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
+            result  = subprocess.run(cmd, shell=True, capture_output=True, text=True)
             executed = result.returncode == 0
-            stdout = result.stdout.strip()
-            stderr = result.stderr.strip()
+            stdout   = result.stdout.strip()
+            stderr   = result.stderr.strip()
         except Exception as e:
             executed = False
-            stdout = ""
-            stderr = str(e)
+            stdout   = ""
+            stderr   = str(e)
+
         d1_result = self._d1_push("install", rec.to_dict())
 
         return {
@@ -267,17 +281,19 @@ class PackageHandler:
                 pass
         return "apt"
 
-    # ── Intake — file intake path ─────────────────────────────────────────────
+    # ── Intake -- single file ─────────────────────────────────────────────────
 
     def intake(self, path: str, notes: str = None) -> dict:
         """
         Intake a file directly into the clone pool via Helix.
         Generates TAV, writes sidecar, stores in Helix, logs audit trail.
-        This is the file intake path — package install goes through install().
+        This is the file intake path -- package install goes through install().
         """
         p = Path(path).resolve()
         if not p.exists():
             return {"ok": False, "error": f"File not found: {path}"}
+        if not p.is_file():
+            return {"ok": False, "error": f"Not a file: {path} (use intake-dir for directories)"}
 
         name = p.name
         rec  = PackageRecord(name)
@@ -311,6 +327,167 @@ class PackageHandler:
             "size":        p.stat().st_size,
         }
 
+    # ── Intake -- package by name ─────────────────────────────────────────────
+
+    def intake_package(self, name: str, version: str = None,
+                       backend: str = None, notes: str = None) -> dict:
+        """
+        Intake a package by name into the clone pool.
+        Does NOT install it -- intake only. Records TAV, registers in DB,
+        stores metadata in Helix, logs audit trail.
+        Use install() to actually execute the install command.
+
+        intake-package numpy
+        intake-package requests --version 2.31.0 --backend pip
+        """
+        b   = backend or self._detect_backend(name)
+        rec = PackageRecord(name, version, b, meta={"notes": notes or ""})
+
+        helix = self._get_helix()
+        if not helix:
+            return {"ok": False, "error": "Helix offline"}
+
+        # Check if already in clone pool
+        already = False
+        try:
+            already = helix.exists(f"pkg:{name}")
+        except Exception:
+            pass
+
+        data = {
+            "name":    name,
+            "version": version or "unknown",
+            "backend": b,
+            "tav":     rec.tav,
+            "notes":   notes or "",
+            "type":    "package",
+        }
+
+        helix.store(f"pkg:{name}", data,
+                    meta={"source": "intake-package", "notes": notes or ""})
+        self._register(rec)
+        self._log("ph.intake_package", rec.tav, {
+            "name":    name,
+            "version": version or "unknown",
+            "backend": b,
+        })
+
+        d1_result = self._d1_push("intake_package", rec.to_dict())
+
+        return {
+            "ok":          True,
+            "name":        name,
+            "version":     version or "unknown",
+            "backend":     b,
+            "tav":         rec.tav,
+            "fingerprint": rec.fingerprint,
+            "header_qr":   rec.header_qr(),
+            "footer_qr":   rec.footer_qr(),
+            "already_in_pool": already,
+            "d1":          d1_result,
+        }
+
+    # ── Intake -- directory ───────────────────────────────────────────────────
+
+    def intake_dir(self, path: str, recursive: bool = True,
+                   notes: str = None, dry_run: bool = False) -> dict:
+        """
+        Walk a directory and intake every file into the clone pool.
+        Skips: __pycache__, .git, .venv, node_modules, clonepool, .pyc, .o etc.
+        Returns a full summary: ok / skipped / failed counts + per-file results.
+
+        intake-dir ~/Phoenix/src
+        intake-dir ~/docs --no-recursive
+        intake-dir ~/incoming --dry-run
+        """
+        d = Path(path).resolve()
+        if not d.exists():
+            return {"ok": False, "error": f"Directory not found: {path}"}
+        if not d.is_dir():
+            return {"ok": False, "error": f"Not a directory: {path} (use intake for files)"}
+
+        results  = []
+        ok_count = skipped = failed = 0
+
+        # Walk — recursive or flat
+        if recursive:
+            file_iter = d.rglob("*")
+        else:
+            file_iter = d.glob("*")
+
+        for item in sorted(file_iter):
+            # Skip directories themselves
+            if item.is_dir():
+                continue
+
+            # Skip unwanted dirs anywhere in path
+            if any(part in SKIP_DIRS for part in item.parts):
+                skipped += 1
+                results.append({
+                    "file":   str(item),
+                    "status": "skipped",
+                    "reason": "skip_dir",
+                })
+                continue
+
+            # Skip unwanted extensions
+            if item.suffix.lower() in SKIP_EXTENSIONS:
+                skipped += 1
+                results.append({
+                    "file":   str(item),
+                    "status": "skipped",
+                    "reason": f"skip_ext:{item.suffix}",
+                })
+                continue
+
+            if dry_run:
+                results.append({
+                    "file":   str(item),
+                    "status": "dry_run",
+                    "name":   item.name,
+                })
+                ok_count += 1
+                continue
+
+            # Intake the file
+            result = self.intake(str(item), notes=notes)
+            if result.get("ok"):
+                ok_count += 1
+                results.append({
+                    "file":   str(item),
+                    "status": "ok",
+                    "tav":    result["tav"],
+                    "size":   result["size"],
+                })
+            else:
+                failed += 1
+                results.append({
+                    "file":   str(item),
+                    "status": "failed",
+                    "error":  result.get("error", "unknown"),
+                })
+
+        self._log("ph.intake_dir", path, {
+            "path":      str(d),
+            "recursive": recursive,
+            "ok":        ok_count,
+            "skipped":   skipped,
+            "failed":    failed,
+            "dry_run":   dry_run,
+        })
+
+        return {
+            "ok":        True,
+            "directory": str(d),
+            "recursive": recursive,
+            "dry_run":   dry_run,
+            "total":     ok_count + skipped + failed,
+            "ingested":  ok_count,
+            "skipped":   skipped,
+            "failed":    failed,
+            "results":   results,
+        }
+
     # ── Search ────────────────────────────────────────────────────────────────
 
     def search(self, query: str) -> list:
@@ -320,7 +497,7 @@ class PackageHandler:
                 "WHERE name LIKE ? OR meta LIKE ? ORDER BY name LIMIT 50",
                 (f"%{query}%", f"%{query}%")
             ).fetchall()
-        helix = self._get_helix()
+        helix   = self._get_helix()
         results = []
         for name, version, backend, tav, state, tier in rows:
             in_pool = False
@@ -355,7 +532,7 @@ class PackageHandler:
         query  = "SELECT name, version, backend, tav, state, tier FROM packages WHERE state=?"
         params = [state]
         if tier:
-            query += " AND tier=?"
+            query  += " AND tier=?"
             params.append(tier)
         query += " ORDER BY name"
         with sqlite3.connect(PH_DB) as cx:
@@ -408,9 +585,9 @@ class PackageHandler:
                 data=payload,
                 method="POST",
                 headers={
-                    "Content-Type":  "application/json",
+                    "Content-Type":   "application/json",
                     "X-Phoenix-Auth": PHOENIX_AUTH,
-                    "User-Agent":    "CoPES-PackageHandler/2.0",
+                    "User-Agent":     "CoPES-PackageHandler/2.0",
                 }
             )
             with urllib.request.urlopen(req, timeout=10) as resp:
@@ -494,6 +671,69 @@ def get_ph() -> PackageHandler:
     return _ph
 
 
+# ── CLI entry points (wired as globals in pyproject.toml) ─────────────────────
+
+def intake_package_main():
+    """
+    Global entry point: intake-package
+    Usage: intake-package <name> [--version X] [--backend Y] [--notes Z]
+    """
+    import argparse
+    parser = argparse.ArgumentParser(
+        prog="intake-package",
+        description="Intake a package by name into the CoPES clone pool (no install)."
+    )
+    parser.add_argument("name",              help="Package name")
+    parser.add_argument("--version",         default=None, help="Version (optional)")
+    parser.add_argument("--backend",         default=None, help="Backend: pip/apt/npm/etc")
+    parser.add_argument("--notes",           default="",   help="Notes")
+    args = parser.parse_args()
+    ph   = get_ph()
+    result = ph.intake_package(args.name, args.version, args.backend, args.notes)
+    print(json.dumps(result, indent=2))
+
+
+def intake_dir_main():
+    """
+    Global entry point: intake-dir
+    Usage: intake-dir <path> [--no-recursive] [--notes Z] [--dry-run]
+    """
+    import argparse
+    parser = argparse.ArgumentParser(
+        prog="intake-dir",
+        description="Walk a directory and intake every file into the CoPES clone pool."
+    )
+    parser.add_argument("path",              help="Directory path")
+    parser.add_argument("--no-recursive",    action="store_true",
+                        help="Flat scan only (no subdirectories)")
+    parser.add_argument("--notes",           default="",   help="Notes applied to all files")
+    parser.add_argument("--dry-run",         action="store_true",
+                        help="Show what would be ingested without storing anything")
+    parser.add_argument("--summary",         action="store_true",
+                        help="Print summary only (no per-file detail)")
+    args = parser.parse_args()
+    ph   = get_ph()
+
+    result = ph.intake_dir(
+        args.path,
+        recursive=not args.no_recursive,
+        notes=args.notes,
+        dry_run=args.dry_run,
+    )
+
+    if args.summary:
+        print(f"\n[intake-dir] {result['directory']}")
+        print(f"  Total   : {result['total']}")
+        print(f"  Ingested: {result['ingested']}")
+        print(f"  Skipped : {result['skipped']}")
+        print(f"  Failed  : {result['failed']}")
+        if result['dry_run']:
+            print("  (dry run — nothing stored)")
+        print()
+    else:
+        print(json.dumps(result, indent=2))
+
+
 # ── CLI ───────────────────────────────────────────────────────────────────────
 
 def main():
@@ -522,9 +762,27 @@ def main():
     sl.add_argument("--state", default="active")
     sl.add_argument("--tier",  default=None)
 
+    # intake -- file
     si2 = sub.add_parser("intake", help="Intake a file into the clone pool")
     si2.add_argument("path")
     si2.add_argument("--notes", default="")
+
+    # intake-package -- package by name
+    sip = sub.add_parser("intake-package",
+                         help="Intake a package by name (no install)")
+    sip.add_argument("name")
+    sip.add_argument("--version", default=None)
+    sip.add_argument("--backend", default=None)
+    sip.add_argument("--notes",   default="")
+
+    # intake-dir -- whole directory
+    sid = sub.add_parser("intake-dir",
+                         help="Intake all files in a directory")
+    sid.add_argument("path")
+    sid.add_argument("--no-recursive", action="store_true")
+    sid.add_argument("--notes",        default="")
+    sid.add_argument("--dry-run",      action="store_true")
+    sid.add_argument("--summary",      action="store_true")
 
     args = parser.parse_args()
     ph   = get_ph()
@@ -539,7 +797,8 @@ def main():
         ph._acquaint()
         print("[ph] acquainted with clone pool.")
     elif args.cmd == "install":
-        print(json.dumps(ph.install(args.name, args.backend, args.version, args.target), indent=2))
+        print(json.dumps(
+            ph.install(args.name, args.backend, args.version, args.target), indent=2))
     elif args.cmd == "search":
         print(json.dumps(ph.search(args.query), indent=2))
     elif args.cmd == "info":
@@ -549,11 +808,34 @@ def main():
         pkgs = ph.list_packages(args.state, args.tier)
         if pkgs:
             for p in pkgs:
-                print(f"  {p['name']:30} {(p['version'] or 'unknown'):15} {(p['backend'] or ''):10} [{p['state']}]")
+                print(f"  {p['name']:30} {(p['version'] or 'unknown'):15} "
+                      f"{(p['backend'] or ''):10} [{p['state']}]")
         else:
             print("[ph] no packages found.")
     elif args.cmd == "intake":
         print(json.dumps(ph.intake(args.path, args.notes), indent=2))
+    elif args.cmd == "intake-package":
+        print(json.dumps(
+            ph.intake_package(args.name, args.version, args.backend, args.notes),
+            indent=2))
+    elif args.cmd == "intake-dir":
+        result = ph.intake_dir(
+            args.path,
+            recursive=not args.no_recursive,
+            notes=args.notes,
+            dry_run=args.dry_run,
+        )
+        if args.summary:
+            print(f"\n[intake-dir] {result['directory']}")
+            print(f"  Total   : {result['total']}")
+            print(f"  Ingested: {result['ingested']}")
+            print(f"  Skipped : {result['skipped']}")
+            print(f"  Failed  : {result['failed']}")
+            if result['dry_run']:
+                print("  (dry run -- nothing stored)")
+            print()
+        else:
+            print(json.dumps(result, indent=2))
     else:
         parser.print_help()
 
