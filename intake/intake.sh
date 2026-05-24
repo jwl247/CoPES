@@ -246,6 +246,7 @@ evict_old_versions() {
 # ── Write sidecar ─────────────────────────────────────────────
 write_sidecar_basic() {
   local sidecar="$1" hex="$2" orig="$3" version="$4"
+  local tav="${hex}"
   local filetype="$5" category_hex="$6" size="$7"
   local backend="${8:-direct}" notes="${9:-}" checksum="${10:-}"
   local now; now=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
@@ -475,6 +476,10 @@ intake_file() {
   echo "[intake:OK] sha256:   ${checksum:0:16}..."
   [[ -n "${companion_list}" ]] && \
     echo "[intake:OK] companions: $(echo "${companion_list}" | wc -l | tr -d ' ')"
+  [[ -n "${PYTHON_CMD}" ]] && \
+    "${PYTHON_CMD}" "${PHOENIX_HOME:-$HOME/Phoenix}/src/frank_intake_bridge.py" \
+    "intake" "${filepath}" "${pool_dir}/${version}_${orig}" \
+    "${tav}" "${orig}" "${version}" 2>/dev/null || true
   return 0
 }
 
@@ -525,6 +530,10 @@ intake_clone() {
 
   echo "[intake:OK] ${name} ${version} → ${PWD}/"
   echo "[intake:OK] This is the latest version — ready to use"
+  [[ -n "${PYTHON_CMD}" ]] && \
+    "${PYTHON_CMD}" "${PHOENIX_HOME:-$HOME/Phoenix}/src/frank_intake_bridge.py" \
+    "clone_out" "${latest}" "${dest}" \
+    "${tav}" "${name}" "${version}" 2>/dev/null || true
   return 0
 }
 
@@ -616,6 +625,10 @@ intake_from_backend() {
     "7061636b61676573" "${version}" "0" "${pool_dir}"
 
   echo "[intake:OK] ${pkg_name} (${backend} ${version}) → D1"
+   [[ -n "${PYTHON_CMD}" ]] && \
+    "${PYTHON_CMD}" "${PHOENIX_HOME:-$HOME/Phoenix}/src/frank_intake_bridge.py" \
+    "backend" "${backend}" "${pool_dir}" \
+    "${tav}" "${pkg_name}" "${version}" 2>/dev/null || true
 }
 
 # ── Status ────────────────────────────────────────────────────
