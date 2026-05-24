@@ -31,7 +31,7 @@ ph_die()  { ph_err "$*"; exit 1; }
 # ── Banner ────────────────────────────────────────────────────────────────────
 
 banner() {
-cat << 'EOF'
+cat << 'BANNER'
 
   ██████╗ ██╗  ██╗ ██████╗ ███████╗███╗   ██╗██╗██╗  ██╗
   ██╔══██╗██║  ██║██╔═══██╗██╔════╝████╗  ██║██║╚██╗██╔╝
@@ -41,9 +41,9 @@ cat << 'EOF'
   ╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚═╝╚═╝  ╚═╝
 
   DevOps OS — United Systems — jwl247
-  Built for Laurie. Built for everyone. 🧬🔥
+  Built for Laurie. Built for everyone. 🔥⚡
 
-EOF
+BANNER
 }
 
 # ── Preflight ─────────────────────────────────────────────────────────────────
@@ -57,7 +57,6 @@ preflight() {
     PY_VERSION=$("$PYTHON" -c "import sys; print(f'{sys.version_info.major}.{sys.version_info.minor}')")
     ph_log "Python version: $PY_VERSION"
 
-    # bc may not be present — use python for version compare
     PY_OK=$("$PYTHON" -c "import sys; print(1 if sys.version_info >= (3,10) else 0)")
     [[ "$PY_OK" == "1" ]] || ph_die "Python 3.10+ required. Found: $PY_VERSION"
 
@@ -79,6 +78,7 @@ make_dirs() {
         "$PHOENIX_HOME/clonepool" \
         "$PHOENIX_HOME/bin" \
         "$PHOENIX_HOME/src" \
+        "$PHOENIX_HOME/src/kernel" \
         "$PHOENIX_HOME/backup"
     ph_ok "Directory structure created at $PHOENIX_HOME"
 }
@@ -112,7 +112,6 @@ install_deps() {
 copy_sources() {
     ph_log "Copying Phoenix source files..."
 
-    # SCRIPT_DIR is install/ — sources live in ../src/
     SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
     SRC_DIR="$(cd "$SCRIPT_DIR/../src" 2>/dev/null && pwd)"
 
@@ -133,6 +132,15 @@ copy_sources() {
         fi
     done
 
+    # ── Kernel package — Frank and Helix kernel layer ─────────────────────────
+    if [[ -d "$SRC_DIR/kernel" ]]; then
+        mkdir -p "$PHOENIX_HOME/src/kernel"
+        cp -r "$SRC_DIR/kernel/." "$PHOENIX_HOME/src/kernel/"
+        ph_ok "Copied kernel/ → $PHOENIX_HOME/src/kernel/"
+    else
+        ph_warn "kernel/ not found in $SRC_DIR — kernel layer skipped"
+    fi
+
     # Copy security subdir if present
     if [[ -d "$SRC_DIR/security" ]]; then
         mkdir -p "$PHOENIX_HOME/src/security"
@@ -145,7 +153,6 @@ copy_sources() {
         ph_ok "Copied templates → $PHOENIX_HOME/templates/"
     fi
 
-    # Copy CLAUDE.md from repo root if present
     REPO_ROOT="$(cd "$SCRIPT_DIR/.." 2>/dev/null && pwd)"
     if [[ -f "$REPO_ROOT/CLAUDE.md" ]]; then
         cp "$REPO_ROOT/CLAUDE.md" "$PHOENIX_HOME/CLAUDE.md"
@@ -153,7 +160,7 @@ copy_sources() {
     fi
 }
 
-# ── Symlinks — egress_helix is the one process ───────────────────────────────
+# ── Symlinks ──────────────────────────────────────────────────────────────────
 
 wire_symlinks() {
     ph_log "Wiring egress symlinks..."
@@ -166,7 +173,6 @@ wire_symlinks() {
         return
     fi
 
-    # Python symlinks (romeo, juliet, etc → helix.py)
     for name in romeo juliet dbl_juliet translator; do
         LINK="$BIN/${name}.py"
         [[ -L "$LINK" ]] && rm "$LINK"
@@ -227,6 +233,44 @@ setup_path() {
     fi
 }
 
+# ── Initialize Kernel — Frank-0 comes up first, always ───────────────────────
+
+init_kernel() {
+    ph_log "Initializing CoPES kernel — Frank-0 must be sovereign first..."
+
+    ACTIVATE="$PHOENIX_HOME/.venv/bin/activate"
+    if [[ ! -f "$ACTIVATE" ]]; then
+        ph_warn "venv not found — kernel init skipped"
+        return
+    fi
+
+    if [[ ! -f "$PHOENIX_HOME/src/kernel/frank.py" ]]; then
+        ph_warn "kernel/frank.py not found — kernel layer skipped"
+        return
+    fi
+
+    source "$ACTIVATE"
+
+    PYTHONPATH="$PHOENIX_HOME/src" python3 - << PYEOF
+import sys
+sys.path.insert(0, "$PHOENIX_HOME/src")
+try:
+    from kernel.frank import build_ring_chain
+    frank0 = build_ring_chain()
+    s = frank0.status()
+    print(f"  Kernel ring chain : online")
+    print(f"  Frank-0 ring      : {s['ring']}")
+    print(f"  Frank below       : Ring {s['frank_below']}")
+    print(f"  Active imports    : {s['active_imports']}")
+    print(f"  AI instances      : {s['ai_instances']}")
+    print(f"  Status            : Stationary. Sovereign.")
+except Exception as e:
+    print(f"  Kernel init warning: {e}", file=sys.stderr)
+PYEOF
+
+    ph_ok "Kernel initialized — Frank-0 sovereign, ring chain established."
+}
+
 # ── Initialize Helix ──────────────────────────────────────────────────────────
 
 init_helix() {
@@ -245,9 +289,6 @@ init_helix() {
 
     source "$ACTIVATE"
 
-    # helix.init(pool_dir, db_path) returns a Helix instance
-    # helix.store(name, data) stores to clone pool
-    # helix.stats() returns dict with platform, pool_dir, db_path keys
     PYTHONPATH="$PHOENIX_HOME/src" python3 - << PYEOF
 import sys
 sys.path.insert(0, "$PHOENIX_HOME/src")
@@ -276,7 +317,7 @@ PYEOF
 # ── Initialize Frank ──────────────────────────────────────────────────────────
 
 init_frank() {
-    ph_log "Initializing Frank..."
+    ph_log "Initializing Frank (operational layer)..."
 
     ACTIVATE="$PHOENIX_HOME/.venv/bin/activate"
     if [[ ! -f "$ACTIVATE" ]]; then
@@ -291,7 +332,6 @@ init_frank() {
 
     source "$ACTIVATE"
 
-    # frank.py init: calls init_db(), registers ring3 stub routes, prints status
     PYTHONPATH="$PHOENIX_HOME/src" python3 "$PHOENIX_HOME/src/frank.py" init 2>&1 \
         | grep -v "^$" \
         || ph_warn "Frank init returned non-zero — check frank.log"
@@ -317,9 +357,6 @@ init_ph() {
 
     source "$ACTIVATE"
 
-    # get_ph() returns PackageHandler instance
-    # full_status() returns dict: helix_online, d1_configured, packages_total, etc
-    # glossary() returns dict: packages count, clone_pool count
     PYTHONPATH="$PHOENIX_HOME/src" python3 - << PYEOF
 import sys
 sys.path.insert(0, "$PHOENIX_HOME/src")
@@ -348,16 +385,17 @@ status_check() {
     echo ""
     echo "  PHOENIX_HOME    : $PHOENIX_HOME"
     echo "  Python          : $("$PYTHON" --version 2>&1)"
-    echo "  Venv            : $([ -d "$PHOENIX_HOME/.venv" ]          && echo "✓ exists"  || echo "✗ missing")"
-    echo "  helix.py        : $([ -f "$PHOENIX_HOME/src/helix.py" ]   && echo "✓ exists"  || echo "✗ missing")"
-    echo "  frank.py        : $([ -f "$PHOENIX_HOME/src/frank.py" ]   && echo "✓ exists"  || echo "✗ missing")"
-    echo "  package_handler : $([ -f "$PHOENIX_HOME/src/package_handler.py" ] && echo "✓ exists" || echo "✗ missing")"
-    echo "  Helix DB        : $([ -f "$PHOENIX_HOME/db/helix.db" ]    && echo "✓ exists"  || echo "✗ missing")"
-    echo "  Frank DB        : $([ -f "$PHOENIX_HOME/db/frank.db" ]    && echo "✓ exists"  || echo "✗ missing")"
-    echo "  PH DB           : $([ -f "$PHOENIX_HOME/db/packages.db" ] && echo "✓ exists"  || echo "✗ missing")"
+    echo "  Venv            : $([ -d "$PHOENIX_HOME/.venv" ]                    && echo "✔ exists"  || echo "✗ missing")"
+    echo "  Kernel          : $([ -d "$PHOENIX_HOME/src/kernel" ]               && echo "✔ present" || echo "✗ missing")"
+    echo "  helix.py        : $([ -f "$PHOENIX_HOME/src/helix.py" ]             && echo "✔ exists"  || echo "✗ missing")"
+    echo "  frank.py        : $([ -f "$PHOENIX_HOME/src/frank.py" ]             && echo "✔ exists"  || echo "✗ missing")"
+    echo "  package_handler : $([ -f "$PHOENIX_HOME/src/package_handler.py" ]   && echo "✔ exists"  || echo "✗ missing")"
+    echo "  Helix DB        : $([ -f "$PHOENIX_HOME/db/helix.db" ]              && echo "✔ exists"  || echo "✗ missing")"
+    echo "  Frank DB        : $([ -f "$PHOENIX_HOME/db/frank.db" ]              && echo "✔ exists"  || echo "✗ missing")"
+    echo "  PH DB           : $([ -f "$PHOENIX_HOME/db/packages.db" ]           && echo "✔ exists"  || echo "✗ missing")"
     echo "  Clone Pool      : $(ls "$PHOENIX_HOME/clonepool" 2>/dev/null | wc -l) items"
     echo "  Bin wrappers    : $(ls "$PHOENIX_HOME/bin" 2>/dev/null | wc -l) entries"
-    echo "  Security        : $([ -d "$PHOENIX_HOME/src/security" ]   && echo "✓ present" || echo "✗ missing")"
+    echo "  Security        : $([ -d "$PHOENIX_HOME/src/security" ]             && echo "✔ present" || echo "✗ missing")"
     echo ""
 }
 
@@ -377,13 +415,14 @@ main() {
     copy_sources
     wire_symlinks
     setup_path
+    init_kernel      # ← Frank-0 sovereign first, always
     init_helix
     init_frank
     init_ph
     status_check
 
     echo ""
-    ph_ok "Phoenix bootstrap complete. 🧬🔥"
+    ph_ok "Phoenix bootstrap complete. 🔥⚡"
     echo ""
     ph_log "Activate this session:"
     echo "  source $PHOENIX_HOME/.venv/bin/activate"
