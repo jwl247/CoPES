@@ -2,15 +2,15 @@
 # bootstrap.sh — Phoenix DevOps OS
 # Drops Phoenix onto the external Ubuntu build target.
 # Wires symlinks. Fires Frank. Initializes Helix + clone pool.
-# Run once from WSL or directly on the external.
+# Run once from WSL or directly on the external CoPES machine.
 # jwl247 / United Systems / GPL v3
 # =============================================================================
-
-set -euo pipefail
+# NOTE: No set -euo pipefail — failures warn and continue, never abort.
+# Every function is self-contained. A failed init does not kill the run.
+# =============================================================================
 
 PHOENIX_VERSION="1.0.0"
 PHOENIX_HOME="${PHOENIX_HOME:-$HOME/Phoenix}"
-PHOENIX_REPO="${PHOENIX_REPO:-https://github.com/jwl247/Phoenix-DevOps-oS.git}"
 PYTHON="${PYTHON:-python3}"
 LOG="$PHOENIX_HOME/logs/bootstrap.log"
 
@@ -57,8 +57,9 @@ preflight() {
     PY_VERSION=$("$PYTHON" -c "import sys; print(f'{sys.version_info.major}.{sys.version_info.minor}')")
     ph_log "Python version: $PY_VERSION"
 
-    [[ $(echo "$PY_VERSION >= 3.10" | bc -l) -eq 1 ]] \
-        || ph_die "Python 3.10+ required. Found: $PY_VERSION"
+    # bc may not be present — use python for version compare
+    PY_OK=$("$PYTHON" -c "import sys; print(1 if sys.version_info >= (3,10) else 0)")
+    [[ "$PY_OK" == "1" ]] || ph_die "Python 3.10+ required. Found: $PY_VERSION"
 
     command -v git >/dev/null 2>&1 \
         || ph_die "git not found. Install git first."
@@ -87,13 +88,21 @@ make_dirs() {
 install_deps() {
     ph_log "Installing Python dependencies..."
 
-    "$PYTHON" -m venv "$PHOENIX_HOME/.venv" \
-        || ph_die "Failed to create venv"
+    "$PYTHON" -m venv "$PHOENIX_HOME/.venv"
+    if [[ $? -ne 0 ]]; then
+        ph_die "Failed to create venv — is python3-venv installed?"
+    fi
 
     PIP="$PHOENIX_HOME/.venv/bin/pip"
     "$PIP" install --upgrade pip --quiet
-    "$PIP" install base58 --quiet \
-        || ph_warn "base58 install failed — TAV system will be degraded"
+
+    # base58 required for TAV hex identity in helix.py
+    "$PIP" install base58 --quiet
+    if [[ $? -eq 0 ]]; then
+        ph_ok "base58 installed — TAV system ready"
+    else
+        ph_warn "base58 install failed — TAV system will be degraded"
+    fi
 
     ph_ok "Python dependencies installed."
 }
@@ -103,24 +112,43 @@ install_deps() {
 copy_sources() {
     ph_log "Copying Phoenix source files..."
 
+    # SCRIPT_DIR is install/ — sources live in ../src/
     SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+    SRC_DIR="$(cd "$SCRIPT_DIR/../src" 2>/dev/null && pwd)"
 
-    for f in helix.py frank.py package_handler.py; do
-        if [[ -f "$SCRIPT_DIR/$f" ]]; then
-            cp "$SCRIPT_DIR/$f" "$PHOENIX_HOME/src/$f"
+    if [[ -z "$SRC_DIR" || ! -d "$SRC_DIR" ]]; then
+        ph_warn "src/ directory not found relative to install/ — trying SCRIPT_DIR"
+        SRC_DIR="$SCRIPT_DIR"
+    fi
+
+    ph_log "Source directory: $SRC_DIR"
+
+    for f in helix.py frank.py package_handler.py helix_memory.py \
+              distro_handler.py watcher.py; do
+        if [[ -f "$SRC_DIR/$f" ]]; then
+            cp "$SRC_DIR/$f" "$PHOENIX_HOME/src/$f"
             ph_ok "Copied $f → $PHOENIX_HOME/src/"
         else
-            ph_warn "$f not found in $SCRIPT_DIR — skipping"
+            ph_warn "$f not found in $SRC_DIR — skipping"
         fi
     done
+
+    # Copy security subdir if present
+    if [[ -d "$SRC_DIR/security" ]]; then
+        mkdir -p "$PHOENIX_HOME/src/security"
+        cp -r "$SRC_DIR/security/." "$PHOENIX_HOME/src/security/"
+        ph_ok "Copied security/ → $PHOENIX_HOME/src/security/"
+    fi
 
     if [[ -d "$SCRIPT_DIR/templates" ]]; then
         cp -r "$SCRIPT_DIR/templates/." "$PHOENIX_HOME/templates/"
         ph_ok "Copied templates → $PHOENIX_HOME/templates/"
     fi
 
-    if [[ -f "$SCRIPT_DIR/CLAUDE.md" ]]; then
-        cp "$SCRIPT_DIR/CLAUDE.md" "$PHOENIX_HOME/CLAUDE.md"
+    # Copy CLAUDE.md from repo root if present
+    REPO_ROOT="$(cd "$SCRIPT_DIR/.." 2>/dev/null && pwd)"
+    if [[ -f "$REPO_ROOT/CLAUDE.md" ]]; then
+        cp "$REPO_ROOT/CLAUDE.md" "$PHOENIX_HOME/CLAUDE.md"
         ph_ok "CLAUDE.md placed."
     fi
 }
@@ -134,18 +162,20 @@ wire_symlinks() {
     BIN="$PHOENIX_HOME/bin"
 
     if [[ ! -f "$HELIX_SRC" ]]; then
-        ph_warn "helix.py not found — symlinks skipped"
+        ph_warn "helix.py not found in $PHOENIX_HOME/src/ — symlinks skipped"
         return
     fi
 
-    for name in romeo juliet dbl_juliet translator egress_helix; do
+    # Python symlinks (romeo, juliet, etc → helix.py)
+    for name in romeo juliet dbl_juliet translator; do
         LINK="$BIN/${name}.py"
         [[ -L "$LINK" ]] && rm "$LINK"
+        [[ -f "$LINK" ]] && rm "$LINK"
         ln -s "$HELIX_SRC" "$LINK"
         ph_ok "symlink: $name → helix.py"
     done
 
-    # Shell wrapper for egress_helix
+    # Shell wrapper: egress_helix
     cat > "$BIN/egress_helix" << SHEOF
 #!/usr/bin/env bash
 source "$PHOENIX_HOME/.venv/bin/activate"
@@ -154,16 +184,16 @@ SHEOF
     chmod +x "$BIN/egress_helix"
     ph_ok "Shell wrapper: egress_helix"
 
-    # ph (package handler) wrapper
+    # Shell wrapper: ph (package handler)
     cat > "$BIN/ph" << SHEOF
 #!/usr/bin/env bash
 source "$PHOENIX_HOME/.venv/bin/activate"
 PYTHONPATH="$PHOENIX_HOME/src" python3 "$PHOENIX_HOME/src/package_handler.py" "\$@"
 SHEOF
     chmod +x "$BIN/ph"
-    ph_ok "Shell wrapper: ph (package handler)"
+    ph_ok "Shell wrapper: ph"
 
-    # frank wrapper
+    # Shell wrapper: frank
     cat > "$BIN/frank" << SHEOF
 #!/usr/bin/env bash
 source "$PHOENIX_HOME/.venv/bin/activate"
@@ -179,25 +209,21 @@ setup_path() {
     ph_log "Setting up PATH..."
 
     PROFILE=""
-    [[ -f "$HOME/.bashrc" ]]  && PROFILE="$HOME/.bashrc"
-    [[ -f "$HOME/.zshrc" ]]   && PROFILE="$HOME/.zshrc"
-    [[ -z "$PROFILE" ]]       && PROFILE="$HOME/.profile"
-
-    EXPORT_LINE="export PATH=\"\$PATH:$PHOENIX_HOME/bin\""
-    PHOENIX_ENV_LINE="export PHOENIX_HOME=\"$PHOENIX_HOME\""
-    PYTHONPATH_LINE="export PYTHONPATH=\"\$PYTHONPATH:$PHOENIX_HOME/src\""
+    [[ -f "$HOME/.bashrc" ]] && PROFILE="$HOME/.bashrc"
+    [[ -f "$HOME/.zshrc"  ]] && PROFILE="$HOME/.zshrc"
+    [[ -z "$PROFILE"      ]] && PROFILE="$HOME/.profile"
 
     if ! grep -q "PHOENIX_HOME" "$PROFILE" 2>/dev/null; then
         {
             echo ""
             echo "# Phoenix DevOps OS"
-            echo "$PHOENIX_ENV_LINE"
-            echo "$EXPORT_LINE"
-            echo "$PYTHONPATH_LINE"
+            echo "export PHOENIX_HOME=\"$PHOENIX_HOME\""
+            echo "export PATH=\"\$PATH:$PHOENIX_HOME/bin\""
+            echo "export PYTHONPATH=\"\$PYTHONPATH:$PHOENIX_HOME/src\""
         } >> "$PROFILE"
         ph_ok "PATH updated in $PROFILE"
     else
-        ph_warn "Phoenix already in $PROFILE — skipping"
+        ph_warn "Phoenix already in $PROFILE — skipping PATH update"
     fi
 }
 
@@ -207,25 +233,39 @@ init_helix() {
     ph_log "Initializing Helix + clone pool..."
 
     ACTIVATE="$PHOENIX_HOME/.venv/bin/activate"
-    [[ ! -f "$ACTIVATE" ]] && { ph_warn "venv not found — Helix init skipped"; return; }
+    if [[ ! -f "$ACTIVATE" ]]; then
+        ph_warn "venv not found — Helix init skipped"
+        return
+    fi
+
+    if [[ ! -f "$PHOENIX_HOME/src/helix.py" ]]; then
+        ph_warn "helix.py not in $PHOENIX_HOME/src/ — Helix init skipped"
+        return
+    fi
 
     source "$ACTIVATE"
+
+    # helix.init(pool_dir, db_path) returns a Helix instance
+    # helix.store(name, data) stores to clone pool
+    # helix.stats() returns dict with platform, pool_dir, db_path keys
     PYTHONPATH="$PHOENIX_HOME/src" python3 - << PYEOF
 import sys
 sys.path.insert(0, "$PHOENIX_HOME/src")
 try:
     import helix as h
     hx = h.init("$PHOENIX_HOME/clonepool", "$PHOENIX_HOME/db/helix.db")
-    # Store bootstrap record in clone pool
+    import datetime
     hx.store("phoenix.bootstrap", {
-        "version": "$PHOENIX_VERSION",
-        "timestamp": __import__("datetime").datetime.utcnow().isoformat(),
-        "platform": hx.quad.current,
+        "version":   "$PHOENIX_VERSION",
+        "timestamp": datetime.datetime.utcnow().isoformat(),
+        "platform":  hx.quad.current,
     })
     stats = hx.stats()
-    print(f"  Helix online — platform: {stats['platform']}")
-    print(f"  Clone pool: {stats['pool_dir']}")
-    print(f"  DB: {stats['db_path']}")
+    print(f"  Helix online   — platform: {stats['platform']}")
+    print(f"  Clone pool     : {stats['pool_dir']}")
+    print(f"  DB             : {stats['db_path']}")
+    print(f"  Ops/sec rated  : {stats['ops_per_sec']}")
+    print(f"  Hit rate       : {stats['hit_rate_pct']}%")
 except Exception as e:
     print(f"  Helix init warning: {e}", file=sys.stderr)
 PYEOF
@@ -234,33 +274,66 @@ PYEOF
 }
 
 # ── Initialize Frank ──────────────────────────────────────────────────────────
+
 init_frank() {
     ph_log "Initializing Frank..."
+
     ACTIVATE="$PHOENIX_HOME/.venv/bin/activate"
-    [[ ! -f "$ACTIVATE" ]] && { ph_warn "venv not found — Frank init skipped"; return; }
+    if [[ ! -f "$ACTIVATE" ]]; then
+        ph_warn "venv not found — Frank init skipped"
+        return
+    fi
+
+    if [[ ! -f "$PHOENIX_HOME/src/frank.py" ]]; then
+        ph_warn "frank.py not in $PHOENIX_HOME/src/ — Frank init skipped"
+        return
+    fi
+
     source "$ACTIVATE"
-    PYTHONPATH="$PHOENIX_HOME/src" python3 "$PHOENIX_HOME/src/frank.py" init 2>&1 | grep -v "^$"
+
+    # frank.py init: calls init_db(), registers ring3 stub routes, prints status
+    PYTHONPATH="$PHOENIX_HOME/src" python3 "$PHOENIX_HOME/src/frank.py" init 2>&1 \
+        | grep -v "^$" \
+        || ph_warn "Frank init returned non-zero — check frank.log"
+
     ph_ok "Frank initialized."
 }
+
 # ── Initialize Package Handler ────────────────────────────────────────────────
 
 init_ph() {
     ph_log "Initializing Package Handler..."
 
     ACTIVATE="$PHOENIX_HOME/.venv/bin/activate"
-    [[ ! -f "$ACTIVATE" ]] && { ph_warn "venv not found — PH init skipped"; return; }
+    if [[ ! -f "$ACTIVATE" ]]; then
+        ph_warn "venv not found — Package Handler init skipped"
+        return
+    fi
+
+    if [[ ! -f "$PHOENIX_HOME/src/package_handler.py" ]]; then
+        ph_warn "package_handler.py not in $PHOENIX_HOME/src/ — PH init skipped"
+        return
+    fi
+
+    source "$ACTIVATE"
+
+    # get_ph() returns PackageHandler instance
+    # full_status() returns dict: helix_online, d1_configured, packages_total, etc
+    # glossary() returns dict: packages count, clone_pool count
     PYTHONPATH="$PHOENIX_HOME/src" python3 - << PYEOF
 import sys
 sys.path.insert(0, "$PHOENIX_HOME/src")
 try:
     import package_handler as ph
-    p = ph.get_ph()
-    s = p.full_status()
-    print(f"  Package Handler online")
-    print(f"  Helix connected: {s['helix_online']}")
-    print(f"  D1 configured:   {s['d1_configured']}")
-    g = p.glossary()
-    print(f"  Clone pool items: {g['clone_pool']}")
+    p  = ph.get_ph()
+    s  = p.full_status()
+    g  = p.glossary()
+    print(f"  Package Handler : online")
+    print(f"  Version         : {s['ph_version']}")
+    print(f"  Helix connected : {s['helix_online']}")
+    print(f"  D1 configured   : {s['d1_configured']}")
+    print(f"  Packages        : {s['packages_total']} total / {s['packages_active']} active")
+    print(f"  Clone pool      : {g['clone_pool']} items")
 except Exception as e:
     print(f"  Package Handler init warning: {e}", file=sys.stderr)
 PYEOF
@@ -275,13 +348,16 @@ status_check() {
     echo ""
     echo "  PHOENIX_HOME    : $PHOENIX_HOME"
     echo "  Python          : $("$PYTHON" --version 2>&1)"
-    echo "  Venv            : $([ -d "$PHOENIX_HOME/.venv" ] && echo "✓ exists" || echo "✗ missing")"
-    echo "  Helix DB        : $([ -f "$PHOENIX_HOME/db/helix.db" ] && echo "✓ exists" || echo "✗ missing")"
-    echo "  Frank DB        : $([ -f "$PHOENIX_HOME/db/frank.db" ] && echo "✓ exists" || echo "✗ missing")"
-    echo "  Package Handler : $([ -f "$PHOENIX_HOME/db/packages.db" ] && echo "✓ exists" || echo "✗ missing")"
+    echo "  Venv            : $([ -d "$PHOENIX_HOME/.venv" ]          && echo "✓ exists"  || echo "✗ missing")"
+    echo "  helix.py        : $([ -f "$PHOENIX_HOME/src/helix.py" ]   && echo "✓ exists"  || echo "✗ missing")"
+    echo "  frank.py        : $([ -f "$PHOENIX_HOME/src/frank.py" ]   && echo "✓ exists"  || echo "✗ missing")"
+    echo "  package_handler : $([ -f "$PHOENIX_HOME/src/package_handler.py" ] && echo "✓ exists" || echo "✗ missing")"
+    echo "  Helix DB        : $([ -f "$PHOENIX_HOME/db/helix.db" ]    && echo "✓ exists"  || echo "✗ missing")"
+    echo "  Frank DB        : $([ -f "$PHOENIX_HOME/db/frank.db" ]    && echo "✓ exists"  || echo "✗ missing")"
+    echo "  PH DB           : $([ -f "$PHOENIX_HOME/db/packages.db" ] && echo "✓ exists"  || echo "✗ missing")"
     echo "  Clone Pool      : $(ls "$PHOENIX_HOME/clonepool" 2>/dev/null | wc -l) items"
-    echo "  Templates       : $(ls "$PHOENIX_HOME/templates"/*.json 2>/dev/null | wc -l) templates"
-    echo "  Symlinks        : $(ls "$PHOENIX_HOME/bin" 2>/dev/null | wc -l) entries"
+    echo "  Bin wrappers    : $(ls "$PHOENIX_HOME/bin" 2>/dev/null | wc -l) entries"
+    echo "  Security        : $([ -d "$PHOENIX_HOME/src/security" ]   && echo "✓ present" || echo "✗ missing")"
     echo ""
 }
 
@@ -291,8 +367,8 @@ main() {
     mkdir -p "$(dirname "$LOG")"
     banner
     ph_log "Phoenix DevOps OS Bootstrap v$PHOENIX_VERSION"
-    ph_log "Target: $PHOENIX_HOME"
-    ph_log "Date:   $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+    ph_log "Target : $PHOENIX_HOME"
+    ph_log "Date   : $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
     echo ""
 
     preflight
@@ -309,20 +385,20 @@ main() {
     echo ""
     ph_ok "Phoenix bootstrap complete. 🧬🔥"
     echo ""
-    ph_log "To activate this session:"
+    ph_log "Activate this session:"
     echo "  source $PHOENIX_HOME/.venv/bin/activate"
     echo "  export PATH=\"\$PATH:$PHOENIX_HOME/bin\""
     echo "  export PYTHONPATH=\"\$PYTHONPATH:$PHOENIX_HOME/src\""
     echo ""
-    ph_log "Commands now available:"
-    echo "  frank    — output-coordinator + ring 3"
-    echo "  ph       — package handler"
-    echo "  egress_helix — egress + platform translation"
+    ph_log "Commands available:"
+    echo "  frank            — output coordinator + Ring 3"
+    echo "  ph               — package handler"
+    echo "  egress_helix     — egress + platform translation"
     echo ""
-    ph_log "Example:"
+    ph_log "Quick test:"
     echo "  frank status"
-    echo "  ph list"
-    echo "  ph install git"
+    echo "  ph status"
+    echo "  egress_helix stats"
     echo "  egress_helix translate 'apt-get install git' --target windows"
     echo ""
     ph_log "Log: $LOG"
