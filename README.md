@@ -23,10 +23,10 @@ Same engine. Everything runs on it.
 
 ## Components
 - **Helix** — clone pool engine, QuadEngine, egress translation. 770k ops/sec.
-- **Package Handler** — intake authority. Every file goes through here.
-- **Frank** — output coordinator, Ring 3 comms.
+- **Package Handler** — WE GIVE IT A SIDECAR MAKES IT CALLABLE, HEX FROM NAME ALL THAT TURNS INTO A HEX TOP AND BOTTOM EASY VALIDATION
+- **Frank** — KERNEL LEVEL SCRIPT IMPORTS HIS PROCESSES LICKITY SPLIT
 - **Distro Handler** — 7 distros pre-registered, local first, silent updates.
-- **intake.sh** — universal file intake pipeline v1.7.0.
+- **intake.sh** — universal file intake pipeline v1.7.0. CLONES FILES TO CLONEPOOL VERSIONING AND D1 CUSTODY DB
 
 ## Requirements
 - HAVE A COMPUTER
@@ -34,7 +34,9 @@ Same engine. Everything runs on it.
 - Git
 
 ## Status
-Active development. GPL v3. Anthropic credited — Claude ships with Phoenix.
+Active development. GPL v3. Anthropic credited — Claude ships with Phoenix. KICK ASS
 
-## Co-founders
-Jerry Leftwich (architecture, systems) + Jerilynn Leftwich (UX, InfoSec, red team)
+## founder
+Jerry Leftwich (architecture, systems)
+CHANGING THE FACE OF DEVELOPMENT
+MAKING OPEN SOURCE WHAT IT SHOULD HAVE BEEN ALL ALONG!
