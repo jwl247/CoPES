@@ -1,5 +1,7 @@
-# CoPES — Coordinated Process Engine Substrate
+# CoPES — ANY FILE, SUB-SYSTEM, PROGRAM OR OBJECT ANYTIME TO YOUR WORKING DIRECTORY
+100% VERSIONED AND SELFHEALING - HOTSWAP
 ### Phoenix DevOps OS | jwl247 | GPL v3
+THE FUTURE OF OPERATING SYSTEMS IS HERE
 
 One command. Everything running.
 
@@ -10,6 +12,9 @@ bash install/bootstrap.sh
 ```
 
 ## What This Is
+DEV LIFE MADE EASY, EVERY FILE IS VERSIONED AND HOTSWAPABLE. ANY FILE IN THE SYSTEM AT YOUR FINGERTIPS.
+LOOK UP YOUR FILES BY DISCRIPTION, NAME, OR HEX IDENT.
+PUNCHES WAY ABOVE IT'S WEIGHT CLASS
 CoPES is the substrate. It powers Phoenix DevOps OS and the Life First App — a self-hosted AI companion built for people who need it and can't afford $700/month subscriptions.
 
 Same engine. Everything runs on it.
@@ -22,7 +27,7 @@ Same engine. Everything runs on it.
 - **intake.sh** — universal file intake pipeline v1.7.0.
 
 ## Requirements
-- Ubuntu Server 24.04 LTS
+- HAVE A COMPUTER
 - Python 3.10+
 - Git
 
