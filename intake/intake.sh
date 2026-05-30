@@ -3,7 +3,7 @@
 # intake.sh — Phoenix DevOps / UnitedSys
 # Author: jwl247 / Phoenix DevOps LLC
 # License: GPL-3.0
-# Version: 1.5.0
+# Version: 1.7.0
 # ============================================================
 # PIPELINE IN:
 #   file → dup check → hex → sidecar → clonepool → custody → D1
@@ -11,11 +11,18 @@
 #   name → hex → clonepool latest → working directory → custody → D1
 # PRUNE:
 #   walk clonepool → evict old non-latest versions > 3 days
+#
+# v1.7.0 changes:
+#   - Clonepool IS the process library
+#   - Sidecar now includes suit block + frank_usable flag
+#   - TAV hex IS the suit identity — callable by kernel directly
+#   - frank_intake_bridge.py removed — sidecar does that job
+#   - update_sidecar_entry() keeps entry pointing at latest version
 # ============================================================
 
 set -euo pipefail
 
-VERSION="1.6.0"
+VERSION="1.7.0"
 SCRIPT_NAME="intake"
 SCRIPT_HEX="737363726970747332f696e74616b65"
 EVICT_DAYS=3
@@ -57,8 +64,7 @@ log() {
   echo "[$(date '+%Y-%m-%d %H:%M:%S')] [intake:${level}] $*" | tee -a "${LOG_FILE}"
 }
 
-# ── Hex ───────────────────────────────────────────────────────
-# ── TAV address (SHA3-512 → first 8 bytes → base58, max 11 chars) ────────────
+# ── TAV address ───────────────────────────────────────────────
 gen_tav() {
   [[ -z "${PYTHON_CMD}" ]] && { echo "notav"; return 1; }
   "${PYTHON_CMD}" - "$1" <<'PYEOF'
@@ -77,7 +83,7 @@ PYEOF
 # ── File size ─────────────────────────────────────────────────
 get_size() { wc -c < "${1}" 2>/dev/null | tr -d ' ' || echo "0"; }
 
-# ── SHA256 checksum (cross platform) ─────────────────────────
+# ── SHA256 checksum ───────────────────────────────────────────
 get_checksum() {
   local file="$1"
   if command -v sha256sum &>/dev/null; then
@@ -85,12 +91,7 @@ get_checksum() {
   elif command -v shasum &>/dev/null; then
     shasum -a 256 "${file}" | cut -d' ' -f1
   else
-    # fallback — md5 if nothing else available
-    if command -v md5sum &>/dev/null; then
-      md5sum "${file}" | cut -d' ' -f1
-    else
-      echo "no-checksum"
-    fi
+    command -v md5sum &>/dev/null && md5sum "${file}" | cut -d' ' -f1 || echo "no-checksum"
   fi
 }
 
@@ -136,6 +137,58 @@ filetype_to_category() {
     source:c)   echo "737562737973" ;;
     binary:*)   echo "7061636b61676573" ;;
     *)          echo "756e6b6e6f776e" ;;
+  esac
+}
+
+# ── Suit type from filetype ───────────────────────────────────
+# Maps filetype → SuitType string for the kernel
+suit_type_from_filetype() {
+  case "${1}" in
+    script:python)       echo "PYTHON" ;;
+    script:shell)        echo "SHELL"  ;;
+    script:javascript)   echo "NODE"   ;;
+    script:typescript)   echo "NODE"   ;;
+    script:powershell)   echo "POWER"  ;;
+    source:c|source:cpp) echo "BINARY" ;;
+    source:rust|source:go) echo "BINARY" ;;
+    *)                   echo ""       ;;
+  esac
+}
+
+# ── Frank-usable gate ─────────────────────────────────────────
+# Only executable filetypes become suits the kernel can wear.
+# Configs, docs, media — intaked but not wearable.
+frank_usable() {
+  local suit_type; suit_type=$(suit_type_from_filetype "${1}")
+  [[ -n "${suit_type}" ]] && echo "true" || echo "false"
+}
+
+# ── Sector from filetype ──────────────────────────────────────
+suit_sector_from_filetype() {
+  case "${1}" in
+    script:shell|script:python|script:javascript|\
+    script:typescript|script:powershell) echo "2" ;;
+    source:c|source:cpp|source:rust|source:go) echo "1" ;;
+    web:*)     echo "3" ;;
+    systemd:*) echo "1" ;;
+    *)         echo "2" ;;
+  esac
+}
+
+suit_ring_from_filetype() {
+  case "${1}" in
+    systemd:*) echo "2" ;;
+    source:c|source:cpp|source:rust|source:go) echo "0" ;;
+    *)         echo "0" ;;
+  esac
+}
+
+suit_family_from_filetype() {
+  case "${1}" in
+    script:*|source:*) echo "USER"    ;;
+    systemd:*)         echo "SYSTEM"  ;;
+    web:*)             echo "NETWORK" ;;
+    *)                 echo "USER"    ;;
   esac
 }
 
@@ -187,9 +240,9 @@ file_age_days() {
   local now; now=$(date +%s)
   local modified
   if stat -c %Y "${file}" &>/dev/null; then
-    modified=$(stat -c %Y "${file}")          # Linux
+    modified=$(stat -c %Y "${file}")
   else
-    modified=$(stat -f %m "${file}" 2>/dev/null || echo "${now}")  # macOS/Git bash
+    modified=$(stat -f %m "${file}" 2>/dev/null || echo "${now}")
   fi
   echo $(( (now - modified) / 86400 ))
 }
@@ -199,37 +252,26 @@ check_duplicate() {
   local filepath="$1"
   local pool_dir="$2"
   local name="$3"
-
   local latest
   latest=$(get_latest_file "${pool_dir}" "${name}" || true)
   [[ -z "${latest}" ]] && { echo "none"; return; }
-
   local new_sum; new_sum=$(get_checksum "${filepath}")
   local old_sum; old_sum=$(get_checksum "${latest}")
-
-  if [[ "${new_sum}" == "${old_sum}" ]]; then
-    echo "dup:${latest}"
-  else
-    echo "different"
-  fi
+  [[ "${new_sum}" == "${old_sum}" ]] && echo "dup:${latest}" || echo "different"
 }
 
-# ── Evict old versions for one file ──────────────────────────
+# ── Evict old versions ────────────────────────────────────────
 evict_old_versions() {
   local pool_dir="$1"
   local name="$2"
   local silent="${3:-false}"
-
-  # Get latest file — never evict this one
   local latest
   latest=$(get_latest_file "${pool_dir}" "${name}" || true)
   [[ -z "${latest}" ]] && return 0
-
   local evicted=0
   while IFS= read -r f; do
     [[ -z "${f}" ]] && continue
-    [[ "${f}" == "${latest}" ]] && continue  # never evict latest
-
+    [[ "${f}" == "${latest}" ]] && continue
     local age; age=$(file_age_days "${f}")
     if (( age > EVICT_DAYS )); then
       rm -f "${f}"
@@ -237,23 +279,56 @@ evict_old_versions() {
       (( evicted++ )) || true
     fi
   done < <(ls "${pool_dir}"/v*_"${name}" 2>/dev/null || true)
-
   if [[ "${silent}" != "true" ]] && (( evicted > 0 )); then
     echo "[intake:PRUNE] ${name} — evicted ${evicted} old version(s)"
   fi
 }
 
-# ── Write sidecar ─────────────────────────────────────────────
+# ══════════════════════════════════════════════════════════════
+# write_sidecar_basic
+# v1.7.0 — includes suit block + frank_usable
+# The sidecar IS the suit registration.
+# TAV hex IS the suit identity.
+# Kernel reads this at boot. No bridge. No install.
+# ══════════════════════════════════════════════════════════════
 write_sidecar_basic() {
-  local sidecar="$1" hex="$2" orig="$3" version="$4"
-  local tav="${hex}"
+  local sidecar="$1" tav="$2"  orig="$3"  version="$4"
   local filetype="$5" category_hex="$6" size="$7"
   local backend="${8:-direct}" notes="${9:-}" checksum="${10:-}"
+
   local now; now=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+  local usable;    usable=$(frank_usable "${filetype}")
+  local suit_type; suit_type=$(suit_type_from_filetype "${filetype}")
+  local sector;    sector=$(suit_sector_from_filetype "${filetype}")
+  local ring_pos;  ring_pos=$(suit_ring_from_filetype "${filetype}")
+  local family;    family=$(suit_family_from_filetype "${filetype}")
+  local entry="${CLONEPOOL_DIR}/${tav}/${version}_${orig}"
+
   mkdir -p "$(dirname "${sidecar}")"
+
+  # Build suit block — only populated when frank_usable is true
+  local suit_block
+  if [[ "${usable}" == "true" ]]; then
+    suit_block=$(cat <<SUIT
+  "suit": {
+    "name":      "${tav}",
+    "alias":     "${orig%.*}",
+    "suit_type": "${suit_type}",
+    "entry":     "${entry}",
+    "sector":    ${sector},
+    "ring_pos":  ${ring_pos},
+    "family":    "${family}",
+    "checksum":  "${checksum}"
+  },
+SUIT
+)
+  else
+    suit_block='  "suit": null,'
+  fi
+
   cat > "${sidecar}" <<SIDECAR
 {
-  "usys_intake": "1.5",
+  "usys_intake": "1.7",
   "tav": "${tav}",
   "original_name": "${orig}",
   "state": "white",
@@ -266,6 +341,9 @@ write_sidecar_basic() {
   "notes": "${notes}",
   "pool_path": "${CLONEPOOL_DIR}/${tav}",
   "companions": [],
+  "frank_usable": ${usable},
+  "tav_callable": "${tav}",
+${suit_block}
   "qr": {
     "header": {"role": "state", "state": "white"},
     "footer": {"role": "location", "tier": 1}
@@ -276,9 +354,37 @@ write_sidecar_basic() {
   "clone_history": [{"version": "${version}", "at": "${now}"}]
 }
 SIDECAR
-  log "INFO" "sidecar written: ${sidecar}"
+
+  log "INFO" "sidecar written: ${sidecar} (frank_usable=${usable})"
 }
 
+# ── Update sidecar entry after re-intake ──────────────────────
+# Keeps the suit entry pointing at the latest version file.
+# Kernel always finds the right file — no stale paths.
+update_sidecar_entry() {
+  local sidecar="$1" new_version="$2" new_entry="$3"
+  [[ -z "${PYTHON_CMD}" ]] && return 0
+  [[ ! -f "${sidecar}" ]] && return 0
+  "${PYTHON_CMD}" - "${sidecar}" "${new_version}" "${new_entry}" <<'PYEOF'
+import json, sys, datetime
+sidecar_path = sys.argv[1]
+new_version  = sys.argv[2]
+new_entry    = sys.argv[3]
+with open(sidecar_path) as f:
+    d = json.load(f)
+now = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+d["version"]    = new_version
+d["updated_at"] = now
+d["clone_history"].append({"version": new_version, "at": now})
+if d.get("suit"):
+    d["suit"]["entry"] = new_entry
+with open(sidecar_path, "w") as f:
+    json.dump(d, f, indent=2)
+PYEOF
+  log "INFO" "sidecar entry updated → ${new_version}: ${new_entry}"
+}
+
+# ── Write sidecar companions ──────────────────────────────────
 enrich_sidecar_companions() {
   local sidecar="$1" companions_str="$2"
   [[ -z "${PYTHON_CMD}" ]] && return 0
@@ -329,7 +435,7 @@ SQL
 # ── D1 reporter ───────────────────────────────────────────────
 post_to_d1() {
   local endpoint="$1" payload="$2"
-  [[ -z "${PHOENIX_AUTH}" ]] && { log "WARN" "PHOENIX_AUTH not set — skipping D1 report"; return 0; }
+  [[ -z "${PHOENIX_AUTH:-}" ]] && { log "WARN" "PHOENIX_AUTH not set — skipping D1 report"; return 0; }
   local response http_code body
   response=$(curl -s -w "\n%{http_code}" \
     -X POST \
@@ -415,21 +521,10 @@ intake_file() {
     echo ""
     read -rp "Choice [1/2/3]: " choice
     case "${choice}" in
-      1)
-        echo "[intake:OK] Kept existing ${existing_ver} — incoming discarded"
-        return 0
-        ;;
-      2)
-        rm -f "${existing}"
-        log "INFO" "dup evicted: ${existing}"
-        ;;
-      3)
-        log "INFO" "dup: user chose to version anyway"
-        ;;
-      *)
-        echo "[intake:OK] No action taken"
-        return 0
-        ;;
+      1) echo "[intake:OK] Kept existing ${existing_ver} — incoming discarded"; return 0 ;;
+      2) rm -f "${existing}"; log "INFO" "dup evicted: ${existing}" ;;
+      3) log "INFO" "dup: user chose to version anyway" ;;
+      *) echo "[intake:OK] No action taken"; return 0 ;;
     esac
   fi
 
@@ -456,9 +551,14 @@ intake_file() {
   cp "${filepath}" "${pool_dir}/${version}_${orig}"
   log "INFO" "stored: ${pool_dir}/${version}_${orig}"
 
+  # Write sidecar with suit block — kernel reads this at boot
   write_sidecar_basic "${sidecar}" "${tav}" "${orig}" "${version}" \
     "${filetype}" "${category_hex}" "${size}" "${backend}" "${notes}" "${checksum}"
   enrich_sidecar_companions "${sidecar}" "${companion_list}"
+
+  # Keep suit entry pointing at latest version
+  update_sidecar_entry "${sidecar}" "${version}" "${pool_dir}/${version}_${orig}"
+
   custody_log_local "${tav}" "${orig}" "intake" "${version}" \
     "${filepath}" "${pool_dir}/${version}_${orig}" "white" "${backend}"
   report_clonepool "${tav}" "${orig}" "${version}" "white" \
@@ -467,19 +567,19 @@ intake_file() {
   report_glossary "${tav}" "${orig}" "Intaked via ${backend}: ${filetype}" \
     "${category_hex}" "${version}" "${size}" "${pool_dir}"
 
-  # ── Auto evict old versions for this file ─────────────────
   evict_old_versions "${pool_dir}" "${orig}" "true"
 
+  local usable; usable=$(frank_usable "${filetype}")
+
   echo "[intake:OK] ${orig} → clonepool ${version}"
-  echo "[intake:OK] tav:      ${tav}"
-  echo "[intake:OK] type:     ${filetype}"
-  echo "[intake:OK] sha256:   ${checksum:0:16}..."
+  echo "[intake:OK] tav:          ${tav}"
+  echo "[intake:OK] type:         ${filetype}"
+  echo "[intake:OK] frank_usable: ${usable}"
+  echo "[intake:OK] sha256:       ${checksum:0:16}..."
+  [[ "${usable}" == "true" ]] && \
+    echo "[intake:OK] suit ready — kernel can wear this by hex: ${tav}"
   [[ -n "${companion_list}" ]] && \
     echo "[intake:OK] companions: $(echo "${companion_list}" | wc -l | tr -d ' ')"
-  [[ -n "${PYTHON_CMD}" ]] && \
-    "${PYTHON_CMD}" "${PHOENIX_HOME:-$HOME/Phoenix}/src/frank_intake_bridge.py" \
-    "intake" "${filepath}" "${pool_dir}/${version}_${orig}" \
-    "${tav}" "${orig}" "${version}" 2>/dev/null || true
   return 0
 }
 
@@ -517,9 +617,8 @@ intake_clone() {
   local version; version=$(basename "${latest}" | grep -o '^v[0-9]*')
   local dest="${PWD}/${name}"
 
-  if [[ -f "${dest}" ]]; then
+  [[ -f "${dest}" ]] && \
     echo "[intake:WARN] '${name}' already exists here — overwriting with ${version}"
-  fi
 
   cp "${latest}" "${dest}"
 
@@ -530,10 +629,6 @@ intake_clone() {
 
   echo "[intake:OK] ${name} ${version} → ${PWD}/"
   echo "[intake:OK] This is the latest version — ready to use"
-  [[ -n "${PYTHON_CMD}" ]] && \
-    "${PYTHON_CMD}" "${PHOENIX_HOME:-$HOME/Phoenix}/src/frank_intake_bridge.py" \
-    "clone_out" "${latest}" "${dest}" \
-    "${tav}" "${name}" "${version}" 2>/dev/null || true
   return 0
 }
 
@@ -548,17 +643,12 @@ intake_prune() {
   local total_evicted=0
   local files_checked=0
 
-  # Walk every hex directory in the clonepool
   for pool_dir in "${CLONEPOOL_DIR}"/*/; do
     [[ ! -d "${pool_dir}" ]] && continue
-
-    # Find all unique file names in this pool dir
     local names=()
     while IFS= read -r f; do
       local base; base=$(basename "${f}")
-      # Strip version prefix to get original name
       local name="${base#v*_}"
-      # Add to names if not already there
       local found=false
       for n in "${names[@]:-}"; do [[ "${n}" == "${name}" ]] && found=true && break; done
       [[ "${found}" == "false" ]] && names+=("${name}")
@@ -567,13 +657,9 @@ intake_prune() {
     for name in "${names[@]:-}"; do
       [[ -z "${name}" ]] && continue
       (( files_checked++ )) || true
-
-      # Count versions before eviction
       local before; before=$(ls "${pool_dir}"v*_"${name}" 2>/dev/null | wc -l | tr -d ' ')
-      [[ "${before}" -le 1 ]] && continue  # only one version — never evict
-
+      [[ "${before}" -le 1 ]] && continue
       evict_old_versions "${pool_dir}" "${name}" "false"
-
       local after; after=$(ls "${pool_dir}"v*_"${name}" 2>/dev/null | wc -l | tr -d ' ')
       local evicted=$(( before - after ))
       (( total_evicted += evicted )) || true
@@ -584,10 +670,10 @@ intake_prune() {
   echo " ╔══════════════════════════════════════╗"
   echo " ║         PRUNE COMPLETE               ║"
   echo " ╚══════════════════════════════════════╝"
-  echo " Files checked : ${files_checked}"
+  echo " Files checked    : ${files_checked}"
   echo " Versions evicted : ${total_evicted}"
-  echo " Retention    : ${EVICT_DAYS} days"
-  echo " Latest versions : always kept"
+  echo " Retention        : ${EVICT_DAYS} days"
+  echo " Latest versions  : always kept"
   echo ""
 }
 
@@ -625,15 +711,11 @@ intake_from_backend() {
     "7061636b61676573" "${version}" "0" "${pool_dir}"
 
   echo "[intake:OK] ${pkg_name} (${backend} ${version}) → D1"
-   [[ -n "${PYTHON_CMD}" ]] && \
-    "${PYTHON_CMD}" "${PHOENIX_HOME:-$HOME/Phoenix}/src/frank_intake_bridge.py" \
-    "backend" "${backend}" "${pool_dir}" \
-    "${tav}" "${pkg_name}" "${version}" 2>/dev/null || true
 }
 
 # ── Status ────────────────────────────────────────────────────
 intake_status() {
-  local total white grey black
+  local total white grey black usable
   total=$(find "${CLONEPOOL_DIR}" -name "*.sidecar.json" 2>/dev/null | wc -l | tr -d ' ')
   white=$(find "${CLONEPOOL_DIR}" -name "*.sidecar.json" \
     -exec grep -l '"state": "white"' {} \; 2>/dev/null | wc -l | tr -d ' ')
@@ -641,80 +723,25 @@ intake_status() {
     -exec grep -l '"state": "grey"'  {} \; 2>/dev/null | wc -l | tr -d ' ')
   black=$(find "${CLONEPOOL_DIR}" -name "*.sidecar.json" \
     -exec grep -l '"state": "black"' {} \; 2>/dev/null | wc -l | tr -d ' ')
+  usable=$(find "${CLONEPOOL_DIR}" -name "*.sidecar.json" \
+    -exec grep -l '"frank_usable": true' {} \; 2>/dev/null | wc -l | tr -d ' ')
   echo ""
   echo " ╔══════════════════════════════════════╗"
   echo " ║     INTAKE / CLONEPOOL STATUS        ║"
   echo " ╚══════════════════════════════════════╝"
-  echo " Worker  : ${WORKER_URL}"
-  echo " Pool    : ${CLONEPOOL_DIR}"
+  echo " Worker    : ${WORKER_URL}"
+  echo " Pool      : ${CLONEPOOL_DIR}"
   [[ -n "${PYTHON_CMD}" ]] \
-    && echo " Python  : ${PYTHON_CMD}" \
-    || echo " Python  : not found (non-critical)"
-  echo " Retention: ${EVICT_DAYS} days"
-  echo " Total   : ${total}"
-  echo " White   : ${white} (active)"
-  echo " Grey    : ${grey} (deprecated)"
-  echo " Black   : ${black} (retired)"
+    && echo " Python    : ${PYTHON_CMD}" \
+    || echo " Python    : not found (non-critical)"
+  echo " Retention : ${EVICT_DAYS} days"
+  echo " Total     : ${total}"
+  echo " White     : ${white} (active)"
+  echo " Grey      : ${grey} (deprecated)"
+  echo " Black     : ${black} (retired)"
+  echo " Suits     : ${usable} (frank_usable — kernel wearable)"
   echo ""
 }
-
-# ── Help ──────────────────────────────────────────────────────
-show_help() {
-  cat <<EOF
-
-██╗███╗   ██╗████████╗ █████╗ ██╗  ██╗███████╗
-██║████╗  ██║╚══██╔══╝██╔══██╗██║ ██╔╝██╔════╝
-██║██╔██╗ ██║   ██║   ███████║█████╔╝ █████╗
-██║██║╚██╗██║   ██║   ██╔══██║██╔═██╗ ██╔══╝
-██║██║ ╚████║   ██║   ██║  ██║██║  ██╗███████╗
-╚═╝╚═╝  ╚═══╝  ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
-
-  Phoenix DevOps — intake v${VERSION}
-
-  IN  (file → clonepool):
-    intake <file>                    Intake a file
-    intake <file.ext.lol>            Short syntax — strips .lol
-    intake <file> [backend] [notes]  With backend tag and notes
-    intake backend <pkg> <be> <ver>  Register a backend-installed package
-
-  IN  (directory → clonepool):
-    intake <directory/>              Intake entire directory with preview
-    intake <directory/> [backend]    With backend tag
-
-  OUT (clonepool → your current directory):
-    intake clone <file>              Pull latest file version here
-    intake clone <dir>               Pull latest directory snapshot here
-    intake clone <dir> v2            Pull specific version here
-    intake clone <file.lol>          Short syntax works too
-
-  MAINTENANCE:
-    intake prune                     Evict old versions (>${EVICT_DAYS} days) across pool
-    intake status                    Show clonepool status
-    intake help                      This screen
-
-  Duplicate handling:
-    If you intake a file identical to what's already in the pool,
-    intake asks: keep existing / replace / keep both
-
-  Version eviction:
-    Old non-latest versions evict automatically after ${EVICT_DAYS} days
-    Latest version is always kept — no matter how old
-    Single-version files are never evicted
-
-  Pipeline IN:   file → dup check → hex → sidecar → clonepool → custody → D1
-  Pipeline OUT:  name → hex → clonepool latest → \$PWD → custody → D1
-
-  Worker  : ${WORKER_URL}
-  Pool    : ${CLONEPOOL_DIR}
-  Log     : ${LOG_FILE}
-  Python  : ${PYTHON_CMD:-not found (non-critical)}
-
-EOF
-}
-
-#!/usr/bin/env bash
-# This is the intake_directory function + updated entry point
-# to be merged into intake.sh v1.5.0 → v1.6.0
 
 # ── Skip patterns for directory intake ───────────────────────
 SKIP_DIRS=("node_modules" ".git" "__pycache__" ".svn" "vendor" "dist" "build" ".next" ".nuxt" "venv" ".venv" "env" ".tox" "coverage" ".nyc_output" "target" "out")
@@ -749,7 +776,6 @@ is_known_type() {
   esac
 }
 
-# ── Human readable size ───────────────────────────────────────
 human_size() {
   local bytes="$1"
   if (( bytes < 1024 )); then echo "${bytes} B"
@@ -767,7 +793,6 @@ intake_directory() {
   local backend="${2:-direct}"
   local notes="${3:-}"
 
-  # Strip trailing slash
   dirpath="${dirpath%/}"
   dirpath="${dirpath%\\}"
 
@@ -783,7 +808,6 @@ intake_directory() {
   echo " [intake:DIR] Scanning directory..."
   echo ""
 
-  # ── Collect files ────────────────────────────────────────
   local all_files=()
   local known_files=()
   local skipped_dirs=()
@@ -794,13 +818,10 @@ intake_directory() {
 
   while IFS= read -r -d '' f; do
     local rel="${f#${dirpath}/}"
-
-    # Check if in a skip dir
     local in_skip=false
     for skip in "${SKIP_DIRS[@]}"; do
       if [[ "${rel}" == "${skip}/"* ]] || [[ "${rel}" == *"/${skip}/"* ]]; then
         in_skip=true
-        # Record skip dir once
         local skip_base="${rel%%/*}"
         local already=false
         for s in "${skipped_dirs[@]:-}"; do [[ "$s" == "$skip_base" ]] && already=true; done
@@ -810,7 +831,6 @@ intake_directory() {
     done
     [[ "${in_skip}" == "true" ]] && continue
 
-    # Check extension
     if is_skip_ext "${f}"; then
       skipped_files+=("${rel}")
       continue
@@ -820,12 +840,8 @@ intake_directory() {
       known_files+=("${f}")
       local size; size=$(get_size "${f}")
       (( total_size += size )) || true
-
-      # Count by extension
       local ext="${f##*.}"; ext="${ext,,}"
       ext_counts["${ext}"]=$(( ${ext_counts["${ext}"]:-0} + 1 ))
-
-      # Flag sensitive files
       case "$(basename "${f}")" in
         .env|*.env|*secret*|*password*|*credential*|*token*|*auth*)
           sensitive_files+=("${rel}") ;;
@@ -835,13 +851,11 @@ intake_directory() {
     fi
   done < <(find "${dirpath}" -type f -print0 2>/dev/null)
 
-  # ── Build type summary ────────────────────────────────────
   local type_summary=""
   for ext in "${!ext_counts[@]}"; do
     type_summary+=".${ext} (${ext_counts[$ext]})  "
   done
 
-  # ── Show warning ──────────────────────────────────────────
   echo " ╔══════════════════════════════════════════════════╗"
   echo " ║         DIRECTORY INTAKE PREVIEW                ║"
   echo " ╚══════════════════════════════════════════════════╝"
@@ -853,22 +867,14 @@ intake_directory() {
   echo "  Size     : $(human_size ${total_size})"
   echo ""
 
-  if (( ${#skipped_dirs[@]} > 0 )); then
-    echo "  Skipped  : ${skipped_dirs[*]} (ignored directories)"
-  fi
-  if (( ${#skipped_files[@]} > 0 )); then
-    echo "  Ignored  : ${#skipped_files[@]} binary/media files"
-  fi
-
+  (( ${#skipped_dirs[@]} > 0 )) && echo "  Skipped  : ${skipped_dirs[*]} (ignored directories)"
+  (( ${#skipped_files[@]} > 0 )) && echo "  Ignored  : ${#skipped_files[@]} binary/media files"
   echo ""
 
   if (( ${#sensitive_files[@]} > 0 )); then
     echo " ⚠  WARNING — SENSITIVE FILES DETECTED:"
-    for sf in "${sensitive_files[@]}"; do
-      echo "    → ${sf}"
-    done
+    for sf in "${sensitive_files[@]}"; do echo "    → ${sf}"; done
     echo " ⚠  These files will be stored in clonepool AND reported to D1"
-    echo " ⚠  D1 is a remote store — ensure this is intentional"
     echo ""
   fi
 
@@ -905,13 +911,10 @@ intake_directory() {
   echo " [intake:DIR] Intaking ${#known_files[@]} files..."
   echo ""
 
-  # ── Create directory snapshot in clonepool ────────────────
   local snapshot_dir="${pool_dir}/${version}_${dirname}"
   mkdir -p "${snapshot_dir}"
 
   local success=0
-  local failed=0
-  local dir_manifest="[]"
   local manifest_entries=""
 
   for f in "${known_files[@]}"; do
@@ -927,7 +930,6 @@ intake_directory() {
 
     mkdir -p "${file_pool}"
 
-    # Duplicate check — skip if identical
     local dup_result
     dup_result=$(check_duplicate "${f}" "${file_pool}" "${file_orig}")
     if [[ "${dup_result}" == dup:* ]]; then
@@ -937,44 +939,45 @@ intake_directory() {
     fi
 
     cp "${f}" "${file_pool}/${file_version}_${file_orig}"
-    # Also copy into snapshot dir preserving relative path
     mkdir -p "${snapshot_dir}/$(dirname "${rel}")"
     cp "${f}" "${snapshot_dir}/${rel}"
 
-    local sidecar="${file_pool}/${file_tav}.sidecar.json"
-    write_sidecar_basic "${sidecar}" "${file_tav}" "${file_orig}" \
+    local file_sidecar="${file_pool}/${file_tav}.sidecar.json"
+    write_sidecar_basic "${file_sidecar}" "${file_tav}" "${file_orig}" \
       "${file_version}" "${filetype}" "${category_hex}" "${size}" \
       "${backend}" "dir:${dirname}/${rel}" "${checksum}"
+    update_sidecar_entry "${file_sidecar}" "${file_version}" \
+      "${file_pool}/${file_version}_${file_orig}"
 
     custody_log_local "${file_tav}" "${file_orig}" "dir_intake" \
       "${file_version}" "${f}" "${file_pool}/${file_version}_${file_orig}" \
       "white" "${backend}"
     report_clonepool "${file_tav}" "${file_orig}" "${file_version}" "white" \
-      "${file_pool}" "${sidecar}" "1" "${size}"
+      "${file_pool}" "${file_sidecar}" "1" "${size}"
     report_custody "${file_tav}" "${file_orig}" "dir_intake" "white" "${backend}"
 
-    # Auto evict old versions
     evict_old_versions "${file_pool}" "${file_orig}" "true"
 
-    manifest_entries+="  {\"tav\":\"${file_tav}\",\"name\":\"${file_orig}\",\"path\":\"${rel}\",\"version\":\"${file_version}\",\"checksum\":\"${checksum}\"},"
+    local usable; usable=$(frank_usable "${filetype}")
+    manifest_entries+="{\"tav\":\"${file_tav}\",\"name\":\"${file_orig}\",\"path\":\"${rel}\",\"version\":\"${file_version}\",\"frank_usable\":${usable},\"checksum\":\"${checksum}\"},"
     (( success++ )) || true
-    echo "  [OK] ${rel}"
+    echo "  [OK] ${rel} (frank_usable=${usable})"
   done
 
-  # ── Write directory sidecar ───────────────────────────────
   local dir_sidecar="${pool_dir}/${tav}.sidecar.json"
   local now; now=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-  local dir_checksum; dir_checksum=$(get_checksum "${dirpath}" 2>/dev/null || echo "dir-no-checksum")
 
   mkdir -p "${pool_dir}"
   cat > "${dir_sidecar}" <<DIRSIDECAR
 {
-  "usys_intake": "1.6",
+  "usys_intake": "1.7",
   "type": "directory",
   "tav": "${tav}",
   "original_name": "${dirname}",
   "state": "white",
   "version": "${version}",
+  "frank_usable": false,
+  "suit": null,
   "snapshot_path": "${snapshot_dir}",
   "file_count": ${success},
   "size_bytes": ${total_size},
@@ -1023,20 +1026,12 @@ intake_clone_directory() {
   local pool_dir="${CLONEPOOL_DIR}/${tav}"
   local sidecar="${pool_dir}/${tav}.sidecar.json"
 
-  if [[ ! -d "${pool_dir}" ]]; then
-    echo "[intake:MISS] '${name}' not found in clonepool"
-    return 1
-  fi
+  [[ ! -d "${pool_dir}" ]] && { echo "[intake:MISS] '${name}' not found in clonepool"; return 1; }
 
-  # Check if it's a directory type
   local type
   type=$(grep -o '"type": "directory"' "${sidecar}" 2>/dev/null || echo "")
-  if [[ -z "${type}" ]]; then
-    # Fall through to regular file clone
-    return 1
-  fi
+  [[ -z "${type}" ]] && return 1
 
-  # Find snapshot dir for requested version
   local snapshot
   if [[ "${version}" == "latest" ]]; then
     snapshot=$(ls -d "${pool_dir}"/v*_"${name}" 2>/dev/null \
@@ -1049,17 +1044,16 @@ intake_clone_directory() {
     snapshot="${pool_dir}/${version}_${name}"
   fi
 
-  if [[ -z "${snapshot}" ]] || [[ ! -d "${snapshot}" ]]; then
+  [[ -z "${snapshot}" ]] || [[ ! -d "${snapshot}" ]] && {
     echo "[intake:MISS] No snapshot found for '${name}' ${version}"
     return 1
-  fi
+  }
 
   local ver; ver=$(basename "${snapshot}" | grep -o '^v[0-9]*')
   local dest="${PWD}/${name}"
 
-  if [[ -d "${dest}" ]]; then
+  [[ -d "${dest}" ]] && \
     echo "[intake:WARN] '${name}' already exists here — overwriting with ${ver}"
-  fi
 
   cp -r "${snapshot}" "${dest}"
 
@@ -1072,6 +1066,7 @@ intake_clone_directory() {
   echo "[intake:OK] $(ls "${dest}" | wc -l | tr -d ' ') files restored"
   echo "[intake:OK] This is the ${ver} snapshot — ready to use"
 }
+
 # ── .lol resolver ─────────────────────────────────────────────
 resolve_lol() {
   local arg="${1:-}"
@@ -1085,6 +1080,54 @@ resolve_lol() {
   fi
 }
 
+# ── Help ──────────────────────────────────────────────────────
+show_help() {
+  cat <<EOF
+
+██╗███╗   ██╗████████╗ █████╗ ██╗  ██╗███████╗
+██║████╗  ██║╚══██╔══╝██╔══██╗██║ ██╔╝██╔════╝
+██║██╔██╗ ██║   ██║   ███████║█████╔╝ █████╗
+██║██║╚██╗██║   ██║   ██╔══██║██╔═██╗ ██╔══╝
+██║██║ ╚████║   ██║   ██║  ██║██║  ██╗███████╗
+╚═╝╚═╝  ╚═══╝  ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
+
+  Phoenix DevOps — intake v${VERSION}
+
+  IN  (file → clonepool):
+    intake <file>                    Intake a file
+    intake <file.ext.lol>            Short syntax — strips .lol
+    intake <file> [backend] [notes]  With backend tag and notes
+    intake backend <pkg> <be> <ver>  Register a backend-installed package
+
+  IN  (directory → clonepool):
+    intake <directory/>              Intake entire directory with preview
+    intake <directory/> [backend]    With backend tag
+
+  OUT (clonepool → your current directory):
+    intake clone <file>              Pull latest file version here
+    intake clone <dir>               Pull latest directory snapshot here
+    intake clone <dir> v2            Pull specific version here
+
+  MAINTENANCE:
+    intake prune                     Evict old versions (>${EVICT_DAYS} days) across pool
+    intake status                    Show clonepool + suit status
+    intake help                      This screen
+
+  Clonepool IS the process library.
+  Every intaked .py .sh .js .ts .ps1 .c .rs .go file is frank_usable.
+  The kernel wears it by TAV hex — no install needed.
+
+  Pipeline IN:   file → dup check → hex → sidecar+suit → clonepool → custody → D1
+  Pipeline OUT:  name → hex → clonepool latest → \$PWD → custody → D1
+
+  Worker  : ${WORKER_URL}
+  Pool    : ${CLONEPOOL_DIR}
+  Log     : ${LOG_FILE}
+  Python  : ${PYTHON_CMD:-not found (non-critical)}
+
+EOF
+}
+
 # ── Self register ─────────────────────────────────────────────
 self_register
 
@@ -1096,16 +1139,14 @@ case "${1:-help}" in
     shift
     name="${1:-}"; version="${2:-latest}"
     [[ "${name}" == *.lol ]] && name="${name%.lol}"
-    # Try directory clone first, fall back to file clone
     intake_clone_directory "${name}" "${version}" 2>/dev/null \
       || intake_clone "${name}"
     ;;
-  prune)          intake_prune ;;
-  backend)        shift; intake_from_backend "$@" ;;
+  prune)   intake_prune ;;
+  backend) shift; intake_from_backend "$@" ;;
   *)
     first_arg=$(resolve_lol "${1:-}")
     shift || true
-    # Directory or file?
     if [[ -d "${first_arg}" ]]; then
       intake_directory "${first_arg}" "$@"
     else
