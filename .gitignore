@@ -32,3 +32,4 @@ clonepool/
 clonepool/
 *.sidecar.json
 db/*.db
+update.sh
