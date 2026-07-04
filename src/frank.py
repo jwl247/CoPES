@@ -118,15 +118,69 @@ def status():
     except Exception as e:
         log.error(f"status failed: {e}")
 
+def llm_dispatch(payload: dict) -> dict:
+    """
+    Frank's Ring 3 LLM handler.
+    Routes payload to the LLM engine (Phoenix_Universal_Kernel/llm_engine.py).
+    Called by Life First modules and any other app via Ring 3.
+
+    Payload: {user_id, message, intent, system?, options?}
+    Returns: {response, model, intent, source, error}
+    """
+    try:
+        import importlib.util, sys as _sys
+        _here = Path(__file__).parent.parent.parent / "Phoenix_Universal_Kernel"
+        spec = importlib.util.spec_from_file_location(
+            "llm_engine", _here / "llm_engine.py"
+        )
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        return mod.frank_handler(payload)
+    except Exception as e:
+        log.error(f"llm_dispatch failed: {e}")
+        return {"response": "", "model": "none", "error": str(e)}
+
+
+def lifefirst_dispatch(module: str, data: dict) -> dict:
+    """
+    Frank's Ring 3 Life First bridge.
+    Sends a request to the Life First PHP API on localhost and returns the JSON.
+    module: 'schedule' | 'messenger' | 'memory' | 'notification' | 'voice'
+    """
+    import urllib.request, urllib.error, json as _json, os as _os
+    api_url    = _os.environ.get("LIFEFIRST_API",    "http://localhost/lifefirst/api.php")
+    api_secret = _os.environ.get("LF_API_SECRET",   "")
+    payload = _json.dumps({**data, "intent": module}).encode()
+    req = urllib.request.Request(
+        api_url,
+        data    = payload,
+        headers = {
+            "Content-Type":  "application/json",
+            "Authorization": f"Bearer {api_secret}",
+        },
+        method  = "POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return _json.loads(r.read())
+    except Exception as e:
+        log.error(f"lifefirst_dispatch failed: {e}")
+        return {"status": "error", "message": str(e)}
+
+
 def init():
     init_db()
     stub_routes = [
-        ("office",   "workers/office-worker"),
-        ("glossary", "workers/glossary-worker"),
-        ("review",   "workers/review-worker"),
-        ("sketchpad","workers/sketchpad-worker"),
-        ("notation", "workers/notation-worker"),
-        ("desktop",  "workers/desktop-worker"),
+        ("office",        "workers/office-worker"),
+        ("glossary",      "workers/glossary-worker"),
+        ("review",        "workers/review-worker"),
+        ("sketchpad",     "workers/sketchpad-worker"),
+        ("notation",      "workers/notation-worker"),
+        ("desktop",       "workers/desktop-worker"),
+        # Life First AI system — Ring 3 bridge to PHP modules on localhost
+        ("lifefirst",     "lifefirst_dispatch"),
+        # LLM engine — paged vRAM, bigger than hardware models
+        ("llm_engine",    "llm_dispatch"),
     ]
     for app, endpoint in stub_routes:
         register_route(app, endpoint)
